@@ -1,0 +1,255 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 10:55:44 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 5412@LAPTOP-1CQB3TB3
+
+[2025-03-20 10:55:44 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 10:55:44 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 10:55:44 #4 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 10:55:44 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 10:55:44 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 10:55:44 #7 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 10:55:44 #8 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 10:58:23 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 580@LAPTOP-1CQB3TB3
+
+[2025-03-20 10:58:23 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 10:58:23 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 10:58:23 #4 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 10:58:23 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 10:58:23 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 10:58:23 #7 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 10:58:23 #8 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:02:22 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' has been recovered (tr. 126-130)
+
+[2025-03-20 11:02:22 #2 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 1820@LAPTOP-1CQB3TB3
+
+[2025-03-20 11:02:22 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 11:02:22 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 11:02:22 #5 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 11:02:22 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 11:02:22 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 11:02:22 #8 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 11:02:22 #9 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:03:34 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' has been recovered (tr. 131-132)
+
+[2025-03-20 11:03:34 #2 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 9608@LAPTOP-1CQB3TB3
+
+[2025-03-20 11:03:34 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 11:03:34 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 11:03:34 #5 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 11:03:34 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 11:03:34 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 11:03:34 #8 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 11:03:34 #9 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:06:54 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' has been recovered (tr. 133-133)
+
+[2025-03-20 11:06:54 #2 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 632@LAPTOP-1CQB3TB3
+
+[2025-03-20 11:06:54 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 11:06:54 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 11:06:54 #5 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 11:06:54 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 11:06:54 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 11:06:54 #8 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 11:06:54 #9 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:07:40 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' has been recovered (tr. 134-135)
+
+[2025-03-20 11:07:40 #2 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 3612@LAPTOP-1CQB3TB3
+
+[2025-03-20 11:07:40 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 11:07:40 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 11:07:40 #5 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 11:07:40 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 11:07:40 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 11:07:40 #8 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 11:07:40 #9 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:08:04 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' has been recovered (tr. 136-136)
+
+[2025-03-20 11:08:04 #2 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 10728@LAPTOP-1CQB3TB3
+
+[2025-03-20 11:08:04 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 11:08:04 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 11:08:04 #5 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 11:08:04 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 11:08:04 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 11:08:04 #8 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 11:08:04 #9 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:18:50 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' has been recovered (tr. 137-137)
+
+[2025-03-20 11:18:50 #2 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 11228@LAPTOP-1CQB3TB3
+
+[2025-03-20 11:18:50 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 11:18:50 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 11:18:50 #5 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 11:18:50 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 11:18:50 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 11:18:50 #8 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 11:18:50 #9 type] 
+Type domain.Mezua is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:26:34 #1 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' has been recovered (tr. 138-144)
+
+[2025-03-20 11:26:35 #2 store] 
+Database 'C:\Users\ekait\eclipse-workspace\Rides24\src\main\resources\rides.temp' is opened by 4044@LAPTOP-1CQB3TB3
+
+[2025-03-20 11:26:35 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-03-20 11:26:35 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-03-20 11:26:35 #5 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-03-20 11:26:35 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-03-20 11:26:35 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-03-20 11:26:35 #8 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-03-20 11:26:35 #9 type] 
+Type domain.Mezua is not enhanced.
+
