@@ -1,0 +1,56 @@
+
+<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Zl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaô ô("3*Ç
+2
+÷
+ ÷(Ÿœ
+
+÷
+ ÷(%
+%1boolean"-domain.RideRequest#isErreklamatuaTraveller()Z*5
+
+__unknown_file (
+
+rdomain.RideRequest2isErreklamatuaTraveller()"
+
+÷ ÷(&
+""*è
+3
+õ õ(|z
+
+õ- õ(<	
+%0int"domain.RideRequest#getId()I*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getId()Q
+O
+
+õ õ(>
+rdomain.RideRequest"__id*"
+
+__unknown_file (
+""*
+2
+1*Á
+1
+ù
+ ù(™–
+
+ù
+ ù("
+%2boolean"*domain.RideRequest#isErreklamatuaDriver()Z*5
+
+__unknown_file (
+
+rdomain.RideRequest2isErreklamatuaDriver()"
+
+ù ù(#
+"":+
+
+ô ô(3
+requestdomain.RideRequest: 
+
+__unknown_file (
+""B
+dataAccess.DataAccessHX

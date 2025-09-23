@@ -1,0 +1,90 @@
+
+'domain.Ride#getInfo()Ljava/lang/String;b
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaù ù("1*ò
+1
+ú	 ú(j
+h
+
+ú	 ú(
+%0java.lang.Integer"__id*;
+
+__unknown_file (*
+domain.Ride"
+
+rideNumberp
+n
+
+ú	 ú(
+%1java.lang.String"__concat*'
+
+ú	 ú(
+
+%0java.lang.Integer*
+
+ú ú(
+ ; o
+m
+
+ú	 ú(
+%2java.lang.String"__concat*&
+
+ú	 ú(
+
+%1java.lang.String*
+
+ú ú(
+ ; ’
+
+ú  ú(.
+%3java.lang.String",domain.Ride#getIbilbidea()Ljava/lang/String;*+
+
+__unknown_file (
+domain.Ride2getIbilbidea()€
+~
+
+ú	 ú(.
+%4java.lang.String"__concat*&
+
+ú	 ú(
+
+%2java.lang.String*&
+
+ú  ú(.
+
+%3java.lang.Stringo
+m
+
+ú	 ú(4
+%5java.lang.String"__concat*&
+
+ú	 ú(.
+
+%4java.lang.String*
+
+ú/ ú(4
+ ; a
+_
+
+ú5 ú(9
+%6java.util.Date"__id*5
+
+__unknown_file (*
+domain.Ride"
+date~
+|
+
+ú	 ú(9
+%7java.lang.String"__concat*&
+
+ú	 ú(4
+
+%5java.lang.String*$
+
+ú5 ú(9
+
+%6java.util.Date"&
+
+ú ú(:
+
+%7java.lang.StringB
+domain.RideH

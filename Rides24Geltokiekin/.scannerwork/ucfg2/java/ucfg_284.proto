@@ -1,0 +1,34 @@
+
+KdataAccess.DataAccess#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java» »("1*£
+1
+¼ ¼(~|
+
+¼3 ¼(D	
+%0int"domain.RideRequest#getId()I*=
+
+__unknown_file (!
+
+	erreserbadomain.RideRequest2getId()W
+U
+
+¼ ¼(F
+requestdomain.RideRequest"__id*"
+
+__unknown_file (
+""•’
+
+½	 ½(
+%1domain.Ride")domain.RideRequest#getRide()Ldomain/Ride;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2	getRide()"!
+
+½ ½(
+
+%1domain.Ride:-
+
+»  »(5
+	erreserbadomain.RideRequestB
+dataAccess.DataAccessH

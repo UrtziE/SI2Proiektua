@@ -1,0 +1,80 @@
+
+IdataAccess.DataAccess#getErreklamazioak(Ldomain/Profile;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÂ Â(-"3*A
+2
+È
+ È("0
+
+È È("
+ 
+erreklamazioakjava.util.List* 
+3
+Ã Ã(‘Ž
+
+Ä+ Ä(6
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*1
+
+__unknown_file (
+
+pdomain.Profile2	getUser()S
+Q
+
+Ä Ä(8
+profiledomain.Profile"__id*"
+
+__unknown_file (
+""§¤
+
+Å' Å(B
+%1java.util.List"2domain.Profile#getErreklamazioak()Ljava/util/List;*7
+
+__unknown_file (
+
+profiledomain.Profile2getErreklamazioak()j
+h
+
+Å Å(C 
+erreklamazioakjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List‡
+„
+
+Ç Ç(
+%2boolean"	__compare*
+
+Ç Ç(
+!=*0
+
+Ç Ç("
+ 
+erreklamazioakjava.util.List*
+
+Ç Ç(
+""*
+2
+1*è
+1
+Ê
+ Ê((><
+
+Ê Ê(&
+%3java.util.ArrayList"java.util.ArrayListl
+j
+
+Ê
+ Ê((
+%4"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%3java.util.ArrayList")
+
+Ê Ê()
+
+%3java.util.ArrayList:!
+
+Â. Â(7
+pdomain.ProfileB
+dataAccess.DataAccessH

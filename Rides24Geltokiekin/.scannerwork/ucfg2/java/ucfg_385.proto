@@ -1,0 +1,86 @@
+
+2domain.RideRequest#requestInfo()Ljava/lang/String;i
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java¿ ¿("1*÷
+1
+À	 À(sq
+
+À À(#	
+%0int"domain.RideRequest#getId()I*2
+
+__unknown_file (
+domain.RideRequest2getId()h
+f
+
+À	 À(#
+%1java.lang.String"__concat*
+
+À	 À(
+	 request:*
+
+À À(#
+	
+%0inte
+c
+
+À& À(/
+%2domain.Ride"__id*<
+
+__unknown_file ( *
+domain.RideRequest"
+rideŽ‹
+
+À& À(:
+%3java.lang.String"(domain.Ride#toString()Ljava/lang/String;*/
+
+__unknown_file (
+
+%2domain.Ride2
+toString()€
+~
+
+À	 À(:
+%4java.lang.String"__concat*&
+
+À	 À(#
+
+%1java.lang.String*&
+
+À& À(:
+
+%3java.lang.Stringt
+r
+
+À	 À(G
+%5java.lang.String"__concat*&
+
+À	 À(:
+
+%4java.lang.String*
+
+À= À(G
+
+ seats: yw
+
+ÀJ À(Y	
+%6int"domain.RideRequest#getSeats()I*2
+
+__unknown_file (
+domain.RideRequest2
+getSeats()s
+q
+
+À	 À(Y
+%7java.lang.String"__concat*&
+
+À	 À(G
+
+%5java.lang.String*
+
+ÀJ À(Y
+	
+%6int"&
+
+À À(Z
+
+%7java.lang.StringB
+domain.RideRequestH

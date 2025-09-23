@@ -1,0 +1,95 @@
+
+cbusinessLogic.BLFacadeImplementation#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaº* º(F"startingBlock*÷
+startingBlock
+ºF º(Q~
+|
+
+º º(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*1
+
+__unknown_file (
+
+adomain.ProfileU
+S
+
+ºO º(P
+adomain.Profile"__annotation*"
+
+__unknown_file (
+
+%6*
+1*Ù
+1
+» »(‡
+„
+
+» »(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+» »(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+¼" ¼(+
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager™–
+
+¼" ¼(K
+%3java.util.List"TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+adomain.Profile2.lortuErreklamazioakProzesuan(Ldomain/Profile;)d
+b
+
+¼ ¼(L
+erreklamjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+½ ½(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+½ ½(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"*
+
+¾ ¾(
+
+erreklamjava.util.List:!
+
+ºG º(P
+adomain.ProfileB(&
+$businessLogic.BLFacadeImplementationH

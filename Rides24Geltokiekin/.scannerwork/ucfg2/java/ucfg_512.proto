@@ -1,0 +1,92 @@
+
+KbusinessLogic.BLFacadeImplementation#isErreklamatua(Ldomain/RideRequest;Z)Z{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(!"startingBlock*ç
+startingBlock
+ß! ß(Fâ
+Ü
+
+¶ ¶(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*;
+
+__unknown_file (
+
+requestdomain.RideRequest_
+]
+
+ß. ß(5
+requestdomain.RideRequest"__annotation*"
+
+__unknown_file (
+
+%6*
+1*„
+1
+® ®(á
+Ñ
+
+® ®(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+® ®(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+© ©(!
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerüú
+
+© ©(A
+%3boolean"<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*;
+
+__unknown_file (
+
+requestdomain.RideRequest*"
+
+__unknown_file (
+""2%isErreklamatua(Ldomain/RideRequest;Z)á
+Ñ
+
+™ ™(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+™ ™(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+´ ´(
+"":+
+
+ß" ß(6
+requestdomain.RideRequest: 
+
+__unknown_file (
+""B(&
+$businessLogic.BLFacadeImplementationHX

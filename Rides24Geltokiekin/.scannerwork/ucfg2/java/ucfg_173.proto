@@ -1,0 +1,45 @@
+
+.domain.Profile#getFullName()Ljava/lang/String;e
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.java„ „("1*Ñ
+1
+…	 …(Ž‹
+
+…	 …(
+%0java.lang.String"*domain.Profile#getName()Ljava/lang/String;*.
+
+__unknown_file (
+domain.Profile2	getName()m
+k
+
+…	 …(
+%1java.lang.String"__concat*&
+
+…	 …(
+
+%0java.lang.String*
+
+… …(
+ ”‘
+
+… …(-
+%2java.lang.String"-domain.Profile#getSurname()Ljava/lang/String;*.
+
+__unknown_file (
+domain.Profile2getSurname()€
+~
+
+…	 …(-
+%3java.lang.String"__concat*&
+
+…	 …(
+
+%1java.lang.String*&
+
+… …(-
+
+%2java.lang.String"&
+
+… …(.
+
+%3java.lang.StringB
+domain.ProfileH

@@ -1,0 +1,179 @@
+
+/domain.RideRequest#toString()Ljava/lang/String;g
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java~ ~("1*‡
+1	 (ä
+á
+	 (.
+%0java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+
+__unknown_file ("
+java.util.ResourceBundle*)
+
+__unknown_file (
+	Etiquetasþû
+	 (L
+%1java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%0java.util.ResourceBundle*0
+
+__unknown_file (
+RegisterGUI.User2getString(Ljava/lang/String;)g
+e
+	 (P
+%2java.lang.String"__concat*$
+	 (L
+
+%1java.lang.String*
+M (P
+ m
+k
+T (b
+%3domain.Traveller"__id*A
+
+__unknown_file (%*#
+domain.RideRequest"
+	traveller’
+T (l
+%4java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3domain.Traveller2	getUser()z
+x
+	 (l
+%5java.lang.String"__concat*$
+	 (P
+
+%2java.lang.String*$
+T (l
+
+%4java.lang.Stringg
+e
+	 (p
+%6java.lang.String"__concat*$
+	 (l
+
+%5java.lang.String*
+m (p
+ æ
+ã
+
+€ €()
+%7java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+
+__unknown_file ("
+java.util.ResourceBundle*)
+
+__unknown_file (
+	Etiquetasûø
+
+€ €(B
+%8java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%7java.util.ResourceBundle*+
+
+__unknown_file (
+RideRequest2getString(Ljava/lang/String;)}
+{
+		 €(B
+%9java.lang.String"__concat*$
+	 (p
+
+%6java.lang.String*&
+
+€ €(B
+
+%8java.lang.Stringl
+j
+		 €(F
+%10java.lang.String"__concat*%
+		 €(B
+
+%9java.lang.String*
+
+€C €(F
+ tr
+
+€I €(U
+
+%11int"domain.RideRequest#getId()I*2
+
+__unknown_file (
+domain.RideRequest2getId()t
+r
+		 €(U
+%12java.lang.String"__concat*&
+		 €(F
+
+%10java.lang.String*
+
+€I €(U
+
+
+%11intm
+k
+		 €(Y
+%13java.lang.String"__concat*&
+		 €(U
+
+%12java.lang.String*
+
+€V €(Y
+ ç
+ä
+
+ ((
+%14java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+
+__unknown_file ("
+java.util.ResourceBundle*)
+
+__unknown_file (
+	Etiquetas†ƒ
+
+ (J
+%15java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
+
+__unknown_file (!
+
+%14java.util.ResourceBundle*4
+
+__unknown_file (
+FindRidesGUI.NPlaces2getString(Ljava/lang/String;)
+
+		 (J
+%16java.lang.String"__concat*&
+		 €(Y
+
+%13java.lang.String*'
+
+ (J
+
+%15java.lang.Stringzx
+
+M (\
+
+%17int"domain.RideRequest#getSeats()I*2
+
+__unknown_file (
+domain.RideRequest2
+getSeats()t
+r
+		 (\
+%18java.lang.String"__concat*&
+		 (J
+
+%16java.lang.String*
+
+M (\
+
+
+%17int"&
+	 (]
+
+%18java.lang.StringB
+domain.RideRequestH

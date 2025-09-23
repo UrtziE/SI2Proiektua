@@ -1,16 +1,15 @@
 
-;configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;S
-G/Users/iturrioz/git/Bets2021/src/main/java/configuration/ConfigXML.java¦ ¦("1*ñ
-1S
-G/Users/iturrioz/git/Bets2021/src/main/java/configuration/ConfigXML.java§	 §(¥
-¢
-S
-G/Users/iturrioz/git/Bets2021/src/main/java/configuration/ConfigXML.java§	 §(
-%0java.lang.String"__id*-*+
-configuration.ConfigXML"
-databaseNode"o
-S
-G/Users/iturrioz/git/Bets2021/src/main/java/configuration/ConfigXML.java§ §(
+)domain.Kotxe#getMarka()Ljava/lang/String;a
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Kotxe.java- -("1*˜
+1.	 .(c
+a
+.	 .(
+%0java.lang.String"__id*7
+
+__unknown_file (*
+domain.Kotxe"
+marka"$
+. .(
 
-%0java.lang.StringB
-configuration.ConfigXML
+%0java.lang.StringB
+domain.KotxeH

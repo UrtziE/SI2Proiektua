@@ -1,0 +1,141 @@
+
+,domain.RideRequest#mezua()Ljava/lang/String;i
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaÆ Æ("1*Ñ
+1
+È
+ È(æ
+ã
+
+È
+ È(/
+%0java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+
+__unknown_file ("
+java.util.ResourceBundle*)
+
+__unknown_file (
+	Etiquetasûø
+
+È
+ È(H
+%1java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%0java.util.ResourceBundle*+
+
+__unknown_file (
+RideRequest2getString(Ljava/lang/String;)q
+o
+
+È
+ È(P
+%2java.lang.String"__concat*&
+
+È
+ È(H
+
+%1java.lang.String*
+
+ÈI È(P	
+:ID :p
+n
+
+ÈR È([
+%3java.lang.Integer"__id*A
+
+__unknown_file (%*#
+domain.RideRequest"
+	requestId
+
+
+È
+ È([
+%4java.lang.String"__concat*&
+
+È
+ È(P
+
+%2java.lang.String*'
+
+ÈR È([
+
+%3java.lang.Integerm
+k
+
+È
+ È(_
+%5java.lang.String"__concat*&
+
+È
+ È([
+
+%4java.lang.String*
+
+È\ È(_
+ æ
+ã
+
+É É()
+%6java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+
+__unknown_file ("
+java.util.ResourceBundle*)
+
+__unknown_file (
+	Etiquetas‹ˆ
+
+É É(R
+%7java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%6java.util.ResourceBundle*;
+
+__unknown_file (
+CreateRideGUI.NumberOfSeats2getString(Ljava/lang/String;)€
+~
+
+È
+ É(R
+%8java.lang.String"__concat*&
+
+È
+ È(_
+
+%5java.lang.String*&
+
+É É(R
+
+%7java.lang.Stringm
+k
+
+È
+ É(V
+%9java.lang.String"__concat*&
+
+È
+ É(R
+
+%8java.lang.String*
+
+ÉS É(V
+ o
+m
+
+È
+ É(\
+%10java.lang.String"__concat*&
+
+È
+ É(V
+
+%9java.lang.String*
+
+ÉW É(\
+"""'
+
+È É(^
+
+%10java.lang.StringB
+domain.RideRequestH

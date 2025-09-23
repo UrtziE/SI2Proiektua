@@ -1,0 +1,226 @@
+
+3domain.RideRequest#compareTo(Ldomain/RideRequest;)Ig
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaX X("13*Ÿ
+13Z Z(	q
+o
+Z Z(
+%0domain.EgoeraRideRequest"__id*=
+
+__unknown_file (!*
+domain.RideRequest"
+state¯¬
+Z Z()
+%1domain.EgoeraRideRequest"7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2
+getState()àÝ
+Z Z(*
+%2boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*<
+
+__unknown_file ( 
+
+%0domain.EgoeraRideRequest*<
+
+__unknown_file ( 
+
+%1domain.EgoeraRideRequest2equals(Ljava/lang/Object;)*
+1
+12*’
+1v	 v(p
+n
+v	 v(
+%21java.util.Date"__id*E
+
+__unknown_file ()*'
+domain.RideRequest"
+whenRequested¬©
+v& v(@
+%22java.util.Date"5domain.RideRequest#getWhenRequested()Ljava/util/Date;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getWhenRequested()ÍÊ
+v	 v(A
+
+%23int"+java.util.Date#compareTo(Ljava/util/Date;)I*3
+
+__unknown_file (
+
+%21java.util.Date*3
+
+__unknown_file (
+
+%22java.util.Date2compareTo(Ljava/util/Date;)"
+v v(C
+""*!
+2n n("
+n n(
+""*!
+3l l("
+l l(
+""*y
+4k
+ k(b
+`
+k
+ k((
+%20boolean"	__compare*
+k k(
+<*
+k
+ k(
+""*
+k k((
+""*
+2
+3*!
+5i i("
+i i(
+""*Ø
+6f f(Ÿœ
+f f(-
+%15domain.Traveller"3domain.RideRequest#getTraveller()Ldomain/Traveller;*2
+
+__unknown_file (
+domain.RideRequest2getTraveller()†ƒ
+f f(?
+
+%16int"!domain.Profile#getBalorazioKop()I*5
+
+__unknown_file (
+
+%15domain.Traveller2getBalorazioKop()¨¥
+g g(1
+%17domain.Traveller"3domain.RideRequest#getTraveller()Ldomain/Traveller;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getTraveller()†ƒ
+g g(C
+
+%18int"!domain.Profile#getBalorazioKop()I*5
+
+__unknown_file (
+
+%17domain.Traveller2getBalorazioKop()b
+`
+h	 h('
+%19boolean"	__compare*
+h h(
+>*
+h	 h(
+""*
+h h('
+""*
+4
+5*!
+7d d("
+d d(
+""*y
+8c c(b
+`
+c c(
+%14boolean"	__compare*
+c c(
+<*
+c c(
+""*
+c c(
+""*
+6
+7*!
+9a a("
+a a(
+""*û
+10^ ^(ž›
+^ ^(*
+%9domain.Traveller"3domain.RideRequest#getTraveller()Ldomain/Traveller;*2
+
+__unknown_file (
+domain.RideRequest2getTraveller()—”
+^ ^(D
+%10float")domain.Profile#kalkulatuBalorazioMedia()F*4
+
+__unknown_file (
+
+%9domain.Traveller2kalkulatuBalorazioMedia()¨¥
+_ _(-
+%11domain.Traveller"3domain.RideRequest#getTraveller()Ldomain/Traveller;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getTraveller()˜•
+_ _(G
+%12float")domain.Profile#kalkulatuBalorazioMedia()F*5
+
+__unknown_file (
+
+%11domain.Traveller2kalkulatuBalorazioMedia()b
+`
+` `(
+%13boolean"	__compare*
+` `(
+>*
+` `(
+""*
+` `(
+""*
+8
+9*ˆ
+11\ \(m
+k
+\ \(
+%6java.util.Date"__id*C
+
+__unknown_file ('*%
+domain.RideRequest"
+whenDecided§¤
+\& \(>
+%7java.util.Date"3domain.RideRequest#getWhenDecided()Ljava/util/Date;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getWhenDecided()ÊÇ
+\ \(?	
+%8int"+java.util.Date#compareTo(Ljava/util/Date;)I*2
+
+__unknown_file (
+
+%6java.util.Date*2
+
+__unknown_file (
+
+%7java.util.Date2compareTo(Ljava/util/Date;)"
+\ \(A
+""*Æ
+12[ [(q
+o
+[ [(
+%3domain.EgoeraRideRequest"__id*=
+
+__unknown_file (!*
+domain.RideRequest"
+stateV
+T
+[ [(6
+%4domain.EgoeraRideRequest"__id*"
+
+__unknown_file (
+""àÝ
+[ [(7
+%5boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*<
+
+__unknown_file ( 
+
+%3domain.EgoeraRideRequest*<
+
+__unknown_file ( 
+
+%4domain.EgoeraRideRequest2equals(Ljava/lang/Object;)*
+10
+11:)
+X X(-
+requestdomain.RideRequestB
+domain.RideRequestHX

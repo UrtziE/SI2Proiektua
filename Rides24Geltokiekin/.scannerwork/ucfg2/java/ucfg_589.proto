@@ -1,0 +1,115 @@
+
+(domain.Ride#toString()Ljava/lang/String;b
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaü ü("1*÷
+1
+ý	 ý(j
+h
+
+ý	 ý(
+%0java.lang.Integer"__id*;
+
+__unknown_file (*
+domain.Ride"
+
+rideNumberp
+n
+
+ý	 ý(
+%1java.lang.String"__concat*'
+
+ý	 ý(
+
+%0java.lang.Integer*
+
+ý ý(
+ ; o
+m
+
+ý	 ý(
+%2java.lang.String"__concat*&
+
+ý	 ý(
+
+%1java.lang.String*
+
+ý ý(
+ ; æ
+ã
+
+ý  ý(E
+%3java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+
+__unknown_file ("
+java.util.ResourceBundle*)
+
+__unknown_file (
+	Etiquetas‰†
+
+ý  ý(l
+%4java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%3java.util.ResourceBundle*9
+
+__unknown_file (
+TReservationsGUI.Ibilbide2getString(Ljava/lang/String;)€
+~
+
+ý	 ý(l
+%5java.lang.String"__concat*&
+
+ý	 ý(
+
+%2java.lang.String*&
+
+ý  ý(l
+
+%4java.lang.String’
+
+ým ý({
+%6java.lang.String",domain.Ride#getIbilbidea()Ljava/lang/String;*+
+
+__unknown_file (
+domain.Ride2getIbilbidea()€
+~
+
+ý	 ý({
+%7java.lang.String"__concat*&
+
+ý	 ý(l
+
+%5java.lang.String*&
+
+ým ý({
+
+%6java.lang.Stringq
+o
+ý	 ý(
+%8java.lang.String"__concat*&
+
+ý	 ý({
+
+%7java.lang.String*
+ý| ý(
+ ; c
+a
+ý‚ ý(†
+%9java.util.Date"__id*5
+
+__unknown_file (*
+domain.Ride"
+date„
+
+ý	 ý(†
+%10java.lang.String"__concat*'
+ý	 ý(
+
+%8java.lang.String*&
+ý‚ ý(†
+
+%9java.util.Date"(
+ý ý(‡
+
+%10java.lang.StringB
+domain.RideH

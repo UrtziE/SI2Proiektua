@@ -1,0 +1,56 @@
+
+9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Zl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÍ Í("3*¡
+2
+Ì
+ Ì(ôñ
+
+Ì
+ Ì("
+%1boolean"*domain.RideRequest#isBaloratuaTraveller()Z*5
+
+__unknown_file (
+
+rdomain.RideRequest2isBaloratuaTraveller()"
+
+Ì Ì(#
+""*Ë
+3
+Î Î(|z
+
+Î- Î(<	
+%0int"domain.RideRequest#getId()I*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getId()Q
+O
+
+Î Î(>
+rdomain.RideRequest"__id*"
+
+__unknown_file (
+""*
+2
+1*ª
+1
+Ô
+ Ô(ìê
+
+Ô
+ Ô(
+%2boolean"'domain.RideRequest#isBaloratuaDriver()Z*5
+
+__unknown_file (
+
+rdomain.RideRequest2isBaloratuaDriver()"
+
+Ô Ô( 
+"":+
+
+Í Í(0
+requestdomain.RideRequest: 
+
+__unknown_file (
+""B
+dataAccess.DataAccessHX

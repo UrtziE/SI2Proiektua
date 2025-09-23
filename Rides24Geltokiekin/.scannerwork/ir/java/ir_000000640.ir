@@ -1,0 +1,29 @@
+
+falseboolean&this/ /("domain.RideRequest+whenRequested/ /(&"java.util.Dateride/( /(1"domain.Ride)	traveller/3 /(F"domain.Travellerseats/H /(Q"int$from/R /(]"java.lang.String"to/_ /(h"java.lang.Stringdomain.EgoeraRideRequest"æ'
+%
+0 0("#set-field# seats:/
+-
+1 1($	"#set-field# whenRequested:&
+$
+2 2(
+"#set-field# ride:+
+)
+3 3("#set-field# traveller:F
+D
+4 4(,"#get-field# TratatuGabe:Bdomain.EgoeraRideRequest'
+%
+4 4(,"#set-field# state:/
+-
+5 5("#set-field# fromRequested:-
++
+6 6("#set-field# toRequested:1
+/
+7 7("#set-field# baloratuaDriver:4
+2
+8 8(" #set-field# erreklamatuaDriver:4
+2
+9 9(" #set-field# baloratuaTraveller:7
+5
+: :(""#!#set-field# erreklamatuaTraveller:
+
+; ;(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java

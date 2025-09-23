@@ -1,0 +1,334 @@
+
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758644111545*java2.Bœ	
+*
+%src/main/java/gui/ErreklamatuGUI.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+gui7
+
+gui.ErreklamatuGUI9
+
+class10
+
+access11
+
+public12
+
+simple-name13
+
+ErreklamatuGUI14
+)
+#gui.ErreklamatuGUI.serialVersionUID16
+
+field17
+
+private18
+
+serialVersionUID19
+$
+gui.ErreklamatuGUI.contentPane21
+
+contentPane22
+#
+gui.ErreklamatuGUI.editorPane24
+
+
+editorPane25
+V
+Pgui.ErreklamatuGUI#<init>(Ldomain/Profile;Ldomain/Profile;Ldomain/RideRequest;)V27
+
+method28
+
+domain.Profile30
+
+unknown31
+
+	has param32
+
+domain.RideRequest34
+
+calls35
+
+is type36
+
+
+uses37
+
+
+references38
+
+gui.ErreklamatuGUI$140
+
+	protected41
+I
+Cgui.ErreklamatuGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V43
+
+actionPerformed44
+
+gui.ErreklamatuGUI$246
+I
+Cgui.ErreklamatuGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)V48
+
+businessLogic.BLFacade50
+
+returns51
+
+gui.MainGUI53
+<
+6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;55
+z
+tbusinessLogic.BLFacade#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)V57
+&
+ domain.RideRequest#getPrezioa()F59J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576jÍ
+
+33
+333431
+A
+20;
+202117 *
+1 (	28:5B
+
+
+11
+18
+
+
+13
+22
+6
+450
+454610 *
+1H9 H(:226:5B
+
+
+11
+41
+6
+390
+394010 *
+172 7(3226:5B
+
+
+11
+41
+B
+42<
+424328 *
+18 8(
+239:5B
+
+
+11
+12
+
+
+13
+44
+;
+86
+8910 *
+1 (:5B
+
+
+11
+12
+
+
+13
+14
+B
+47<
+474828 *
+1I I(
+245:5B
+
+
+11
+12
+
+
+13
+44
+A
+23;
+232417 *
+1 (	28:5B
+
+
+11
+18
+
+
+13
+25
+
+49
+495031
+
+58
+585931
+
+52
+525331
+A
+15;
+151617 *
+1 (	28:5B
+
+
+11
+18
+
+
+13
+19
+
+54
+545531
+
+56
+565731
+
+29
+293031
+A
+26;
+262728 *
+1 (28:5B
+
+
+11
+12
+
+
+13
+14r
+
+262932*
+1 (
+
+262932*
+1% (,
+
+263332*
+13 (>
+
+26835*
+1	 (
+
+262936*
+1  ($
+
+262937*
+1 (
+
+262936*
+1- (1
+
+262937*
+1% (,
+
+263336*
+1? (@
+
+263337*
+13 (>
+
+262038*
+1" "(
+
+262038*
+1# #(
+
+262038*
+1# #(
+
+262038*
+1% %(
+
+262038*
+1& &(
+
+262038*
+1& &(
+
+262038*
+1* *(
+
+262038*
+1* *(
+
+262038*
+1. .(
+
+262038*
+1. .(
+
+262038*
+12 2(
+
+262038*
+12 2(
+
+262038*
+16 6(
+
+262038*
+16 6(
+
+262038*
+1B B(
+
+262038*
+1B B(
+
+262038*
+1G G(
+
+262038*
+1G G(
+
+474936*
+1K K(
+
+474937*
+1K K(
+
+474951*
+1K K(
+
+475238*
+1K K(
+
+475435*
+1K  K(0
+
+475237*
+1K K(
+
+474938*
+1L L(
+
+475635*
+1L L( 
+
+473338*
+1LA L(B
+
+475835*
+1LC L(M

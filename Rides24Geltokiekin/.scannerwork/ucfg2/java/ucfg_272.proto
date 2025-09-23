@@ -1,0 +1,34 @@
+
+FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¿ ¿(#"1*¹
+1
+À À(•’
+
+À# À(3
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*5
+
+__unknown_file (
+
+driverdomain.Driver2	getUser()L
+J
+
+À À(5
+ddomain.Driver"__id*"
+
+__unknown_file (
+""›˜
+
+Á	 Á(
+%1java.util.List"/domain.Driver#getKotxeGuztiak()Ljava/util/List;*0
+
+__unknown_file (
+
+ddomain.Driver2getKotxeGuztiak()"$
+
+Á Á(
+
+%1java.util.List:%
+
+¿$ ¿(1
+driverdomain.DriverB
+dataAccess.DataAccessH

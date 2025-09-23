@@ -1,0 +1,95 @@
+
+[businessLogic.BLFacadeImplementation#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaí í(2"startingBlock*÷
+startingBlock
+í2 í(=~
+|
+
+ì ì(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*1
+
+__unknown_file (
+
+ridedomain.RideU
+S
+
+í8 í(<
+ridedomain.Ride"__annotation*"
+
+__unknown_file (
+
+%6*
+1*»
+1
+î î(‡
+„
+
+î î(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+î î(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+ï ï(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager‰†
+
+ï ï(<
+%3java.util.List"LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+ridedomain.Ride2&getTravellersOfRideDone(Ldomain/Ride;)]
+[
+
+ï ï(=
+rjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+ð ð(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ð ð(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"#
+
+ñ ñ(
+
+rjava.util.List:!
+
+í3 í(<
+ridedomain.RideB(&
+$businessLogic.BLFacadeImplementationH

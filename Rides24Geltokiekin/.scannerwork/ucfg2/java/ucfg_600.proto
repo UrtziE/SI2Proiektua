@@ -1,0 +1,141 @@
+
+3domain.Ride#badaBiderenBat(Ljava/util/LinkedList;)Zb
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaŒ Œ( "8*%
+4
+÷ ÷("
+
+÷ ÷(
+""*¢
+5
+” ”(ì
+ê
+
+” ”(!
+%6java.lang.String"
+__arrayGet*:
+
+__unknown_file (
+
+ibiljava.util.LinkedList*"
+
+__unknown_file (
+""g
+e
+
+” ”("
+helmugajava.lang.String"__id*4
+
+__unknown_file (
+
+%6java.lang.Stringâ
+Ü
+
+‘ ‘(8
+%7boolean"Fdomain.Ride#geltokiListContains(Ljava/lang/String;Ljava/lang/String;)Z*+
+
+__unknown_file (
+domain.Ride*9
+
+__unknown_file (
+
+irteerajava.lang.String*9
+
+__unknown_file (
+
+helmugajava.lang.String*
+4
+6*Ñ
+6
+“ “({y
+
+“ “(!	
+%4int"java.util.LinkedList#size()I*:
+
+__unknown_file (
+
+ibiljava.util.LinkedList2size()n
+l
+
+“ “(!
+%5boolean"	__compare*
+
+“ “(
+<*
+
+“ “(
+""*
+
+“ “(!
+	
+%4int*
+5
+8*˙
+7
+— —(ì
+ê
+
+— —( 
+%2java.lang.String"
+__arrayGet*:
+
+__unknown_file (
+
+ibiljava.util.LinkedList*"
+
+__unknown_file (
+""g
+e
+
+— —(!
+irteerajava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringe
+c
+
+“ “(	
+%3int"__calculate*
+
+“ “(
++*
+
+“ “(
+""*
+
+“ “(2*
+6*Ñ
+8
+– –({y
+
+– –(	
+%0int"java.util.LinkedList#size()I*:
+
+__unknown_file (
+
+ibiljava.util.LinkedList2size()n
+l
+
+– –(
+%1boolean"	__compare*
+
+– –(
+<*
+
+– –(
+""*
+
+– –(
+	
+%0int*
+7
+1*%
+1
+⁄ ⁄("
+
+⁄ ⁄(
+"":*
+
+Œ! Œ(7
+ibiljava.util.LinkedListB
+domain.RideHX

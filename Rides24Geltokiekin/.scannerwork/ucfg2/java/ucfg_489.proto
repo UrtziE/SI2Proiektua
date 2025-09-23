@@ -1,0 +1,112 @@
+
+UbusinessLogic.BLFacadeImplementation#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaù ù(#"startingBlock*´
+startingBlock
+ù# ù(2ƒ
+€
+
+÷ ÷(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*5
+
+__unknown_file (
+
+driverdomain.DriverŒ
+‰
+
+ø ø(
+
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+driverdomain.Driver}
+{
+
+ù+ ù(1
+driverdomain.Driver"__annotation*"
+
+__unknown_file (
+
+%6*"
+
+__unknown_file (
+
+%7*
+1*Ã
+1
+ú ú(‡
+„
+
+ú ú(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+ú ú(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+û û(!
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerş
+
+û û(9
+%3java.util.List"FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*5
+
+__unknown_file (
+
+driverdomain.Driver2 getKotxeGuztiak(Ldomain/Driver;)e
+c
+
+û û(:
+	kotxeListjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+ü ü(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ü ü(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"+
+
+ı ı(
+
+	kotxeListjava.util.List:%
+
+ù$ ù(1
+driverdomain.DriverB(&
+$businessLogic.BLFacadeImplementationH

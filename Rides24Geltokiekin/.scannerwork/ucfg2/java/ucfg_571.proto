@@ -1,0 +1,73 @@
+
+$domain.Ride#getTGEskakizunTamaina()Ib
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaõ õ(!"5*…
+2
+÷ ÷(W
+U
+
+÷ ÷(
+requestdomain.RideRequest"__id*"
+
+__unknown_file (
+""’
+
+
+÷ ÷(
+requestdomain.RideRequest"
+__arrayGet*2
+
+__unknown_file (
+
+%0java.util.List*"
+
+__unknown_file (
+""*
+4
+1*‡
+4
+ø ø(±®
+
+ø ø(
+%1domain.EgoeraRideRequest"7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2
+getState()X
+V
+
+ø  ø(=
+%2domain.EgoeraRideRequest"__id*"
+
+__unknown_file (
+""âß
+
+ø ø(>
+%3boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*<
+
+__unknown_file ( 
+
+%1domain.EgoeraRideRequest*<
+
+__unknown_file ( 
+
+%2domain.EgoeraRideRequest2equals(Ljava/lang/Object;)*
+2*{
+5
+÷ ÷(e
+c
+
+÷ ÷((
+%0java.util.List"__id*9
+
+__unknown_file (*
+domain.Ride"
+
+requests*
+2*%
+1
+ü	 ü("
+
+ü ü(
+""B
+domain.RideHX

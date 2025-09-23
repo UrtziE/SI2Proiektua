@@ -1,0 +1,73 @@
+
++domain.Profile#toString()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javas s("1*²
+1t
+ t(d
+b
+t
+ t(
+%0java.lang.String"__id*8
+
+__unknown_file (*
+domain.Profile"
+userg
+e
+t
+ t(
+%1java.lang.String"__concat*$
+t
+ t(
+
+%0java.lang.String*
+t t(
+ d
+b
+t t(
+%2java.lang.String"__id*8
+
+__unknown_file (*
+domain.Profile"
+namez
+x
+t
+ t(
+%3java.lang.String"__concat*$
+t
+ t(
+
+%1java.lang.String*$
+t t(
+
+%2java.lang.Stringg
+e
+t
+ t(
+%4java.lang.String"__concat*$
+t
+ t(
+
+%3java.lang.String*
+t t(
+ g
+e
+t  t('
+%5java.lang.String"__id*;
+
+__unknown_file (*
+domain.Profile"	
+surnamez
+x
+t
+ t('
+%6java.lang.String"__concat*$
+t
+ t(
+
+%4java.lang.String*$
+t  t('
+
+%5java.lang.String"$
+t t()
+
+%6java.lang.StringB
+domain.ProfileH

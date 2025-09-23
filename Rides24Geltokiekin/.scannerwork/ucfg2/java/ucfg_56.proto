@@ -1,90 +1,45 @@
 
-@gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java¥ ¥(."3*≤
-2G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∂, ∂(8ÜÉ
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∂ ∂(+
-%1javax.swing.JRadioButton"javax.swing.JRadioButton∫
-∑
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∂ ∂(9
-%2"4javax.swing.JRadioButton#<init>(Ljava/lang/String;)V* 
-
-%1javax.swing.JRadioButton*
+"gui.BaloratuGUI#%field_initializer
+__unknown_file ("1*ë
 
-Castellanoû
-õ
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∂ ∂(9(
-gui.MainGUI"
-rdbtnNewRadioButton_2"__id* 
-
-%1javax.swing.JRadioButtonû
-õ
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∑ ∑(
-%3javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_2yw
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∑/ ∑(=
-%4Lgui/MainGUI$5192;"Lgui/MainGUI$5192;ä
-á
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∑+ Ω(
-%5"java.lang.Object#<init>()V*
-
-%4Lgui/MainGUI$5192;öó
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java∑ Ω(
-
-%6void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V* 
-
-%3javax.swing.JRadioButton*
-
-%4Lgui/MainGUI$5192;22addActionListener(Ljava/awt/event/ActionListener;)ì
-ê
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaæ æ(
-%7javax.swing.ButtonGroup"__id* *
-gui.MainGUI"
-buttonGroupû
-õ
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaæ æ((
-%8javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_2˙˜
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaæ æ()
-
-%9void":javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V*
+1 (≥∞
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java 9  (M&
+%0 javax.swing.DefaultComboBoxModel" javax.swing.DefaultComboBoxModel—
+Œ
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java 5  (O
+%1"*javax.swing.DefaultComboBoxModel#<init>()V*4
+ ((
+&
+%0 javax.swing.DefaultComboBoxModel“
+œ
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java   (P+
+gui.BaloratuGUI"
+balorazioLaguntzaile"__id*4
+ ((
+&
+%0 javax.swing.DefaultComboBoxModel°û
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java!- !(8
+%2javax.swing.ButtonGroup"javax.swing.ButtonGroupø
+º
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java!) !(:
+%3"!javax.swing.ButtonGroup#<init>()V*+
+ (
 
-%7javax.swing.ButtonGroup* 
-
-%8javax.swing.JRadioButton2!add(Ljavax/swing/AbstractButton;)*
-1*ı
-3G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaµ µ(û
-õ
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.javaµ µ(
-%0javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_2*
-2
-1*‹
-1G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java¿	 ¿(ü
-ú
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java¿	 ¿(
-%10javax.swing.JRadioButton"__id***(
-gui.MainGUI"
-rdbtnNewRadioButton_2"l
-G
-;/Users/iturrioz/git/Bets2021/src/main/java/gui/MainGUI.java¿ ¿(!
-
-%10javax.swing.JRadioButtonB
-gui.MainGUI
+%2javax.swing.ButtonGroup¿
+Ω
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java! !(;"
+gui.BaloratuGUI"
+buttonGroup"__id*+
+ (
+
+%2javax.swing.ButtonGroup"z
+c
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java ä(
+implicit returnB
+gui.BaloratuGUI

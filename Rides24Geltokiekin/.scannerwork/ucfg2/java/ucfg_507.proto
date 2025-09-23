@@ -1,0 +1,95 @@
+
+XbusinessLogic.BLFacadeImplementation#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java† †(%"startingBlock*
+startingBlock
+†% †(:‰
+†
+
+… …(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*;
+
+__unknown_file (
+
+	travellerdomain.Traveller_
+]
+
+†0 †(9
+	travellerdomain.Traveller"__annotation*"
+
+__unknown_file (
+
+%6*
+1*É
+1
+‡ ‡(‡
+„
+
+‡ ‡(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+‡ ‡(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+ˆ ˆ(!
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerŠ
+
+ˆ ˆ(=
+%3java.util.List"IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*;
+
+__unknown_file (
+
+	travellerdomain.Traveller2#ikusitakoAlerta(Ldomain/Traveller;)b
+`
+
+ˆ ˆ(>
+mezuakjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+‰ ‰(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+‰ ‰(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"(
+
+Š Š(
+
+mezuakjava.util.List:+
+
+†& †(9
+	travellerdomain.TravellerB(&
+$businessLogic.BLFacadeImplementationH

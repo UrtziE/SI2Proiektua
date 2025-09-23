@@ -1,0 +1,63 @@
+
+1domain.RideContainer#toString()Ljava/lang/String;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java ("1*º
+1   (e
+c
+   (
+%0domain.Ride"__id*>
+
+__unknown_file ("* 
+domain.RideContainer"
+rideb
+`
+   (
+%1java.lang.String"__concat*
+   (
+
+%0domain.Ride*
+   (
+/s
+q
+   ( 
+%2java.util.List"__id*I
+
+__unknown_file (-*+
+domain.RideContainer"
+rideRequestListx
+v
+   ( 
+%3java.lang.String"__concat*$
+   (
+
+%1java.lang.String*"
+   ( 
+
+%2java.util.Listg
+e
+   ($
+%4java.lang.String"__concat*$
+   ( 
+
+%3java.lang.String*
+ !  ($
+/i
+g
+ %  (+
+%5domain.Driver"__id*@
+
+__unknown_file ($*"
+domain.RideContainer"
+driverw
+u
+   (+
+%6java.lang.String"__concat*$
+   ($
+
+%4java.lang.String*!
+ %  (+
+
+%5domain.Driver"$
+   (,
+
+%6java.lang.StringB
+domain.RideContainerH

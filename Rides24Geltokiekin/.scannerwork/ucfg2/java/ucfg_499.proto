@@ -1,0 +1,177 @@
+
+…businessLogic.BLFacadeImplementation#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï("startingBlock*¬
+startingBlock
+Ï Ï(Q‰
+†
+
+Î Î(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*;
+
+__unknown_file (
+
+	travellerdomain.Traveller_
+]
+
+Ï& Ï(/
+	travellerdomain.Traveller"__annotation*"
+
+__unknown_file (
+
+%6„
+
+
+Î Î(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringZ
+X
+
+Ï7 Ï(;
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7
+
+
+Î Î(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringX
+V
+
+ÏC Ï(E
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8
+
+
+Î Î(
+%9"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+whenjava.util.DateX
+V
+
+ÏL Ï(P
+whenjava.util.Date"__annotation*"
+
+__unknown_file (
+
+%9*
+1*Ä
+
+1
+Ð Ð(‡
+„
+
+Ð Ð(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+Ð Ð(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+Ñ Ñ(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager‹ˆ
+
+Ñ Ñ(>
+%3domain.Alerta"vdataAccess.DataAccess#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*;
+
+__unknown_file (
+
+	travellerdomain.Traveller*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+whenjava.util.Date2QgetAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)`
+^
+
+Ñ Ñ(?
+alertadomain.Alerta"__id*1
+
+__unknown_file (
+
+%3domain.Alerta‡
+„
+
+Ò Ò(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+Ò Ò(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"'
+
+Ó Ó(
+
+alertadomain.Alerta:+
+
+Ï Ï(0
+	travellerdomain.Traveller:&
+
+Ï0 Ï(<
+fromjava.lang.String:$
+
+Ï< Ï(F
+tojava.lang.String:$
+
+ÏG Ï(P
+whenjava.util.DateB(&
+$businessLogic.BLFacadeImplementationH

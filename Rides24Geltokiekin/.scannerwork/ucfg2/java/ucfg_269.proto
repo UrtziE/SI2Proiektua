@@ -1,0 +1,34 @@
+
+OdataAccess.DataAccess#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java« «(2"1*¾
+1
+­ ­(œ™
+
+­$ ­(8
+%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()J
+H
+
+­ ­(:
+rdomain.Ride"__id*"
+
+__unknown_file (
+""›˜
+
+¯	 ¯(
+%1java.util.List"/domain.Ride#travellersNotDone()Ljava/util/List;*.
+
+__unknown_file (
+
+rdomain.Ride2travellersNotDone()"$
+
+¯ ¯(
+
+%1java.util.List:!
+
+«3 «(<
+ridedomain.RideB
+dataAccess.DataAccessH

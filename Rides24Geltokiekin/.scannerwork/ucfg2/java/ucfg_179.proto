@@ -1,0 +1,71 @@
+
+,domain.Profile#getMezuList()Ljava/util/List;e
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaú ú("3*¢
+2
+û û(,86
+
+û û(*
+%2java.util.Vector"java.util.Vectorf
+d
+
+û û(,
+%3"java.util.Vector#<init>()V*4
+
+__unknown_file (
+
+%2java.util.Vectorj
+h
+
+û	 û(,
+domain.Profile"
+
+mezuList"__id*4
+
+__unknown_file (
+
+%2java.util.Vector*
+1*˝
+3
+ù ù(
+h
+f
+
+ù ù(
+%0java.util.List"__id*<
+
+__unknown_file ( *
+domain.Profile"
+
+mezuListz
+x
+
+ù ù(
+%1boolean"	__compare*
+
+ù ù(
+==*$
+
+ù ù(
+
+%0java.util.List*
+
+ù ù(
+""*
+2
+1*ü
+1
+†	 †(h
+f
+
+†	 †(
+%4java.util.List"__id*<
+
+__unknown_file ( *
+domain.Profile"
+
+mezuList"$
+
+† †(
+
+%4java.util.ListB
+domain.ProfileH

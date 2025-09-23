@@ -1,0 +1,58 @@
+
+SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)Il
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaŠ Š(("1*°
+1
+‹ ‹(œ™
+
+‹! ‹(5
+%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()J
+H
+
+‹ ‹(7
+rdomain.Ride"__id*"
+
+__unknown_file (
+""±®
+
+Œ" Œ(<
+%1java.lang.String"7domain.RideRequest#getFromRequested()Ljava/lang/String;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getFromRequested()­ª
+
+Œ> Œ(V
+%2java.lang.String"5domain.RideRequest#getToRequested()Ljava/lang/String;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getToRequested()¹¶
+
+Œ Œ(W	
+%3int"Fdomain.Ride#lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)I*.
+
+__unknown_file (
+
+rdomain.Ride*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String29lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)"
+
+Ž Ž(
+"":!
+
+Š) Š(3
+ridedomain.Ride:+
+
+Š4 Š(G
+requestdomain.RideRequestB
+dataAccess.DataAccessHX

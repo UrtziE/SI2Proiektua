@@ -1,0 +1,33 @@
+
+9dataAccess.DataAccess#getBalorazioMedia(Ldomain/Driver;)Fl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaû û("1*ß
+1
+ü ü(êç
+
+ü( ü(3
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*0
+
+__unknown_file (
+
+ddomain.Driver2	getUser()Q
+O
+
+ü ü(5
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""ôñ
+
+†	 †()
+%1float")domain.Profile#kalkulatuBalorazioMedia()F*5
+
+__unknown_file (
+
+driverdomain.Driver2kalkulatuBalorazioMedia()"
+
+† †(*
+"": 
+
+û  û((
+ddomain.DriverB
+dataAccess.DataAccessHX
