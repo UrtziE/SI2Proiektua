@@ -3,6 +3,7 @@ package domain;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
@@ -39,11 +40,11 @@ public abstract class Profile implements Serializable {
 	
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private List<Mezua> mezuList=new Vector<Mezua>();
+	private List<Mezua> mezuList=new LinkedList<Mezua>();
 
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private List<Erreklamazioa> erreklamazioak=new Vector<Erreklamazioa>();
+	private List<Erreklamazioa> erreklamazioak=new LinkedList<Erreklamazioa>();
 	
 	
 	public Profile(String email, String name, String surname, String user, String password, String telefono) {
