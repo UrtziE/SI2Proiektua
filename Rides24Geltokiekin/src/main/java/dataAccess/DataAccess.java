@@ -179,8 +179,8 @@ public class DataAccess {
 	 * @throws RideAlreadyExistException         if the same ride already exists for
 	 *                                           the driver
 	 */
-	public Ride createRide(String from, String to, Date date, int nPlaces, /* float price */ LinkedList<Float> price,
-			String driverUser, Kotxe kotxe, LinkedList<String> ibilbide)
+	public Ride createRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
+			String driverUser, Kotxe kotxe, List<String> ibilbide)
 			throws RideAlreadyExistException, RideMustBeLaterThanTodayException {
 		System.out.println(
 				">> DataAccess: createRide=> from= " + from + " to= " + to + " driver=" + driverUser + " date " + date);

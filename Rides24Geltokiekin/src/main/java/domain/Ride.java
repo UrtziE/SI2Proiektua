@@ -51,7 +51,7 @@ public class Ride implements Serializable, Comparable<Ride> {
 		 geltokiList=new LinkedList<Geltoki>();
 	}
 	
-	public Ride(Integer rideNumber, String from, String to, Date date, int nPlaces, /*float price*/  LinkedList<Float> prezioLista, Driver driver,Kotxe kotxe, LinkedList<String>ibilbideList) {
+	public Ride(Integer rideNumber, String from, String to, Date date, int nPlaces, /*float price*/  List<Float> prezioLista, Driver driver,Kotxe kotxe, List<String>ibilbideList) {
 		super();
 		this.rideNumber = rideNumber;
 		this.from = from;
@@ -459,7 +459,7 @@ public class Ride implements Serializable, Comparable<Ride> {
 	   }
 	   
    }
-   public boolean badaBiderenBat(LinkedList<String>ibil) {
+   public boolean badaBiderenBat(List<String>ibil) {
 	   boolean emaitza=false;
 	   for(int i=0;i<ibil.size();i++) {
 		   String irteera= ibil.get(i);
@@ -494,7 +494,7 @@ public class Ride implements Serializable, Comparable<Ride> {
 	   return emaitza;
 	   
    }
-   private void sortuGeltokiGuztiak(LinkedList<String>geltokiIzen, LinkedList<Float>prezioak,int places){
+   private void sortuGeltokiGuztiak(List<String>geltokiIzen, List<Float>prezioak,int places){
 	   for(int i=0; i<geltokiIzen.size();i++) {
 		   int j=i-1;
 		   Geltoki geltokia;

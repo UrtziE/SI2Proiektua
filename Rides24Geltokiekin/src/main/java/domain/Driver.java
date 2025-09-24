@@ -59,8 +59,8 @@ public class Driver extends Profile implements Serializable  {
 	 * @param betMinimum of that question
 	 * @return Bet
 	 */
-	public Ride addRide(String from, String to, Date date, int nPlaces, /*float price*/ LinkedList<Float>price,Kotxe kotxe,LinkedList<String>ibilbide)  {
-        Ride ride=new Ride(from,to,date,nPlaces,price, this,kotxe,ibilbide);
+	public Ride addRide(String from, String to, Date date, int nPlaces, /*float price*/ List<Float>price,Kotxe kotxe,List<String>ibilbide)  {
+        Ride ride=new Ride(nPlaces, from,to,date,nPlaces,price, this,kotxe,ibilbide);
         rides.add(ride);
         return ride;
 	}
@@ -81,7 +81,7 @@ public class Driver extends Profile implements Serializable  {
 	 * @param date the date of the ride 
 	 * @return true if the ride exists and false in other case
 	 */
-	public boolean doesRideExists(LinkedList<String>ibil, Date date)  {	
+	public boolean doesRideExists(List<String>ibil, Date date)  {	
 		for (Ride r:rides)
 			if ( r.badaBiderenBat(ibil) && (java.util.Objects.equals(r.getDate(),date)) )
 			 return true;

@@ -55,8 +55,8 @@ public interface BLFacade {
 	 *                                           the driver
 	 */
 	@WebMethod
-	public Ride createRide(String from, String to, Date date, int nPlaces, /* float price */LinkedList<Float> price,
-			String driverEmail, Kotxe kotxe, LinkedList<String> ibilbide)
+	public Ride createRide(String from, String to, Date date, int nPlaces, /* float price */List<Float> price,
+			String driverEmail, Kotxe kotxe, List<String> ibilbide)
 			throws RideMustBeLaterThanTodayException, RideAlreadyExistException;
 
 	/**
