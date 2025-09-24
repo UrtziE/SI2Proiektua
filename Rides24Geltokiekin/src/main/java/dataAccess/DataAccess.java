@@ -1,7 +1,11 @@
 package dataAccess;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.NoRouteToHostException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -50,16 +54,22 @@ public class DataAccess {
 	public DataAccess() {
 		if (c.isDatabaseInitialized()) {
 			String fileName = c.getDbFilename();
-
-			File fileToDelete = new File(fileName);
-			if (fileToDelete.delete()) {
-				File fileToDeleteTemp = new File(fileName + "$");
-				fileToDeleteTemp.delete();
-
+			Path fileToDelete =Paths.get(fileName);
+			try {
+			Files.delete(fileToDelete);
+			Path fileToDeleteTemp = Paths.get(fileName + "$");
+				try {
+					Files.delete(fileToDeleteTemp);
+				} catch (IOException e) {
+					System.out.println("Ezin izan da ezabatu temp fitxategia: " + e.getMessage());
+				}
+			} catch (IOException e) {
+			
+			 System.out.println("Ezin izan da ezabatu fitxategia: " + e.getMessage());
+            }
+			
 				System.out.println("File deleted");
-			} else {
-				System.out.println("Operation failed");
-			}
+			
 		}
 		open();
 		if (c.isDatabaseInitialized())
@@ -507,7 +517,7 @@ public class DataAccess {
 		db.getTransaction().begin();
 
 		Erreklamazioa e = db.find(Erreklamazioa.class, erreklamazioa.getId());
-		e.setEgoera(EgoeraErreklamazioa.Bukatua);
+		e.setEgoera(EgoeraErreklamazioa.BUKATUA);
 
 		Profile nork = db.find(Profile.class, e.getNork().getUser());
 		Profile nori = db.find(Profile.class, e.getNori().getUser());
@@ -603,13 +613,13 @@ public class DataAccess {
 
 		TypedQuery<Erreklamazioa> query = db.createQuery("SELECT e FROM Erreklamazioa e WHERE e.egoera=?1 ",
 				Erreklamazioa.class);
-		query.setParameter(1, EgoeraErreklamazioa.EsleituGabe);
+		query.setParameter(1, EgoeraErreklamazioa.ESLEITUGABE);
 		List<Erreklamazioa> erreklamazioak = query.getResultList();
 		if (!erreklamazioak.isEmpty()) {
 			db.getTransaction().begin();
 			Erreklamazioa erreklamazioa = erreklamazioak.get(0);
 			Admin admin = db.find(Admin.class, a.getUser());
-			erreklamazioa.setEgoera(EgoeraErreklamazioa.Prozesuan);
+			erreklamazioa.setEgoera(EgoeraErreklamazioa.PROZESUAN);
 			erreklamazioa.setAdmin(admin);
 			admin.addErreklamazioa(erreklamazioa);
 			admin.gehituMezuaTransaction(8, 0, erreklamazioa.getErreserba());
@@ -767,7 +777,7 @@ public class DataAccess {
 		TypedQuery<Erreklamazioa> query = db.createQuery("SELECT e FROM Erreklamazioa e WHERE  e.admin=?2 AND e.egoera=?3",
 				Erreklamazioa.class);
 		query.setParameter(2, a);
-		query.setParameter(3, EgoeraErreklamazioa.Prozesuan);
+		query.setParameter(3, EgoeraErreklamazioa.PROZESUAN);
 		List<Erreklamazioa> erreklam = query.getResultList();
 		return erreklam;
 	}

@@ -297,7 +297,7 @@ public interface BLFacade {
 	 * 
 	 */
 	@WebMethod
-	public void Kantzelatu(Ride r);
+	public void kantzelatu(Ride r);
 
 	/**
 	 * Metodo honek erreserbatutako bidai bat gauzatu den jarriko du, horretarako, 

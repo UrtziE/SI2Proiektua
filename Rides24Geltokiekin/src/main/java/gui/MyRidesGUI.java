@@ -196,7 +196,7 @@ public class MyRidesGUI extends JFrame {
 				if(r!=null) {
 				BLFacade blf = MainGUI.getBusinessLogic();
 
-				blf.Kantzelatu(r);
+				blf.kantzelatu(r);
 				etiketakHustu();
 				kargatuHurrengoak();
 				}else {

@@ -33,7 +33,7 @@ public class Alerta {
 	private String to;
 	private Date when;
 	private boolean ezabatuta;
-	
+	private static final String ETIQUETAS = "Etiquetas";
 	public Alerta() {}
 	
 	public Alerta(Traveller t, String from, String to, Date when) {
@@ -56,9 +56,16 @@ public class Alerta {
 	public boolean isEzabatuta() {
 		return ezabatuta;
 	}
+	
+	
 	public String toString() {
-		return(ResourceBundle.getBundle("Etiquetas").getString("TReservationsGUI.From")+" "+from+" "+ResourceBundle.getBundle("Etiquetas").getString("TReservationsGUI.To")+" "+ to + " "+ResourceBundle.getBundle("Etiquetas").getString("TReservationsGUI.When")+ when);
+		return(ResourceBundle.getBundle(ETIQUETAS).getString("TReservationsGUI.From")+
+				" "+from+" "+ResourceBundle.getBundle(ETIQUETAS).getString("TReservationsGUI.To")+
+				" "+ to + " "+ResourceBundle.getBundle(ETIQUETAS).getString("TReservationsGUI.When")+ when);
 	}
+	
+	
+	
 	/*public boolean berdinaDa(Ride ride) {
 		if(ride.badaBide(from, to)&&ride.getDate().equals(when)) {
 			return true;

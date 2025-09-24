@@ -172,7 +172,7 @@ public class KantzelatuGUI extends JFrame {
 				
 				BLFacade blf= MainGUI.getBusinessLogic();
 				
-				blf.Kantzelatu(r);
+				blf.kantzelatu(r);
 				etiketakHustu();
 				kargatuHurrengoak();
 				
