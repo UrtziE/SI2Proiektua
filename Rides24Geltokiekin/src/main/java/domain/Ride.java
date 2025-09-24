@@ -395,7 +395,7 @@ public class Ride implements Serializable, Comparable<Ride> {
 
 
 	public void ezabatuRideRequest(RideRequest r) {
-		this.getRequests().remove(r);
+		this.getEskakizunak().remove(r);
 	}
 	
 	public void ezabatuAllRideRequest() {
@@ -406,10 +406,6 @@ public class Ride implements Serializable, Comparable<Ride> {
 		this.requests = requests;
 	}
 
-	public List<RideRequest> getRequests() {
-		return requests;
-	}
-	
 	public String mezua() {
 		return( ResourceBundle.getBundle("Etiquetas").getString("Ride")+":ID :"+ rideNumber+" "+
 				/*ResourceBundle.getBundle("Etiquetas").getString("TReservationsGUI.From")+" "+from +" "+

@@ -811,7 +811,7 @@ public class DataAccess {
 			} else if ((gaur.getTime() - ride.getDate().getTime()) / (1000 * 60 * 60 * 24) > 3) {
 				if (ride.getEgoera().equals(EgoeraRide.PASATUA)) {
 					//ride.setEgoera(EgoeraRide.DONE);
-					for (RideRequest r : ride.getRequests()) {
+					for (RideRequest r : ride.getEskakizunak()) {
 						if(r.getState().equals(EgoeraRideRequest.Accepted)) {
 							r.setState(EgoeraRideRequest.Done);
 						}
