@@ -55,6 +55,9 @@ public class Mezua implements Serializable, Comparable<Mezua> {
 	@OneToOne(fetch = FetchType.EAGER)
 	private Erreklamazioa erreklamazioa;
 	
+	private static final String DATADONE = "Mezuak.DataDone";  
+
+	
 	public int getType() {
 		return type;
 	}
@@ -228,30 +231,30 @@ public class Mezua implements Serializable, Comparable<Mezua> {
 			break;
 		case 7:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Done") + ":   " + ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			diruMezu = "+" + kantitatea + "€";
 			break;
 		case 8:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.NewErreklamazioa") + ":   "
 					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			diruMezu = "+" + kantitatea + "€";
 			break;
 		case 9:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaAccepted") + ":   "
 					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			diruMezu = "+" + kantitatea + "€";
 			break;
 		case 10:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaRejected") + ":   "
 					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			break;
 		case 11:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Erreklamatuta") + ":   "
 					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			diruMezu = "-" + kantitatea + "€";
 			break;
 		}
@@ -263,30 +266,30 @@ public class Mezua implements Serializable, Comparable<Mezua> {
 		case 0:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaAccepted") + ":   "
 					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			diruMezu = "+" + kantitatea + "€";
 			break;
 		case 1:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaRejected") + ":   "
 					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			break;
 		case 2:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioBukatuta") + ":   "
 					+ ride.mezua()+"  Accepted";
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			break;
 		case 3:
 			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioBukatuta") + ":   "
 					+ ride.mezua() +"  Rejected";
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 			break;
 		}
 	}
 
 	public void zeinAlerta() {
 		typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.EskatutakoAlerta") + ":   " + alerta.toString();
-		datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDone") + " " + when;
+		datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
 	}
 
 	/*
