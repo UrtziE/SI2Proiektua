@@ -380,7 +380,7 @@ public class DataAccess {
 		} else {
 
 			if (type.equals("Traveller")) {
-				user = new Admin(email, name, surname, username, password, telf);
+				user = new Traveller(email, name, surname, username, password, telf);
 
 			} else {
 				user = new Driver(email, name, surname, username, password, telf);

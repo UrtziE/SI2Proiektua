@@ -86,7 +86,7 @@ public class ConfigXML {
 				//Two possible values: true (no instance of RemoteServer needs to be launched) or false (RemoteServer needs to be run first)
 			  String value= ((Element)config.getElementsByTagName("businessLogic").item(0)).getAttribute("local");
 			//Hau true jarri ondo jartzeko
-			  businessLogicLocal=value.equals("false");//Web-zerbitzuak
+			  businessLogicLocal=value.equals("true");//Web-zerbitzuak
 
 			  businessLogicNode = getTagValue("businessLogicNode", config);
 
