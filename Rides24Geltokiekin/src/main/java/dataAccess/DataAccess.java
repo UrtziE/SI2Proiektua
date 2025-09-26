@@ -445,11 +445,11 @@ public class DataAccess {
 		ride.setEgoera(EgoeraRide.KANTZELATUA);
 
 		for (RideRequest request : ride.getEskakizunak()) {
-			if (!request.getState().equals(EgoeraRideRequest.Rejected)) {
+			if (!request.getState().equals(EgoeraRideRequest.REJECTED)) {
 				Traveller t = request.getTraveller();
 				float prezioa = request.getPrezioa();
 				t.gehituDirua(prezioa);
-				request.setState(EgoeraRideRequest.Rejected);
+				request.setState(EgoeraRideRequest.REJECTED);
 				t.gehituMezuaTransaction(5, prezioa, request);
 			}
 		}
@@ -484,7 +484,7 @@ public class DataAccess {
 			// Aldatu
 			ride.kenduSeatGeltokiei(r.getSeats(), r.getFromRequested(), r.getToRequested());
 			// ride.setBetMinimum((ride.getnPlaces() - r.getSeats()));
-			r.setState(EgoeraRideRequest.Accepted);
+			r.setState(EgoeraRideRequest.ACCEPTED);
 			ride.deuseztatuSeatKopuruBainaHandiagoa(r);
 			if (ride.getnPlaces() == 0) {
 				ride.setEgoera(EgoeraRide.TOKIRIK_GABE);
@@ -493,8 +493,7 @@ public class DataAccess {
 		} else {
 			Traveller t = r.getTraveller();
 			t.gehituDirua(r.getPrezioa());
-			r.setState(EgoeraRideRequest.Rejected);
-
+			r.setState(EgoeraRideRequest.REJECTED);
 			t.gehituMezuaTransaction(1, r.getPrezioa(), r); // Dirua itzuli
 		}
 
@@ -507,7 +506,7 @@ public class DataAccess {
 		db.getTransaction().begin();
 
 		Erreklamazioa e = db.find(Erreklamazioa.class, erreklamazioa.getId());
-		e.setEgoera(EgoeraErreklamazioa.Bukatua);
+		e.setEgoera(EgoeraErreklamazioa.BUKATUA);
 
 		Profile nork = db.find(Profile.class, e.getNork().getUser());
 		Profile nori = db.find(Profile.class, e.getNori().getUser());
@@ -603,13 +602,13 @@ public class DataAccess {
 
 		TypedQuery<Erreklamazioa> query = db.createQuery("SELECT e FROM Erreklamazioa e WHERE e.egoera=?1 ",
 				Erreklamazioa.class);
-		query.setParameter(1, EgoeraErreklamazioa.EsleituGabe);
+		query.setParameter(1, EgoeraErreklamazioa.ESLEITU_GABE);
 		List<Erreklamazioa> erreklamazioak = query.getResultList();
 		if (!erreklamazioak.isEmpty()) {
 			db.getTransaction().begin();
 			Erreklamazioa erreklamazioa = erreklamazioak.get(0);
 			Admin admin = db.find(Admin.class, a.getUser());
-			erreklamazioa.setEgoera(EgoeraErreklamazioa.Prozesuan);
+			erreklamazioa.setEgoera(EgoeraErreklamazioa.PROSEZUAN);
 			erreklamazioa.setAdmin(admin);
 			admin.addErreklamazioa(erreklamazioa);
 			admin.gehituMezuaTransaction(8, 0, erreklamazioa.getErreserba());
@@ -767,7 +766,7 @@ public class DataAccess {
 		TypedQuery<Erreklamazioa> query = db.createQuery("SELECT e FROM Erreklamazioa e WHERE  e.admin=?2 AND e.egoera=?3",
 				Erreklamazioa.class);
 		query.setParameter(2, a);
-		query.setParameter(3, EgoeraErreklamazioa.Prozesuan);
+		query.setParameter(3, EgoeraErreklamazioa.PROSEZUAN);
 		List<Erreklamazioa> erreklam = query.getResultList();
 		return erreklam;
 	}
@@ -812,8 +811,8 @@ public class DataAccess {
 				if (ride.getEgoera().equals(EgoeraRide.PASATUA)) {
 					//ride.setEgoera(EgoeraRide.DONE);
 					for (RideRequest r : ride.getEskakizunak()) {
-						if(r.getState().equals(EgoeraRideRequest.Accepted)) {
-							r.setState(EgoeraRideRequest.Done);
+						if(r.getState().equals(EgoeraRideRequest.ACCEPTED)) {
+							r.setState(EgoeraRideRequest.DONE);
 						}
 						r.setBaloratuaDriver(true);
 						r.setBaloratuaTraveller(true);

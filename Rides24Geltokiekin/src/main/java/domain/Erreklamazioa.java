@@ -51,7 +51,7 @@ public class Erreklamazioa implements Serializable{
 		this.erreserba = erreserba;
 		this.when=new Date();
 		this.prezioa=prezioa;
-		this.egoera=EgoeraErreklamazioa.EsleituGabe;
+		this.egoera=EgoeraErreklamazioa.ESLEITU_GABE;
 		this.ride=erreserba.getRide();
 	}
 	public Erreklamazioa() {

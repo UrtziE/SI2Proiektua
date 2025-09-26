@@ -25,11 +25,11 @@ public class Driver extends Profile implements Serializable  {
 
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private List<Ride> rides=new Vector<Ride>();
+	private List<Ride> rides=new ArrayList<Ride>();
 	
 	@XmlIDREF
 	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
-	private List<Kotxe> kotxeList=new Vector<Kotxe>();
+	private List<Kotxe> kotxeList=new ArrayList<Kotxe>();
 	
 	
 
