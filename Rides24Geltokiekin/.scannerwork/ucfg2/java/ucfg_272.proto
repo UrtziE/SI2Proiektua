@@ -1,34 +1,33 @@
 
-FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¿ ¿(#"1*¹
+1dataAccess.DataAccess#getMoney(Ldomain/Profile;)Fl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÄ Ä("1*ˆ
 1
-À À(•’
+Å Å(—”
 
-À# À(3
-%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*5
+Å% Å(6
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*7
 
-__unknown_file (
-
-driverdomain.Driver2	getUser()L
-J
+__unknown_file (
+
+profiledomain.Profile2	getUser()M
+K
 
-À À(5
-ddomain.Driver"__id*"
+Å Å(8
+pdomain.Profile"__id*"
 
 __unknown_file (
-""›˜
+""xv
 
-Á	 Á(
-%1java.util.List"/domain.Driver#getKotxeGuztiak()Ljava/util/List;*0
+Æ	 Æ(
+%1float"domain.Profile#getWallet()F*1
 
-__unknown_file (
-
-ddomain.Driver2getKotxeGuztiak()"$
+__unknown_file (
+
+pdomain.Profile2getWallet()"
 
-Á Á(
-
-%1java.util.List:%
+Æ Æ(
+"":'
 
-¿$ ¿(1
-driverdomain.DriverB
-dataAccess.DataAccessH
+Ä Ä(&
+profiledomain.ProfileB
+dataAccess.DataAccessHX

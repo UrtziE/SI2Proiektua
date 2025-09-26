@@ -1,7 +1,7 @@
 (this
-ã ã("domain.RideRequest"T@
->
+è è("domain.RideRequest"H4
+2
 
-å	 å("#get-field# whenRequested:Bjava.util.Date
+ê	 ê("#get-field# ride:Bdomain.Ride
 
-å å(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java
+ê ê(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java

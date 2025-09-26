@@ -1,41 +1,27 @@
 
-edataAccess.DataAccess#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÜ Ü(1"1*º
+TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaá á(8"1*Ì
 1
-á á(ìê
+â$ â(&Z
+X
 
-á3 á(>
-%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*3
-
-__unknown_file (
-
-tdomain.Traveller2	getUser()W
-U
-
-á á(@
-	travellerdomain.Traveller"__id*"
+å å(5 
+%0domain.EgoeraErreklamazioa"__id*"
 
 __unknown_file (
-""ëé
+""T
+R
 
-à à(3
-%1domain.RideRequest"Ndomain.Traveller#lortuLehenRequestBidaiakoa(Ldomain/Ride;)Ldomain/RideRequest;*;
+ç ç(7
+erreklamjava.util.List"__id*"
 
-__unknown_file (
-
-	travellerdomain.Traveller*.
-
-__unknown_file (
-
-rdomain.Ride2)lortuLehenRequestBidaiakoa(Ldomain/Ride;)"(
+__unknown_file (
+"""*
 
-à à(4
-
-%1domain.RideRequest:
+é é(
+
+erreklamjava.util.List:!
 
-Ü2 Ü(9
-rdomain.Ride:#
-
-Ü9 Ü(D
-tdomain.TravellerB
+á9 á(B
+adomain.ProfileB
 dataAccess.DataAccessH

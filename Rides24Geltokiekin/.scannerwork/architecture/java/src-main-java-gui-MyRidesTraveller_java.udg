@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644107287*java2.B¯#
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741024077*java2.B¯#
 ,
 'src/main/java/gui/MyRidesTraveller.java2
 	
@@ -169,7 +169,7 @@ Egui.MyRidesTraveller$2#actionPerformed(Ljava/awt/event/ActionEvent;)V118
 =
 6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;125
 8
-1businessLogic.BLFacade#Kantzelatu(Ldomain/Ride;)V127
+1businessLogic.BLFacade#kantzelatu(Ldomain/Ride;)V127
 ,
 %gui.MyRidesTraveller#etiketakHustu()V129
 0
@@ -392,6 +392,9 @@ I
 
 13
 119
+
+126
+12612728
 
 73
 737428
@@ -533,9 +536,6 @@ I
 
 13
 119
-
-126
-12612728
 A
 20;
 202117 *

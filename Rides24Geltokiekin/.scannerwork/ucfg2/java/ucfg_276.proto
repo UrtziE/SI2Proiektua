@@ -1,75 +1,194 @@
 
-QdataAccess.DataAccess#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaç ç("5*4
+ÆdataAccess.DataAccess#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaˇ ˇ("6*÷
 2
-ñ ñ("#
+å å(20
 
-ñ ñ(
-
-pdomain.Profile*ê
-3
-ï ï(ôñ
+å å(
+%4domain.Driver"domain.Driver™
+ß
 
-ï ï(
-%1java.lang.String".domain.Profile#getPassword()Ljava/lang/String;*1
+å å(E
+%5"Édomain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*1
 
 __unknown_file (
 
-pdomain.Profile2getPassword()⁄◊
-
-ï ï('
-%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+%4domain.Driver*7
 
-__unknown_file (
-
-%1java.lang.String*:
+__unknown_file (
+
+emailjava.lang.String*6
+
+__unknown_file (
+
+namejava.lang.String*9
+
+__unknown_file (
+
+surnamejava.lang.String*:
 
 __unknown_file (
 
-passwordjava.lang.String2equals(Ljava/lang/Object;)*
-2
-1*%
-4
-í
- í("
+usernamejava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String*6
+
+__unknown_file (
+
+telfjava.lang.String_
+]
 
-í í(
-""*·
+å å(E
+userdomain.Profile"__id*1
+
+__unknown_file (
+
+%4domain.Driver*
+1*Â
+3
+â â(86
+
+â â(
+%2domain.Traveller"domain.Traveller∞
+≠
+
+â â(H
+%3"Üdomain.Traveller#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%2domain.Traveller*7
+
+__unknown_file (
+
+emailjava.lang.String*6
+
+__unknown_file (
+
+namejava.lang.String*9
+
+__unknown_file (
+
+surnamejava.lang.String*:
+
+__unknown_file (
+
+usernamejava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String*6
+
+__unknown_file (
+
+telfjava.lang.Stringb
+`
+
+â â(H
+userdomain.Profile"__id*4
+
+__unknown_file (
+
+%2domain.Traveller*
+1*Â
+4
+à à(À»
+
+à à(
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*6
+
+__unknown_file (
+
+typejava.lang.String*)
+
+__unknown_file (
+	Traveller2equals(Ljava/lang/Object;)*
+2
+3*%
 5
-é é(M
+Ö
+ Ö("
+
+Ö Ö(
+""*≥
+6
+Ç Ç(M
 K
 
-é é(+
-pdomain.Profile"__id*"
+Ç Ç(/
+udomain.Profile"__id*"
+
+__unknown_file (
+""P
+N
+
+É É(
+userdomain.Profile"__id*"
 
 __unknown_file (
 ""y
 w
 
-ê ê(
+Ñ Ñ(
 %0boolean"	__compare*
 
-ê ê(
+Ñ Ñ(
 
-==*#
+!=*#
 
-ê ê(
+Ñ Ñ(
 
-pdomain.Profile*
+udomain.Profile*
 
-ê ê(
+Ñ Ñ(
 ""*
-3
-4*%
+4
+5*·
 1
-ô ô("
+é é(S
+Q
 
-ô ô(
-"":&
+ë ë(
+%6java.io.PrintStream"__id*"
+
+__unknown_file (
+""“œ
 
-ç ç("
-userjava.lang.String:*
+ë ë(&
 
-ç# ç(2
-passwordjava.lang.StringB
+%7void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%6java.io.PrintStream*-
+
+__unknown_file (
+Ondo gorde da2println(Ljava/lang/String;)"&
+
+í í(
+
+userdomain.Profile:'
+
+ˇ ˇ(&
+emailjava.lang.String:&
+
+ˇ' ˇ(3
+namejava.lang.String:)
+
+ˇ4 ˇ(C
+surnamejava.lang.String:*
+
+ˇD ˇ(T
+usernamejava.lang.String:*
+
+ˇU ˇ(e
+passwordjava.lang.String:&
+
+ˇf ˇ(r
+telfjava.lang.String:&
+
+Ä Ä(
+typejava.lang.StringB
 dataAccess.DataAccessH

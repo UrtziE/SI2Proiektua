@@ -1,33 +1,34 @@
 
-1dataAccess.DataAccess#getMoney(Ldomain/Profile;)Fl
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaº º("1*ˆ
+UdataAccess.DataAccess#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java½ ½(5"1*À
 1
-» »(—”
+¿ ¿(›˜
 
-»% »(6
-%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*7
+¿) ¿(<
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*;
 
-__unknown_file (
-
-profiledomain.Profile2	getUser()M
-K
+__unknown_file (
+
+	travellerdomain.Traveller2	getUser()O
+M
 
-» »(8
-pdomain.Profile"__id*"
+¿ ¿(>
+tdomain.Traveller"__id*"
 
 __unknown_file (
-""xv
+""™–
 
-¼	 ¼(
-%1float"domain.Profile#getWallet()F*1
+Á	 Á(
+%1java.util.List".domain.Traveller#getRequests()Ljava/util/List;*3
 
-__unknown_file (
-
-pdomain.Profile2getWallet()"
+__unknown_file (
+
+tdomain.Traveller2getRequests()"$
 
-¼ ¼(
-"":'
+Á Á(
+
+%1java.util.List:+
 
-º º(&
-profiledomain.ProfileB
-dataAccess.DataAccessHX
+½6 ½(I
+	travellerdomain.TravellerB
+dataAccess.DataAccessH

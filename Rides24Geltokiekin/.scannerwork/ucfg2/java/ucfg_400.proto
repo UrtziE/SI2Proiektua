@@ -1,14 +1,15 @@
 
-domain.Alerta#getId()Ib
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.java5 5("1*…
-16	 6(b
-`
-6	 6(
-%0java.lang.Integer"__id*5
+'domain.Alerta#getWhen()Ljava/util/Date;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.java2 2("1*”
+13	 3(a
+_
+3	 3(
+%0java.util.Date"__id*7
 
-__unknown_file (*
-domain.Alerta"
-id"
-6 6(
-""B
-domain.AlertaHX
+__unknown_file (*
+domain.Alerta"
+when""
+3 3(
+
+%0java.util.DateB
+domain.AlertaH

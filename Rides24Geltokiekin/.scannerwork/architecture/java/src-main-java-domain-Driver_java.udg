@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644105541*java2.B¹
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741022395*java2.B¡
 %
  src/main/java/domain/Driver.java2
 	
@@ -88,8 +88,8 @@ A
 toString63
 1
 +domain.Profile#toString()Ljava/lang/String;65
-š
-“domain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ldomain/Kotxe;Ljava/util/LinkedList;)Ldomain/Ride;67
+Ž
+‡domain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;67
 
 addRide68
 
@@ -112,12 +112,12 @@ c
 -domain.Profile#getSurname()Ljava/lang/String;81
 0
 *domain.Profile#getUser()Ljava/lang/String;83
-K
-Edomain.Driver#doesRideExists(Ljava/util/LinkedList;Ljava/util/Date;)Z85
+E
+?domain.Driver#doesRideExists(Ljava/util/List;Ljava/util/Date;)Z85
 
 doesRideExists86
-9
-3domain.Ride#badaBiderenBat(Ljava/util/LinkedList;)Z88
+3
+-domain.Ride#badaBiderenBat(Ljava/util/List;)Z88
 +
 %domain.Ride#getDate()Ljava/util/Date;90
 /
@@ -194,6 +194,18 @@ A
 
 78
 787917
+A
+84;
+848554 *
+1T T(28:5B
+
+
+11
+12
+
+
+13
+86
 
 80
 808117
@@ -240,18 +252,6 @@ A
 13
 74
 A
-84;
-848554 *
-1T T(28:5B
-
-
-11
-12
-
-
-13
-86
-A
 59;
 596054 *
 1+ +(28:5B
@@ -263,9 +263,6 @@ A
 
 13
 14
-
-87
-878817
 
 15
 151617
@@ -305,6 +302,18 @@ A
 
 13
 77
+A
+66;
+666754 *
+1> >(28:5B
+
+
+11
+12
+
+
+13
+68
 A
 94;
 949554 *
@@ -372,23 +381,14 @@ A
 13
 63
 
+87
+878817
+
 43
 434417
 
 19
 192017
-A
-66;
-666754 *
-1> >(28:5B
-
-
-11
-12
-
-
-13
-68
 
 112
 11211317
@@ -538,16 +538,16 @@ E
 1>	 >(
 
 665070*
-1>m >(r
+1>g >(l
 
 664324*
 1>	 >(
 
 665071*
-1>s >(x
+1>m >(r
 
 665024*
-1>m >(r
+1>g >(l
 
 664371*
 1? ?(
@@ -559,10 +559,10 @@ E
 1? ?(
 
 66824*
-1?8 ?(<
+1?A ?(E
 
 66856*
-1?8 ?(<
+1?A ?(E
 
 663456*
 1@	 @(

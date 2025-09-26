@@ -1,8 +1,8 @@
 !this
-É É("domain.Ride%driver
-É É($"domain.Driver"<*
-(
+Ñ Ñ("domain.Rideprice
+Ñ Ñ(!"float";)
+'
 
-Ê Ê("#set-field# driver:
+Ò Ò("#set-field# price:
 
-Ë Ë(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java
+Ó Ó(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java

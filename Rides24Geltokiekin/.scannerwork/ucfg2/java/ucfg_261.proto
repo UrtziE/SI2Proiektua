@@ -1,18 +1,18 @@
 
-JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaš š(%"5*ô
+7dataAccess.DataAccess#getDepartCities()Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaŽ Ž($"5*ô
 2
-¡ ¡(M
+• •(M
 K
 
-¡ ¡(
+• •(
 ridedomain.Ride"__id*"
 
 __unknown_file (
 ""‹
 ˆ
 
-¡ ¡(
+• •(
 ridedomain.Ride"
 __arrayGet*5
 
@@ -23,12 +23,12 @@ __arrayGet*5
 __unknown_file (
 ""*
 3
-1*Ë
+1*ó
 3
-¢ ¢(ÐÍ
+– –(øõ
 
-¢ ¢(/
-%3java.util.List"Pdomain.Ride#addArrivalCities(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;*1
+– –(+
+%3java.util.List"@domain.Ride#addDepartingCities(Ljava/util/List;)Ljava/util/List;*1
 
 __unknown_file (
 
@@ -36,14 +36,10 @@ __arrayGet*5
 
 __unknown_file (
 
-fromjava.lang.String*6
-
-__unknown_file (
-
-citiesjava.util.List24addArrivalCities(Ljava/lang/String;Ljava/util/List;)b
+citiesjava.util.List2$addDepartingCities(Ljava/util/List;)b
 `
 
-¢ ¢(/
+– –(+
 citiesjava.util.List"__id*2
 
 __unknown_file (
@@ -51,27 +47,27 @@ __arrayGet*5
 %3java.util.List*
 2*Ñ
 5
-› ›(Q
+ (Q
 O
 
- (*
+‘ ‘(*
 %0domain.EgoeraRide"__id*"
 
 __unknown_file (
 ""Q
 O
 
-Ÿ Ÿ(+
+“ “(+
 ridesjava.util.List"__id*"
 
 __unknown_file (
 ""><
 
-   (-
+” ”(-
 %1java.util.ArrayList"java.util.ArrayListl
 j
 
-   (/
+” ”(/
 %2"java.util.ArrayList#<init>()V*7
 
 __unknown_file (
@@ -79,7 +75,7 @@ j
 %1java.util.ArrayListg
 e
 
-   (0
+” ”(0
 citiesjava.util.List"__id*7
 
 __unknown_file (
@@ -87,12 +83,9 @@ e
 %1java.util.ArrayList*
 2*9
 1
-¤	 ¤("(
+˜	 ˜("(
 
-¤ ¤(
+˜ ˜(
 
-citiesjava.util.List:&
-
-š& š(1
-fromjava.lang.StringB
+citiesjava.util.ListB
 dataAccess.DataAccessH

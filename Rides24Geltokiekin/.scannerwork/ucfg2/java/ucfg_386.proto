@@ -1,61 +1,86 @@
 
- domain.RideRequest#getPrezioa()Fi
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaÂ Â("1*¢
+2domain.RideRequest#requestInfo()Ljava/lang/String;i
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java¿ ¿("1*÷
 1
-Ã Ã(e
+À	 À(sq
+
+À À(#	
+%0int"domain.RideRequest#getId()I*2
+
+__unknown_file (
+domain.RideRequest2getId()h
+f
+
+À	 À(#
+%1java.lang.String"__concat*
+
+À	 À(
+	 request:*
+
+À À(#
+	
+%0inte
 c
 
-Ã Ã(
-%0domain.Ride"__id*<
+À& À(/
+%2domain.Ride"__id*<
 
 __unknown_file ( *
 domain.RideRequest"
-rides
-q
+rideŽ‹
 
-Ã* Ã(7
-%1java.lang.String"__id*E
-
-__unknown_file ()*'
-domain.RideRequest"
-fromRequestedq
-o
-
-Ã9 Ã(D
-%2java.lang.String"__id*C
-
-__unknown_file ('*%
-domain.RideRequest"
-toRequestedÀ½
-
-Ã Ã(E
-%3float"Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)F*/
+À& À(:
+%3java.lang.String"(domain.Ride#toString()Ljava/lang/String;*/
 
 __unknown_file (
 
-%0domain.Ride*4
-
-__unknown_file (
+%2domain.Ride2
+toString()€
+~
+
+À	 À(:
+%4java.lang.String"__concat*&
+
+À	 À(#
 
-%1java.lang.String*4
-
-__unknown_file (
+%1java.lang.String*&
+
+À& À(:
 
-%2java.lang.String2;lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)i
-g
+%3java.lang.Stringt
+r
 
-Ä	 Ä(
-%4float"__calculate*
+À	 À(G
+%5java.lang.String"__concat*&
 
-Ä Ä(
-**
+À	 À(:
+
+%4java.lang.String*
 
-Ä	 Ä(
-""*
+À= À(G
 
-Ä Ä(
-"""
+ seats: yw
 
-Ä Ä(
-""B
-domain.RideRequestHX
+ÀJ À(Y	
+%6int"domain.RideRequest#getSeats()I*2
+
+__unknown_file (
+domain.RideRequest2
+getSeats()s
+q
+
+À	 À(Y
+%7java.lang.String"__concat*&
+
+À	 À(G
+
+%5java.lang.String*
+
+ÀJ À(Y
+	
+%6int"&
+
+À À(Z
+
+%7java.lang.StringB
+domain.RideRequestH

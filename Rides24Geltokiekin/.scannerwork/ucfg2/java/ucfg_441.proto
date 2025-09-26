@@ -1,15 +1,15 @@
 
-9domain.RideContainer#getRideRequestList()Ljava/util/List;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java (+"1*¦
-1 (s
-q
- (
-%0java.util.List"__id*I
++domain.RideContainer#getRide()Ldomain/Ride;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java ("1*•
+1 (e
+c
+ (
+%0domain.Ride"__id*>
 
-__unknown_file (-*+
-domain.RideContainer"
-rideRequestList""
- (
-
-%0java.util.ListB
+__unknown_file ("* 
+domain.RideContainer"
+ride"
+ (
+
+%0domain.RideB
 domain.RideContainerH

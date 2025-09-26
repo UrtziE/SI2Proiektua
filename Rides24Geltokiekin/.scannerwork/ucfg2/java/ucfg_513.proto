@@ -1,61 +1,41 @@
 
-tbusinessLogic.BLFacadeImplementation#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(1"startingBlock*Õ
+KbusinessLogic.BLFacadeImplementation#isErreklamatua(Ldomain/RideRequest;Z)Z{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java† †(!"startingBlock*ç
 startingBlock
-Æ1 Æ(E{
-y
+†! †(Fâ
+Ü
 
-≠ ≠(
+ü ü(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*.
+	WebMethod*;
 
-__unknown_file (
-
-rdomain.RideR
-P
+__unknown_file (
+
+requestdomain.RideRequest_
+]
 
-Æ7 Æ(8
-rdomain.Ride"__annotation*"
+†. †(5
+requestdomain.RideRequest"__annotation*"
 
 __unknown_file (
 
-%6Ä
-~
-
-≠ ≠(
-%7"
-__annotate*)
-
-__unknown_file (
-	WebMethod*3
-
-__unknown_file (
-
-tdomain.TravellerW
-U
-
-ÆC Æ(D
-tdomain.Traveller"__annotation*"
-
-__unknown_file (
-
-%7*
-1*Ω	
+%6*
+1*„
 1
-Ø Ø(á
+° °(á
 Ñ
 
-Ø Ø(
+° °(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-Ø Ø(
+° °(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -64,61 +44,49 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-∞ ∞(%
+¢ ¢(!
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerÌÍ
+	dbManagerüú
 
-∞ ∞(F
-%3domain.RideRequest"edataAccess.DataAccess#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;*9
+¢ ¢(A
+%3boolean"<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Z*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*.
+%2dataAccess.DataAccess*;
 
-__unknown_file (
-
-rdomain.Ride*3
+__unknown_file (
+
+requestdomain.RideRequest*"
 
-__unknown_file (
-
-tdomain.Traveller2;lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)n
-l
-
-∞ ∞(G 
-
-baloratutadomain.RideRequest"__id*6
-
-__unknown_file (
-
-%3domain.RideRequestá
+__unknown_file (
+""2%isErreklamatua(Ldomain/RideRequest;Z)á
 Ñ
 
-± ±(
+£ £(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-± ±(
+£ £(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"0
+%4dataAccess.DataAccess2close()"
 
-≤ ≤("
- 
+§ §(
+"":+
 
-baloratutadomain.RideRequest:
-
-Æ2 Æ(9
-rdomain.Ride:#
-
-Æ9 Æ(D
-tdomain.TravellerB(&
-$businessLogic.BLFacadeImplementationH
+†" †(6
+requestdomain.RideRequest: 
+
+__unknown_file (
+""B(&
+$businessLogic.BLFacadeImplementationHX

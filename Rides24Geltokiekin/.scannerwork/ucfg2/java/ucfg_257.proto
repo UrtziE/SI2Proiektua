@@ -1,22 +1,18 @@
 
-(dataAccess.DataAccess#%field_initializer
-__unknown_file ("1*Ï
-1 (÷
-ô
-j
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java0 0(&
-%0configuration.ConfigXML">configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;*'
- ("
-configuration.ConfigXMLÂ
-¿
-j
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java0 0('
-dataAccess.DataAccess"
-c"__id*+
- (
-
-%0configuration.ConfigXML"€
-i
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java, Û(
-implicit returnB
-dataAccess.DataAccess
+;configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;n
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java¨ ¨("1*°
+1
+©	 ©(w
+u
+
+©	 ©(
+%0java.lang.String"__id*I
+
+__unknown_file (-*+
+configuration.ConfigXML"
+databaseNode"&
+
+© ©(
+
+%0java.lang.StringB
+configuration.ConfigXMLH

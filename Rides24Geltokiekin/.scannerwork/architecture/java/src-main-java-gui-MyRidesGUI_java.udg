@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644111091*java2.BÅ%
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741027511*java2.BÅ%
 &
 !src/main/java/gui/MyRidesGUI.java2
 	
@@ -181,7 +181,7 @@ F
 =
 6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;133
 8
-1businessLogic.BLFacade#Kantzelatu(Ldomain/Ride;)V135
+1businessLogic.BLFacade#kantzelatu(Ldomain/Ride;)V135
 &
 gui.MyRidesGUI#etiketakHustu()V137
 *
@@ -363,6 +363,9 @@ I
 
 13
 127
+
+134
+13413528
 ;
 1704
 17017110 *
@@ -576,9 +579,6 @@ A
 
 11
 96
-
-134
-13413528
 
 201
 20120228

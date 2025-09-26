@@ -808,6 +808,7 @@ public class DataAccess {
 		}
 	}
 
+	
 	private void konprobatuBidaienEgunak() {
 		TypedQuery<Ride> query = db.createQuery("SELECT r FROM Ride r", Ride.class);
 		List<Ride> rideP = query.getResultList();
@@ -820,7 +821,7 @@ public class DataAccess {
 				ri.setEgoera(EgoeraRide.PASATUA);
 			} else if ((gaur.getTime() - ride.getDate().getTime()) / (1000 * 60 * 60 * 24) > 3) {
 				if (ride.getEgoera().equals(EgoeraRide.PASATUA)) {
-					//ride.setEgoera(EgoeraRide.DONE);
+					ride.setEgoera(EgoeraRide.DONE);
 					for (RideRequest r : ride.getRequests()) {
 						if(r.getState().equals(EgoeraRideRequest.Accepted)) {
 							r.setState(EgoeraRideRequest.Done);

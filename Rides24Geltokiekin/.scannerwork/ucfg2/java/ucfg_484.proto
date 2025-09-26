@@ -1,41 +1,41 @@
 
-dbusinessLogic.BLFacadeImplementation#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÀ À(5"startingBlock*ç
+ZbusinessLogic.BLFacadeImplementation#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaº º(0"startingBlock*˜
 startingBlock
-À5 À(Jâ
-Ü
+º0 º(;~
+|
 
-   (
+ª ª(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*;
+	WebMethod*1
 
-__unknown_file (
-
-	travellerdomain.Traveller_
-]
+__unknown_file (
+
+ridedomain.RideU
+S
 
-À@ À(I
-	travellerdomain.Traveller"__annotation*"
+º6 º(:
+ridedomain.Ride"__annotation*"
 
 __unknown_file (
 
 %6*
-1*„
+1*≈
 1
-Ã Ã(á
+Ω Ω(á
 Ñ
 
-Ã Ã(
+Ω Ω(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-Ã Ã(
+Ω Ω(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,26 +44,26 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-Õ Õ(%
+æ æ(%
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager•¢
+	dbManageráÑ
 
-Õ Õ(L
-%3java.util.List"UdataAccess.DataAccess#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;*9
+æ æ(B
+%3java.util.List"KdataAccess.DataAccess#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*;
+%2dataAccess.DataAccess*1
 
-__unknown_file (
-
-	travellerdomain.Traveller2/getRidesRequestsOfTraveller(Ldomain/Traveller;)c
+__unknown_file (
+
+ridedomain.Ride2%getRidesRequestsOfRide(Ldomain/Ride;)c
 a
 
-Õ Õ(M
+æ æ(C
 requestjava.util.List"__id*2
 
 __unknown_file (
@@ -71,14 +71,14 @@ a
 %3java.util.Listá
 Ñ
 
-Œ Œ(
+ø ø(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-Œ Œ(
+ø ø(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -86,10 +86,10 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()")
 
-œ œ(
+¿ ¿(
 
-requestjava.util.List:+
+requestjava.util.List:!
 
-À6 À(I
-	travellerdomain.TravellerB(&
+º1 º(:
+ridedomain.RideB(&
 $businessLogic.BLFacadeImplementationH

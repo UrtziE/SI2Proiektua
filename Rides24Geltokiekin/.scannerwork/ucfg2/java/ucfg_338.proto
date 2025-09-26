@@ -1,7 +1,16 @@
 
-domain.Geltoki#getPrezioa()Fc
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Geltoki.java% %("1*!
-1&	 &("
-& &(
-""B
-domain.GeltokiHX
+.domain.Geltoki#getTokiIzen()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Geltoki.java" "("1*ù
+1#	 #(h
+f
+#	 #(
+%0java.lang.String"__id*<
+
+__unknown_file ( *
+domain.Geltoki"
+
+tokiIzen"$
+# #(
+
+%0java.lang.StringB
+domain.GeltokiH

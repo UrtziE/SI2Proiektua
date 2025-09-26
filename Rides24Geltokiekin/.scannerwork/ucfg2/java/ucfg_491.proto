@@ -1,169 +1,41 @@
 
-wbusinessLogic.BLFacadeImplementation#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaˆ ˆ("startingBlock*œ
+ZbusinessLogic.BLFacadeImplementation#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaù ù(0"startingBlock*õ
 startingBlock
-ˆ ˆ(d…
-‚
+ù0 ù(:}
+{
 
-† †(
+ø ø(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*7
+	WebMethod*0
 
-__unknown_file (
-
-markajava.lang.String
-‹
+__unknown_file (
+
+ddomain.DriverT
+R
 
-‡ ‡(
-
-%7"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*7
-
-__unknown_file (
-
-markajava.lang.String
-}
-
-ˆ! ˆ(&
-markajava.lang.String"__annotation*"
+ù8 ù(9
+ddomain.Driver"__annotation*"
 
 __unknown_file (
 
-%6*"
-
-__unknown_file (
-
-%7†
-ƒ
-
-† †(
-%8"
-__annotate*)
-
-__unknown_file (
-	WebMethod*8
-
-__unknown_file (
-
-modelojava.lang.String
-Œ
-
-‡ ‡(
-
-%9"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*8
-
-__unknown_file (
-
-modelojava.lang.String€
-~
-
-ˆ/ ˆ(5
-modelojava.lang.String"__annotation*"
-
-__unknown_file (
-
-%8*"
-
-__unknown_file (
-
-%9Š
-‡
-
-† †(
-%10"
-__annotate*)
-
-__unknown_file (
-	WebMethod*;
-
-__unknown_file (
-
-	matrikulajava.lang.String“
-
-
-‡ ‡(
-
-%11"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*;
-
-__unknown_file (
-
-	matrikulajava.lang.String†
-ƒ
-
-ˆ> ˆ(G
-	matrikulajava.lang.String"__annotation*#
-
-__unknown_file (
-
-%10*#
-
-__unknown_file (
-
-%11„
-
-
-† †(
-%12"
-__annotate*)
-
-__unknown_file (
-	WebMethod*5
-
-__unknown_file (
-
-driverdomain.Driver
-Š
-
-‡ ‡(
-
-%13"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*5
-
-__unknown_file (
-
-driverdomain.Driver
-}
-
-ˆ] ˆ(c
-driverdomain.Driver"__annotation*#
-
-__unknown_file (
-
-%12*#
-
-__unknown_file (
-
-%13*
-1*å	
+%6*
+1*Æ
 1
-‰ ‰(‡
+ú ú(‡
 „
 
-‰ ‰(
+ú ú(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-‰ ‰(
+ú ú(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -172,70 +44,52 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-Š Š(
+û û((
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager¡
+	dbManager†ƒ
 
-Š Š(I
-%3boolean"hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z*9
+û û(@
+%3java.util.List"KdataAccess.DataAccess#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*7
+%2dataAccess.DataAccess*0
 
-__unknown_file (
-
-markajava.lang.String*8
+__unknown_file (
+
+ddomain.Driver2%getEginRidesOfDriver(Ldomain/Driver;)d
+b
+
+û û(A
+rideListjava.util.List"__id*2
 
-__unknown_file (
-
-modelojava.lang.String*;
-
-__unknown_file (
-
-	matrikulajava.lang.String*"
-
-__unknown_file (
-""*5
-
-__unknown_file (
-
-driverdomain.Driver2QcreateCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)‡
+__unknown_file (
+
+%3java.util.List‡
 „
 
-‹ ‹(
+ü ü(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-‹ ‹(
+ü ü(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"
+%4dataAccess.DataAccess2close()"*
 
-Œ Œ(
-"":'
+ı ı(
+
+rideListjava.util.List: 
 
-ˆ ˆ('
-markajava.lang.String:(
-
-ˆ( ˆ(6
-modelojava.lang.String:+
-
-ˆ7 ˆ(H
-	matrikulajava.lang.String: 
-
-__unknown_file (
-"":%
-
-ˆV ˆ(c
-driverdomain.DriverB(&
-$businessLogic.BLFacadeImplementationHX
+ù1 ù(9
+ddomain.DriverB(&
+$businessLogic.BLFacadeImplementationH

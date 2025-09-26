@@ -1,47 +1,47 @@
 
 !domain.Profile#getRatingLuzera()Ic
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javag g("3*ü
-2i
- i(l
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javah h("3*ü
+2j
+ j(l
 j
-i
- i(
+j
+ j(
 %2java.util.List"__id*B
 
 __unknown_file (&*$
 domain.Profile"
 balorazioListaki
-i
- i(	
+j
+ j(	
 %3int"java.util.List#size()I*2
 
 __unknown_file (
 
 %2java.util.List2size()"
-i i( 
+j j( 
 ""*÷
-3h h(l
+3i i(l
 j
-h h(
+i i(
 %0java.util.List"__id*B
 
 __unknown_file (&*$
 domain.Profile"
 balorazioListar
 p
-h h(
+i i(
 %1boolean"	__compare*
-h h(
+i i(
 !=*"
-h h(
+i i(
 
 %0java.util.List*
-h h(
+i i(
 ""*
 2
 1*!
-1k
- k("
-k k(
+1l
+ l("
+l l(
 ""B
 domain.ProfileHX

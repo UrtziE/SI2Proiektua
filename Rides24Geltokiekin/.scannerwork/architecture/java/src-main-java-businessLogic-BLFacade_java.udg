@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644109936*java2.BŠ0
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741026454*java2.Bþ/
 .
 )src/main/java/businessLogic/BLFacade.java2
 	
@@ -48,8 +48,8 @@ U
 ObusinessLogic.BLFacade#getDestinationCities(Ljava/lang/String;)Ljava/util/List;31
 
 getDestinationCities32
-¸
-±businessLogic.BLFacade#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/LinkedList;)Ldomain/Ride;34
+¬
+¥businessLogic.BLFacade#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;34
 
 
 createRide35
@@ -167,10 +167,10 @@ NbusinessLogic.BLFacade#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;
 
 getErreklamazioMezuak121
 8
-1businessLogic.BLFacade#Kantzelatu(Ldomain/Ride;)V123
+1businessLogic.BLFacade#kantzelatu(Ldomain/Ride;)V123
 
 
-Kantzelatu124
+kantzelatu124
 F
 ?businessLogic.BLFacade#egindaEdoEzEgina(Ldomain/RideRequest;Z)V126
 
@@ -415,6 +415,29 @@ G
 
 45
 454617
+A
+33;
+333424 *
+19 9(28:5B
+
+
+11
+12
+
+
+13
+35
+G
+122@
+12212324 *
+1« «(28:5B
+
+
+11
+12
+
+13
+124
 G
 134@
 13413524 *
@@ -528,18 +551,6 @@ C
 
 13
 90
-A
-33;
-333424 *
-19 9(28:5B
-
-
-11
-12
-
-
-13
-35
 C
 96=
 969724 *
@@ -591,17 +602,6 @@ C
 
 91
 919217
-G
-122@
-12212324 *
-1« «(28:5B
-
-
-11
-12
-
-13
-124
 G
 179@
 17918024 *

@@ -1,7 +1,8 @@
 (this
-· ·(""domain.RideRequest"VB
-@
+» »("domain.RideRequest/state
+» »(-"domain.EgoeraRideRequest";)
+'
 
-¸	 ¸("#get-field# state:Bdomain.EgoeraRideRequest
+¼ ¼("#set-field# state:
 
-¸ ¸(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java
+½ ½(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java

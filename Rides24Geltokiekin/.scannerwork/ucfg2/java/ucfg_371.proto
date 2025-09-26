@@ -1,18 +1,18 @@
 
-)domain.RideRequest#getRide()Ldomain/Ride;i
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaè è("1*ô
+5domain.RideRequest#getWhenRequested()Ljava/util/Date;i
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaã ã("1*®
 1
-ê	 ê(e
-c
+å	 å(q
+o
 
-ê	 ê(
-%0domain.Ride"__id*<
+å	 å(
+%0java.util.Date"__id*E
 
-__unknown_file ( *
-domain.RideRequest"
-ride"!
+__unknown_file ()*'
+domain.RideRequest"
+whenRequested"$
 
-ê ê(
-
-%0domain.RideB
+å å(
+
+%0java.util.DateB
 domain.RideRequestH

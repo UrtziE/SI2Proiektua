@@ -1,19 +1,19 @@
 
-<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Zl
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaô ô("3*Ç
+9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Zl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaô ô("3*Á
 2
 ÷
- ÷(Ÿœ
+ ÷(™–
 
 ÷
- ÷(%
-%1boolean"-domain.RideRequest#isErreklamatuaTraveller()Z*5
+ ÷("
+%1boolean"*domain.RideRequest#isBaloratuaTraveller()Z*5
 
 __unknown_file (
 
-rdomain.RideRequest2isErreklamatuaTraveller()"
+rdomain.RideRequest2isBaloratuaTraveller()"
 
-÷ ÷(&
+÷ ÷(#
 ""*è
 3
 õ õ(|z
@@ -32,23 +32,23 @@ O
 __unknown_file (
 ""*
 2
-1*Á
+1*»
 1
 ù
- ù(™–
+ ù(“
 
 ù
- ù("
-%2boolean"*domain.RideRequest#isErreklamatuaDriver()Z*5
+ ù(
+%2boolean"'domain.RideRequest#isBaloratuaDriver()Z*5
 
 __unknown_file (
 
-rdomain.RideRequest2isErreklamatuaDriver()"
+rdomain.RideRequest2isBaloratuaDriver()"
 
-ù ù(#
+ù ù( 
 "":+
 
-ô ô(3
+ô ô(0
 requestdomain.RideRequest: 
 
 __unknown_file (

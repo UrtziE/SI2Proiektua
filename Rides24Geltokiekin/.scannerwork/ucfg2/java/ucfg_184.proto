@@ -1,18 +1,18 @@
 
 2domain.Profile#getBalorazioLista()Ljava/util/List;e
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.java¶ ¶(&"1*¥
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.java· ·(&"1*¥
 1
-·	 ·(n
+¸	 ¸(n
 l
 
-·	 ·(
+¸	 ¸(
 %0java.util.List"__id*B
 
 __unknown_file (&*$
 domain.Profile"
 balorazioLista"$
 
-· ·(
+¸ ¸(
 
 %0java.util.ListB
 domain.ProfileH

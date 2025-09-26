@@ -1,41 +1,41 @@
 
-[businessLogic.BLFacadeImplementation#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaí í(2"startingBlock*÷
+_businessLogic.BLFacadeImplementation#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(*"startingBlock*ó
 startingBlock
-í2 í(=~
-|
+ß* ß(3|
+z
 
-ì ì(
+Þ Þ(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*1
+	WebMethod*/
 
-__unknown_file (
-
-ridedomain.RideU
-S
+__unknown_file (
+
+adomain.AdminS
+Q
 
-í8 í(<
-ridedomain.Ride"__annotation*"
+ß1 ß(2
+adomain.Admin"__annotation*"
 
 __unknown_file (
 
 %6*
-1*»
+1*ë
 1
-î î(‡
+à à(‡
 „
 
-î î(
+à à(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-î î(
+à à(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,52 +44,52 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-ï ï(
+á! á(*
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager‰†
+	dbManagerŒ
 
-ï ï(<
-%3java.util.List"LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;*9
+á! á(B
+%3domain.Erreklamazioa"PdataAccess.DataAccess#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*1
+%2dataAccess.DataAccess*/
 
-__unknown_file (
-
-ridedomain.Ride2&getTravellersOfRideDone(Ldomain/Ride;)]
-[
+__unknown_file (
+
+adomain.Admin2$takeNewErreklamazioa(Ldomain/Admin;)u
+s
 
-ï ï(=
-rjava.util.List"__id*2
+á á(C%
+erreklamazioadomain.Erreklamazioa"__id*8
 
-__unknown_file (
-
-%3java.util.List‡
+__unknown_file (
+
+%3domain.Erreklamazioa‡
 „
 
-ð ð(
+â â(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-ð ð(
+â â(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"#
+%4dataAccess.DataAccess2close()"5
 
-ñ ñ(
-
-rjava.util.List:!
+ã ã('
+%
+erreklamazioadomain.Erreklamazioa:
 
-í3 í(<
-ridedomain.RideB(&
+ß+ ß(2
+adomain.AdminB(&
 $businessLogic.BLFacadeImplementationH

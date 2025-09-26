@@ -1,6 +1,6 @@
 
-LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÎ Î(&"1*™
+IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÎ Î(#"1*™
 1
 Ï Ï(X
 V
@@ -11,10 +11,10 @@ V
 __unknown_file (
 """.
 
-Ö Ö( 
+Õ Õ( 
 
 alertaMezuakjava.util.List:+
 
-Î' Î(:
+Î$ Î(7
 	travellerdomain.TravellerB
 dataAccess.DataAccessH

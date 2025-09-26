@@ -1,11 +1,11 @@
 
-YbusinessLogic.BLFacadeImplementation#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java¼ ¼(/"startingBlock*
+VbusinessLogic.BLFacadeImplementation#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java® ®(,"startingBlock*
 startingBlock
-¼/ ¼(>ƒ
+®, ®(;ƒ
 €
 
-» »(
+­ ­(
 %6"
 __annotate*)
 
@@ -17,25 +17,25 @@ __annotate*)
 driverdomain.DriverY
 W
 
-¼7 ¼(=
+®4 ®(:
 driverdomain.Driver"__annotation*"
 
 __unknown_file (
 
 %6*
-1*Ã
+1*½
 1
-½ ½(‡
+¯ ¯(‡
 „
 
-½ ½(
+¯ ¯(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-½ ½(
+¯ ¯(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,15 +44,15 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-¾ ¾(%
+° °(%
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager‰†
+	dbManagerƒ€
 
-¾ ¾(A
-%3java.util.List"JdataAccess.DataAccess#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;*9
+° °(>
+%3java.util.List"GdataAccess.DataAccess#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;*9
 
 __unknown_file (
 
@@ -60,10 +60,10 @@ $businessLogic.BLFacadeImplementation"
 
 __unknown_file (
 
-driverdomain.Driver2$getAllRidesOfDriver(Ldomain/Driver;)a
+driverdomain.Driver2!getRidesOfDriver(Ldomain/Driver;)a
 _
 
-¾ ¾(B
+° °(?
 ridesjava.util.List"__id*2
 
 __unknown_file (
@@ -71,14 +71,14 @@ _
 %3java.util.List‡
 „
 
-¿ ¿(
+± ±(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-¿ ¿(
+± ±(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -86,10 +86,10 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"'
 
-À À(
+² ²(
 
 ridesjava.util.List:%
 
-¼0 ¼(=
+®- ®(:
 driverdomain.DriverB(&
 $businessLogic.BLFacadeImplementationH

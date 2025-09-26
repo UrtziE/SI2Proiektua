@@ -1,11 +1,11 @@
 
-cbusinessLogic.BLFacadeImplementation#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaº* º(F"startingBlock*÷
+bbusinessLogic.BLFacadeImplementation#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java­ ­(3"startingBlock*ä
 startingBlock
-ºF º(Q~
+­3 ­(S~
 |
 
-º º(
+­ ­(
 %6"
 __annotate*)
 
@@ -14,28 +14,48 @@ __annotate*)
 
 __unknown_file (
 
-adomain.ProfileU
+ridedomain.RideU
 S
 
-ºO º(P
-adomain.Profile"__annotation*"
+­9 ­(=
+ridedomain.Ride"__annotation*"
 
 __unknown_file (
 
-%6*
-1*Ù
+%6‰
+†
+
+­ ­(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*;
+
+__unknown_file (
+
+requestdomain.RideRequest_
+]
+
+­K ­(R
+requestdomain.RideRequest"__annotation*"
+
+__unknown_file (
+
+%7*
+1*œ
 1
-» »(‡
+® ®(‡
 „
 
-» »(
+® ®(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-» »(
+® ®(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,15 +64,15 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-¼" ¼(+
+¯ ¯(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager™–
+	dbManagerØÕ
 
-¼" ¼(K
-%3java.util.List"TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;*9
+¯ ¯(@	
+%3int"SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I*9
 
 __unknown_file (
 
@@ -60,36 +80,34 @@ $businessLogic.BLFacadeImplementation"
 
 __unknown_file (
 
-adomain.Profile2.lortuErreklamazioakProzesuan(Ldomain/Profile;)d
-b
-
-¼ ¼(L
-erreklamjava.util.List"__id*2
+ridedomain.Ride*;
 
-__unknown_file (
-
-%3java.util.List‡
+__unknown_file (
+
+requestdomain.RideRequest2<lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)‡
 „
 
-½ ½(
+° °(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-½ ½(
+° °(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"*
+%4dataAccess.DataAccess2close()"
 
-¾ ¾(
-
-erreklamjava.util.List:!
+± ±(
+"":!
 
-ºG º(P
-adomain.ProfileB(&
-$businessLogic.BLFacadeImplementationH
+­4 ­(>
+ridedomain.Ride:+
+
+­? ­(R
+requestdomain.RideRequestB(&
+$businessLogic.BLFacadeImplementationHX

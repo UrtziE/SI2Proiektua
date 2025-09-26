@@ -1,15 +1,15 @@
 
-)domain.Alerta#getFrom()Ljava/lang/String;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaH H("1*ò
-1I	 I(c
-a
-I	 I(
-%0java.lang.String"__id*7
+.domain.Alerta#getTraveller()Ldomain/Traveller;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaL L("1*ù
+1M	 M(h
+f
+M	 M(
+%0domain.Traveller"__id*<
 
-__unknown_file (*
-domain.Alerta"
-from"$
-I I(
+__unknown_file ( *
+domain.Alerta"
+	traveller"$
+M M(
 
-%0java.lang.StringB
+%0domain.TravellerB
 domain.AlertaH

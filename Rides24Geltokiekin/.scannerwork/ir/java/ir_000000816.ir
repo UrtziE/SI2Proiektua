@@ -1,8 +1,8 @@
 !this
-‘ ‘("domain.Ride-destination
-‘ ‘(%"java.lang.String"8&
-$
+¨ ¨("domain.Ride$date
+¨ ¨("java.util.Date":(
+&
 
-’ ’("#set-field# to:
+© ©("#set-field# date:
 
-“ “(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java
+ª ª(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java

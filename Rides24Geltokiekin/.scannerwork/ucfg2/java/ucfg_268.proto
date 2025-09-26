@@ -1,10 +1,10 @@
 
-LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¥ ¥(/"1*¸
+KdataAccess.DataAccess#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¨ ¨(0"1*¸
 1
-§ §(œ™
+ª ª(œ™
 
-§ §(3
+ª ª(3
 %0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
 
 __unknown_file (
@@ -12,23 +12,23 @@ LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;l
 ridedomain.Ride2getRideNumber()J
 H
 
-§ §(5
+ª ª(5
 rdomain.Ride"__id*"
 
 __unknown_file (
 ""•’
 
-©	 ©(
-%1java.util.List",domain.Ride#travellersDone()Ljava/util/List;*.
+¬	 ¬(
+%1java.util.List",domain.Ride#getEskakizunak()Ljava/util/List;*.
 
 __unknown_file (
 
-rdomain.Ride2travellersDone()"$
+rdomain.Ride2getEskakizunak()"$
 
-© ©(
+¬ ¬(
 
 %1java.util.List:!
 
-¥0 ¥(9
+¨1 ¨(:
 ridedomain.RideB
 dataAccess.DataAccessH

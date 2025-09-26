@@ -1,41 +1,58 @@
 
-ZbusinessLogic.BLFacadeImplementation#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÄ Ä(0"startingBlock*ı
+UbusinessLogic.BLFacadeImplementation#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÚ Ú(#"startingBlock*¥
 startingBlock
-Ä0 Ä(:}
-{
+Ú# Ú(2É
+Ä
 
-ˇ ˇ(
+ (
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*0
+	WebMethod*5
 
-__unknown_file (
-
-ddomain.DriverT
-R
+__unknown_file (
+
+driverdomain.Driverå
+â
 
-Ä8 Ä(9
-ddomain.Driver"__annotation*"
+Ò Ò(
+
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+driverdomain.Driver}
+{
+
+Ú+ Ú(1
+driverdomain.Driver"__annotation*"
 
 __unknown_file (
 
-%6*
-1*∆
+%6*"
+
+__unknown_file (
+
+%7*
+1*√
 1
-Å Å(á
+Û Û(á
 Ñ
 
-Å Å(
+Û Û(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-Å Å(
+Û Û(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,52 +61,52 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-Ç Ç((
+Ù Ù(!
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerÜÉ
+	dbManagerÅ˛
 
-Ç Ç(@
-%3java.util.List"KdataAccess.DataAccess#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;*9
+Ù Ù(9
+%3java.util.List"FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*0
+%2dataAccess.DataAccess*5
 
-__unknown_file (
-
-ddomain.Driver2%getEginRidesOfDriver(Ldomain/Driver;)d
-b
+__unknown_file (
+
+driverdomain.Driver2 getKotxeGuztiak(Ldomain/Driver;)e
+c
 
-Ç Ç(A
-rideListjava.util.List"__id*2
+Ù Ù(:
+	kotxeListjava.util.List"__id*2
 
 __unknown_file (
 
 %3java.util.Listá
 Ñ
 
-É É(
+ı ı(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-É É(
+ı ı(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"*
+%4dataAccess.DataAccess2close()"+
 
-Ñ Ñ(
-
-rideListjava.util.List: 
+ˆ ˆ(
+
+	kotxeListjava.util.List:%
 
-Ä1 Ä(9
-ddomain.DriverB(&
+Ú$ Ú(1
+driverdomain.DriverB(&
 $businessLogic.BLFacadeImplementationH

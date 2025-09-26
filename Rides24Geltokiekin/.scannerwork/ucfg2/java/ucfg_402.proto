@@ -1,169 +1,7 @@
 
-*domain.Alerta#toString()Ljava/lang/String;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.java; ;("1*ä
-1<	 <(ä
-á
-<	 <(.
-%0java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetasƒ€
-<	 <(Q
-%1java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
-
-__unknown_file ( 
-
-%0java.util.ResourceBundle*5
-
-__unknown_file (
-TReservationsGUI.From2getString(Ljava/lang/String;)g
-e
-<	 <(U
-%2java.lang.String"__concat*$
-<	 <(Q
-
-%1java.lang.String*
-<R <(U
- c
-a
-<V <(Z
-%3java.lang.String"__id*7
-
-__unknown_file (*
-domain.Alerta"
-fromz
-x
-<	 <(Z
-%4java.lang.String"__concat*$
-<	 <(U
-
-%2java.lang.String*$
-<V <(Z
-
-%3java.lang.Stringg
-e
-<	 <(^
-%5java.lang.String"__concat*$
-<	 <(Z
-
-%4java.lang.String*
-<[ <(^
- å
-â
-	<_ <(„
-%6java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetas‚ÿ
-	<_ <(¥
-%7java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
-
-__unknown_file ( 
-
-%6java.util.ResourceBundle*3
-
-__unknown_file (
-TReservationsGUI.To2getString(Ljava/lang/String;)|
-z
-	<	 <(¥
-%8java.lang.String"__concat*$
-<	 <(^
-
-%5java.lang.String*%
-	<_ <(¥
-
-%7java.lang.Stringk
-i
-	<	 <(©
-%9java.lang.String"__concat*%
-	<	 <(¥
-
-%8java.lang.String*
-
-<¦ <(©
- d
-b
-
-<« <(­
-%10java.lang.String"__id*5
-
-__unknown_file (*
-domain.Alerta"
-to€
-~
-	<	 <(­
-%11java.lang.String"__concat*%
-	<	 <(©
-
-%9java.lang.String*'
-
-<« <(­
-
-%10java.lang.Stringm
-k
-	<	 <(³
-%12java.lang.String"__concat*&
-	<	 <(­
-
-%11java.lang.String*
-
-<° <(³
- ç
-ä
-
-<´ <(Ù
-%13java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetas‡„
-
-<´ <(ü
-%14java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%13java.util.ResourceBundle*5
-
-__unknown_file (
-TReservationsGUI.When2getString(Ljava/lang/String;)
-
-	<	 <(ü
-%15java.lang.String"__concat*&
-	<	 <(³
-
-%12java.lang.String*'
-
-<´ <(ü
-
-%14java.lang.Stringd
-b
-
-<þ <(‚
-%16java.util.Date"__id*7
-
-__unknown_file (*
-domain.Alerta"
-when
-}
-	<	 <(‚
-%17java.lang.String"__concat*&
-	<	 <(ü
-
-%15java.lang.String*%
-
-<þ <(‚
-
-%16java.util.Date"&
-	< <(„
-
-%17java.lang.StringB
-domain.AlertaH
+domain.Alerta#isEzabatuta()Zb
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.java8 8("1*!
+19	 9("
+9 9(
+""B
+domain.AlertaHX

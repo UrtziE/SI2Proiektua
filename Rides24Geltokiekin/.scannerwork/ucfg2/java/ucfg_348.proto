@@ -1,82 +1,95 @@
 
-}testOperations.TestDataAccess#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;r
-hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.javau u("3*œ
-2y y(•’
-z z((
-%3domain.Ride"[domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;*0
+štestOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;r
+hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.javaY Y(!"10*4
+3c c("%
+c c(
+
+driverdomain.Driver*r
+6` `(#^
+\
+` `(#
+driverdomain.Driver"__id*1
 
-__unknown_file (
-
-ddomain.Driver*6
+__unknown_file (
+
+%3domain.Driver*
+3*»
+7` `(0.
+` `(
+%3domain.Driver"domain.Driverô
+ñ
+` `(#
+%4";domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%3domain.Driver*6
 
 __unknown_file (
 
-fromjava.lang.String*4
+namejava.lang.String*7
 
-__unknown_file (
-
-tojava.lang.String*4
+__unknown_file (
+
+emailjava.lang.String*
+6*Ý
+8^ ^(+O
+M
+^ ^(+
+driverdomain.Driver"__id*"
 
-__unknown_file (
-
-datejava.util.Date2@removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)U
-S
-z z()
-rdomain.Ride"__id*/
-
-__unknown_file (
-
-%3domain.Ride"
-| |(
-
-rdomain.Ride*‰
-3v v(	Q
+__unknown_file (
+""u
+s
+_	 _(
+%2boolean"	__compare*
+_ _(
+==*%
+_	 _(
+
+driverdomain.Driver*
+_ _(
+""*
+3
+7*¡
+10Z Z(	Q
 O
-v v(
+Z Z(
 %0java.io.PrintStream"__id*"
 
 __unknown_file (
-""àÝ
-v v(6
+""çä
+Z Z(=
 
 %1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
 
 __unknown_file (
 
-%0java.io.PrintStream*=
+%0java.io.PrintStream*D
 
-__unknown_file (!
->> TestDataAccess: removeRide2println(Ljava/lang/String;)J
-H
-w w(+
-ddomain.Driver"__id*"
+__unknown_file ((&
+$>> TestDataAccess: addDriverWithRide2println(Ljava/lang/String;)O
+M
+[ [(
+driverdomain.Driver"__id*"
 
 __unknown_file (
-""p
-n
-x x(
-%2boolean"	__compare*
-x x(
-
-!=* 
-x x(
-
-ddomain.Driver*
-x
- x(
-""*
-2
-1*!
-1
- ("
- (
-"":%
-u u(&
+""*
+8:%
+Y" Y(/
 emailjava.lang.String:$
-u' u(3
+Y0 Y(<
+namejava.lang.String:$
+Y= Y(I
 fromjava.lang.String:"
-u4 u(>
+YJ Y(T
 tojava.lang.String:"
-u? u(H
-datejava.util.DateB!
+YV Y(`
+datejava.util.Date: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+""B!
 testOperations.TestDataAccessH

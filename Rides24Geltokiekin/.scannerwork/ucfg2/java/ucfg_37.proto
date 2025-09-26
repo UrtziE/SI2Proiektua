@@ -1,5 +1,5 @@
 
-Edomain.Driver#doesRideExists(Ljava/util/LinkedList;Ljava/util/Date;)Zb
+?domain.Driver#doesRideExists(Ljava/util/List;Ljava/util/Date;)Zb
 XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Driver.javaT T("6*å
 2U U(H
 F
@@ -46,18 +46,18 @@ __arrayGet*2
 
 datejava.util.Date*
 2
-3*ý
-5V V(	åâ
+3*ë
+5V V(	ÓÐ
 V V(
-%1boolean"3domain.Ride#badaBiderenBat(Ljava/util/LinkedList;)Z*.
+%1boolean"-domain.Ride#badaBiderenBat(Ljava/util/List;)Z*.
 
 __unknown_file (
 
-rdomain.Ride*:
+rdomain.Ride*4
 
-__unknown_file (
-
-ibiljava.util.LinkedList2&badaBiderenBat(Ljava/util/LinkedList;)*
+__unknown_file (
+
+ibiljava.util.List2 badaBiderenBat(Ljava/util/List;)*
 2
 4*v
 6U U(b
@@ -71,9 +71,9 @@ __arrayGet*2
 2*!
 1Y	 Y("
 Y Y(
-"":(
-T T(6
-ibiljava.util.LinkedList:"
-T7 T(@
+"":"
+T T(0
+ibiljava.util.List:"
+T1 T(:
 datejava.util.DateB
 domain.DriverHX

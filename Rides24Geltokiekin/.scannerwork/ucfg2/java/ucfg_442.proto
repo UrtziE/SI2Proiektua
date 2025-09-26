@@ -1,15 +1,15 @@
 
-/domain.RideContainer#getDriver()Ldomain/Driver;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java ("1*›
-1 (i
-g
- (
-%0domain.Driver"__id*@
+9domain.RideContainer#getRideRequestList()Ljava/util/List;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java (+"1*¦
+1 (s
+q
+ (
+%0java.util.List"__id*I
 
-__unknown_file ($*"
-domain.RideContainer"
-driver"!
- (
-
-%0domain.DriverB
+__unknown_file (-*+
+domain.RideContainer"
+rideRequestList""
+ (
+
+%0java.util.ListB
 domain.RideContainerH

@@ -1,88 +1,18 @@
 
-%domain.Ride#compareTo(Ldomain/Ride;)Ib
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java‚ ‚("5*%
-2
-†
- †("
-
-† †(
-""*¤
-3
-… …(†ƒ
-
-… …('	
-%3int"$domain.Ride#getTGEskakizunTamaina()I*+
-
-__unknown_file (
-domain.Ride2getTGEskakizunTamaina()Œ‰
-
-…( …(D	
-%4int"$domain.Ride#getTGEskakizunTamaina()I*1
-
-__unknown_file (
-
-ridedomain.Ride2getTGEskakizunTamaina()s
-q
-
-… …(D
-%5boolean"	__compare*
-
-…' …((
-<*
-
-… …('
-	
-%3int*
-
-…( …(D
-	
-%4int*
-2
-1*%
-4
-„ „("
-
-„ „(
-""*¤
-5
-ƒ ƒ(	†ƒ
-
-ƒ ƒ(!	
-%0int"$domain.Ride#getTGEskakizunTamaina()I*+
-
-__unknown_file (
-domain.Ride2getTGEskakizunTamaina()Œ‰
-
-ƒ" ƒ(>	
-%1int"$domain.Ride#getTGEskakizunTamaina()I*1
-
-__unknown_file (
-
-ridedomain.Ride2getTGEskakizunTamaina()s
-q
-
-ƒ ƒ(>
-%2boolean"	__compare*
-
-ƒ! ƒ("
->*
-
-ƒ ƒ(!
-	
-%0int*
-
-ƒ" ƒ(>
-	
-%1int*
-3
-4*%
+%domain.Ride#getTo()Ljava/lang/String;b
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaþ þ("1*š
 1
-ˆ
- ˆ("
+ÿ	 ÿ(a
+_
 
-ˆ ˆ(
-"":!
+ÿ	 ÿ(
+%0java.lang.String"__id*3
+
+__unknown_file (*
+domain.Ride"
+to"&
 
-‚ ‚(
-ridedomain.RideB
-domain.RideHX
+ÿ ÿ(
+
+%0java.lang.StringB
+domain.RideH

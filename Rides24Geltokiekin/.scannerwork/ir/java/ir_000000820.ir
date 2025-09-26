@@ -1,8 +1,8 @@
 !this
-· ·("domain.RidenPlaces
-· ·(&"int"=+
-)
+É É("domain.Ride%driver
+É É($"domain.Driver"<*
+(
 
-¸ ¸("#set-field# nPlaces:
+Ê Ê("#set-field# driver:
 
-¹ ¹(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java
+Ë Ë(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java

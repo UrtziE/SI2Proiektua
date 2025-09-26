@@ -1,27 +1,15 @@
 
-$gui.DiruaAteraGUI#%field_initializer
-__unknown_file ("1* 
-1 (™–
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (%
-%0javax.swing.JLabel"javax.swing.JLabel·
-´
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (~
-%1"javax.swing.JLabel#<init>()V*&
- (
+'domain.Alerta#getTo()Ljava/lang/String;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaR R("1*–
+1S	 S(a
+_
+S	 S(
+%0java.lang.String"__id*5
 
-%0javax.swing.JLabel¼
-¹
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (!
-gui.DiruaAteraGUI"
-
-errorlbl"__id*&
- (
-
-%0javax.swing.JLabel"|
-e
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java Š(
-implicit returnB
-gui.DiruaAteraGUI
+__unknown_file (*
+domain.Alerta"
+to"$
+S S(
+
+%0java.lang.StringB
+domain.AlertaH

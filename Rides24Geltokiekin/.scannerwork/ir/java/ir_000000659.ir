@@ -1,7 +1,8 @@
 (this
-¥ ¥('"domain.RideRequest"UA
-?
+¨ ¨(%"domain.RideRequest.erreklamatuaTraveller
+¨& ¨(C"boolean"K9
+7
 
-¦	 ¦("#!#get-field# erreklamatuaTraveller:Bboolean
+© ©(4"#!#set-field# erreklamatuaTraveller:
 
-¦ ¦(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java
+ª ª(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java

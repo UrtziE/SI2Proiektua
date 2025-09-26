@@ -1,18 +1,9 @@
 
-7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;i
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java· ·(""1*´
+domain.RideRequest#getSeats()Ii
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java³ ³("1*%
 1
-¸	 ¸(s
-q
+´	 ´("
 
-¸	 ¸(
-%0domain.EgoeraRideRequest"__id*=
-
-__unknown_file (!*
-domain.RideRequest"
-state".
-
-¸ ¸( 
-
-%0domain.EgoeraRideRequestB
-domain.RideRequestH
+´ ´(
+""B
+domain.RideRequestHX

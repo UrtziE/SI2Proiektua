@@ -1,8 +1,8 @@
 !this
-¨ ¨("domain.Ride$date
-¨ ¨("java.util.Date":(
-&
+· ·("domain.RidenPlaces
+· ·(&"int"=+
+)
 
-© ©("#set-field# date:
+¸ ¸("#set-field# nPlaces:
 
-ª ª(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java
+¹ ¹(*VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java

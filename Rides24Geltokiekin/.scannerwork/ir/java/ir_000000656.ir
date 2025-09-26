@@ -1,8 +1,7 @@
 (this
-œ œ(""domain.RideRequest+erreklamatuaDriver
-œ# œ(="boolean"H6
-4
+Ÿ Ÿ($"domain.RideRequest"R>
+<
 
- (." #set-field# erreklamatuaDriver:
+ 	  (" #get-field# baloratuaTraveller:Bboolean
 
-ž ž(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java
+   (*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java

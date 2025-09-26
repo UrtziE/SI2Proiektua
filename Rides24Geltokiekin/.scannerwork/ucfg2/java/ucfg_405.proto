@@ -1,15 +1,15 @@
 
-'domain.Alerta#getTo()Ljava/lang/String;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaK K("1*–
-1L	 L(a
-_
-L	 L(
-%0java.lang.String"__id*5
+)domain.Alerta#getFrom()Ljava/lang/String;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaO O("1*˜
+1P	 P(c
+a
+P	 P(
+%0java.lang.String"__id*7
 
-__unknown_file (*
-domain.Alerta"
-to"$
-L L(
+__unknown_file (*
+domain.Alerta"
+from"$
+P P(
 
 %0java.lang.StringB
 domain.AlertaH

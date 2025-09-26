@@ -1,82 +1,41 @@
 
-ÖbusinessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaﬂ ﬂ(-"startingBlock*ø
+@businessLogic.BLFacadeImplementation#getMoney(Ldomain/Profile;)F{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÀ À("startingBlock*˜
 startingBlock
-ﬂ- ﬂ(PÑ
-Å
+À À(!~
+|
 
-ﬁ ﬁ(
+   (
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*6
+	WebMethod*1
 
-__unknown_file (
-
-fromjava.lang.StringZ
-X
+__unknown_file (
+
+pdomain.ProfileU
+S
 
-ﬂ5 ﬂ(9
-fromjava.lang.String"__annotation*"
+À À( 
+pdomain.Profile"__annotation*"
 
 __unknown_file (
 
-%6Å
-
-
-ﬁ ﬁ(
-%7"
-__annotate*)
-
-__unknown_file (
-	WebMethod*4
-
-__unknown_file (
-
-tojava.lang.StringX
-V
-
-ﬂB ﬂ(D
-tojava.lang.String"__annotation*"
-
-__unknown_file (
-
-%7Å
-
-
-ﬁ ﬁ(
-%8"
-__annotate*)
-
-__unknown_file (
-	WebMethod*4
-
-__unknown_file (
-
-datejava.util.DateX
-V
-
-ﬂK ﬂ(O
-datejava.util.Date"__annotation*"
-
-__unknown_file (
-
-%8*
-1*à
-
+%6*
+1*ù
 1
-‡ ‡(á
+Ã Ã(á
 Ñ
 
-‡ ‡(
+Ã Ã(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-‡ ‡(
+Ã Ã(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -85,66 +44,43 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-· ·(
+Õ Õ(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerŒÀ
+	dbManagerŸ÷
 
-· ·(H
-%3java.util.List"vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
+Õ Õ(#
+%3float"1dataAccess.DataAccess#getMoney(Ldomain/Profile;)F*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*6
+%2dataAccess.DataAccess*1
 
-__unknown_file (
-
-fromjava.lang.String*4
-
-__unknown_file (
-
-tojava.lang.String*4
-
-__unknown_file (
-
-datejava.util.Date2PgetThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)a
-_
-
-· ·(I
-datesjava.util.List"__id*2
-
-__unknown_file (
-
-%3java.util.Listá
+__unknown_file (
+
+pdomain.Profile2getMoney(Ldomain/Profile;)á
 Ñ
 
-‚ ‚(
+Œ Œ(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-‚ ‚(
+Œ Œ(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"'
+%4dataAccess.DataAccess2close()"
 
-„ „(
-
-datesjava.util.List:&
+œ œ(
+"":!
 
-ﬂ. ﬂ(:
-fromjava.lang.String:$
-
-ﬂ; ﬂ(E
-tojava.lang.String:$
-
-ﬂF ﬂ(O
-datejava.util.DateB(&
-$businessLogic.BLFacadeImplementationH
+À À( 
+pdomain.ProfileB(&
+$businessLogic.BLFacadeImplementationHX

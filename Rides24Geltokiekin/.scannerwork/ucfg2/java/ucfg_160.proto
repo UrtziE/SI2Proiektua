@@ -1,15 +1,15 @@
 
 +domain.Profile#getEmail()Ljava/lang/String;c
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaE E("1*š
-1F	 F(e
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaF F("1*š
+1G	 G(e
 c
-F	 F(
+G	 G(
 %0java.lang.String"__id*9
 
 __unknown_file (*
 domain.Profile"
 email"$
-F F(
+G G(
 
 %0java.lang.StringB
 domain.ProfileH

@@ -1,8 +1,8 @@
 (this
-¨ ¨(%"domain.RideRequest.erreklamatuaTraveller
-¨& ¨(C"boolean"K9
-7
+« «("domain.RideRequest,whenAccepted
+« «(-"java.util.Date"A/
+-
 
-© ©(4"#!#set-field# erreklamatuaTraveller:
+¬ ¬(!"#set-field# whenDecided:
 
-ª ª(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java
+­ ­(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java

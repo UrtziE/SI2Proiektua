@@ -1,58 +1,41 @@
 
-SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)Il
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaä ä(("1*∞
+edataAccess.DataAccess#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaê ê(1"1*º
 1
-ã ã(úô
+ë ë(ìê
 
-ã! ã(5
-%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+ë3 ë(>
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*3
 
-__unknown_file (
-
-ridedomain.Ride2getRideNumber()J
-H
+__unknown_file (
+
+tdomain.Traveller2	getUser()W
+U
 
-ã ã(7
-rdomain.Ride"__id*"
+ë ë(@
+	travellerdomain.Traveller"__id*"
 
 __unknown_file (
-""±Æ
+""ëé
 
-å" å(<
-%1java.lang.String"7domain.RideRequest#getFromRequested()Ljava/lang/String;*;
+í í(3
+%1domain.RideRequest"Ndomain.Traveller#lortuLehenRequestBidaiakoa(Ldomain/Ride;)Ldomain/RideRequest;*;
 
 __unknown_file (
 
-requestdomain.RideRequest2getFromRequested()≠™
-
-å> å(V
-%2java.lang.String"5domain.RideRequest#getToRequested()Ljava/lang/String;*;
-
-__unknown_file (
-
-requestdomain.RideRequest2getToRequested()π∂
-
-å å(W	
-%3int"Fdomain.Ride#lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)I*.
+	travellerdomain.Traveller*.
 
 __unknown_file (
 
-rdomain.Ride*4
+rdomain.Ride2)lortuLehenRequestBidaiakoa(Ldomain/Ride;)"(
+
+í í(4
 
-__unknown_file (
-
-%1java.lang.String*4
-
-__unknown_file (
-
-%2java.lang.String29lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)"
+%1domain.RideRequest:
 
-é é(
-"":!
+ê2 ê(9
+rdomain.Ride:#
 
-ä) ä(3
-ridedomain.Ride:+
-
-ä4 ä(G
-requestdomain.RideRequestB
-dataAccess.DataAccessHX
+ê9 ê(D
+tdomain.TravellerB
+dataAccess.DataAccessH

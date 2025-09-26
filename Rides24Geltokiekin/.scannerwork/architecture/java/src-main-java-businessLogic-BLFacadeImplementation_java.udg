@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644112130*java2.BºZ
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741028453*java2.B±Y
 <
 7src/main/java/businessLogic/BLFacadeImplementation.java2
 	
@@ -51,351 +51,346 @@ WebService20
 dataAccess.DataAccess31
 
 is type32
-4
-.businessLogic.BLFacadeImplementation#<init>()V34
+1
++businessLogic.BLFacadeImplementation.logger34
 
-method35
+logger35
+4
+.businessLogic.BLFacadeImplementation#<init>()V37
+
+method38
 
-calls36
+calls39
 
 
-references37
+references40
 K
-EbusinessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)V39
+EbusinessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)V42
 
-	has param40
-
-configuration.ConfigXML42
-
-returns43
-D
->configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;45
+	has param43
 L
-FbusinessLogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;47
+FbusinessLogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;45
 
-getDepartCities48
+getDepartCities46
 
-	WebMethod50
+	WebMethod48
 '
-!Recovered#typeBindingLWebMethod;052
+!Recovered#typeBindingLWebMethod;050
 #
-dataAccess.DataAccess#open()V54
+dataAccess.DataAccess#open()V52
 =
-7dataAccess.DataAccess#getDepartCities()Ljava/util/List;56
+7dataAccess.DataAccess#getDepartCities()Ljava/util/List;54
 $
-dataAccess.DataAccess#close()V58
+dataAccess.DataAccess#close()V56
 c
-]businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;60
+]businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;58
 
-getDestinationCities61
+getDestinationCities59
 P
-JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;63
-∆
-øbusinessLogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/LinkedList;)Ldomain/Ride;65
+JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;61
+∫
+≥businessLogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;63
 
 
-createRide66
+createRide64
 
-domain.Ride68
+domain.Ride66
+
+returns67
 
-domain.Kotxe70
+domain.Kotxe69
 2
-,exceptions.RideMustBeLaterThanTodayException72
+,exceptions.RideMustBeLaterThanTodayException71
 *
-$exceptions.RideAlreadyExistException74
-∑
-∞dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/LinkedList;)Ldomain/Ride;76
+$exceptions.RideAlreadyExistException73
+´
+§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;75
 ƒ
-ΩbusinessLogic.BLFacadeImplementation#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;78
+ΩbusinessLogic.BLFacadeImplementation#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;77
 
-register79
+register78
 
-domain.Profile81
+domain.Profile80
 µ
-ÆdataAccess.DataAccess#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;83
+ÆdataAccess.DataAccess#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;82
 f
-`businessLogic.BLFacadeImplementation#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;85
+`businessLogic.BLFacadeImplementation#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;84
 
-login86
+login85
 W
-QdataAccess.DataAccess#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;88
+QdataAccess.DataAccess#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;87
 K
-EbusinessLogic.BLFacadeImplementation#sartuDirua(FLdomain/Traveller;)V90
+EbusinessLogic.BLFacadeImplementation#sartuDirua(FLdomain/Traveller;)V89
 
 
-sartuDirua91
+sartuDirua90
 
-domain.Traveller93
+domain.Traveller92
 :
-4dataAccess.DataAccess#sartuDirua(FLdomain/Profile;)V95
+4dataAccess.DataAccess#sartuDirua(FLdomain/Profile;)V94
 H
-BbusinessLogic.BLFacadeImplementation#ateraDirua(FLdomain/Driver;)V97
+BbusinessLogic.BLFacadeImplementation#ateraDirua(FLdomain/Driver;)V96
 
 
-ateraDirua98
-
-domain.Driver100
+ateraDirua97
+
+domain.Driver99
 ;
-4dataAccess.DataAccess#kenduDirua(FLdomain/Profile;)V102
+4dataAccess.DataAccess#kenduDirua(FLdomain/Profile;)V101
 K
-DbusinessLogic.BLFacadeImplementation#gehituDirua(FLdomain/Profile;)V104
+DbusinessLogic.BLFacadeImplementation#gehituDirua(FLdomain/Profile;)V103
 
-gehituDirua105
+gehituDirua104
 J
-CbusinessLogic.BLFacadeImplementation#kenduDirua(FLdomain/Profile;)V107
+CbusinessLogic.BLFacadeImplementation#kenduDirua(FLdomain/Profile;)V106
 
 
-kenduDirua108
+kenduDirua107
 ¢
-öbusinessLogic.BLFacadeImplementation#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;110
+öbusinessLogic.BLFacadeImplementation#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;109
 
-erreserbatu111
+erreserbatu110
 
-domain.RideRequest113
+domain.RideRequest112
 ì
-ãdataAccess.DataAccess#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;115
+ãdataAccess.DataAccess#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;114
 a
-ZbusinessLogic.BLFacadeImplementation#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;117
+ZbusinessLogic.BLFacadeImplementation#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;116
 
-getRideFromRequest118
+getRideFromRequest117
 R
-KdataAccess.DataAccess#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;120
+KdataAccess.DataAccess#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;119
 W
-PbusinessLogic.BLFacadeImplementation#onartuEdoDeuseztatu(Ldomain/RideRequest;Z)V122
+PbusinessLogic.BLFacadeImplementation#onartuEdoDeuseztatu(Ldomain/RideRequest;Z)V121
 
-onartuEdoDeuseztatu123
+onartuEdoDeuseztatu122
 H
-AdataAccess.DataAccess#onartuEdoDeuseztatu(Ldomain/RideRequest;Z)V125
-9
-2businessLogic.BLFacadeImplementation#deuseztatu()V127
-
-
-deuseztatu128
+AdataAccess.DataAccess#onartuEdoDeuseztatu(Ldomain/RideRequest;Z)V124
 z
-sbusinessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;130
+sbusinessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;126
 
-getRides131
+getRides127
 k
-ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;133
+ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;129
 ]
-VbusinessLogic.BLFacadeImplementation#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;135
+VbusinessLogic.BLFacadeImplementation#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;131
 
-getRidesOfDriver136
+getRidesOfDriver132
 
-domain.RideContainer138
+domain.RideContainer134
 N
-GdataAccess.DataAccess#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;140
+GdataAccess.DataAccess#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;136
 `
-YbusinessLogic.BLFacadeImplementation#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;142
+YbusinessLogic.BLFacadeImplementation#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;138
 
-getAllRidesOfDriver143
+getAllRidesOfDriver139
 Q
-JdataAccess.DataAccess#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;145
+JdataAccess.DataAccess#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;141
 a
-ZbusinessLogic.BLFacadeImplementation#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;147
+ZbusinessLogic.BLFacadeImplementation#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;143
 
-getRidesRequestsOfRide148
+getRidesRequestsOfRide144
 R
-KdataAccess.DataAccess#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;150
+KdataAccess.DataAccess#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;146
 k
-dbusinessLogic.BLFacadeImplementation#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;152
+dbusinessLogic.BLFacadeImplementation#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;148
 "
-getRidesRequestsOfTraveller153
+getRidesRequestsOfTraveller149
 \
-UdataAccess.DataAccess#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;155
+UdataAccess.DataAccess#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;151
 G
-@businessLogic.BLFacadeImplementation#getMoney(Ldomain/Profile;)F157
+@businessLogic.BLFacadeImplementation#getMoney(Ldomain/Profile;)F153
 
-getMoney158
+getMoney154
 8
-1dataAccess.DataAccess#getMoney(Ldomain/Profile;)F160
+1dataAccess.DataAccess#getMoney(Ldomain/Profile;)F156
 ç
-ÖbusinessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;162
+ÖbusinessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;158
 !
-getThisMonthDatesWithRides163
+getThisMonthDatesWithRides159
 }
-vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;165
+vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;161
 4
--businessLogic.BLFacadeImplementation#close()V167
+-businessLogic.BLFacadeImplementation#close()V163
 
-close168
+close164
 ;
-4businessLogic.BLFacadeImplementation#initializeBD()V170
+4businessLogic.BLFacadeImplementation#initializeBD()V166
 
-initializeBD171
+initializeBD167
 ,
-%dataAccess.DataAccess#initializeDB()V173
+%dataAccess.DataAccess#initializeDB()V169
 \
-UbusinessLogic.BLFacadeImplementation#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;175
+UbusinessLogic.BLFacadeImplementation#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;171
 
-getKotxeGuztiak176
+getKotxeGuztiak172
 M
-FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;178
+FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;174
 a
-ZbusinessLogic.BLFacadeImplementation#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;180
+ZbusinessLogic.BLFacadeImplementation#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;176
 
-getEginRidesOfDriver181
+getEginRidesOfDriver177
 R
-KdataAccess.DataAccess#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;183
+KdataAccess.DataAccess#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;179
 ~
-wbusinessLogic.BLFacadeImplementation#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z185
+wbusinessLogic.BLFacadeImplementation#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z181
 
-	createCar186
+	createCar182
 o
-hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z188
+hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z184
 W
-PbusinessLogic.BLFacadeImplementation#getMezuak(Ldomain/Profile;)Ljava/util/List;190
+PbusinessLogic.BLFacadeImplementation#getMezuak(Ldomain/Profile;)Ljava/util/List;186
 
-	getMezuak191
+	getMezuak187
 
-domain.Mezua193
+domain.Mezua189
 H
-AdataAccess.DataAccess#getMezuak(Ldomain/Profile;)Ljava/util/List;195
+AdataAccess.DataAccess#getMezuak(Ldomain/Profile;)Ljava/util/List;191
 c
-\businessLogic.BLFacadeImplementation#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;197
+\businessLogic.BLFacadeImplementation#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;193
 
-getErreklamazioMezuak198
+getErreklamazioMezuak194
 T
-MdataAccess.DataAccess#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;200
+MdataAccess.DataAccess#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;196
 F
-?businessLogic.BLFacadeImplementation#Kantzelatu(Ldomain/Ride;)V202
+?businessLogic.BLFacadeImplementation#kantzelatu(Ldomain/Ride;)V198
 
 
-Kantzelatu203
+kantzelatu199
 7
-0dataAccess.DataAccess#Kantzelatu(Ldomain/Ride;)V205
+0dataAccess.DataAccess#Kantzelatu(Ldomain/Ride;)V201
 T
-MbusinessLogic.BLFacadeImplementation#egindaEdoEzEgina(Ldomain/RideRequest;Z)V207
+MbusinessLogic.BLFacadeImplementation#egindaEdoEzEgina(Ldomain/RideRequest;Z)V203
 
-egindaEdoEzEgina208
+egindaEdoEzEgina204
 E
->dataAccess.DataAccess#egindaEdoEzEgina(Ldomain/RideRequest;Z)V210
+>dataAccess.DataAccess#egindaEdoEzEgina(Ldomain/RideRequest;Z)V206
 \
-UbusinessLogic.BLFacadeImplementation#baloratu(ILdomain/Profile;Ldomain/RideRequest;)V212
+UbusinessLogic.BLFacadeImplementation#baloratu(ILdomain/Profile;Ldomain/RideRequest;)V208
 
-baloratu213
+baloratu209
 M
-FdataAccess.DataAccess#baloratu(ILdomain/Profile;Ldomain/RideRequest;)V215
+FdataAccess.DataAccess#baloratu(ILdomain/Profile;Ldomain/RideRequest;)V211
 O
-HbusinessLogic.BLFacadeImplementation#getBalorazioMedia(Ldomain/Driver;)F217
+HbusinessLogic.BLFacadeImplementation#getBalorazioMedia(Ldomain/Driver;)F213
 
-getBalorazioMedia218
+getBalorazioMedia214
 @
-9dataAccess.DataAccess#getBalorazioMedia(Ldomain/Driver;)F220
+9dataAccess.DataAccess#getBalorazioMedia(Ldomain/Driver;)F216
 Ä
-ybusinessLogic.BLFacadeImplementation#sortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V222
+ybusinessLogic.BLFacadeImplementation#sortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V218
 
-sortuAlerta223
+sortuAlerta219
 q
-jdataAccess.DataAccess#sortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V225
+jdataAccess.DataAccess#sortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V221
 ç
-ÖbusinessLogic.BLFacadeImplementation#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;227
+ÖbusinessLogic.BLFacadeImplementation#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;223
 
-	getAlerta228
+	getAlerta224
 
-domain.Alerta230
+domain.Alerta226
 }
-vdataAccess.DataAccess#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;232
+vdataAccess.DataAccess#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;228
 _
-XbusinessLogic.BLFacadeImplementation#getErreklamazioak(Ldomain/Profile;)Ljava/util/List;234
+XbusinessLogic.BLFacadeImplementation#getErreklamazioak(Ldomain/Profile;)Ljava/util/List;230
 
-getErreklamazioak235
+getErreklamazioak231
 
-domain.Erreklamazioa237
+domain.Erreklamazioa233
 P
-IdataAccess.DataAccess#getErreklamazioak(Ldomain/Profile;)Ljava/util/List;239
+IdataAccess.DataAccess#getErreklamazioak(Ldomain/Profile;)Ljava/util/List;235
 ä
-ÇbusinessLogic.BLFacadeImplementation#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)V241
+ÇbusinessLogic.BLFacadeImplementation#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)V237
 
-gehituErreklamazioa242
+gehituErreklamazioa238
 z
-sdataAccess.DataAccess#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)V244
+sdataAccess.DataAccess#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)V240
 f
-_businessLogic.BLFacadeImplementation#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;246
+_businessLogic.BLFacadeImplementation#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;242
 
-takeNewErreklamazioa247
+takeNewErreklamazioa243
 
-domain.Admin249
+domain.Admin245
 W
-PdataAccess.DataAccess#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;251
+PdataAccess.DataAccess#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;247
 b
-[businessLogic.BLFacadeImplementation#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;253
+[businessLogic.BLFacadeImplementation#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;249
 
-getTravellersOfRideDone254
+getTravellersOfRideDone250
 S
-LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;256
+LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;252
 e
-^businessLogic.BLFacadeImplementation#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;258
+^businessLogic.BLFacadeImplementation#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;254
 !
-getTravellersOfRideNotDone259
+getTravellersOfRideNotDone255
 V
-OdataAccess.DataAccess#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;261
+OdataAccess.DataAccess#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;257
 g
-`businessLogic.BLFacadeImplementation#erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)V263
+`businessLogic.BLFacadeImplementation#erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)V259
 '
- erreklamazioaOnartuEdoDeuseztatu264
+ erreklamazioaOnartuEdoDeuseztatu260
 X
-QdataAccess.DataAccess#erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)V266
+QdataAccess.DataAccess#erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)V262
 L
-EbusinessLogic.BLFacadeImplementation#mezuaIrakurrita(Ldomain/Mezua;)V268
+EbusinessLogic.BLFacadeImplementation#mezuaIrakurrita(Ldomain/Mezua;)V264
 
-mezuaIrakurrita269
+mezuaIrakurrita265
 =
-6dataAccess.DataAccess#mezuaIrakurrita(Ldomain/Mezua;)V271
+6dataAccess.DataAccess#mezuaIrakurrita(Ldomain/Mezua;)V267
 _
-XbusinessLogic.BLFacadeImplementation#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;273
+XbusinessLogic.BLFacadeImplementation#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;269
 
-ikusitakoAlerta274
+ikusitakoAlerta270
 P
-IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;276
+IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;272
 b
-[businessLogic.BLFacadeImplementation#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;278
+[businessLogic.BLFacadeImplementation#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;274
 
-getIkusiGabeAlerta279
+getIkusiGabeAlerta275
 S
-LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;281
+LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;277
 g
-`businessLogic.BLFacadeImplementation#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;283
+`businessLogic.BLFacadeImplementation#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;279
 
-kargatuTravellerAlertak284
+kargatuTravellerAlertak280
 X
-QdataAccess.DataAccess#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;286
+QdataAccess.DataAccess#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;282
 N
-GbusinessLogic.BLFacadeImplementation#deuseztatuAlerta(Ldomain/Alerta;)V288
+GbusinessLogic.BLFacadeImplementation#deuseztatuAlerta(Ldomain/Alerta;)V284
 
-deuseztatuAlerta289
+deuseztatuAlerta285
 ?
-8dataAccess.DataAccess#deuseztatuAlerta(Ldomain/Alerta;)V291
+8dataAccess.DataAccess#deuseztatuAlerta(Ldomain/Alerta;)V287
 O
-HbusinessLogic.BLFacadeImplementation#isBaloratua(Ldomain/RideRequest;Z)Z293
+HbusinessLogic.BLFacadeImplementation#isBaloratua(Ldomain/RideRequest;Z)Z289
 
-isBaloratua294
+isBaloratua290
 @
-9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Z296
+9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Z292
 R
-KbusinessLogic.BLFacadeImplementation#isErreklamatua(Ldomain/RideRequest;Z)Z298
+KbusinessLogic.BLFacadeImplementation#isErreklamatua(Ldomain/RideRequest;Z)Z294
 
-isErreklamatua299
+isErreklamatua295
 C
-<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Z301
+<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Z297
 {
-tbusinessLogic.BLFacadeImplementation#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;303
+tbusinessLogic.BLFacadeImplementation#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;299
 !
-lortuLehenRequestBidaiakoa304
+lortuLehenRequestBidaiakoa300
 l
-edataAccess.DataAccess#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;306
+edataAccess.DataAccess#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;302
 i
-bbusinessLogic.BLFacadeImplementation#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I308
+bbusinessLogic.BLFacadeImplementation#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I304
  
-lortuZenbatEserlekuGeratu309
+lortuZenbatEserlekuGeratu305
 Z
-SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I311
+SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I307
 j
-cbusinessLogic.BLFacadeImplementation#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;313
+cbusinessLogic.BLFacadeImplementation#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;309
 #
-lortuErreklamazioakProzesuan314
+lortuErreklamazioakProzesuan310
 [
-TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;316J
+TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;312J
 
 1
 12
@@ -405,150 +400,44 @@ TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/
 4Z
 
 5	
-576j≠)
+576j¸(
 G
-146@
-14614735 *
-1¬ ¬(28:5B
+142@
+14214338 *
+1ª ª(28:5B
 
 
 11
 12
 
 13
-148
+144
 G
-221@
-22122235 *
-1» »(28:5B
+217@
+21721838 *
+1¡ ¡(28:5B
 
 
 11
 12
 
 13
-223
+219
 
-154
-15415517
+150
+15015117
 
-280
-28028117
+276
+27627717
 
-149
-14915017
+145
+14514617
 
-172
-17217317
+168
+16816917
 G
-307@
-30730835 *
-1¥ ¥(28:5B
-
-
-11
-12
-
-13
-309
-
-209
-20921017
-A
-38;
-383935 *
-1. .(28:5B
-
-
-11
-12
-
-
-13
-14
-
-243
-24324417
-G
-206@
-20620735 *
-1¥ ¥(28:5B
-
-
-11
-12
-
-13
-208
-
-57
-575817
-G
-121@
-12112235 *
-1ü ü(28:5B
-
-
-11
-12
-
-13
-123
-
-44
-444517
-G
-257@
-25725835 *
-1Û Û(28:5B
-
-
-11
-12
-
-13
-259
-
-260
-26026117
-
-75
-757617
-
-73
-737417
-G
-151@
-15115235 *
-1   (28:5B
-
-
-11
-12
-
-13
-153
-A
-33;
-333435 *
-1# #(28:5B
-
-
-11
-12
-
-
-13
-14
-
-214
-21421517
-
-187
-18718817
-G
-302@
-30230335 *
+303@
+30330438 *
 1≠ ≠(28:5B
 
 
@@ -556,33 +445,14 @@ G
 12
 
 13
-304
-G
-106@
-10610735 *
-1á á(28:5B
-
-
-11
-12
-
-13
-108
-G
-245@
-24524635 *
-1Â Â(28:5B
-
-
-11
-12
-
-13
-247
+305
+
+205
+20520617
 A
-84;
-848535 *
-1c c(28:5B
+41;
+414238 *
+1- -(28:5B
 
 
 11
@@ -590,11 +460,67 @@ A
 
 
 13
-86
+14
+
+239
+23924017
+G
+202@
+20220338 *
+1≠ ≠(28:5B
+
+
+11
+12
+
+13
+204
+
+55
+555617
+G
+120@
+12012138 *
+1ù ù(28:5B
+
+
+11
+12
+
+13
+122
+G
+253@
+25325438 *
+1Ï Ï(28:5B
+
+
+11
+12
+
+13
+255
+
+256
+25625717
+
+72
+727317
+G
+147@
+14714838 *
+1√ √(28:5B
+
+
+11
+12
+
+13
+149
 A
-96;
-969735 *
-1w w(28:5B
+36;
+363738 *
+1% %(28:5B
 
 
 11
@@ -602,41 +528,16 @@ A
 
 
 13
-98
-G
-233@
-23323435 *
-1◊ ◊(28:5B
-
-
-11
-12
-
-13
-235
+14
 
-132
-13213317
+210
+21021117
 
-199
-19920017
-
-204
-20420517
+183
+18318417
 G
-292@
-29229335 *
-1ü ü(28:5B
-
-
-11
-12
-
-13
-294
-G
-297@
-29729835 *
+298@
+29829938 *
 1¶ ¶(28:5B
 
 
@@ -644,54 +545,145 @@ G
 12
 
 13
-299
+300
 G
-169@
-16917035 *
-1Ò Ò(28:5B
+105@
+10510638 *
+1Ö Ö(28:5B
 
 
 11
 12
 
 13
-171
+107
+G
+241@
+24124238 *
+1ﬁ ﬁ(28:5B
+
+
+11
+12
+
+13
+243
+A
+83;
+838438 *
+1a a(28:5B
+
+
+11
+12
+
+
+13
+85
+A
+95;
+959638 *
+1u u(28:5B
+
+
+11
+12
+
+
+13
+97
+G
+229@
+22923038 *
+1– –(28:5B
+
+
+11
+12
+
+13
+231
 
-164
-16416517
+128
+12812917
 
-137
-13713817
+195
+19519617
 
-285
-28528617
+200
+20020117
+G
+288@
+28828938 *
+1ò ò(28:5B
+
+
+11
+12
+
+13
+290
+G
+293@
+29329438 *
+1ü ü(28:5B
+
+
+11
+12
+
+13
+295
+G
+165@
+16516638 *
+1Í Í(28:5B
+
+
+11
+12
+
+13
+167
 
-139
-13914017
+160
+16016117
+
+133
+13313417
+
+281
+28128217
+
+135
+13513617
 
 19
 192017
 
-49
-495017
+74
+747517
+
+47
+474817
 
-300
-30030117
+296
+29629717
 G
-211@
-21121235 *
-1∫ ∫(28:5B
+207@
+20720838 *
+1≥ ≥(28:5B
 
 
 11
 12
 
 13
-213
+209
 A
 25;
 252627 *
-1! !(28:5B
+1# #(28:5B
 
 
 11
@@ -701,23 +693,23 @@ A
 13
 29
 G
-272@
-27227335 *
-1Ö Ö(28:5B
+268@
+26826938 *
+1˛ ˛(28:5B
 
 
 11
 12
 
 13
-274
+270
 
-270
-27027117
+266
+26626717
 ;
 86
 8910 *
-1   ($:5B
+1" "($:5B
 
 
 11
@@ -727,18 +719,18 @@ G
 13
 14
 
-82
-828317
+81
+818217
 
-87
-878817
+86
+868717
 
-224
-22422517
+220
+22022117
 A
-59;
-596035 *
-1G G(28:5B
+57;
+575838 *
+1E E(28:5B
 
 
 11
@@ -746,105 +738,93 @@ A
 
 
 13
-61
+59
 G
-109@
-10911035 *
-1ç ç(28:5B
+108@
+10810938 *
+1ã ã(28:5B
 
 
 11
 12
 
 13
-111
+110
 
-71
-717217
+70
+707117
 
-55
-555617
+53
+535417
 
-69
-697017
+68
+686917
 G
-166@
-16616735 *
-1Ê Ê(28:5B
+162@
+16216338 *
+1ﬂ ﬂ(28:5B
 
 
 11
 12
 
 13
-168
+164
 
-92
-929317
+91
+919217
 
-119
-11912017
+118
+11811917
 G
-252@
-25225335 *
-1Ï Ï(28:5B
+248@
+24824938 *
+1Â Â(28:5B
 
 
 11
 12
 
 13
-254
-A
-64;
-646535 *
-1T T(28:5B
-
-
-11
-12
-
-
-13
-66
+250
 
-67
-676817
+65
+656617
 G
-129@
-12913035 *
-1≠ ≠(28:5B
+125@
+12512638 *
+1¶ ¶(28:5B
 
 
 11
 12
 
 13
-131
+127
 
 30
 303117
 
-250
-25025117
+246
+24624717
 G
-287@
-28728835 *
-1ô ô(28:5B
+283@
+28328438 *
+1í í(28:5B
 
 
 11
 12
 
 13
-289
+285
 
-290
-29029117
+286
+28628717
 A
-89;
-899035 *
-1o o(28:5B
+88;
+888938 *
+1m m(28:5B
 
 
 11
@@ -852,17 +832,17 @@ A
 
 
 13
-91
+90
 
-315
-31531617
+311
+31131217
 
 15
 151617
 A
-77;
-777835 *
-1\ \(28:5B
+76;
+767738 *
+1Z Z(28:5B
 
 
 11
@@ -870,157 +850,103 @@ A
 
 
 13
-79
+78
 
-114
-11411517
+113
+11311417
+
+306
+30630717
 G
-126@
-12612735 *
-1• •(28:5B
+130@
+13013138 *
+1≠ ≠(28:5B
 
 
 11
 12
 
 13
-128
-
-310
-31031117
+132
 G
-134@
-13413535 *
-1¥ ¥(28:5B
+157@
+15715838 *
+1◊ ◊(28:5B
 
 
 11
 12
 
 13
-136
+159
+
+123
+12312417
+
+111
+11111217
 G
-161@
-16116235 *
-1ﬁ ﬁ(28:5B
+152@
+15215338 *
+1   (28:5B
 
 
 11
 12
 
 13
-163
+154
 
-124
-12412517
-
-112
-11211317
+271
+27127217
 G
-156@
-15615735 *
-1— —(28:5B
+263@
+26326438 *
+1¯ ¯(28:5B
 
 
 11
 12
 
 13
-158
+265
 
-275
-27527617
+178
+17817917
 G
-267@
-26726835 *
-1ˇ ˇ(28:5B
+222@
+22222338 *
+1« «(28:5B
 
 
 11
 12
 
 13
-269
+224
 
-182
-18218317
+232
+23223317
 G
-226@
-22622735 *
-1Œ Œ(28:5B
+236@
+23623738 *
+1◊ ◊(28:5B
 
 
 11
 12
 
 13
-228
+238
 
-236
-23623717
+225
+22522617
+
+251
+25125217
 G
-240@
-24024135 *
-1ﬁ ﬁ(28:5B
-
-
-11
-12
-
-13
-242
-
-229
-22923017
-
-255
-25525617
-G
-184@
-18418535 *
-1Ü Ü(28:5B
-
-
-11
-12
-
-13
-186
-
-99
-9910017
-
-295
-29529617
-
-144
-14414517
-
-53
-535417
-
-177
-17717817
-
-305
-30530617
-
-41
-414217
-G
-196@
-19619735 *
-1ß ß(28:5B
-
-
-11
-12
-
-13
-198
-G
-179@
-17918035 *
+180@
+18018138 *
 1ˇ ˇ(28:5B
 
 
@@ -1028,61 +954,40 @@ G
 12
 
 13
-181
-G
-312@
-31231335 *
-1∫ ∫(28:5B
+182
+A
+33;
+333427 *
+1$ $(28:5B
 
 
 11
-12
-
-13
-314
+28
+
+
+13
+35
+
+98
+989917
+
+291
+29129217
+
+140
+14014117
 
 51
 515217
-G
-282@
-28228335 *
-1ì ì(28:5B
-
-
-11
-12
-
-13
-284
-
-94
-949517
 
-248
-24824917
-
-22
-222317
-
-62
-626317
+173
+17317417
 
-192
-19219317
+301
+30130217
 G
-262@
-26226335 *
-1˙ ˙(28:5B
-
-
-11
-12
-
-13
-264
-G
-189@
-18919035 *
+192@
+19219338 *
 1† †(28:5B
 
 
@@ -1090,56 +995,46 @@ G
 12
 
 13
-191
-
-101
-10110217
-
-231
-23123217
-A
-46;
-464735 *
-1: :(28:5B
-
-
-11
-12
-
-
-13
-48
+194
 G
-141@
-14114235 *
-1ª ª(28:5B
+175@
+17517638 *
+1¯ ¯(28:5B
 
 
 11
 12
 
 13
-143
-
-194
-19419517
+177
+G
+308@
+30830938 *
+1≥ ≥(28:5B
+
+
+11
+12
+
+13
+310
+G
+197@
+19719838 *
+1ß ß(28:5B
+
+
+11
+12
+
+13
+199
 
-80
-808117
+49
+495017
 G
-174@
-17417535 *
-1˜ ˜(28:5B
-
-
-11
-12
-
-13
-176
-G
-277@
-27727835 *
+278@
+27827938 *
 1å å(28:5B
 
 
@@ -1147,3190 +1042,3267 @@ G
 12
 
 13
-279
+280
+
+93
+939417
 
-159
-15916017
+244
+24424517
+
+22
+222317
+
+60
+606117
 
-265
-26526617
-
-219
-21922017
+188
+18818917
 G
-116@
-11611735 *
-1ó ó(28:5B
+258@
+25825938 *
+1Û Û(28:5B
 
 
 11
 12
 
 13
-118
+260
 G
-201@
-20120235 *
-1Æ Æ(28:5B
+185@
+18518638 *
+1ô ô(28:5B
 
 
 11
 12
 
 13
-203
-G
-103@
-10310435 *
-1Å Å(28:5B
-
-
-11
-12
-
-13
-105
-G
-216@
-21621735 *
-1¿ ¿(28:5B
-
-
-11
-12
-
-13
-218
+187
 
-238
-23823917ræÒ
+100
+10010117
+
+227
+22722817
+A
+44;
+444538 *
+18 8(28:5B
+
+
+11
+12
+
+
+13
+46
+G
+137@
+13713838 *
+1¥ ¥(28:5B
+
+
+11
+12
+
+13
+139
+
+190
+19019117
+A
+62;
+626338 *
+1R R(28:5B
+
+
+11
+12
+
+
+13
+64
+
+79
+798017
+G
+170@
+17017138 *
+1 (28:5B
+
+
+11
+12
+
+13
+172
+G
+273@
+27327438 *
+1Ö Ö(28:5B
+
+
+11
+12
+
+13
+275
+
+155
+15515617
+
+261
+26126217
+
+215
+21521617
+G
+115@
+11511638 *
+1ï ï(28:5B
+
+
+11
+12
+
+13
+117
+E
+102>
+10210338 *
+1 (28:5B
+
+
+11
+12
+
+13
+104
+G
+212@
+21221338 *
+1π π(28:5B
+
+
+11
+12
+
+13
+214
+
+234
+23423517rí
 
 81518*
-1 1  (9
+1"1 "(9
 
 81921*
-1 (
+1! !(
 
 82224*
-1 (
+1! !(
 
 81524*
-1 1  (9
+1"1 "(9
 
 253032*
-1! !(
+1# #(
 
 253024*
-1! !(
+1# #(
 
 253024*
-1! !(
+1# #(
 
-33836*
-1#	 #(
+36839*
+1%	 %(
 
-333024*
-1' '(
+363340*
+1& &(	
 
-332537*
-1' '(
+363340*
+1& &(	
 
-333036*
-1' '(
+363024*
+1( ((
 
-383040*
-1.# .(-
+362540*
+1( ((
+
+363039*
+1( ((
+
+413043*
+1-# -(-
 
-38836*
-1. .("
+41839*
+1- -("
 
-383032*
-1.. .(0
+413032*
+1-. -(0
 
-383024*
-1.# .(-
+413024*
+1-# -(-
 
-384132*
-11 1(
-
-384124*
+413024*
 11 1(
 
-384143*
-11 1(
+412540*
+11 1(
 
-384137*
-11 1(
+444721*
+18 8(
 
-384436*
-11 1($
+444924*
+18 8(
 
-384124*
-11 1(
+443040*
+19 9(
 
-383024*
-13 3(
+445139*
+19 9(
 
-382537*
-13 3(
+442540*
+19 9(
 
-464921*
-1: :(
+443024*
+19 9(
 
-465124*
-1: :(
+442540*
+19 9(
 
-463037*
-1; ;(
+443040*
+1;! ;(*
 
-465336*
-1; ;(
+445339*
+1;+ ;(:
 
-462537*
-1; ;(
+442540*
+1;! ;(*
 
-463024*
-1; ;(
+443024*
+1;! ;(*
 
-462537*
-1; ;(
+442540*
+1;! ;(*
 
-463037*
-1=! =(*
+443040*
+1= =(
 
-465536*
-1=+ =(:
+445539*
+1= =(
 
-462537*
-1=! =(*
+442540*
+1= =(
 
-463024*
-1=! =(*
+443024*
+1= =(
 
-462537*
-1=! =(*
+442540*
+1= =(
 
-463037*
-1? ?(
+574721*
+1E E(
 
-465736*
-1? ?(
+574924*
+1E E(
 
-462537*
-1? ?(
+573040*
+1F F(
 
-463024*
-1? ?(
+575139*
+1F F(
 
-462537*
-1? ?(
+572540*
+1F F(
 
-594921*
-1G G(
+573024*
+1F F(
 
-595124*
-1G G(
+572540*
+1F F(
 
-593037*
-1H H(
+573040*
+1H H('
 
-595336*
-1H H(
+576039*
+1H( H(8
 
-592537*
-1H H(
+572540*
+1H H('
 
-593024*
-1H H(
+573024*
+1H H('
 
-592537*
-1H H(
+572540*
+1H H('
 
-593037*
-1J J('
+573040*
+1J J(
 
-596236*
-1J( J(8
+575539*
+1J J(
 
-592537*
-1J J('
+572540*
+1J J(
 
-593024*
-1J J('
+573024*
+1J J(
 
-592537*
-1J J('
+572540*
+1J J(
 
-593037*
-1L L(
-
-595736*
-1L L(
-
-592537*
-1L L(
-
-593024*
-1L L(
-
-592537*
-1L L(
-
-646743*
-1U U(
+626567*
+1S S(
 
-646940*
-1UÜ U(ã
+626843*
+1SÄ S(Ö
 
-644921*
-1T T(
+624721*
+1R R(
 
-645124*
-1T T(
+624924*
+1R R(
 
-646724*
-1U U(
+626524*
+1S S(
 
-646932*
-1Uå U(ë
+626832*
+1SÜ S(ã
 
-646924*
-1UÜ U(ã
+626824*
+1SÄ S(Ö
 
-647124*
-1U∑ U(ÿ
+627024*
+1S´ S(Ã
 
-647324*
-1U⁄ U(Û
+627224*
+1SŒ S(Á
 
-643037*
+623040*
+1U U(
+
+625139*
+1U U(
+
+622540*
+1U U(
+
+623024*
+1U U(
+
+622540*
+1U U(
+
+626532*
+1V V(
+
+626524*
+1V V(
+
+626567*
+1V V(
+
+623040*
+1V V(
+
+627439*
+1V V(!
+
+622540*
+1V V(
+
+623024*
+1V V(
+
+622540*
+1V V(
+
+623040*
 1W W(
 
-645336*
-1W W(
+625539*
+1W W(
 
-642537*
+622540*
 1W W(
 
-643024*
+623024*
 1W W(
 
-642537*
+622540*
 1W W(
 
-646732*
-1X X(
+767967*
+1[ [(
 
-646724*
-1X X(
+764721*
+1Z Z(
 
-646743*
-1X X(
+764924*
+1Z Z(
 
-643037*
-1X X(
+767924*
+1[ [(
 
-647536*
-1X X(!
-
-642537*
-1X X(
-
-643024*
-1X X(
-
-642537*
-1X X(
-
-643037*
-1Y Y(
-
-645736*
-1Y Y(
-
-642537*
-1Y Y(
-
-643024*
-1Y Y(
-
-642537*
-1Y Y(
-
-778043*
-1] ](
-
-774921*
-1\ \(
-
-775124*
+763040*
 1\ \(
 
-778024*
-1] ](
+765139*
+1\ \(
 
-773037*
+762540*
+1\ \(
+
+763024*
+1\ \(
+
+762540*
+1\ \(
+
+767932*
+1] ](
+
+767924*
+1] ](
+
+767967*
+1] ](
+
+763040*
+1] ](
+
+768139*
+1] ]( 
+
+762540*
+1] ](
+
+763024*
+1] ](
+
+762540*
+1] ](
+
+763040*
 1^ ^(
 
-775336*
-1^ ^(
+765539*
+1^ ^(
 
-772537*
+762540*
 1^ ^(
 
-773024*
+763024*
 1^ ^(
 
-772537*
+762540*
 1^ ^(
 
-778032*
-1_ _(
+837967*
+1b b(
 
-778024*
-1_ _(
+834721*
+1a a(
 
-778043*
-1_ _(
+834924*
+1a a(
 
-773037*
-1_ _(
+837924*
+1b b(
 
-778236*
-1_ _( 
-
-772537*
-1_ _(
-
-773024*
-1_ _(
-
-772537*
-1_ _(
-
-773037*
-1` `(
-
-775736*
-1` `(
-
-772537*
-1` `(
-
-773024*
-1` `(
-
-772537*
-1` `(
-
-848043*
-1d d(
-
-844921*
-1c c(
-
-845124*
+833040*
 1c c(
 
-848024*
-1d d(
+835139*
+1c c(
 
-843037*
-1e e(
+832540*
+1c c(
 
-845336*
-1e e(
+833024*
+1c c(
 
-842537*
-1e e(
+832540*
+1c c(
 
-843024*
-1e e(
+837932*
+1d d(
 
-842537*
-1e e(
-
-848032*
-1f f(
-
-848024*
-1f f(
+837924*
+1d d(
 
 
-848043*
-1f f(
+837967*
+1d d(
 
-843037*
-1f f(
+833040*
+1d d(
 
-848736*
-1f f(
+838639*
+1d d(
 
-842537*
-1f f(
+832540*
+1d d(
 
-843024*
-1f f(
+833024*
+1d d(
 
-842537*
-1f f(
+832540*
+1d d(
 
-843037*
-1g g(
+833040*
+1e e(
 
-845736*
-1g g(
+835539*
+1e e(
 
-842537*
-1g g(
+832540*
+1e e(
 
-843024*
-1g g(
+833024*
+1e e(
 
-842537*
-1g g(
+832540*
+1e e(
 
-899240*
-1p( p(1
+889143*
+1n( n(1
 
-894921*
-1o o(
+884721*
+1m m(
 
-895124*
-1o o(
+884924*
+1m m(
 
-899232*
-1p2 p(;
+889132*
+1n2 n(;
 
-899224*
-1p( p(1
+889124*
+1n( n(1
 
-893037*
+883040*
+1p p(
+
+885139*
+1p p(
+
+882540*
+1p p(
+
+883024*
+1p p(
+
+882540*
+1p p(
+
+883040*
+1q q(
+
+889339*
+1q q(
+
+882540*
+1q q(
+
+883024*
+1q q(
+
+882540*
+1q q(
+
+883040*
 1r r(
 
-895336*
-1r r(
+885539*
+1r r(
 
-892537*
+882540*
 1r r(
 
-893024*
+883024*
 1r r(
 
-892537*
+882540*
 1r r(
 
-893037*
-1s s(
+959843*
+1v( v(.
 
-899436*
-1s s(
+954721*
+1u u(
 
-892537*
-1s s(
+954924*
+1u u(
 
-893024*
-1s s(
+959832*
+1v/ v(5
 
-892537*
-1s s(
+959824*
+1v( v(.
 
-893037*
-1t t(
+953040*
+1y y(
 
-895736*
-1t t(
+955139*
+1y y(
 
-892537*
-1t t(
+952540*
+1y y(
 
-893024*
-1t t(
+953024*
+1y y(
 
-892537*
-1t t(
+952540*
+1y y(
 
-969940*
-1x( x(.
-
-964921*
-1w w(
-
-965124*
-1w w(
-
-969932*
-1x/ x(5
-
-969924*
-1x( x(.
-
-963037*
-1{ {(
-
-965336*
-1{ {(
-
-962537*
-1{ {(
-
-963024*
-1{ {(
-
-962537*
-1{ {(
-
-963037*
-1| |(
+953040*
+1z z(
 
-9610136*
-1| |(
+9510039*
+1z z(
 
-962537*
-1| |(
+952540*
+1z z(
 
-963024*
-1| |(
+953024*
+1z z(
 
-962537*
-1| |(
+952540*
+1z z(
 
-963037*
-1} }(
+953040*
+1{ {(
 
-965736*
-1} }(
+955539*
+1{ {(
 
-962537*
-1} }(
+952540*
+1{ {(
 
-963024*
-1} }(
+953024*
+1{ {(
 
-962537*
-1} }(
+952540*
+1{ {(
 
-1038040*
-1Ç' Ç(.
+1027943*
+1Ä' Ä(.
+
+1024721*
+1 (
+
+1024924*
+1 (
 
-1034921*
-1Å Å(
+1027932*
+1Ä/ Ä(0
 
-1035124*
-1Å Å(
+1027924*
+1Ä' Ä(.
 
-1038032*
-1Ç/ Ç(0
+1023040*
+1Å Å(
 
-1038024*
-1Ç' Ç(.
+1025139*
+1Å Å(
 
-1033037*
-1É É(
+1022540*
+1Å Å(
 
-1035336*
-1É É(
+1023024*
+1Å Å(
 
-1032537*
-1É É(
+1022540*
+1Å Å(
 
-1033024*
-1É É(
+1023040*
+1Ç Ç(
 
-1032537*
-1É É(
+1029339*
+1Ç Ç(
 
-1033037*
-1Ñ Ñ(
+1022540*
+1Ç Ç(
 
-1039436*
-1Ñ Ñ(
+1023024*
+1Ç Ç(
 
-1032537*
-1Ñ Ñ(
+1022540*
+1Ç Ç(
 
-1033024*
-1Ñ Ñ(
+1023040*
+1É É(
 
-1032537*
-1Ñ Ñ(
+1025539*
+1É É(
 
-1033037*
+1022540*
+1É É(
+
+1023024*
+1É É(
+
+1022540*
+1É É(
+
+1057943*
+1Ü& Ü(-
+
+1054721*
+1Ö Ö(
+
+1054924*
 1Ö Ö(
 
-1035736*
-1Ö Ö(
+1057932*
+1Ü. Ü(/
 
-1032537*
-1Ö Ö(
+1057924*
+1Ü& Ü(-
 
-1033024*
-1Ö Ö(
+1053040*
+1á á(
 
-1032537*
-1Ö Ö(
+1055139*
+1á á(
 
-1068040*
-1à& à(-
+1052540*
+1á á(
 
-1064921*
-1á á(
+1053024*
+1á á(
 
-1065124*
-1á á(
+1052540*
+1á á(
 
-1068032*
-1à. à(/
-
-1068024*
-1à& à(-
-
-1063037*
-1â â(
-
-1065336*
-1â â(
-
-1062537*
-1â â(
-
-1063024*
-1â â(
-
-1062537*
-1â â(
-
-1063037*
-1ä ä(
+1053040*
+1à à(
 
-10610136*
-1ä ä(
+10510039*
+1à à(
 
-1062537*
-1ä ä(
+1052540*
+1à à(
 
-1063024*
-1ä ä(
+1053024*
+1à à(
 
-1062537*
-1ä ä(
+1052540*
+1à à(
 
-1063037*
-1ã ã(
+1053040*
+1â â(
 
-1065736*
-1ã ã(
+1055539*
+1â â(
 
-1062537*
-1ã ã(
+1052540*
+1â â(
 
-1063024*
-1ã ã(
+1053024*
+1â â(
 
-1062537*
+1052540*
+1â â(
+
+10811167*
+1å å(
+
+1086543*
+1å. å(2
+
+1089143*
+1å9 å(B
+
+1084721*
+1ã ã(
+
+1084924*
 1ã ã(
 
-10911243*
-1é é(
+10811124*
+1å å(
 
-1096740*
-1é. é(2
+1086532*
+1å3 å(7
 
-1099240*
-1é9 é(B
+1086524*
+1å. å(2
 
-1094921*
-1ç ç(
+1089132*
+1åC å(L
 
-1095124*
-1ç ç(
+1089124*
+1å9 å(B
+
+1083040*
+1è è(
+
+1085139*
+1è è(
+
+1082540*
+1è è(
+
+1083024*
+1è è(
+
+1082540*
+1è è(
 
-10911224*
-1é é(
+10811132*
+1ê ê(
+
+10811124*
+1ê ê(
+
+10811167*
+1ê ê(!
 
-1096732*
-1é3 é(7
+1083040*
+1ê ê(!
+
+10811339*
+1ê" ê(-
 
-1096724*
-1é. é(2
+1082540*
+1ê ê(!
 
-1099232*
-1éC é(L
+1083024*
+1ê ê(!
 
-1099224*
-1é9 é(B
+1082540*
+1ê ê(!
 
-1093037*
+1083040*
 1ë ë(
 
-1095336*
-1ë ë(
+1085539*
+1ë ë(
 
-1092537*
+1082540*
 1ë ë(
 
-1093024*
+1083024*
 1ë ë(
 
-1092537*
+1082540*
 1ë ë(
+
+1156567*
+1ñ ñ(
 
-10911232*
-1í í(
+11511143*
+1ñ# ñ(.
+
+1154721*
+1ï ï(
+
+1154924*
+1ï ï(
+
+1156524*
+1ñ ñ(
 
-10911224*
-1í í(
+11511132*
+1ñ/ ñ(8
 
-10911243*
-1í í(!
+11511124*
+1ñ# ñ(.
 
-1093037*
-1í í(!
-
-10911436*
-1í" í(-
-
-1092537*
-1í í(!
-
-1093024*
-1í í(!
-
-1092537*
-1í í(!
-
-1093037*
-1ì ì(
-
-1095736*
-1ì ì(
-
-1092537*
-1ì ì(
-
-1093024*
-1ì ì(
-
-1092537*
-1ì ì(
-
-1166743*
-1ò ò(
-
-11611240*
-1ò# ò(.
-
-1164921*
-1ó ó(
-
-1165124*
+1153040*
 1ó ó(
 
-1166724*
-1ò ò(
-
-11611232*
-1ò/ ò(8
-
-11611224*
-1ò# ò(.
+1155139*
+1ó ó(
 
-1163037*
+1152540*
+1ó ó(
+
+1153024*
+1ó ó(
+
+1152540*
+1ó ó(
+
+1156532*
+1ò	 ò(
+
+1156524*
+1ò ò(
+
+1156567*
+1ò ò(
+
+1153040*
+1ò ò(
+
+11511839*
+1ò ò(+
+
+1152540*
+1ò ò(
+
+1153024*
+1ò ò(
+
+1152540*
+1ò ò(
+
+1153040*
 1ô ô(
 
-1165336*
-1ô ô(
+1155539*
+1ô ô(
 
-1162537*
+1152540*
 1ô ô(
 
-1163024*
+1153024*
 1ô ô(
 
-1162537*
+1152540*
 1ô ô(
-
-1166732*
-1ö	 ö(
-
-1166724*
-1ö ö(
-
-1166743*
-1ö ö(
-
-1163037*
-1ö ö(
 
-11611936*
-1ö ö(+
+12011143*
+1û$ û(/
 
-1162537*
-1ö ö(
+1204721*
+1ù ù(
 
-1163024*
-1ö ö(
-
-1162537*
-1ö ö(
-
-1163037*
-1õ õ(
-
-1165736*
-1õ õ(
-
-1162537*
-1õ õ(
-
-1163024*
-1õ õ(
-
-1162537*
-1õ õ(
+1204924*
+1ù ù(
 
-12111240*
-1†$ †(/
+12011132*
+1û0 û(7
+
+12011124*
+1û$ û(/
 
-1214921*
-1ü ü(
-
-1215124*
+1203040*
 1ü ü(
+
+1205139*
+1ü ü(
+
+1202540*
+1ü ü(
+
+1203024*
+1ü ü(
+
+1202540*
+1ü ü(
+
+1203040*
+1† †(
 
-12111232*
-1†0 †(7
+12012339*
+1† †("
+
+1202540*
+1† †(
+
+1203024*
+1† †(
+
+1202540*
+1† †(
+
+1203040*
+1° °(
+
+1205539*
+1° °(
+
+1202540*
+1° °(
+
+1203024*
+1° °(
+
+1202540*
+1° °(
+
+1254721*
+1¶ ¶(
+
+1254924*
+1¶ ¶(
+
+1256524*
+1ß ß(
+
+1253040*
+1® ®(
+
+1255139*
+1® ®(
+
+1252540*
+1® ®(
+
+1253024*
+1® ®(
+
+1252540*
+1® ®(
+
+1256524*
+1© ©(
+
+1253040*
+1© ©(
 
-12111224*
-1†$ †(/
+12512839*
+1© ©('
 
-1213037*
-1° °(
+1252540*
+1© ©(
 
-1215336*
-1° °(
+1253024*
+1© ©(
 
-1212537*
-1° °(
+1252540*
+1© ©(
 
-1213024*
-1° °(
+1253040*
+1™ ™(
 
-1212537*
-1° °(
+1255539*
+1™ ™(
 
-1213037*
-1¢ ¢(
+1252540*
+1™ ™(
+
+1253024*
+1™ ™(
+
+1252540*
+1™ ™(
+
+1309843*
+1Æ. Æ(4
+
+1304721*
+1≠ ≠(
+
+1304924*
+1≠ ≠(
 
-12112436*
-1¢ ¢("
+13013324*
+1Æ Æ(
 
-1212537*
-1¢ ¢(
+1309832*
+1Æ5 Æ(;
 
-1213024*
-1¢ ¢(
+1309824*
+1Æ. Æ(4
 
-1212537*
-1¢ ¢(
-
-1213037*
-1£ £(
-
-1215736*
-1£ £(
-
-1212537*
-1£ £(
-
-1213024*
-1£ £(
-
-1212537*
-1£ £(
-
-1264921*
-1• •(
-
-1265124*
-1• •(
-
-1294921*
-1≠ ≠(
-
-1295124*
-1≠ ≠(
-
-1296724*
-1Æ Æ(
-
-1293037*
+1303040*
 1Ø Ø(
 
-1295336*
+1305139*
 1Ø Ø(
 
-1292537*
+1302540*
 1Ø Ø(
 
-1293024*
+1303024*
 1Ø Ø(
 
-1292537*
+1302540*
 1Ø Ø(
-
-1296724*
-1∞ ∞(
-
-1293037*
-1∞ ∞(
 
-12913236*
-1∞ ∞('
+13013324*
+1∞ ∞(
 
-1292537*
-1∞ ∞(
+1303040*
+1∞ ∞(&
+
+13013539*
+1∞' ∞(7
 
-1293024*
-1∞ ∞(
+1302540*
+1∞ ∞(&
 
-1292537*
-1∞ ∞(
+1303024*
+1∞ ∞(&
 
-1293037*
+1302540*
+1∞ ∞(&
+
+1303040*
 1± ±(
 
-1295736*
+1305539*
 1± ±(
 
-1292537*
+1302540*
 1± ±(
 
-1293024*
+1303024*
 1± ±(
 
-1292537*
+1302540*
 1± ±(
 
-1349940*
-1µ. µ(4
+1379843*
+1µ1 µ(7
 
-1344921*
+1374721*
 1¥ ¥(
 
-1345124*
+1374924*
 1¥ ¥(
 
-13413724*
+13713324*
 1µ µ(
 
-1349932*
-1µ5 µ(;
+1379832*
+1µ8 µ(>
 
-1349924*
-1µ. µ(4
+1379824*
+1µ1 µ(7
 
-1343037*
+1373040*
 1∂ ∂(
 
-1345336*
+1375139*
 1∂ ∂(
 
-1342537*
+1372540*
 1∂ ∂(
 
-1343024*
+1373024*
 1∂ ∂(
 
-1342537*
+1372540*
 1∂ ∂(
 
-13413724*
+13713324*
 1∑ ∑(
 
-1343037*
+1373040*
 1∑ ∑(&
 
-13413936*
-1∑' ∑(7
+13714039*
+1∑' ∑(:
 
-1342537*
+1372540*
 1∑ ∑(&
 
-1343024*
+1373024*
 1∑ ∑(&
 
-1342537*
+1372540*
 1∑ ∑(&
 
-1343037*
+1373040*
 1∏ ∏(
 
-1345736*
+1375539*
 1∏ ∏(
 
-1342537*
+1372540*
 1∏ ∏(
 
-1343024*
+1373024*
 1∏ ∏(
 
-1342537*
+1372540*
 1∏ ∏(
 
-1419940*
-1º1 º(7
+1426543*
+1º2 º(6
 
-1414921*
+1424721*
 1ª ª(
 
-1415124*
+1424924*
 1ª ª(
 
-14113724*
-1º º(
+14211124*
+1º º(
 
-1419932*
-1º8 º(>
+1426532*
+1º7 º(;
 
-1419924*
-1º1 º(7
+1426524*
+1º2 º(6
 
-1413037*
+1423040*
 1Ω Ω(
 
-1415336*
+1425139*
 1Ω Ω(
 
-1412537*
+1422540*
 1Ω Ω(
 
-1413024*
+1423024*
 1Ω Ω(
 
-1412537*
+1422540*
 1Ω Ω(
 
-14113724*
-1æ æ(
+14211124*
+1æ æ(
 
-1413037*
+1423040*
 1æ æ(&
 
-14114436*
-1æ' æ(:
+14214539*
+1æ' æ(=
 
-1412537*
+1422540*
 1æ æ(&
 
-1413024*
+1423024*
 1æ æ(&
 
-1412537*
+1422540*
 1æ æ(&
 
-1413037*
+1423040*
 1ø ø(
 
-1415736*
+1425539*
 1ø ø(
 
-1412537*
+1422540*
 1ø ø(
 
-1413024*
+1423024*
 1ø ø(
 
-1412537*
+1422540*
 1ø ø(
 
-1466740*
-1√2 √(6
+1479143*
+1ƒ7 ƒ(@
 
-1464921*
-1¬ ¬(
+1474721*
+1√ √(
 
-1465124*
-1¬ ¬(
+1474924*
+1√ √(
 
-14611224*
-1√ √(
+14711124*
+1ƒ ƒ(
 
-1466732*
-1√7 √(;
+1479132*
+1ƒA ƒ(J
 
-1466724*
-1√2 √(6
+1479124*
+1ƒ7 ƒ(@
 
-1463037*
-1ƒ ƒ(
+1473040*
+1≈ ≈(
 
-1465336*
-1ƒ ƒ(
+1475139*
+1≈ ≈(
 
-1462537*
-1ƒ ƒ(
+1472540*
+1≈ ≈(
 
-1463024*
-1ƒ ƒ(
+1473024*
+1≈ ≈(
 
-1462537*
-1ƒ ƒ(
+1472540*
+1≈ ≈(
 
-14611224*
-1≈ ≈(
+14711124*
+1∆ ∆(
 
-1463037*
-1≈ ≈(&
+1473040*
+1∆ ∆(&
 
-14614936*
-1≈' ≈(=
+14715039*
+1∆' ∆(B
 
-1462537*
-1≈ ≈(&
+1472540*
+1∆ ∆(&
 
-1463024*
-1≈ ≈(&
+1473024*
+1∆ ∆(&
 
-1462537*
-1≈ ≈(&
+1472540*
+1∆ ∆(&
 
-1463037*
-1∆ ∆(
+1473040*
+1« «(
 
-1465736*
-1∆ ∆(
+1475539*
+1« «(
 
-1462537*
-1∆ ∆(
+1472540*
+1« «(
 
-1463024*
-1∆ ∆(
+1473024*
+1« «(
 
-1462537*
-1∆ ∆(
+1472540*
+1« «(
 
-1519240*
-1À7 À(@
+1527943*
+1À À(
 
-1514921*
+1524721*
 1   (
 
-1515124*
+1524924*
 1   (
-
-15111224*
-1À À(
 
-1519232*
-1ÀA À(J
+1527932*
+1À  À(!
 
-1519224*
-1À7 À(@
+1527924*
+1À À(
 
-1513037*
+1523040*
 1Ã Ã(
 
-1515336*
+1525139*
 1Ã Ã(
 
-1512537*
+1522540*
 1Ã Ã(
 
-1513024*
+1523024*
 1Ã Ã(
 
-1512537*
+1522540*
 1Ã Ã(
+
+1523040*
+1Õ Õ(
 
-15111224*
-1Õ Õ(
+15215539*
+1Õ Õ(!
 
-1513037*
-1Õ Õ(&
-
-15115436*
-1Õ' Õ(B
+1522540*
+1Õ Õ(
 
-1512537*
-1Õ Õ(&
+1523024*
+1Õ Õ(
 
-1513024*
-1Õ Õ(&
+1522540*
+1Õ Õ(
 
-1512537*
-1Õ Õ(&
-
-1513037*
+1523040*
 1Œ Œ(
 
-1515736*
+1525539*
 1Œ Œ(
 
-1512537*
+1522540*
 1Œ Œ(
 
-1513024*
+1523024*
 1Œ Œ(
 
-1512537*
+1522540*
 1Œ Œ(
 
-1568040*
-1“ “(
+1574721*
+1◊ ◊(
 
-1564921*
-1— —(
+1574924*
+1◊ ◊(
 
-1565124*
-1— —(
+1573040*
+1Ÿ Ÿ(
 
-1568032*
-1“  “(!
+1575139*
+1Ÿ Ÿ(
 
-1568024*
-1“ “(
+1572540*
+1Ÿ Ÿ(
 
-1563037*
-1” ”(
+1573024*
+1Ÿ Ÿ(
 
-1565336*
-1” ”(
+1572540*
+1Ÿ Ÿ(
 
-1562537*
-1” ”(
-
-1563024*
-1” ”(
-
-1562537*
-1” ”(
-
-1563037*
-1‘ ‘(
+1573040*
+1⁄ ⁄(
 
-15615936*
-1‘ ‘(!
+15716039*
+1⁄ ⁄(9
 
-1562537*
-1‘ ‘(
+1572540*
+1⁄ ⁄(
 
-1563024*
-1‘ ‘(
+1573024*
+1⁄ ⁄(
 
-1562537*
-1‘ ‘(
+1572540*
+1⁄ ⁄(
 
-1563037*
-1’ ’(
+1573040*
+1€ €(
 
-1565736*
-1’ ’(
+1575539*
+1€ €(
 
-1562537*
-1’ ’(
+1572540*
+1€ €(
 
-1563024*
-1’ ’(
+1573024*
+1€ €(
 
-1562537*
-1’ ’(
+1572540*
+1€ €(
 
-1614921*
-1ﬁ ﬁ(
+1624721*
+1ﬂ ﬂ(
 
-1615124*
-1ﬁ ﬁ(
+1624924*
+1ﬂ ﬂ(
 
-1613037*
-1‡ ‡(
+1623032*
+1· ·(
 
-1615336*
-1‡ ‡(
+1623024*
+1· ·(
 
-1612537*
-1‡ ‡(
+1623039*
+1· ·((
 
-1613024*
-1‡ ‡(
+1623040*
+1„ „(
 
-1612537*
-1‡ ‡(
+1625539*
+1„ „(
 
-1613037*
-1· ·(
+1654721*
+1Í Í(
+
+1654924*
+1Í Í(
+
+1653040*
+1Ï Ï(
+
+1655139*
+1Ï Ï(
+
+1652540*
+1Ï Ï(
+
+1653024*
+1Ï Ï(
+
+1652540*
+1Ï Ï(
+
+1653040*
+1Ì Ì(
 
-16116436*
-1· ·(9
+16516839*
+1Ì Ì(
 
-1612537*
-1· ·(
+1652540*
+1Ì Ì(
 
-1613024*
-1· ·(
+1653024*
+1Ì Ì(
 
-1612537*
-1· ·(
+1652540*
+1Ì Ì(
 
-1613037*
-1‚ ‚(
+1653040*
+1Ó Ó(
 
-1615736*
-1‚ ‚(
+1655539*
+1Ó Ó(
 
-1612537*
-1‚ ‚(
+1652540*
+1Ó Ó(
 
-1613024*
-1‚ ‚(
+1653024*
+1Ó Ó(
 
-1612537*
-1‚ ‚(
+1652540*
+1Ó Ó(
 
-1664921*
-1Ê Ê(
+1709843*
+1Ú% Ú(+
 
-1665124*
-1Ê Ê(
+1704721*
+1 (
 
-1663032*
-1Ë Ë(
+1704924*
+1 (
 
-1663024*
-1Ë Ë(
+1706824*
+1Ú Ú(
 
-1663036*
-1Ë Ë((
+1709832*
+1Ú, Ú(2
 
-1663037*
-1Í Í(
+1709824*
+1Ú% Ú(+
 
-1665736*
-1Í Í(
+1703040*
+1Û Û(
 
-1694921*
-1Ò Ò(
+1705139*
+1Û Û(
 
-1695124*
-1Ò Ò(
+1702540*
+1Û Û(
 
-1693037*
-1Û Û(
+1703024*
+1Û Û(
 
-1695336*
-1Û Û(
+1702540*
+1Û Û(
 
-1692537*
-1Û Û(
+1706824*
+1Ù Ù(
 
-1693024*
-1Û Û(
-
-1692537*
-1Û Û(
-
-1693037*
-1Ù Ù(
+1703040*
+1Ù Ù("
 
-16917236*
-1Ù Ù(
+17017339*
+1Ù# Ù(2
 
-1692537*
-1Ù Ù(
+1702540*
+1Ù Ù("
 
-1693024*
-1Ù Ù(
+1703024*
+1Ù Ù("
 
-1692537*
-1Ù Ù(
+1702540*
+1Ù Ù("
 
-1693037*
-1ı ı(
+1703040*
+1ı ı(
 
-1695736*
-1ı ı(
+1705539*
+1ı ı(
 
-1692537*
-1ı ı(
+1702540*
+1ı ı(
 
-1693024*
-1ı ı(
+1703024*
+1ı ı(
 
-1692537*
-1ı ı(
+1702540*
+1ı ı(
 
-1749940*
-1˘% ˘(+
+1759843*
+1˘2 ˘(8
 
-1744921*
-1˜ ˜(
+1754721*
+1¯ ¯(
 
-1745124*
-1˜ ˜(
+1754924*
+1¯ ¯(
+
+17513324*
+1˘ ˘(
 
-1746924*
-1˘ ˘(
+1759832*
+1˘9 ˘(:
 
-1749932*
-1˘, ˘(2
+1759824*
+1˘2 ˘(8
 
-1749924*
-1˘% ˘(+
-
-1743037*
+1753040*
 1˙ ˙(
 
-1745336*
+1755139*
 1˙ ˙(
 
-1742537*
+1752540*
 1˙ ˙(
 
-1743024*
+1753024*
 1˙ ˙(
 
-1742537*
+1752540*
 1˙ ˙(
-
-1746924*
-1˚ ˚(
-
-1743037*
-1˚ ˚("
 
-17417736*
-1˚# ˚(2
+17513324*
+1˚ ˚(
 
-1742537*
-1˚ ˚("
+1753040*
+1˚  ˚()
+
+17517839*
+1˚* ˚(>
 
-1743024*
-1˚ ˚("
+1752540*
+1˚  ˚()
 
-1742537*
-1˚ ˚("
+1753024*
+1˚  ˚()
 
-1743037*
+1752540*
+1˚  ˚()
+
+1753040*
 1¸ ¸(
 
-1745736*
+1755539*
 1¸ ¸(
 
-1742537*
+1752540*
 1¸ ¸(
 
-1743024*
+1753024*
 1¸ ¸(
 
-1742537*
+1752540*
 1¸ ¸(
 
-1799940*
-1Ä2 Ä(8
+1809843*
+1ÅW Å(]
 
-1794921*
+1804721*
 1ˇ ˇ(
 
-1795124*
+1804924*
 1ˇ ˇ(
+
+1809832*
+1Å^ Å(d
+
+1809824*
+1ÅW Å(]
+
+1803040*
+1Ç Ç(
+
+1805139*
+1Ç Ç(
+
+1802540*
+1Ç Ç(
+
+1803024*
+1Ç Ç(
+
+1802540*
+1Ç Ç(
+
+1803040*
+1É É(
 
-17913724*
-1Ä Ä(
+18018339*
+1É É(#
 
-1799932*
-1Ä9 Ä(:
+1802540*
+1É É(
 
-1799924*
-1Ä2 Ä(8
+1803024*
+1É É(
 
-1793037*
-1Å Å(
+1802540*
+1É É(
 
-1795336*
-1Å Å(
+1803040*
+1Ñ Ñ(
 
-1792537*
-1Å Å(
+1805539*
+1Ñ Ñ(
 
-1793024*
-1Å Å(
+1802540*
+1Ñ Ñ(
 
-1792537*
-1Å Å(
+1803024*
+1Ñ Ñ(
+
+1802540*
+1Ñ Ñ(
+
+1857943*
+1ö ö(&
+
+1854721*
+1ô ô(
+
+1854924*
+1ô ô(
 
-17913724*
-1Ç Ç(
+18518824*
+1ö ö(
 
-1793037*
-1Ç  Ç()
+1857932*
+1ö' ö((
+
+1857924*
+1ö ö(&
+
+1853040*
+1õ õ(
+
+1855139*
+1õ õ(
+
+1852540*
+1õ õ(
+
+1853024*
+1õ õ(
+
+1852540*
+1õ õ(
 
-17918236*
-1Ç* Ç(>
+18518824*
+1ú ú(
 
-1792537*
-1Ç  Ç()
-
-1793024*
-1Ç  Ç()
-
-1792537*
-1Ç  Ç()
-
-1793037*
-1É É(
-
-1795736*
-1É É(
-
-1792537*
-1É É(
-
-1793024*
-1É É(
-
-1792537*
-1É É(
-
-1849940*
-1àW à(]
-
-1844921*
-1Ü Ü(
-
-1845124*
-1Ü Ü(
-
-1849932*
-1à^ à(d
-
-1849924*
-1àW à(]
-
-1843037*
-1â â(
-
-1845336*
-1â â(
-
-1842537*
-1â â(
-
-1843024*
-1â â(
-
-1842537*
-1â â(
-
-1843037*
-1ä ä(
+1853040*
+1ú ú(
 
-18418736*
-1ä ä(#
+18519039*
+1ú  ú()
 
-1842537*
-1ä ä(
+1852540*
+1ú ú(
 
-1843024*
-1ä ä(
+1853024*
+1ú ú(
 
-1842537*
-1ä ä(
+1852540*
+1ú ú(
 
-1843037*
-1ã ã(
+1853040*
+1ù ù(
 
-1845736*
-1ã ã(
+1855539*
+1ù ù(
 
-1842537*
-1ã ã(
+1852540*
+1ù ù(
 
-1843024*
-1ã ã(
+1853024*
+1ù ù(
 
-1842537*
-1ã ã(
+1852540*
+1ù ù(
 
-1898040*
-1° °(&
+1927943*
+1°. °(5
 
-1894921*
+1924721*
 1† †(
 
-1895124*
+1924924*
 1† †(
 
-18919224*
-1° °(
+19218824*
+1° °(
 
-1898032*
-1°' °((
+1927932*
+1°6 °(7
 
-1898024*
-1° °(&
+1927924*
+1°. °(5
 
-1893037*
-1¢ ¢(
+1923040*
+1¢ ¢(
 
-1895336*
-1¢ ¢(
+1925139*
+1¢ ¢(
 
-1892537*
-1¢ ¢(
+1922540*
+1¢ ¢(
 
-1893024*
-1¢ ¢(
+1923024*
+1¢ ¢(
 
-1892537*
-1¢ ¢(
+1922540*
+1¢ ¢(
 
-18919224*
-1£ £(
+19218824*
+1£ £(
 
-1893037*
-1£ £(
+1923040*
+1£ £("
 
-18919436*
-1£  £()
+19219539*
+1£# £(8
 
-1892537*
-1£ £(
+1922540*
+1£ £("
 
-1893024*
-1£ £(
+1923024*
+1£ £("
 
-1892537*
-1£ £(
+1922540*
+1£ £("
 
-1893037*
-1§ §(
+1923040*
+1§ §(
 
-1895736*
-1§ §(
+1925539*
+1§ §(
 
-1892537*
-1§ §(
+1922540*
+1§ §(
 
-1893024*
-1§ §(
+1923024*
+1§ §(
 
-1892537*
-1§ §(
+1922540*
+1§ §(
 
-1968040*
-1®. ®(5
+1976543*
+1® ®(
 
-1964921*
+1974721*
 1ß ß(
 
-1965124*
+1974924*
 1ß ß(
+
+1976532*
+1® ®(
+
+1976524*
+1® ®(
+
+1973040*
+1© ©(
+
+1975139*
+1© ©(
+
+1972540*
+1© ©(
+
+1973024*
+1© ©(
+
+1972540*
+1© ©(
+
+1973040*
+1™ ™(
 
-19619224*
-1® ®(
+19720039*
+1™ ™(
 
-1968032*
-1®6 ®(7
+1972540*
+1™ ™(
 
-1968024*
-1®. ®(5
+1973024*
+1™ ™(
 
-1963037*
-1© ©(
+1972540*
+1™ ™(
 
-1965336*
-1© ©(
+1973040*
+1´ ´(
 
-1962537*
-1© ©(
+1975539*
+1´ ´(
 
-1963024*
-1© ©(
+1972540*
+1´ ´(
 
-1962537*
-1© ©(
+1973024*
+1´ ´(
+
+1972540*
+1´ ´(
 
-19619224*
-1™ ™(
+20211143*
+1Æ Æ(*
 
-1963037*
-1™ ™("
+2024721*
+1≠ ≠(
+
+2024924*
+1≠ ≠(
 
-19619936*
-1™# ™(8
+20211132*
+1Æ+ Æ(2
+
+20211124*
+1Æ Æ(*
 
-1962537*
-1™ ™("
+2023040*
+1Ø Ø(
 
-1963024*
-1™ ™("
+2025139*
+1Ø Ø(
 
-1962537*
-1™ ™("
+2022540*
+1Ø Ø(
 
-1963037*
-1´ ´(
+2023024*
+1Ø Ø(
 
-1965736*
-1´ ´(
+2022540*
+1Ø Ø(
 
-1962537*
-1´ ´(
+2023040*
+1∞ ∞(
+
+20220539*
+1∞ ∞(
 
-1963024*
-1´ ´(
-
-1962537*
-1´ ´(
-
-2016740*
-1Ø Ø(
-
-2014921*
-1Æ Æ(
-
-2015124*
-1Æ Æ(
-
-2016732*
-1Ø Ø(
-
-2016724*
-1Ø Ø(
-
-2013037*
+2022540*
 1∞ ∞(
 
-2015336*
-1∞ ∞(
-
-2012537*
+2023024*
 1∞ ∞(
 
-2013024*
+2022540*
 1∞ ∞(
 
-2012537*
-1∞ ∞(
-
-2013037*
-1± ±(
-
-20120436*
-1± ±(
-
-2012537*
+2023040*
 1± ±(
 
-2013024*
+2025539*
+1± ±(
+
+2022540*
 1± ±(
 
-2012537*
+2023024*
 1± ±(
 
-2013037*
-1≤ ≤(
+2022540*
+1± ±(
 
-2015736*
-1≤ ≤(
-
-2012537*
-1≤ ≤(
-
-2013024*
-1≤ ≤(
-
-2012537*
-1≤ ≤(
+2077943*
+1¥* ¥(1
 
-20611240*
-1µ µ(*
+20711143*
+1¥8 ¥(C
 
-2064921*
-1¥ ¥(
+2074721*
+1≥ ≥(
 
-2065124*
-1¥ ¥(
+2074924*
+1≥ ≥(
+
+2077932*
+1¥2 ¥(6
+
+2077924*
+1¥* ¥(1
 
-20611232*
-1µ+ µ(2
+20711132*
+1¥D ¥(E
 
-20611224*
-1µ µ(*
+20711124*
+1¥8 ¥(C
 
-2063037*
+2073040*
+1µ µ(
+
+2075139*
+1µ µ(
+
+2072540*
+1µ µ(
+
+2073024*
+1µ µ(
+
+2072540*
+1µ µ(
+
+2073040*
+1∂ ∂(
+
+20721039*
+1∂ ∂(
+
+2072540*
 1∂ ∂(
 
-2065336*
-1∂ ∂(
-
-2062537*
+2073024*
 1∂ ∂(
 
-2063024*
+2072540*
 1∂ ∂(
 
-2062537*
-1∂ ∂(
-
-2063037*
-1∑ ∑(
-
-20620936*
-1∑ ∑(
-
-2062537*
+2073040*
 1∑ ∑(
 
-2063024*
+2075539*
+1∑ ∑(
+
+2072540*
 1∑ ∑(
 
-2062537*
+2073024*
 1∑ ∑(
 
-2063037*
-1∏ ∏(
+2072540*
+1∑ ∑(
 
-2065736*
-1∏ ∏(
+2129843*
+1∫$ ∫(*
 
-2062537*
-1∏ ∏(
+2124721*
+1π π(
 
-2063024*
-1∏ ∏(
+2124924*
+1π π(
 
-2062537*
-1∏ ∏(
+2129832*
+1∫+ ∫(1
 
-2118040*
-1ª* ª(1
+2129824*
+1∫$ ∫(*
+
+2123040*
+1ª ª(
+
+2125139*
+1ª ª(
+
+2122540*
+1ª ª(
+
+2123024*
+1ª ª(
+
+2122540*
+1ª ª(
+
+2123040*
+1º º(
 
-21111240*
-1ª8 ª(C
+21221539*
+1º º(*
 
-2114921*
-1∫ ∫(
+2122540*
+1º º(
 
-2115124*
-1∫ ∫(
+2123024*
+1º º(
 
-2118032*
-1ª2 ª(6
+2122540*
+1º º(
 
-2118024*
-1ª* ª(1
-
-21111232*
-1ªD ª(E
-
-21111224*
-1ª8 ª(C
-
-2113037*
-1º º(
-
-2115336*
-1º º(
-
-2112537*
-1º º(
-
-2113024*
-1º º(
-
-2112537*
-1º º(
-
-2113037*
-1Ω Ω(
-
-21121436*
-1Ω Ω(
-
-2112537*
+2123040*
 1Ω Ω(
 
-2113024*
+2125539*
+1Ω Ω(
+
+2122540*
 1Ω Ω(
 
-2112537*
+2123024*
 1Ω Ω(
 
-2113037*
-1æ æ(
+2122540*
+1Ω Ω(
 
-2115736*
-1æ æ(
+2179143*
+1¬ ¬(&
 
-2112537*
-1æ æ(
+2174721*
+1¡ ¡(
 
-2113024*
-1æ æ(
+2174924*
+1¡ ¡(
 
-2112537*
-1æ æ(
+2179132*
+1¬' ¬((
 
-2169940*
-1¡$ ¡(*
+2179124*
+1¬ ¬(&
 
-2164921*
-1¿ ¿(
+2173040*
+1√ √(
 
-2165124*
-1¿ ¿(
+2175139*
+1√ √(
 
-2169932*
-1¡+ ¡(1
+2172540*
+1√ √(
 
-2169924*
-1¡$ ¡(*
+2173024*
+1√ √(
 
-2163037*
-1¬ ¬(
+2172540*
+1√ √(
 
-2165336*
-1¬ ¬(
-
-2162537*
-1¬ ¬(
-
-2163024*
-1¬ ¬(
-
-2162537*
-1¬ ¬(
-
-2163037*
-1√ √(
+2173040*
+1ƒ ƒ(
 
-21621936*
-1√ √(*
+21722039*
+1ƒ ƒ(
 
-2162537*
-1√ √(
+2172540*
+1ƒ ƒ(
 
-2163024*
-1√ √(
+2173024*
+1ƒ ƒ(
 
-2162537*
-1√ √(
+2172540*
+1ƒ ƒ(
 
-2163037*
-1ƒ ƒ(
+2173040*
+1≈ ≈(
 
-2165736*
-1ƒ ƒ(
+2175539*
+1≈ ≈(
 
-2162537*
-1ƒ ƒ(
+2172540*
+1≈ ≈(
 
-2163024*
-1ƒ ƒ(
+2173024*
+1≈ ≈(
 
-2162537*
-1ƒ ƒ(
-
-2219240*
-1… …(&
-
-2214921*
-1» »(
-
-2215124*
-1» »(
-
-2219232*
-1…' …((
-
-2219224*
-1… …(&
-
-2213037*
-1   (
-
-2215336*
-1   (
-
-2212537*
-1   (
-
-2213024*
-1   (
-
-2212537*
-1   (
-
-2213037*
-1À À(
+2172540*
+1≈ ≈(
 
-22122436*
-1À À(
+22222567*
+1» »(
 
-2212537*
-1À À(
+2229143*
+1» »(&
 
-2213024*
-1À À(
+2224721*
+1« «(
 
-2212537*
-1À À(
-
-2213037*
-1Ã Ã(
-
-2215736*
-1Ã Ã(
-
-2212537*
-1Ã Ã(
-
-2213024*
-1Ã Ã(
-
-2212537*
-1Ã Ã(
+2224924*
+1« «(
 
-22622943*
-1œ œ(
+22222524*
+1» »(
 
-2269240*
-1œ œ(&
+2229132*
+1»' »(0
 
-2264921*
-1Œ Œ(
+2229124*
+1» »(&
 
-2265124*
-1Œ Œ(
+2223040*
+1… …(
+
+2225139*
+1… …(
+
+2222540*
+1… …(
+
+2223024*
+1… …(
+
+2222540*
+1… …(
 
-22622924*
-1œ œ(
+22222532*
+1   (
+
+22222524*
+1   (
+
+22222567*
+1   (
 
-2269232*
-1œ' œ(0
+2223040*
+1   (
+
+22222739*
+1   ('
 
-2269224*
-1œ œ(&
+2222540*
+1   (
 
-2263037*
-1– –(
+2223024*
+1   (
 
-2265336*
-1– –(
+2222540*
+1   (
 
-2262537*
-1– –(
+2223040*
+1À À(
 
-2263024*
-1– –(
+2225539*
+1À À(
 
-2262537*
+2222540*
+1À À(
+
+2223024*
+1À À(
+
+2222540*
+1À À(
+
+2297943*
+1—/ —(6
+
+2294721*
+1– –(
+
+2294924*
 1– –(
 
-22622932*
-1— —(
+22923224*
+1— —(
+
+2297932*
+1—7 —(8
+
+2297924*
+1—/ —(6
+
+2293040*
+1“ “(
+
+2295139*
+1“ “(
+
+2292540*
+1“ “(
+
+2293024*
+1“ “(
+
+2292540*
+1“ “(
 
-22622924*
-1— —(
+22923224*
+1” ”(
+
+2293040*
+1”) ”(2
 
-22622943*
-1— —(
+22923439*
+1”3 ”(D
 
-2263037*
-1— —(
+2292540*
+1”) ”(2
+
+2293024*
+1”) ”(2
+
+2292540*
+1”) ”(2
+
+2293040*
+1‘ ‘(
+
+2295539*
+1‘ ‘(
+
+2292540*
+1‘ ‘(
+
+2293024*
+1‘ ‘(
+
+2292540*
+1‘ ‘(
+
+2367943*
+1ÿ" ÿ()
+
+2367943*
+1ÿ- ÿ(4
 
-22623136*
-1— —('
+23611143*
+1ÿ] ÿ(h
 
-2262537*
-1— —(
-
-2263024*
-1— —(
-
-2262537*
-1— —(
-
-2263037*
-1“ “(
-
-2265736*
-1“ “(
-
-2262537*
-1“ “(
-
-2263024*
-1“ “(
-
-2262537*
-1“ “(
-
-2338040*
-1ÿ/ ÿ(6
-
-2334921*
+2364721*
 1◊ ◊(
 
-2335124*
+2364924*
 1◊ ◊(
+
+2367932*
+1ÿ* ÿ(+
+
+2367924*
+1ÿ" ÿ()
+
+2367932*
+1ÿ5 ÿ(9
+
+2367924*
+1ÿ- ÿ(4
 
-23323624*
-1ÿ ÿ(
+23611132*
+1ÿi ÿ(j
+
+23611124*
+1ÿ] ÿ(h
 
-2338032*
-1ÿ7 ÿ(8
-
-2338024*
-1ÿ/ ÿ(6
-
-2333037*
+2363040*
 1Ÿ Ÿ(
 
-2335336*
+2365139*
 1Ÿ Ÿ(
 
-2332537*
+2362540*
 1Ÿ Ÿ(
 
-2333024*
+2363024*
 1Ÿ Ÿ(
 
-2332537*
+2362540*
 1Ÿ Ÿ(
+
+2363040*
+1⁄ ⁄(
 
-23323624*
-1⁄ ⁄(
+23623939*
+1⁄ ⁄(#
 
-2333037*
-1⁄) ⁄(2
-
-23323836*
-1⁄3 ⁄(D
+2362540*
+1⁄ ⁄(
 
-2332537*
-1⁄) ⁄(2
+2363024*
+1⁄ ⁄(
 
-2333024*
-1⁄) ⁄(2
+2362540*
+1⁄ ⁄(
 
-2332537*
-1⁄) ⁄(2
-
-2333037*
+2363040*
 1€ €(
 
-2335736*
+2365539*
 1€ €(
 
-2332537*
+2362540*
 1€ €(
 
-2333024*
+2363024*
 1€ €(
 
-2332537*
+2362540*
 1€ €(
-
-2408040*
-1ﬂ" ﬂ()
-
-2408040*
-1ﬂ- ﬂ(4
 
-24011240*
-1ﬂ] ﬂ(h
+24123267*
+1ﬂ	 ﬂ(
+
+24124443*
+1ﬂ, ﬂ(1
 
-2404921*
+2414721*
 1ﬁ ﬁ(
 
-2405124*
+2414924*
 1ﬁ ﬁ(
-
-2408032*
-1ﬂ* ﬂ(+
-
-2408024*
-1ﬂ" ﬂ()
-
-2408032*
-1ﬂ5 ﬂ(9
-
-2408024*
-1ﬂ- ﬂ(4
 
-24011232*
-1ﬂi ﬂ(j
+24123224*
+1ﬂ	 ﬂ(
 
-24011224*
-1ﬂ] ﬂ(h
+24124432*
+1ﬂ2 ﬂ(3
+
+24124424*
+1ﬂ, ﬂ(1
 
-2403037*
+2413040*
 1‡ ‡(
 
-2405336*
+2415139*
 1‡ ‡(
 
-2402537*
+2412540*
 1‡ ‡(
 
-2403024*
+2413024*
 1‡ ‡(
 
-2402537*
+2412540*
 1‡ ‡(
-
-2403037*
-1· ·(
 
-24024336*
-1· ·(#
+24123232*
+1· ·(!
+
+24123224*
+1· ·(
+
+24123267*
+1·" ·(+
 
-2402537*
-1· ·(
+2413040*
+1·" ·(+
+
+24124639*
+1·, ·(@
 
-2403024*
-1· ·(
+2412540*
+1·" ·(+
 
-2402537*
-1· ·(
+2413024*
+1·" ·(+
 
-2403037*
+2412540*
+1·" ·(+
+
+2413040*
 1‚ ‚(
 
-2405736*
+2415539*
 1‚ ‚(
 
-2402537*
+2412540*
 1‚ ‚(
 
-2403024*
+2413024*
 1‚ ‚(
 
-2402537*
+2412540*
 1‚ ‚(
-
-24523643*
-1Ê	 Ê(
-
-24524840*
-1Ê, Ê(1
 
-2454921*
+2486543*
+1Ê4 Ê(8
+
+2484721*
 1Â Â(
 
-2455124*
+2484924*
 1Â Â(
+
+2489124*
+1Ê Ê(
+
+2486532*
+1Ê9 Ê(=
+
+2486524*
+1Ê4 Ê(8
+
+2483040*
+1Á Á(
+
+2485139*
+1Á Á(
+
+2482540*
+1Á Á(
+
+2483024*
+1Á Á(
+
+2482540*
+1Á Á(
+
+2489124*
+1Ë Ë(
+
+2483040*
+1Ë Ë(
 
-24523624*
-1Ê	 Ê(
-
-24524832*
-1Ê2 Ê(3
-
-24524824*
-1Ê, Ê(1
+24825139*
+1Ë  Ë(7
 
-2453037*
-1Á Á(
+2482540*
+1Ë Ë(
 
-2455336*
-1Á Á(
+2483024*
+1Ë Ë(
 
-2452537*
-1Á Á(
+2482540*
+1Ë Ë(
 
-2453024*
-1Á Á(
-
-2452537*
-1Á Á(
-
-24523632*
-1Ë Ë(!
-
-24523624*
-1Ë Ë(
-
-24523643*
-1Ë" Ë(+
-
-2453037*
-1Ë" Ë(+
-
-24525036*
-1Ë, Ë(@
-
-2452537*
-1Ë" Ë(+
-
-2453024*
-1Ë" Ë(+
-
-2452537*
-1Ë" Ë(+
-
-2453037*
+2483040*
 1È È(
 
-2455736*
+2485539*
 1È È(
 
-2452537*
+2482540*
 1È È(
 
-2453024*
+2483024*
 1È È(
 
-2452537*
+2482540*
 1È È(
 
-2526740*
-1Ì4 Ì(8
+2536543*
+1Ì7 Ì(;
 
-2524921*
+2534721*
 1Ï Ï(
 
-2525124*
+2534924*
 1Ï Ï(
 
-2529224*
+2539124*
 1Ì Ì(
 
-2526732*
-1Ì9 Ì(=
+2536532*
+1Ì< Ì(@
 
-2526724*
-1Ì4 Ì(8
+2536524*
+1Ì7 Ì(;
 
-2523037*
+2533040*
 1Ó Ó(
 
-2525336*
+2535139*
 1Ó Ó(
 
-2522537*
+2532540*
 1Ó Ó(
 
-2523024*
+2533024*
 1Ó Ó(
 
-2522537*
+2532540*
 1Ó Ó(
 
-2529224*
+2539124*
 1Ô Ô(
 
-2523037*
+2533040*
 1Ô Ô(
 
-25225536*
-1Ô  Ô(7
+25325639*
+1Ô  Ô(:
 
-2522537*
+2532540*
 1Ô Ô(
 
-2523024*
+2533024*
 1Ô Ô(
 
-2522537*
+2532540*
 1Ô Ô(
 
-2523037*
+2533040*
 1 (
 
-2525736*
+2535539*
 1 (
 
-2522537*
+2532540*
 1 (
 
-2523024*
+2533024*
 1 (
 
-2522537*
+2532540*
 1 (
+
+25823243*
+1Û= Û(J
 
-2576740*
-1Ù7 Ù(;
-
-2574921*
+2584721*
 1Û Û(
 
-2575124*
+2584924*
 1Û Û(
-
-2579224*
-1Ù Ù(
-
-2576732*
-1Ù< Ù(@
-
-2576724*
-1Ù7 Ù(;
-
-2573037*
-1ı ı(
-
-2575336*
-1ı ı(
-
-2572537*
-1ı ı(
-
-2573024*
-1ı ı(
-
-2572537*
-1ı ı(
-
-2579224*
-1ˆ ˆ(
-
-2573037*
-1ˆ ˆ(
 
-25726036*
-1ˆ  ˆ(:
-
-2572537*
-1ˆ ˆ(
-
-2573024*
-1ˆ ˆ(
-
-2572537*
-1ˆ ˆ(
-
-2573037*
-1˜ ˜(
-
-2575736*
-1˜ ˜(
-
-2572537*
-1˜ ˜(
-
-2573024*
-1˜ ˜(
-
-2572537*
-1˜ ˜(
+25823232*
+1ÛK Û(X
 
-26223640*
-1˙= ˙(J
+25823224*
+1Û= Û(J
 
-2624921*
-1˙ ˙(
+2583040*
+1Ù Ù(
 
-2625124*
+2585139*
+1Ù Ù(
+
+2582540*
+1Ù Ù(
+
+2583024*
+1Ù Ù(
+
+2582540*
+1Ù Ù(
+
+2583040*
+1ı ı(
+
+25826139*
+1ı ı(0
+
+2582540*
+1ı ı(
+
+2583024*
+1ı ı(
+
+2582540*
+1ı ı(
+
+2583040*
+1ˆ ˆ(
+
+2585539*
+1ˆ ˆ(
+
+2582540*
+1ˆ ˆ(
+
+2583024*
+1ˆ ˆ(
+
+2582540*
+1ˆ ˆ(
+
+26318843*
+1˘! ˘(&
+
+2634721*
+1¯ ¯(
+
+2634924*
+1¯ ¯(
+
+26318832*
+1˘' ˘(-
+
+26318824*
+1˘! ˘(&
+
+2633040*
 1˙ ˙(
-
-26223632*
-1˙K ˙(X
-
-26223624*
-1˙= ˙(J
 
-2623037*
+2635139*
+1˙ ˙(
+
+2632540*
+1˙ ˙(
+
+2633024*
+1˙ ˙(
+
+2632540*
+1˙ ˙(
+
+2633040*
+1˚ ˚(
+
+26326639*
+1˚ ˚(
+
+2632540*
 1˚ ˚(
 
-2625336*
-1˚ ˚(
-
-2622537*
+2633024*
 1˚ ˚(
 
-2623024*
+2632540*
 1˚ ˚(
 
-2622537*
-1˚ ˚(
-
-2623037*
-1¸ ¸(
-
-26226536*
-1¸ ¸(0
-
-2622537*
+2633040*
 1¸ ¸(
 
-2623024*
+2635539*
+1¸ ¸(
+
+2632540*
 1¸ ¸(
 
-2622537*
+2633024*
 1¸ ¸(
 
-2623037*
-1˝ ˝(
+2632540*
+1¸ ¸(
 
-2625736*
-1˝ ˝(
+2689143*
+1ˇ' ˇ(0
 
-2622537*
-1˝ ˝(
+2684721*
+1˛ ˛(
 
-2623024*
-1˝ ˝(
-
-2622537*
-1˝ ˝(
+2684924*
+1˛ ˛(
 
-26719240*
-1Ä! Ä(&
+26818824*
+1ˇ ˇ(
 
-2674921*
-1ˇ ˇ(
+2689132*
+1ˇ1 ˇ(:
 
-2675124*
-1ˇ ˇ(
+2689124*
+1ˇ' ˇ(0
+
+2683040*
+1Ä Ä(
+
+2685139*
+1Ä Ä(
+
+2682540*
+1Ä Ä(
+
+2683024*
+1Ä Ä(
+
+2682540*
+1Ä Ä(
 
-26719232*
-1Ä' Ä(-
+26818824*
+1Å Å(
+
+2683040*
+1Å Å("
 
-26719224*
-1Ä! Ä(&
+26827139*
+1Å# Å(2
 
-2673037*
-1Å Å(
+2682540*
+1Å Å("
 
-2675336*
-1Å Å(
+2683024*
+1Å Å("
 
-2672537*
-1Å Å(
+2682540*
+1Å Å("
 
-2673024*
-1Å Å(
-
-2672537*
-1Å Å(
-
-2673037*
-1Ç Ç(
-
-26727036*
-1Ç Ç(
-
-2672537*
-1Ç Ç(
-
-2673024*
-1Ç Ç(
-
-2672537*
+2683040*
 1Ç Ç(
 
-2673037*
-1É É(
+2685539*
+1Ç Ç(
 
-2675736*
-1É É(
+2682540*
+1Ç Ç(
 
-2672537*
-1É É(
+2683024*
+1Ç Ç(
 
-2673024*
-1É É(
+2682540*
+1Ç Ç(
 
-2672537*
-1É É(
+2739143*
+1Ü+ Ü(4
 
-2729240*
-1Ü' Ü(0
-
-2724921*
+2734721*
 1Ö Ö(
 
-2725124*
+2734924*
 1Ö Ö(
 
-27219224*
+27318824*
 1Ü Ü(
 
-2729232*
-1Ü1 Ü(:
+2739132*
+1Ü5 Ü(>
 
-2729224*
-1Ü' Ü(0
+2739124*
+1Ü+ Ü(4
 
-2723037*
+2733040*
 1á á(
 
-2725336*
+2735139*
 1á á(
 
-2722537*
+2732540*
 1á á(
 
-2723024*
+2733024*
 1á á(
 
-2722537*
+2732540*
 1á á(
 
-27219224*
+27318824*
 1à à(
 
-2723037*
+2733040*
 1à à("
 
-27227536*
-1à# à(2
+27327639*
+1à# à(5
 
-2722537*
+2732540*
 1à à("
 
-2723024*
+2733024*
 1à à("
 
-2722537*
+2732540*
 1à à("
 
-2723037*
+2733040*
 1â â(
 
-2725736*
+2735539*
 1â â(
 
-2722537*
+2732540*
 1â â(
 
-2723024*
+2733024*
 1â â(
 
-2722537*
+2732540*
 1â â(
 
-2779240*
-1ç+ ç(4
+2789143*
+1å; å(D
 
-2774921*
+2784721*
 1å å(
 
-2775124*
+2784924*
 1å å(
 
-27719224*
-1ç ç(
+27822524*
+1å å("
 
-2779232*
-1ç5 ç(>
+2789132*
+1åE å(N
 
-2779224*
-1ç+ ç(4
+2789124*
+1å; å(D
 
-2773037*
-1é é(
+2783040*
+1ç ç(
 
-2775336*
-1é é(
+2785139*
+1ç ç(
 
-2772537*
-1é é(
+2782540*
+1ç ç(
 
-2773024*
-1é é(
+2783024*
+1ç ç(
 
-2772537*
-1é é(
+2782540*
+1ç ç(
 
-27719224*
-1è è(
+27822524*
+1é é(
 
-2773037*
-1è è("
+2783040*
+1é é($
 
-27728036*
-1è# è(5
+27828139*
+1é% é(<
 
-2772537*
-1è è("
+2782540*
+1é é($
 
-2773024*
-1è è("
+2783024*
+1é é($
 
-2772537*
-1è è("
+2782540*
+1é é($
 
-2773037*
-1ê ê(
+2783040*
+1è è(
 
-2775736*
-1ê ê(
+2785539*
+1è è(
 
-2772537*
-1ê ê(
+2782540*
+1è è(
 
-2773024*
-1ê ê(
+2783024*
+1è è(
 
-2772537*
-1ê ê(
-
-2829240*
-1ì; ì(D
-
-2824921*
-1ì ì(
-
-2825124*
-1ì ì(
+2782540*
+1è è(
 
-28222924*
-1ì ì("
+28322543*
+1ì# ì()
 
-2829232*
-1ìE ì(N
+2834721*
+1í í(
 
-2829224*
-1ì; ì(D
+2834924*
+1í í(
+
+28322532*
+1ì* ì(0
+
+28322524*
+1ì# ì()
 
-2823037*
+2833040*
 1î î(
 
-2825336*
+2835139*
 1î î(
 
-2822537*
+2832540*
 1î î(
 
-2823024*
+2833024*
 1î î(
 
-2822537*
+2832540*
 1î î(
+
+2833040*
+1ï ï(
 
-28222924*
-1ï ï(
+28328639*
+1ï ï( 
 
-2823037*
-1ï ï($
-
-28228536*
-1ï% ï(<
+2832540*
+1ï ï(
 
-2822537*
-1ï ï($
+2833024*
+1ï ï(
 
-2823024*
-1ï ï($
+2832540*
+1ï ï(
 
-2822537*
-1ï ï($
-
-2823037*
+2833040*
 1ñ ñ(
 
-2825736*
+2835539*
 1ñ ñ(
 
-2822537*
+2832540*
 1ñ ñ(
 
-2823024*
+2833024*
 1ñ ñ(
 
-2822537*
+2832540*
 1ñ ñ(
 
-28722940*
-1ö# ö()
+28811143*
+1ô  ô(+
 
-2874921*
-1ô ô(
+2884721*
+1ò ò(
 
-2875124*
-1ô ô(
+2884924*
+1ò ò(
 
-28722932*
-1ö* ö(0
+28811132*
+1ô, ô(3
 
-28722924*
-1ö# ö()
+28811124*
+1ô  ô(+
 
-2873037*
-1õ õ(
+2883040*
+1ö ö(
 
-2875336*
-1õ õ(
+2885139*
+1ö ö(
 
-2872537*
-1õ õ(
+2882540*
+1ö ö(
 
-2873024*
-1õ õ(
+2883024*
+1ö ö(
 
-2872537*
-1õ õ(
+2882540*
+1ö ö(
 
-2873037*
+2883040*
+1õ õ("
+
+28829139*
+1õ# õ(.
+
+2882540*
+1õ õ("
+
+2883024*
+1õ õ("
+
+2882540*
+1õ õ("
+
+2883040*
+1ú ú(
+
+2885539*
+1ú ú(
+
+2882540*
+1ú ú(
+
+2883024*
+1ú ú(
+
+2882540*
 1ú ú(
 
-28729036*
-1ú ú( 
+29311143*
+1†# †(.
 
-2872537*
-1ú ú(
-
-2873024*
-1ú ú(
-
-2872537*
-1ú ú(
-
-2873037*
-1ù ù(
-
-2875736*
-1ù ù(
-
-2872537*
-1ù ù(
-
-2873024*
-1ù ù(
-
-2872537*
-1ù ù(
-
-29211240*
-1†  †(+
-
-2924921*
+2934721*
 1ü ü(
 
-2925124*
+2934924*
 1ü ü(
 
-29211232*
-1†, †(3
+29311132*
+1†/ †(6
 
-29211224*
-1†  †(+
+29311124*
+1†# †(.
 
-2923037*
+2933040*
 1° °(
 
-2925336*
+2935139*
 1° °(
 
-2922537*
+2932540*
 1° °(
 
-2923024*
+2933024*
 1° °(
 
-2922537*
+2932540*
 1° °(
 
-2923037*
+2933040*
 1¢ ¢("
 
-29229536*
-1¢# ¢(.
+29329639*
+1¢# ¢(1
 
-2922537*
+2932540*
 1¢ ¢("
 
-2923024*
+2933024*
 1¢ ¢("
 
-2922537*
+2932540*
 1¢ ¢("
 
-2923037*
+2933040*
 1£ £(
 
-2925736*
+2935539*
 1£ £(
 
-2922537*
+2932540*
 1£ £(
 
-2923024*
+2933024*
 1£ £(
 
-2922537*
+2932540*
 1£ £(
 
-29711240*
-1ß# ß(.
+29811167*
+1ß ß(
 
-2974921*
+2986543*
+1ß3 ß(7
+
+2989143*
+1ß: ß(C
+
+2984721*
 1¶ ¶(
 
-2975124*
+2984924*
 1¶ ¶(
 
-29711232*
-1ß/ ß(6
-
-29711224*
-1ß# ß(.
+29811124*
+1ß ß(
 
-2973037*
+2986532*
+1ß8 ß(9
+
+2986524*
+1ß3 ß(7
+
+2989132*
+1ßD ß(E
+
+2989124*
+1ß: ß(C
+
+2983040*
 1® ®(
 
-2975336*
+2985139*
 1® ®(
 
-2972537*
+2982540*
 1® ®(
 
-2973024*
+2983024*
 1® ®(
 
-2972537*
+2982540*
 1® ®(
-
-2973037*
-1© ©("
 
-29730036*
-1©# ©(1
+29811132*
+1© ©(
+
+29811124*
+1© ©(
+
+29811167*
+1© ©(&
 
-2972537*
-1© ©("
+2983040*
+1© ©(&
+
+29830139*
+1©( ©(B
 
-2973024*
-1© ©("
+2982540*
+1© ©(&
 
-2972537*
-1© ©("
+2983024*
+1© ©(&
 
-2973037*
+2982540*
+1© ©(&
+
+2983040*
 1™ ™(
 
-2975736*
+2985539*
 1™ ™(
 
-2972537*
+2982540*
 1™ ™(
 
-2973024*
+2983024*
 1™ ™(
 
-2972537*
+2982540*
 1™ ™(
+
+3036543*
+1≠5 ≠(9
 
-30211243*
-1Æ Æ(
+30311143*
+1≠@ ≠(K
 
-3026740*
-1Æ3 Æ(7
-
-3029240*
-1Æ: Æ(C
-
-3024921*
+3034721*
 1≠ ≠(
 
-3025124*
+3034924*
 1≠ ≠(
+
+3036532*
+1≠: ≠(>
+
+3036524*
+1≠5 ≠(9
 
-30211224*
-1Æ Æ(
-
-3026732*
-1Æ8 Æ(9
-
-3026724*
-1Æ3 Æ(7
-
-3029232*
-1ÆD Æ(E
-
-3029224*
-1Æ: Æ(C
-
-3023037*
-1Ø Ø(
-
-3025336*
-1Ø Ø(
-
-3022537*
-1Ø Ø(
-
-3023024*
-1Ø Ø(
-
-3022537*
-1Ø Ø(
+30311132*
+1≠L ≠(S
 
-30211232*
-1∞ ∞(
+30311124*
+1≠@ ≠(K
+
+3033040*
+1Æ Æ(
+
+3035139*
+1Æ Æ(
+
+3032540*
+1Æ Æ(
+
+3033024*
+1Æ Æ(
+
+3032540*
+1Æ Æ(
+
+3033040*
+1Ø Ø(
 
-30211224*
-1∞ ∞(
+30330639*
+1Ø Ø(3
+
+3032540*
+1Ø Ø(
+
+3033024*
+1Ø Ø(
+
+3032540*
+1Ø Ø(
+
+3033040*
+1∞ ∞(
+
+3035539*
+1∞ ∞(
+
+3032540*
+1∞ ∞(
+
+3033024*
+1∞ ∞(
+
+3032540*
+1∞ ∞(
+
+3087943*
+1≥H ≥(O
+
+3084721*
+1≥ ≥(
+
+3084924*
+1≥ ≥(
 
-30211243*
-1∞ ∞(&
+30823224*
+1≥ ≥()
 
-3023037*
-1∞ ∞(&
-
-30230536*
-1∞( ∞(B
+3087932*
+1≥P ≥(Q
 
-3022537*
-1∞ ∞(&
+3087924*
+1≥H ≥(O
 
-3023024*
-1∞ ∞(&
-
-3022537*
-1∞ ∞(&
-
-3023037*
-1± ±(
-
-3025736*
-1± ±(
-
-3022537*
-1± ±(
-
-3023024*
-1± ±(
-
-3022537*
-1± ±(
-
-3076740*
-1¥5 ¥(9
-
-30711240*
-1¥@ ¥(K
-
-3074921*
-1¥ ¥(
-
-3075124*
+3083040*
 1¥ ¥(
 
-3076732*
-1¥: ¥(>
+3085139*
+1¥ ¥(
 
-3076724*
-1¥5 ¥(9
+3082540*
+1¥ ¥(
+
+3083024*
+1¥ ¥(
+
+3082540*
+1¥ ¥(
 
-30711232*
-1¥L ¥(S
+30823224*
+1µ µ(
+
+3083040*
+1µ# µ(,
 
-30711224*
-1¥@ ¥(K
+30831139*
+1µ- µ(I
 
-3073037*
-1µ µ(
+3082540*
+1µ# µ(,
 
-3075336*
-1µ µ(
+3083024*
+1µ# µ(,
 
-3072537*
-1µ µ(
+3082540*
+1µ# µ(,
 
-3073024*
-1µ µ(
+3083040*
+1∂ ∂(
 
-3072537*
-1µ µ(
+3085539*
+1∂ ∂(
 
-3073037*
-1∂ ∂(
-
-30731036*
-1∂ ∂(3
+3082540*
+1∂ ∂(
 
-3072537*
-1∂ ∂(
+3083024*
+1∂ ∂(
 
-3073024*
-1∂ ∂(
-
-3072537*
-1∂ ∂(
-
-3073037*
-1∑ ∑(
-
-3075736*
-1∑ ∑(
-
-3072537*
-1∑ ∑(
-
-3073024*
-1∑ ∑(
-
-3072537*
-1∑ ∑(
-
-3128040*
-1∫H ∫(O
-
-3124921*
-1∫ ∫(
-
-3125124*
-1∫ ∫(
-
-31223624*
-1∫ ∫()
-
-3128032*
-1∫P ∫(Q
-
-3128024*
-1∫H ∫(O
-
-3123037*
-1ª ª(
-
-3125336*
-1ª ª(
-
-3122537*
-1ª ª(
-
-3123024*
-1ª ª(
-
-3122537*
-1ª ª(
-
-31223624*
-1º º(
-
-3123037*
-1º# º(,
-
-31231536*
-1º- º(I
-
-3122537*
-1º# º(,
-
-3123024*
-1º# º(,
-
-3122537*
-1º# º(,
-
-3123037*
-1Ω Ω(
-
-3125736*
-1Ω Ω(
-
-3122537*
-1Ω Ω(
-
-3123024*
-1Ω Ω(
-
-3122537*
-1Ω Ω(
+3082540*
+1∂ ∂(

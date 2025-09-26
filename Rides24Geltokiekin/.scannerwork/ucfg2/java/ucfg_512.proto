@@ -1,11 +1,11 @@
 
-KbusinessLogic.BLFacadeImplementation#isErreklamatua(Ldomain/RideRequest;Z)Z{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaß ß(!"startingBlock*ç
+HbusinessLogic.BLFacadeImplementation#isBaloratua(Ldomain/RideRequest;Z)Z{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaô ô("startingBlock*ç
 startingBlock
-ß! ß(Fâ
+ô ô(Câ
 Ü
 
-¶ ¶(
+ò ò(
 %6"
 __annotate*)
 
@@ -17,25 +17,25 @@ __annotate*)
 requestdomain.RideRequest_
 ]
 
-ß. ß(5
+ô+ ô(2
 requestdomain.RideRequest"__annotation*"
 
 __unknown_file (
 
 %6*
-1*„
+1*›
 1
-® ®(á
+ö ö(á
 Ñ
 
-® ®(
+ö ö(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-® ®(
+ö ö(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,15 +44,15 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-© ©(!
+õ õ(!
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerüú
+	dbManagerôñ
 
-© ©(A
-%3boolean"<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Z*9
+õ õ(>
+%3boolean"9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Z*9
 
 __unknown_file (
 
@@ -63,17 +63,17 @@ $businessLogic.BLFacadeImplementation"
 requestdomain.RideRequest*"
 
 __unknown_file (
-""2%isErreklamatua(Ldomain/RideRequest;Z)á
+""2"isBaloratua(Ldomain/RideRequest;Z)á
 Ñ
 
-™ ™(
+ú ú(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-™ ™(
+ú ú(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -81,10 +81,10 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"
 
-´ ´(
+ù ù(
 "":+
 
-ß" ß(6
+ô ô(3
 requestdomain.RideRequest: 
 
 __unknown_file (

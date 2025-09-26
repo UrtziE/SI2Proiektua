@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644109855*java2.B‚
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741026371*java2.B‚
 ,
 'src/main/java/domain/Erreklamazioa.java2
 	
@@ -133,7 +133,7 @@ edomain.Erreklamazioa#<init>(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;F
 
 references97
 ,
-&domain.EgoeraErreklamazioa.EsleituGabe99
+&domain.EgoeraErreklamazioa.ESLEITUGABE99
 
 returns100
 0
@@ -572,6 +572,9 @@ A
 
 13
 91
+
+98
+989917
 E
 141>
 14114294 *
@@ -603,9 +606,6 @@ G
 
 13
 164
-
-98
-989917
 
 35
 353617

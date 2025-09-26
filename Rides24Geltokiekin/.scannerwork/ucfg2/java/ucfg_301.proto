@@ -1,27 +1,56 @@
 
-TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaý ý(8"1*í
+<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Zl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaþ þ("3*Ç
+2
+
+ (Ÿœ
+
+
+ (%
+%1boolean"-domain.RideRequest#isErreklamatuaTraveller()Z*5
+
+__unknown_file (
+
+rdomain.RideRequest2isErreklamatuaTraveller()"
+
+ (&
+""*è
+3
+ÿ ÿ(|z
+
+ÿ- ÿ(<	
+%0int"domain.RideRequest#getId()I*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getId()Q
+O
+
+ÿ ÿ(>
+rdomain.RideRequest"__id*"
+
+__unknown_file (
+""*
+2
+1*Á
 1
-ÿ$ ÿ(&Z
-X
+ƒ
+ ƒ(™–
 
-‚ ‚(5 
-%0domain.EgoeraErreklamazioa"__id*"
+ƒ
+ ƒ("
+%2boolean"*domain.RideRequest#isErreklamatuaDriver()Z*5
 
-__unknown_file (
-""T
-R
+__unknown_file (
+
+rdomain.RideRequest2isErreklamatuaDriver()"
 
-ƒ ƒ(7
-erreklamjava.util.List"__id*"
+ƒ ƒ(#
+"":+
+
+þ þ(3
+requestdomain.RideRequest: 
 
-__unknown_file (
-"""*
-
-„ „(
-
-erreklamjava.util.List:!
-
-ý9 ý(B
-adomain.ProfileB
-dataAccess.DataAccessH
+__unknown_file (
+""B
+dataAccess.DataAccessHX

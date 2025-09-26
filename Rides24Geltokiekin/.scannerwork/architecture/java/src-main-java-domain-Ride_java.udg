@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644112998*java2.BÛ8
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741029283*java2.B’8
 #
 src/main/java/domain/Ride.java2
 	
@@ -134,12 +134,12 @@ rideNumber28
 
 
 references100
-Æ
-¶domain.Ride#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/LinkedList;)V102
+¢
+ödomain.Ride#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/List;)V102
 
 	has param103
-V
-Odomain.Ride#sortuGeltokiGuztiak(Ljava/util/LinkedList;Ljava/util/LinkedList;I)V105
+J
+Cdomain.Ride#sortuGeltokiGuztiak(Ljava/util/List;Ljava/util/List;I)V105
 O
 Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)F107
  
@@ -383,8 +383,8 @@ Fdomain.Ride#kenduSeatGeltokiei(ILjava/lang/String;Ljava/lang/String;)V294
 kenduSeatGeltokiei295
 &
 domain.Geltoki#kenduSeatKop(I)V297
-:
-3domain.Ride#badaBiderenBat(Ljava/util/LinkedList;)Z299
+4
+-domain.Ride#badaBiderenBat(Ljava/util/List;)Z299
 
 badaBiderenBat300
 
@@ -599,6 +599,18 @@ G
 
 13
 311
+D
+101=
+10110298 *
+16 6(28:5B
+
+
+11
+12
+
+
+13
+14
 
 22
 222317
@@ -620,17 +632,6 @@ A
 
 176
 17617717
-G
-104@
-10410598 *
-1Ò Ò(28:5B
-
-
-11
-27
-
-13
-304
 G
 168@
 16816998 *
@@ -664,6 +665,17 @@ E
 
 13
 120
+G
+104@
+10410598 *
+1Ò Ò(28:5B
+
+
+11
+27
+
+13
+304
 
 302
 30230317
@@ -698,18 +710,6 @@ E
 
 76
 767717
-D
-101=
-10110298 *
-16 6(28:5B
-
-
-11
-12
-
-
-13
-14
 E
 122>
 12212398 *
@@ -1252,18 +1252,6 @@ A
 
 13
 45
-G
-298@
-29829998 *
-1Œ Œ(
-28:5B
-
-
-11
-12
-
-13
-300
 
 247
 24724817
@@ -1290,6 +1278,18 @@ E
 
 222
 22222317
+G
+298@
+29829998 *
+1Œ Œ(
+28:5B
+
+
+11
+12
+
+13
+300
 G
 146@
 14614798 *
@@ -1372,7 +1372,7 @@ G
 12
 
 13
-203r‹{
+203r⁄{
 
 81518*
 1 (
@@ -1475,27 +1475,27 @@ G
 
 965621*
 13 3(&
-
-10183103*
-16Ç 6(à
+
+10183103*
+16| 6(Ç
 
 10170103*
-16ê 6(ï
+16ä 6(è
 
 101899*
 16	 6(
 
 1018372*
-16â 6(è
-
-1018321*
-16Ç 6(à
+16É 6(â
+
+1018321*
+16| 6(Ç
 
 1017072*
-16ñ 6(õ
+16ê 6(ï
 
 1017021*
-16ê 6(ï
+16ä 6(è
 
 101821*
 18 8(

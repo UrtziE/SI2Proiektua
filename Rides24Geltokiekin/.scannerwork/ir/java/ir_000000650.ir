@@ -1,7 +1,7 @@
 (this
-‡ ‡("domain.RideRequest"R>
-<
+‹ ‹("domain.RideRequest"T@
+>
 
-ˆ	 ˆ("#get-field# traveller:Bdomain.Traveller
+Œ	 Œ("#get-field# whenRequested:Bjava.util.Date
 
-ˆ ˆ(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java
+Œ Œ(*]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java

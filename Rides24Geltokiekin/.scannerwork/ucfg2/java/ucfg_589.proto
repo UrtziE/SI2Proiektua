@@ -1,11 +1,11 @@
 
-(domain.Ride#toString()Ljava/lang/String;b
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaü ü("1*÷
+'domain.Ride#getInfo()Ljava/lang/String;b
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaù ù("1*ò
 1
-ı	 ı(j
+ú	 ú(j
 h
 
-ı	 ı(
+ú	 ú(
 %0java.lang.Integer"__id*;
 
 __unknown_file (*
@@ -14,102 +14,77 @@ h
 rideNumberp
 n
 
-ı	 ı(
+ú	 ú(
 %1java.lang.String"__concat*'
 
-ı	 ı(
+ú	 ú(
 
 %0java.lang.Integer*
 
-ı ı(
+ú ú(
  ; o
 m
 
-ı	 ı(
+ú	 ú(
 %2java.lang.String"__concat*&
 
-ı	 ı(
+ú	 ú(
 
 %1java.lang.String*
 
-ı ı(
- ; æ
-ã
+ú ú(
+ ; ’
 
-ı  ı(E
-%3java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetas‰†
-
-ı  ı(l
-%4java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
-
-__unknown_file ( 
-
-%3java.util.ResourceBundle*9
-
-__unknown_file (
-TReservationsGUI.Ibilbide2getString(Ljava/lang/String;)€
-~
-
-ı	 ı(l
-%5java.lang.String"__concat*&
-
-ı	 ı(
-
-%2java.lang.String*&
-
-ı  ı(l
-
-%4java.lang.String’
-
-ım ı({
-%6java.lang.String",domain.Ride#getIbilbidea()Ljava/lang/String;*+
+ú  ú(.
+%3java.lang.String",domain.Ride#getIbilbidea()Ljava/lang/String;*+
 
 __unknown_file (
 domain.Ride2getIbilbidea()€
 ~
 
-ı	 ı({
-%7java.lang.String"__concat*&
+ú	 ú(.
+%4java.lang.String"__concat*&
 
-ı	 ı(l
+ú	 ú(
 
-%5java.lang.String*&
+%2java.lang.String*&
 
-ım ı({
+ú  ú(.
 
-%6java.lang.Stringq
-o
-ı	 ı(
-%8java.lang.String"__concat*&
+%3java.lang.Stringo
+m
 
-ı	 ı({
+ú	 ú(4
+%5java.lang.String"__concat*&
+
+ú	 ú(.
 
-%7java.lang.String*
-ı| ı(
- ; c
-a
-ı‚ ı(†
-%9java.util.Date"__id*5
+%4java.lang.String*
+
+ú/ ú(4
+ ; a
+_
+
+ú5 ú(9
+%6java.util.Date"__id*5
 
 __unknown_file (*
 domain.Ride"
-date„
-
-ı	 ı(†
-%10java.lang.String"__concat*'
-ı	 ı(
+date~
+|
+
+ú	 ú(9
+%7java.lang.String"__concat*&
+
+ú	 ú(4
 
-%8java.lang.String*&
-ı‚ ı(†
+%5java.lang.String*$
+
+ú5 ú(9
 
-%9java.util.Date"(
-ı ı(‡
-
-%10java.lang.StringB
+%6java.util.Date"&
+
+ú ú(:
+
+%7java.lang.StringB
 domain.RideH

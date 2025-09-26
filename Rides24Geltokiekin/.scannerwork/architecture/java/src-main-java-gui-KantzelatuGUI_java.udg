@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758644112663*java2.Bº
+1.0UrtziE_SI2ProiektuaJavaFrontend"1758741028960*java2.Bº
 )
 $src/main/java/gui/KantzelatuGUI.java2
 	
@@ -143,7 +143,7 @@ Bgui.KantzelatuGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)V96
 =
 6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;104
 8
-1businessLogic.BLFacade#Kantzelatu(Ldomain/Ride;)V106
+1businessLogic.BLFacade#kantzelatu(Ldomain/Ride;)V106
 )
 "gui.KantzelatuGUI#etiketakHustu()V108
 -
@@ -358,6 +358,9 @@ D
 
 13
 97
+
+105
+10510628
 
 87
 878828
@@ -484,9 +487,6 @@ A
 
 79
 798028
-
-105
-10510628
 
 116
 11611728r–&

@@ -1,20 +1,20 @@
 
-QdataAccess.DataAccess#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaŸ Ÿ(,"1*è
+LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÿ ÿ(&"1*ô
 1
-⁄ ⁄(S
-Q
+Ÿ Ÿ(X
+V
 
-ﬂ ﬂ(/
-alertakjava.util.List"__id*"
+ﬁ ﬁ(3
+alertaMezuakjava.util.List"__id*"
 
 __unknown_file (
-""")
+""".
 
-‡ ‡(
-
-alertakjava.util.List:+
+‡ ‡( 
+
+alertaMezuakjava.util.List:+
 
-Ÿ- Ÿ(@
+ÿ' ÿ(:
 	travellerdomain.TravellerB
 dataAccess.DataAccessH

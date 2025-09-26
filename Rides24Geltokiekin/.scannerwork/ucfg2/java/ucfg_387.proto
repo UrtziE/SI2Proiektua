@@ -1,141 +1,61 @@
 
-,domain.RideRequest#mezua()Ljava/lang/String;i
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaÆ Æ("1*Ñ
+ domain.RideRequest#getPrezioa()Fi
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaÂ Â("1*¢
 1
-È
- È(æ
-ã
+Ã Ã(e
+c
 
-È
- È(/
-%0java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+Ã Ã(
+%0domain.Ride"__id*<
 
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetasûø
+__unknown_file ( *
+domain.RideRequest"
+rides
+q
 
-È
- È(H
-%1java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+Ã* Ã(7
+%1java.lang.String"__id*E
 
-__unknown_file ( 
-
-%0java.util.ResourceBundle*+
-
-__unknown_file (
-RideRequest2getString(Ljava/lang/String;)q
+__unknown_file ()*'
+domain.RideRequest"
+fromRequestedq
 o
 
-È
- È(P
-%2java.lang.String"__concat*&
-
-È
- È(H
-
-%1java.lang.String*
-
-ÈI È(P	
-:ID :p
-n
-
-ÈR È([
-%3java.lang.Integer"__id*A
+Ã9 Ã(D
+%2java.lang.String"__id*C
 
-__unknown_file (%*#
-domain.RideRequest"
-	requestId
-
+__unknown_file ('*%
+domain.RideRequest"
+toRequestedÀ½
 
-È
- È([
-%4java.lang.String"__concat*&
-
-È
- È(P
-
-%2java.lang.String*'
-
-ÈR È([
-
-%3java.lang.Integerm
-k
-
-È
- È(_
-%5java.lang.String"__concat*&
-
-È
- È([
-
-%4java.lang.String*
-
-È\ È(_
- æ
-ã
-
-É É()
-%6java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+Ã Ã(E
+%3float"Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)F*/
 
-__unknown_file ("
-java.util.ResourceBundle*)
+__unknown_file (
+
+%0domain.Ride*4
 
-__unknown_file (
-	Etiquetas‹ˆ
-
-É É(R
-%7java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+__unknown_file (
+
+%1java.lang.String*4
 
-__unknown_file ( 
-
-%6java.util.ResourceBundle*;
-
-__unknown_file (
-CreateRideGUI.NumberOfSeats2getString(Ljava/lang/String;)€
-~
-
-È
- É(R
-%8java.lang.String"__concat*&
-
-È
- È(_
+__unknown_file (
 
-%5java.lang.String*&
+%2java.lang.String2;lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)i
+g
 
-É É(R
-
-%7java.lang.Stringm
-k
+Ä	 Ä(
+%4float"__calculate*
 
-È
- É(V
-%9java.lang.String"__concat*&
+Ä Ä(
+**
 
-È
- É(R
-
-%8java.lang.String*
+Ä	 Ä(
+""*
 
-ÉS É(V
- o
-m
+Ä Ä(
+"""
 
-È
- É(\
-%10java.lang.String"__concat*&
-
-È
- É(V
-
-%9java.lang.String*
-
-ÉW É(\
-"""'
-
-È É(^
-
-%10java.lang.StringB
-domain.RideRequestH
+Ä Ä(
+""B
+domain.RideRequestHX

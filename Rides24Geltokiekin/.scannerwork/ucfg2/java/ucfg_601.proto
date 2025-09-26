@@ -1,194 +1,141 @@
 
-Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)Fb
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaÜ Ü(%"11*…
+-domain.Ride#badaBiderenBat(Ljava/util/List;)Zb
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaÎ Î( "8*%
 4
-é é(i
-g
+Ö Ö("
 
-é é(
-%12java.util.List"__id*<
-
-__unknown_file ( *
-domain.Ride"
-geltokiList‹
-ˆ
+Ö Ö(
+""*œ
+5
+Ó Ó(
+Š
 
-é é(
-%13domain.Geltoki"
-__arrayGet*3
-
-__unknown_file (
-
-%12java.util.List*"
-
-__unknown_file (
-""œ™
-
-é é((
-%14java.lang.String".domain.Geltoki#getTokiIzen()Ljava/lang/String;*3
-
-__unknown_file (
-
-%13domain.Geltoki2getTokiIzen()ÖÓ
-
-é é(3
-%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
-
-__unknown_file (
-
-%14java.lang.String*4
+Ó Ó(!
+%6java.lang.String"
+__arrayGet*4
 
 __unknown_file (
 
-tojava.lang.String2equals(Ljava/lang/Object;)*
-9*ƒ
-6
-æ æ(h
-f
-
-æ æ(
-%8java.util.List"__id*<
-
-__unknown_file ( *
-domain.Ride"
-geltokiList‰
-†
-
-æ æ(
-%9domain.Geltoki"
-__arrayGet*2
-
-__unknown_file (
-
-%8java.util.List*"
+ibiljava.util.List*"
 
 __unknown_file (
-""›˜
+""g
+e
 
-æ æ((
-%10java.lang.String".domain.Geltoki#getTokiIzen()Ljava/lang/String;*2
+Ó Ó("
+helmugajava.lang.String"__id*4
 
-__unknown_file (
-
-%9domain.Geltoki2getTokiIzen()ØÕ
+__unknown_file (
+
+%6java.lang.String‰
+†
 
-æ æ(5
-%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
-
-__unknown_file (
-
-%10java.lang.String*6
-
-__unknown_file (
-
-fromjava.lang.String2equals(Ljava/lang/Object;)*
-4*ù
-7
-ä ä(h
-f
-
-ä ä(!
-%4java.util.List"__id*<
-
-__unknown_file ( *
-domain.Ride"
-geltokiList‰
-†
-
-ä ä((
-%5domain.Geltoki"
-__arrayGet*2
-
-__unknown_file (
-
-%4java.util.List*"
-
-__unknown_file (
-""{y
-
-ä ä(5
-%6float"domain.Geltoki#getPrezioa()F*2
-
-__unknown_file (
-
-%5domain.Geltoki2getPrezioa()p
-n
-
-ä ä(5
-%7float"__calculate*
-
-ä ä(
-+*
-
-ä ä(
-""*
-
-ä ä(5
-
-%6float*
-6*ã
-9
-á á(h
-f
-
-á á(
-%1java.util.List"__id*<
-
-__unknown_file ( *
-domain.Ride"
-geltokiListmk
-
-á á($	
-%2int"java.util.List#size()I*2
-
-__unknown_file (
-
-%1java.util.List2size()n
-l
-
-á á($
-%3boolean"	__compare*
-
-á á(
-<*
-
-á á(
-""*
-
-á á($
-	
-%2int*	
-6
-7
-1*œ
-11
-Ý Ý(
-þ
-
-ß ß(/
-%0boolean"Fdomain.Ride#geltokiListContains(Ljava/lang/String;Ljava/lang/String;)Z*+
+Ô Ô(8
+%7boolean"Fdomain.Ride#geltokiListContains(Ljava/lang/String;Ljava/lang/String;)Z*+
 
 __unknown_file (
-domain.Ride*6
+domain.Ride*9
 
-__unknown_file (
+__unknown_file (
+
+irteerajava.lang.String*9
 
-fromjava.lang.String*4
+__unknown_file (
+
+helmugajava.lang.String*
+4
+6*ø
+6
+Ò Ò(om
+
+Ò Ò(!	
+%4int"java.util.List#size()I*4
 
 __unknown_file (
 
-tojava.lang.String*
-9
+ibiljava.util.List2size()n
+l
+
+Ò Ò(!
+%5boolean"	__compare*
+
+Ò Ò(
+<*
+
+Ò Ò(
+""*
+
+Ò Ò(!
+	
+%4int*
+5
+8*ô
+7
+Ñ Ñ(
+Š
+
+Ñ Ñ( 
+%2java.lang.String"
+__arrayGet*4
+
+__unknown_file (
+
+ibiljava.util.List*"
+
+__unknown_file (
+""g
+e
+
+Ñ Ñ(!
+irteerajava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringe
+c
+
+Ò Ò(	
+%3int"__calculate*
+
+Ò Ò(
++*
+
+Ò Ò(
+""*
+
+Ò Ò(2*
+6*ø
+8
+Ð Ð(om
+
+Ð Ð(	
+%0int"java.util.List#size()I*4
+
+__unknown_file (
+
+ibiljava.util.List2size()n
+l
+
+Ð Ð(
+%1boolean"	__compare*
+
+Ð Ð(
+<*
+
+Ð Ð(
+""*
+
+Ð Ð(
+	
+%0int*
+7
 1*%
 1
-î î("
+Ú Ú("
 
-î î(
-"":&
+Ú Ú(
+"":$
 
-Ü& Ü(2
-fromjava.lang.String:$
-
-Ü3 Ü(<
-tojava.lang.StringB
+Î! Î(1
+ibiljava.util.ListB
 domain.RideHX
