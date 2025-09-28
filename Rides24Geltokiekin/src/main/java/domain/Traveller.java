@@ -89,7 +89,7 @@ public class Traveller extends Profile implements Serializable
 	public void doneNotDoneErreserbaBerdinak(boolean eginda,Ride ride,Driver d) {
 		if(eginda) {
 		for(RideRequest request: requests) {
-			if(request.getRide().getRideNumber().equals(ride.getRideNumber())&&request.getState().equals(EgoeraRideRequest.Accepted)) {
+			if(request.getRide().getRideNumber().equals(ride.getRideNumber())&&request.getState().equals(EgoeraRideRequest.ACCEPTED)) {
 				
 				float diruSartu = request.getPrezioa();
 				d.gehituDirua(diruSartu);
@@ -97,17 +97,17 @@ public class Traveller extends Profile implements Serializable
 				d.gehituMezuaTransaction(7, diruSartu, request); // Driver dirua gehitu
 				
 				
-				request.setState(EgoeraRideRequest.Done);
+				request.setState(EgoeraRideRequest.DONE);
 				request.setBidaiaEsandaTrue();
 			}
 		}
 		}else {
 			for(RideRequest request: requests) {
-				if(request.getRide().getRideNumber().equals(ride.getRideNumber())&&request.getState().equals(EgoeraRideRequest.Accepted)) {
+				if(request.getRide().getRideNumber().equals(ride.getRideNumber())&&request.getState().equals(EgoeraRideRequest.ACCEPTED)) {
 					float diruSartu = request.getPrezioa();
 					this.gehituDirua(diruSartu);
 					this.gehituMezuaTransaction(4, diruSartu, request);
-					request.setState(EgoeraRideRequest.NotDone);
+					request.setState(EgoeraRideRequest.NOT_DONE);
 					request.setBidaiaEsandaTrue();
 				}
 		}

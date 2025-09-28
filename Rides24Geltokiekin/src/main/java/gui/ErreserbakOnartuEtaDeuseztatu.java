@@ -310,7 +310,7 @@ public class ErreserbakOnartuEtaDeuseztatu extends JFrame {
 			BLFacade blf = MainGUI.getBusinessLogic();
 			List<RideRequest> requests= new LinkedList<RideRequest>();
 			for (RideRequest request : blf.getRidesRequestsOfRide(ride)) {
-				if (request.getState().equals(EgoeraRideRequest.TratatuGabe))
+				if (request.getState().equals(EgoeraRideRequest.TRATATU_GABE))
 					requests.add(request);
 			}
 			Collections.sort(requests,Collections.reverseOrder());

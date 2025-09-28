@@ -5,5 +5,5 @@ import javax.xml.bind.annotation.XmlAccessorType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public enum EgoeraErreklamazioa {
-	EsleituGabe,Prozesuan,Bukatua;
+	ESLEITU_GABE,PROSEZUAN,BUKATUA;
 }

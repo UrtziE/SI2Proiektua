@@ -245,7 +245,7 @@ public class Ride implements Serializable, Comparable<Ride> {
 	public int getTGEskakizunTamaina() {
 		int kontagailua=0;
 		for(RideRequest request :this.requests) {
-			if(request.getState().equals(EgoeraRideRequest.TratatuGabe)) {
+			if(request.getState().equals(EgoeraRideRequest.TRATATU_GABE)) {
 				kontagailua++;
 			}
 		}
@@ -357,8 +357,8 @@ public class Ride implements Serializable, Comparable<Ride> {
 		for (RideRequest request : requests) {
 			
 			if (request.getSeats() >this.lortuEserlekuKopMin(request.getFromRequested(), request.getToRequested()) 
-					&& request.getState().equals(EgoeraRideRequest.TratatuGabe)&&request.getId()!=r.getId()) {
-				request.setState(EgoeraRideRequest.Rejected);
+					&& request.getState().equals(EgoeraRideRequest.TRATATU_GABE)&&request.getId()!=r.getId()) {
+				request.setState(EgoeraRideRequest.REJECTED);
 				request.setWhenDecided(new Date());
 				Traveller t = request.getTraveller();	
 				t.gehituDirua(request.getPrezioa());
@@ -534,7 +534,7 @@ public class Ride implements Serializable, Comparable<Ride> {
    }
    public boolean containsRequestDone() {
 	   for(RideRequest request: requests) {
-		   if(request.getState().equals(EgoeraRideRequest.Done)) {
+		   if(request.getState().equals(EgoeraRideRequest.DONE)) {
 			   return true;
 		   }
 	   }
@@ -544,7 +544,7 @@ public class Ride implements Serializable, Comparable<Ride> {
    
    public boolean containsRequestNotDone() {
 	   for(RideRequest request: requests) {
-		   if(request.getState().equals(EgoeraRideRequest.NotDone)) {
+		   if(request.getState().equals(EgoeraRideRequest.NOT_DONE)) {
 			   return true;
 		   }
 	   }
@@ -554,7 +554,7 @@ public class Ride implements Serializable, Comparable<Ride> {
    public List<Traveller> travellersDone(){
 	   List<Traveller>travellerList= new LinkedList<Traveller>();
 	   for(RideRequest request: requests) {
-		   if(request.getState().equals(EgoeraRideRequest.Done)&&!travellerList.contains(request.getTraveller())) {
+		   if(request.getState().equals(EgoeraRideRequest.DONE)&&!travellerList.contains(request.getTraveller())) {
 			   travellerList.add(request.getTraveller());
 		   }
 	   }
@@ -564,7 +564,7 @@ public class Ride implements Serializable, Comparable<Ride> {
    public List<Traveller> travellersNotDone(){
 	   List<Traveller>travellerList= new LinkedList<Traveller>();
 	   for(RideRequest request: requests) {
-		   if(request.getState().equals(EgoeraRideRequest.NotDone)&&!travellerList.contains(request.getTraveller())) {
+		   if(request.getState().equals(EgoeraRideRequest.NOT_DONE)&&!travellerList.contains(request.getTraveller())) {
 			  
 			   travellerList.add(request.getTraveller());
 		   }

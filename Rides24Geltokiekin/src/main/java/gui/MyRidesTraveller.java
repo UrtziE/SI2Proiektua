@@ -379,7 +379,7 @@ public class MyRidesTraveller extends JFrame {
 			List<Ride>rides=new LinkedList<Ride>();
 			for (RideRequest r : lagun) {
 				EgoeraRideRequest accepted = r.getState();
-				if (accepted.equals(EgoeraRideRequest.NotDone)) {
+				if (accepted.equals(EgoeraRideRequest.NOT_DONE)) {
 					Ride o = r.getRide();
 					this.requests.add(r);
 					if (o.getEgoera().equals(EgoeraRide.PASATUA)) {
@@ -404,7 +404,7 @@ public class MyRidesTraveller extends JFrame {
 			List<Ride>rides=new LinkedList<Ride>();
 			for (RideRequest r : lagun) {
 				EgoeraRideRequest accepted = r.getState();
-				if (accepted.equals(EgoeraRideRequest.Accepted) && r.getRide().getDate().before(new Date())) {
+				if (accepted.equals(EgoeraRideRequest.ACCEPTED) && r.getRide().getDate().before(new Date())) {
 					Ride o = r.getRide();
 					this.requests.add(r);
 					if (o.getEgoera().equals(EgoeraRide.KANTZELATUA)) {
@@ -428,7 +428,7 @@ public class MyRidesTraveller extends JFrame {
 			List<Ride>rides=new LinkedList<Ride>();
 			for (RideRequest r : lagun) {
 				EgoeraRideRequest accepted = r.getState();
-				if (accepted.equals(EgoeraRideRequest.Done)) {
+				if (accepted.equals(EgoeraRideRequest.DONE)) {
 					Ride o = r.getRide();
 					this.requests.add(r);
 					if (o.getEgoera().equals(EgoeraRide.PASATUA)) {
@@ -452,7 +452,7 @@ public class MyRidesTraveller extends JFrame {
 			List<Ride>rides=new LinkedList<Ride>();
 			for (RideRequest r : lagun) {
 				EgoeraRideRequest accepted = r.getState();
-				if (accepted.equals(EgoeraRideRequest.Accepted) && r.getRide().getDate().before(new Date())) {
+				if (accepted.equals(EgoeraRideRequest.ACCEPTED) && r.getRide().getDate().before(new Date())) {
 					Ride o = r.getRide();
 					this.requests.add(r);
 					if (o.getEgoera().equals(EgoeraRide.PASATUA)) {
@@ -477,7 +477,7 @@ public class MyRidesTraveller extends JFrame {
 			List<Ride>rides=new LinkedList<Ride>();
 			for (RideRequest r : lagun) {
 				EgoeraRideRequest accepted = r.getState();
-				if (accepted.equals(EgoeraRideRequest.Accepted)) {
+				if (accepted.equals(EgoeraRideRequest.ACCEPTED)) {
 					this.requests.add(r);
 					Ride o = r.getRide();
 					if (o.getEgoera().equals(EgoeraRide.MARTXAN)) {

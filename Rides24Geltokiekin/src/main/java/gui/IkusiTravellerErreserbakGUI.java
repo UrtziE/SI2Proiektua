@@ -155,7 +155,7 @@ public class IkusiTravellerErreserbakGUI extends JFrame {
 					NoizEskatua.setText(request.getWhenRequested().toString());
 					seatKop.setText(Integer.toString(request.getSeats()));
 					pricelbl.setText(Float.toString(request.getPrezioa()));
-					if (!request.getState().equals(EgoeraRideRequest.TratatuGabe))
+					if (!request.getState().equals(EgoeraRideRequest.TRATATU_GABE))
 						Erantzunalbl.setText(request.getWhenDecided().toString());
 					else
 						Erantzunalbl.setText("");
@@ -302,7 +302,7 @@ public class IkusiTravellerErreserbakGUI extends JFrame {
 		List<RideRequest> lagun = blf.getRidesRequestsOfTraveller(traveller);
 		List<RideRequest> deusez = new ArrayList<RideRequest>();
 		for (RideRequest r : lagun) {
-			if (r.getState().equals(EgoeraRideRequest.Rejected)&&r.getRide().getDate().after(new Date())) {
+			if (r.getState().equals(EgoeraRideRequest.REJECTED)&&r.getRide().getDate().after(new Date())) {
 				deusez.add(r);
 
 			}
@@ -317,7 +317,7 @@ public class IkusiTravellerErreserbakGUI extends JFrame {
 		List<RideRequest> lagun = blf.getRidesRequestsOfTraveller(traveller);
 		List<RideRequest> onartu = new ArrayList<RideRequest>();
 		for (RideRequest r : lagun) {
-			if (r.getState().equals(EgoeraRideRequest.Accepted) && !r.getRide().getDate().before(new Date())) {
+			if (r.getState().equals(EgoeraRideRequest.ACCEPTED) && !r.getRide().getDate().before(new Date())) {
 				onartu.add(r);
 			}
 		}
@@ -331,7 +331,7 @@ public class IkusiTravellerErreserbakGUI extends JFrame {
 		List<RideRequest> lagun = blf.getRidesRequestsOfTraveller(traveller);
 		List<RideRequest> egindakoak = new ArrayList<RideRequest>();
 		for (RideRequest r : lagun) {
-			if (r.getState().equals(EgoeraRideRequest.Accepted) &&r.getRide().getEgoera().equals(EgoeraRide.PASATUA)&& !r.isBidaiaEsandaZer()) { //.getEgoera().equals(EgoeraRide.PASATUA)
+			if (r.getState().equals(EgoeraRideRequest.ACCEPTED) &&r.getRide().getEgoera().equals(EgoeraRide.PASATUA)&& !r.isBidaiaEsandaZer()) { //.getEgoera().equals(EgoeraRide.PASATUA)
 				egindakoak.add(r);
 			}
 		}
@@ -346,7 +346,7 @@ public class IkusiTravellerErreserbakGUI extends JFrame {
 		List<RideRequest> tratatuGabe = new ArrayList<RideRequest>();
 		for (RideRequest r : lagun) {
 			EgoeraRideRequest tratatuGabeak = r.getState();
-			if (tratatuGabeak.equals(EgoeraRideRequest.TratatuGabe)&&!r.getRide().getDate().before(new Date())) {
+			if (tratatuGabeak.equals(EgoeraRideRequest.TRATATU_GABE)&&!r.getRide().getDate().before(new Date())) {
 				tratatuGabe.add(r);
 			}
 		}

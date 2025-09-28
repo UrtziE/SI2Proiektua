@@ -5,5 +5,5 @@ import javax.xml.bind.annotation.XmlAccessorType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public enum EgoeraRideRequest {
-	Rejected,TratatuGabe,Accepted, Done, NotDone;
+	REJECTED,TRATATU_GABE,ACCEPTED, DONE, NOT_DONE;
 }

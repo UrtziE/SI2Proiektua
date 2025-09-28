@@ -49,7 +49,7 @@ public class RideRequest implements Serializable,Comparable<RideRequest>{
 		this.whenRequested = whenRequested;
 		this.ride = ride;
 		this.traveller = traveller;
-		this.state = EgoeraRideRequest.TratatuGabe;
+		this.state = EgoeraRideRequest.TRATATU_GABE;
 		this.fromRequested=from;
 		this.toRequested=to;
 		this.baloratuaDriver =false;
@@ -88,7 +88,7 @@ public class RideRequest implements Serializable,Comparable<RideRequest>{
      public int compareTo(RideRequest request) {
 		
 		if(this.state.equals(request.getState())) {
-			if(!this.state.equals(EgoeraRideRequest.TratatuGabe)) {
+			if(!this.state.equals(EgoeraRideRequest.TRATATU_GABE)) {
 				return(this.whenDecided.compareTo(request.getWhenDecided()));
 			}else {
 				float GureaRating= this.getTraveller().kalkulatuBalorazioMedia();

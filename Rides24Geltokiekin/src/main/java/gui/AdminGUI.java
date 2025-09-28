@@ -43,21 +43,11 @@ public class AdminGUI extends JFrame {
 		appFacadeInterface=afi;
 	}
 	protected JLabel jLabelSelectOption;
-	private JRadioButton rdbtnNewRadioButton;
-	private JRadioButton rdbtnNewRadioButton_1;
-	private JRadioButton rdbtnNewRadioButton_2;
-	private JPanel panel;
-	private JButton BackButton;
-	private JButton btnDiruaAtera;
-	private JButton ErreserbakIkusiButton;
-	private JPanel panel_1;
-	private JPanel panel_2;
-	private JLabel lblDriver;
-	private JButton kotxeaSortubtn;
-	private JButton btnMyRides;
+	private JButton backButton;
+	private JPanel panel1;
+	private JPanel panel2;
 	private JLabel lblAdmin;
 	private JButton btnErreklamazioak;
-	private JButton btnTakeNewErreklamazio;
 	
 	/**
 	 * This is the default constructor
@@ -78,22 +68,22 @@ public class AdminGUI extends JFrame {
 		setContentPane(jContentPane);
 		jContentPane.setLayout(new BorderLayout(0, 0));
 		
-		panel_1 = new JPanel();
-		jContentPane.add(panel_1, BorderLayout.NORTH);
+		panel1 = new JPanel();
+		jContentPane.add(panel1, BorderLayout.NORTH);
 		
 		lblAdmin = new JLabel("Admin"); //$NON-NLS-1$ //$NON-NLS-2$
 		lblAdmin.setFont(new Font("Tahoma", Font.PLAIN, 17));
 		lblAdmin.setHorizontalAlignment(SwingConstants.CENTER);
-		panel_1.add(lblAdmin);
+		panel1.add(lblAdmin);
 		
 		
-		panel_2 = new JPanel();
-		jContentPane.add(panel_2);
+		panel2 = new JPanel();
+		jContentPane.add(panel2);
 		
 		
 		
 		jButtonQueryQueries = new JButton();
-		panel_2.add(jButtonQueryQueries);
+		panel2.add(jButtonQueryQueries);
 		jButtonQueryQueries.setText(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.QueryRides"));
 		jButtonQueryQueries.addActionListener(new java.awt.event.ActionListener() {
 			public void actionPerformed(java.awt.event.ActionEvent e) {
@@ -106,16 +96,16 @@ public class AdminGUI extends JFrame {
 		
 		
 
-		BackButton = new JButton(); //$NON-NLS-1$ //$NON-NLS-2$
-		BackButton.addActionListener(new ActionListener() {
+		backButton = new JButton(); //$NON-NLS-1$ //$NON-NLS-2$
+		backButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 				setVisible(false);
 				
 			}
 		});
-		BackButton.setText(ResourceBundle.getBundle("Etiquetas").getString("DriverGUI.LogOut"));
-		jContentPane.add(BackButton, BorderLayout.SOUTH);
+		backButton.setText(ResourceBundle.getBundle("Etiquetas").getString("DriverGUI.LogOut"));
+		jContentPane.add(backButton, BorderLayout.SOUTH);
 		
 		addWindowListener(new WindowAdapter() {
 			@Override
@@ -128,7 +118,7 @@ public class AdminGUI extends JFrame {
 		
 		
 		JButton btnMezuak = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Mezuak"));
-		panel_2.add(btnMezuak);
+		panel2.add(btnMezuak);
 		btnMezuak.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JFrame a= new MezuakGUI(admin);
@@ -137,7 +127,7 @@ public class AdminGUI extends JFrame {
 		});
 		
 		btnErreklamazioak = new JButton(ResourceBundle.getBundle("Etiquetas").getString("ErreklamazioakGUI.Erreklamazioak")); //$NON-NLS-1$ //$NON-NLS-2$ ResourceBundle.getBundle("Etiquetas").getString("AdminGUI.Erreklamazioak")
-		panel_2.add(btnErreklamazioak);
+		panel2.add(btnErreklamazioak);
 		btnErreklamazioak.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JFrame a= new AdminErreklamazioakGUI(admin);
