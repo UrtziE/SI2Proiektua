@@ -182,7 +182,7 @@ public class Ride implements Serializable, Comparable<Ride> {
 		List<String>ibilbide=geltokiListToString0SeatBainaGehiago();
 		List<String> jatorri= ibilbide.subList(0, ibilbide.size()-1);
 		for(String city:jatorri) {
-			if(!citiesList.contains(city)&&!city.isEmpty()) {
+			if(!city.isEmpty() && !citiesList.contains(city)) {
 				citiesList.add(city);
 			}
 		}
