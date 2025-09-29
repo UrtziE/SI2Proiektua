@@ -25,6 +25,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.Vector;
 import javax.swing.JTextField;
+import javax.swing.WindowConstants;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
@@ -51,7 +52,7 @@ public class AlertaGUI extends JFrame {
 	 */
 	public AlertaGUI(Traveller t) {
 		traveller=t;
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

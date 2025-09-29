@@ -51,7 +51,11 @@ public class Erreklamazioa implements Serializable{
 		this.erreserba = erreserba;
 		this.when=new Date();
 		this.prezioa=prezioa;
+<<<<<<< HEAD
 		this.egoera=EgoeraErreklamazioa.ESLEITUGABE;
+=======
+		this.egoera=EgoeraErreklamazioa.ESLEITU_GABE;
+>>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
 		this.ride=erreserba.getRide();
 	}
 	public Erreklamazioa() {

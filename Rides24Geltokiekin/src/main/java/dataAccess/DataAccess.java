@@ -456,11 +456,11 @@ public class DataAccess {
 		ride.setEgoera(EgoeraRide.KANTZELATUA);
 
 		for (RideRequest request : ride.getEskakizunak()) {
-			if (!request.getState().equals(EgoeraRideRequest.Rejected)) {
+			if (!request.getState().equals(EgoeraRideRequest.REJECTED)) {
 				Traveller t = request.getTraveller();
 				float prezioa = request.getPrezioa();
 				t.gehituDirua(prezioa);
-				request.setState(EgoeraRideRequest.Rejected);
+				request.setState(EgoeraRideRequest.REJECTED);
 				t.gehituMezuaTransaction(5, prezioa, request);
 			}
 		}
@@ -495,7 +495,7 @@ public class DataAccess {
 			// Aldatu
 			ride.kenduSeatGeltokiei(r.getSeats(), r.getFromRequested(), r.getToRequested());
 			// ride.setBetMinimum((ride.getnPlaces() - r.getSeats()));
-			r.setState(EgoeraRideRequest.Accepted);
+			r.setState(EgoeraRideRequest.ACCEPTED);
 			ride.deuseztatuSeatKopuruBainaHandiagoa(r);
 			if (ride.getnPlaces() == 0) {
 				ride.setEgoera(EgoeraRide.TOKIRIK_GABE);
@@ -504,8 +504,7 @@ public class DataAccess {
 		} else {
 			Traveller t = r.getTraveller();
 			t.gehituDirua(r.getPrezioa());
-			r.setState(EgoeraRideRequest.Rejected);
-
+			r.setState(EgoeraRideRequest.REJECTED);
 			t.gehituMezuaTransaction(1, r.getPrezioa(), r); // Dirua itzuli
 		}
 
@@ -614,13 +613,21 @@ public class DataAccess {
 
 		TypedQuery<Erreklamazioa> query = db.createQuery("SELECT e FROM Erreklamazioa e WHERE e.egoera=?1 ",
 				Erreklamazioa.class);
+<<<<<<< HEAD
 		query.setParameter(1, EgoeraErreklamazioa.ESLEITUGABE);
+=======
+		query.setParameter(1, EgoeraErreklamazioa.ESLEITU_GABE);
+>>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
 		List<Erreklamazioa> erreklamazioak = query.getResultList();
 		if (!erreklamazioak.isEmpty()) {
 			db.getTransaction().begin();
 			Erreklamazioa erreklamazioa = erreklamazioak.get(0);
 			Admin admin = db.find(Admin.class, a.getUser());
+<<<<<<< HEAD
 			erreklamazioa.setEgoera(EgoeraErreklamazioa.PROZESUAN);
+=======
+			erreklamazioa.setEgoera(EgoeraErreklamazioa.PROSEZUAN);
+>>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
 			erreklamazioa.setAdmin(admin);
 			admin.addErreklamazioa(erreklamazioa);
 			admin.gehituMezuaTransaction(8, 0, erreklamazioa.getErreserba());
@@ -778,7 +785,11 @@ public class DataAccess {
 		TypedQuery<Erreklamazioa> query = db.createQuery("SELECT e FROM Erreklamazioa e WHERE  e.admin=?2 AND e.egoera=?3",
 				Erreklamazioa.class);
 		query.setParameter(2, a);
+<<<<<<< HEAD
 		query.setParameter(3, EgoeraErreklamazioa.PROZESUAN);
+=======
+		query.setParameter(3, EgoeraErreklamazioa.PROSEZUAN);
+>>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
 		List<Erreklamazioa> erreklam = query.getResultList();
 		return erreklam;
 	}
@@ -822,10 +833,17 @@ public class DataAccess {
 				ri.setEgoera(EgoeraRide.PASATUA);
 			} else if ((gaur.getTime() - ride.getDate().getTime()) / (1000 * 60 * 60 * 24) > 3) {
 				if (ride.getEgoera().equals(EgoeraRide.PASATUA)) {
+<<<<<<< HEAD
 					ride.setEgoera(EgoeraRide.DONE);
 					for (RideRequest r : ride.getRequests()) {
 						if(r.getState().equals(EgoeraRideRequest.Accepted)) {
 							r.setState(EgoeraRideRequest.Done);
+=======
+					//ride.setEgoera(EgoeraRide.DONE);
+					for (RideRequest r : ride.getEskakizunak()) {
+						if(r.getState().equals(EgoeraRideRequest.ACCEPTED)) {
+							r.setState(EgoeraRideRequest.DONE);
+>>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
 						}
 						r.setBaloratuaDriver(true);
 						r.setBaloratuaTraveller(true);
