@@ -2,6 +2,7 @@ package testOperations;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.persistence.EntityManager;
@@ -10,6 +11,7 @@ import javax.persistence.Persistence;
 
 import configuration.ConfigXML;
 import domain.Driver;
+import domain.Kotxe;
 import domain.Ride;
 
 
@@ -55,9 +57,9 @@ public class TestDataAccess {
 		System.out.println("TestDataAccess closed");
 	}
 
-	public boolean removeDriver(String driverEmail) {
+	public boolean removeDriver(String user) {
 		System.out.println(">> TestDataAccess: removeRide");
-		Driver d = db.find(Driver.class, driverEmail);
+		Driver d = db.find(Driver.class, user);
 		if (d!=null) {
 			db.getTransaction().begin();
 			db.remove(d);
@@ -66,12 +68,12 @@ public class TestDataAccess {
 		} else 
 		return false;
     }
-	public Driver createDriver(String email, String name) {
+	public Driver createDriver(String user, String email) {
 		System.out.println(">> TestDataAccess: addDriver");
 		Driver driver=null;
 			db.getTransaction().begin();
 			try {
-			    driver=new Driver(name,email);
+			    driver=new Driver(user,email);
 				db.persist(driver);
 				db.getTransaction().commit();
 			}
@@ -80,21 +82,21 @@ public class TestDataAccess {
 			}
 			return driver;
     }
-	public boolean existDriver(String email) {
-		 return  db.find(Driver.class, email)!=null;
+	public boolean existDriver(String user) {
+		 return  db.find(Driver.class, user)!=null;
 		 
 
 	}
 		
-		public Driver addDriverWithRide(String email, String name, String from, String to,  Date date, int nPlaces, float price) {
+		public Driver addDriverWithRide(String user, String email,String from, String to, Date date, int nPlaces, /*float price*/ List<Float>price,Kotxe kotxe,List<String>ibilbide) {
 			System.out.println(">> TestDataAccess: addDriverWithRide");
 				Driver driver=null;
 				db.getTransaction().begin();
 				try {
-					 driver = db.find(Driver.class, email);
+					 driver = db.find(Driver.class, user);
 					if (driver==null)
-						driver=new Driver(name,email);
-				//    driver.addRide(from, to, date, nPlaces, price);
+						driver=new Driver(user,email);
+				   driver.addRide(from,  to,  date, nPlaces, /*float price*/ price, kotxe,ibilbide);
 					db.getTransaction().commit();
 					return driver;
 					
@@ -114,12 +116,12 @@ public class TestDataAccess {
 			} else 
 			return false;
 		}*/
-		public Ride removeRide(String email, String from, String to, Date date ) {
+		public Ride removeRide(int num, String user) {
 			System.out.println(">> TestDataAccess: removeRide");
-			Driver d = db.find(Driver.class, email);
+			Driver d = db.find(Driver.class, user);
 			if (d!=null) {
 				db.getTransaction().begin();
-				Ride r= d.removeRide(from, to, date);
+				Ride r= d.removeRide(num);
 				db.getTransaction().commit();
 				return r;
 

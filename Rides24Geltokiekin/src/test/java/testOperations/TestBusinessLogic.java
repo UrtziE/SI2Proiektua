@@ -1,9 +1,11 @@
 package testOperations;
 //
 import java.util.Date;
+import java.util.List;
 
 import configuration.ConfigXML;
 import domain.Driver;
+import domain.Kotxe;
 import domain.Ride;
 
 public class TestBusinessLogic {
@@ -43,9 +45,9 @@ public class TestBusinessLogic {
 
 		}
 		
-		public Driver addDriverWithRide(String email, String name, String from, String to,  Date date, int nPlaces, float price) {
+		public Driver addDriverWithRide(String user, String email,String from, String to, Date date, int nPlaces, /*float price*/ List<Float>price,Kotxe kotxe,List<String>ibilbide) {
 			dbManagerTest.open();
-			Driver driver=dbManagerTest.addDriverWithRide(email, name, from, to, date, nPlaces, price);
+			Driver driver=dbManagerTest.addDriverWithRide(user, email,from,  to, date, nPlaces, /*float price*/ price, kotxe,ibilbide);
 			dbManagerTest.close();
 			return driver;
 
@@ -56,9 +58,9 @@ public class TestBusinessLogic {
 			dbManagerTest.close();
 			return b;
 		}*/
-		public Ride removeRide(String email,String from, String to, Date date ) {
+		public Ride removeRide(int num,String user) {
 			dbManagerTest.open();
-			Ride r=dbManagerTest.removeRide( email, from,  to,  date );
+			Ride r=dbManagerTest.removeRide( num, user);
 			dbManagerTest.close();
 			return r;
 		}

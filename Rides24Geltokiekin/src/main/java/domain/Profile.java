@@ -59,9 +59,9 @@ public abstract class Profile implements Serializable {
 		balorazioLista=new ArrayList<Integer>();
 	}
  
-	public Profile(String email, String name) {
+	public Profile(String user, String email) {
+		this.user = user;
 		this.email = email;
-		this.name = name;
 	}
 	public Profile() {
 		

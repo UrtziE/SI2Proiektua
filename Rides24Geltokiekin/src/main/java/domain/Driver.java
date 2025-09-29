@@ -36,8 +36,8 @@ public class Driver extends Profile implements Serializable  {
 	public Driver(String email, String name, String surname, String user, String password, String telefono) {
 		super(email, name, surname, user, password, telefono);
 	}
-	public Driver(String email, String name) {
-		super(email,name);
+	public Driver(String user, String email) {
+		super(user,email);
 	}
 
 	public Driver() {
@@ -106,20 +106,18 @@ public class Driver extends Profile implements Serializable  {
 		return rides;
 	}
 
-	public Ride removeRide(String from, String to, Date date) {
-		boolean found=false;
-		int index=0;
-		Ride r=null;
-		while (!found && index<=rides.size()) {
-			r=rides.get(++index);
-			if ( (java.util.Objects.equals(r.getFrom(),from)) && (java.util.Objects.equals(r.getTo(),to)) && (java.util.Objects.equals(r.getDate(),date)) )
-				found=true;
+	public Ride removeRide(int num) {
+		int i=0;
+		Ride ride=null;
+		boolean borratuta=false;
+		while(!borratuta&&i<rides.size()) {
+			if(rides.get(i).getRideNumber()==num) {
+				ride=rides.remove(i);
+				borratuta=true;
+			}
+			i++;
 		}
-			
-		if (found) {
-			rides.remove(index);
-			return r;
-		} else return null;
+		return ride;
 	}
 	public List<Kotxe> getKotxeGuztiak(){
 		return kotxeList;
