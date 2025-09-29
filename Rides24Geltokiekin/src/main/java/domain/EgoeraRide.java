@@ -5,5 +5,5 @@ import javax.xml.bind.annotation.XmlAccessorType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public enum EgoeraRide {
-	MARTXAN,TOKIRIK_GABE,PASATUA,KANTZELATUA,DONE,NOTDONE
+	MARTXAN,TOKIRIK_GABE,PASATUA,KANTZELATUA,DONE,NOT_DONE
 }
