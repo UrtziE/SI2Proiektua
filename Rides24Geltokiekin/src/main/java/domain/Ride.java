@@ -200,7 +200,6 @@ public class Ride implements Serializable, Comparable<Ride> {
 	private List<String> geltokiListToString(){
 		List<String>geltokiak=new LinkedList<String>();
 		for(Geltoki geltoki:geltokiList) {
-			
 			geltokiak.add(geltoki.getTokiIzen());
 			
 		}

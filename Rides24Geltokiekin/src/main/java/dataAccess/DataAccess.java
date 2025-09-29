@@ -235,6 +235,7 @@ public class DataAccess {
 	 * @param date the date of the ride
 	 * @return collection of rides
 	 */
+	//kz 2
 	public List<Ride> getRides(String from, String to, Date date) {
 		System.out.println(">> DataAccess: getRides=> from= " + from + " to= " + to + " date " + date);
 
@@ -256,7 +257,7 @@ public class DataAccess {
 
 	
 
-	
+	//kz 1
 
 	public List<RideContainer> getRidesOfDriver(Driver driver) {
 		List<RideContainer> res = new ArrayList<>();
@@ -447,7 +448,7 @@ public class DataAccess {
 		//System.out.println(user + " has been updated");
 
 	}
-
+     //kz2
 	public void Kantzelatu(Ride r) {
 		db.getTransaction().begin();
 
@@ -467,7 +468,7 @@ public class DataAccess {
 		db.getTransaction().commit();
 
 	}
-
+  //kz 3
 	public void egindaEdoEzEgina(RideRequest request, boolean onartuta) {
 
 		db.getTransaction().begin();
