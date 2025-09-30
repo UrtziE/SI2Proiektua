@@ -37,9 +37,9 @@ public class TestBusinessLogic {
 
 		}
 		
-		public boolean existDriver(String email) {
+		public Driver existDriver(String email) {
 			dbManagerTest.open();
-			boolean existDriver=dbManagerTest.existDriver(email);
+			Driver existDriver=dbManagerTest.existDriver(email);
 			dbManagerTest.close();
 			return existDriver;
 
@@ -58,9 +58,9 @@ public class TestBusinessLogic {
 			dbManagerTest.close();
 			return b;
 		}*/
-		public Ride removeRide(int num,String user) {
+		public boolean removeRide(int num) {
 			dbManagerTest.open();
-			Ride r=dbManagerTest.removeRide( num, user);
+			boolean r=dbManagerTest.removeRide( num);
 			dbManagerTest.close();
 			return r;
 		}

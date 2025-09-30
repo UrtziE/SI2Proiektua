@@ -82,8 +82,8 @@ public class TestDataAccess {
 			}
 			return driver;
     }
-	public boolean existDriver(String user) {
-		 return  db.find(Driver.class, user)!=null;
+	public Driver existDriver(String user) {
+		 return  db.find(Driver.class, user);
 		 
 
 	}
@@ -116,17 +116,31 @@ public class TestDataAccess {
 			} else 
 			return false;
 		}*/
-		public Ride removeRide(int num, String user) {
+		public boolean removeRide(int num) {
 			System.out.println(">> TestDataAccess: removeRide");
-			Driver d = db.find(Driver.class, user);
-			if (d!=null) {
+			Ride r = db.find(Ride.class, num);
+			if (r!=null) {
 				db.getTransaction().begin();
-				Ride r= d.removeRide(num);
+				db.remove(r);
 				db.getTransaction().commit();
-				return r;
+				return true;
 
 			} else 
-			return null;
+			return false;
+
+		}
+		public boolean removeCar(String matrikula) {
+			System.out.println(">> TestDataAccess: removeRide");
+		
+			Kotxe k= db.find(Kotxe.class, matrikula);
+			if (k!=null) {
+				db.getTransaction().begin();
+				db.remove(k);
+				db.getTransaction().commit();
+				return true;
+
+			} else 
+			return false;
 
 		}
 
