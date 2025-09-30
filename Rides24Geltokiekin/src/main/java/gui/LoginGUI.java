@@ -33,6 +33,7 @@ public class LoginGUI extends JFrame {
 	private JPasswordField passwordField;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 	private static JLabel errorlbl = new JLabel(/*ResourceBundle.getBundle("Etiquetas").getString("LoginGUI.lblNewLabel_1.text")*/);
+	private static final String LETRA_MOTA = "Tahoma";
 
 	/**
 	 * Launch the application.
@@ -51,13 +52,13 @@ public class LoginGUI extends JFrame {
 		contentPane.setLayout(null);
 
 		JLabel lbluser = new JLabel("user:");
-		lbluser.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		lbluser.setFont(new Font(LETRA_MOTA, Font.PLAIN, 13));
 		lbluser.setBounds(35, 71, 112, 18);
 		contentPane.add(lbluser);
 		lbluser.setText(ResourceBundle.getBundle("Etiquetas").getString("RegisterGUI.User"));
 
 		JLabel lblpassword = new JLabel("Password: ");
-		lblpassword.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		lblpassword.setFont(new Font(LETRA_MOTA, Font.PLAIN, 13));
 		lblpassword.setBounds(35, 115, 112, 29);
 		contentPane.add(lblpassword);
 		lblpassword.setText(ResourceBundle.getBundle("Etiquetas").getString("RegisterGUI.Password"));
@@ -79,7 +80,7 @@ public class LoginGUI extends JFrame {
 		btnRegister.setText(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.Register"));
 
 		JLabel lblNewLabel = new JLabel("Ez duzu konturik?");
-		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		lblNewLabel.setFont(new Font(LETRA_MOTA, Font.PLAIN, 13));
 		lblNewLabel.setBounds(35, 166, 167, 29);
 		contentPane.add(lblNewLabel);
 		lblNewLabel.setText(ResourceBundle.getBundle("Etiquetas").getString("LoginGUI.Question"));
@@ -139,14 +140,14 @@ public class LoginGUI extends JFrame {
 		
 		 //$NON-NLS-1$ //$NON-NLS-2$
 		errorlbl.setText("");
-		errorlbl.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		errorlbl.setFont(new Font(LETRA_MOTA, Font.PLAIN, 14));
 		errorlbl.setHorizontalAlignment(SwingConstants.CENTER);
 		errorlbl.setBounds(144, 267, 183, 23);
 		contentPane.add(errorlbl);
 		
 		JLabel lblLogin = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("LoginGUI.MainTitle")); //$NON-NLS-1$ //$NON-NLS-2$
 		lblLogin.setHorizontalAlignment(SwingConstants.CENTER);
-		lblLogin.setFont(new Font("Tahoma", Font.PLAIN, 17));
+		lblLogin.setFont(new Font(LETRA_MOTA, Font.PLAIN, 17));
 		lblLogin.setBounds(10, 11, 412, 30);
 		contentPane.add(lblLogin);
 		setTitle(ResourceBundle.getBundle("Etiquetas").getString("LoginGUI.MainTitle"));

@@ -148,24 +148,23 @@ public class CreateCarGUI extends JFrame {
 		case 1:
 			errorlbl.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateCar.errorMarka"));
 			Markalbl.setForeground(java.awt.Color.red);
-			//System.out.println();
 			break;
 		case 2:
 			errorlbl.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateCar.errorModelo"));
 			Modelolbl.setForeground(java.awt.Color.red);
-			//System.out.println();
 			break;
 		case 3:
 			errorlbl.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateCar.errorMatrikula"));
 			Matrikulalbl.setForeground(java.awt.Color.red);
-			//System.out.println();
 			break;
 		case 4:
 			errorlbl.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateCar.errorTokiKop"));
 			TokiKoplbl.setForeground(java.awt.Color.red);
-			//System.out.println();
 			break;
-		
+		default:
+			errorlbl.setText("Error??");
+			TokiKoplbl.setForeground(java.awt.Color.red);
+			break;
 			 
 		}
 	}

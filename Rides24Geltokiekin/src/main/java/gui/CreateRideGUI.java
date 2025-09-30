@@ -326,7 +326,6 @@ public class CreateRideGUI extends JFrame {
 				Ride r=facade.createRide(fieldOrigin.getText(), fieldDestination.getText(), UtilDate.trim(jCalendar.getDate()), inputSeats, prezioak, driver.getUser(),(Kotxe)comboBoxKotxe.getSelectedItem(),ibilbidea);
 				jLabelMsg.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.RideCreated"));
 			} catch (RideMustBeLaterThanTodayException|RideAlreadyExistException e1) {
-				// TODO Auto-generated catch block
 				jLabelMsg.setText(e1.getMessage());
 			} 
 

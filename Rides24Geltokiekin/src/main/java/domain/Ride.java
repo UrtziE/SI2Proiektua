@@ -301,15 +301,6 @@ public class Ride implements Serializable, Comparable<Ride> {
 		return nPlaces;
 	}
 
-	/**
-	 * Set the free places of the ride
-	 * 
-	 * @param  nPlaces places to be set
-	 */
-
-	public void setBetMinimum(int nPlaces) {
-		this.nPlaces = nPlaces;
-	}
 
 	/**
 	 * Get the driver associated to the ride

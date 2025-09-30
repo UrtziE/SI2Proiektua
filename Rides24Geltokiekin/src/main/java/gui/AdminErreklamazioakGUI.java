@@ -113,12 +113,12 @@ public class AdminErreklamazioakGUI extends JFrame {
 		contentPane.add(lblNewLabel_4);
 		
 		
-		JRadioButton rdbtnOnartu = new JRadioButton(ResourceBundle.getBundle("Etiquetas").getString("O/DGUI.Accept"));
+		rdbtnOnartu = new JRadioButton(ResourceBundle.getBundle("Etiquetas").getString("O/DGUI.Accept"));
 		buttonGroup.add(rdbtnOnartu);
 		rdbtnOnartu.setBounds(291, 254, 69, 21);
 		contentPane.add(rdbtnOnartu);
 		
-		JRadioButton rdbtnDeuseztatu = new JRadioButton(ResourceBundle.getBundle("Etiquetas").getString("O/DGUI.Reject"));
+		rdbtnDeuseztatu = new JRadioButton(ResourceBundle.getBundle("Etiquetas").getString("O/DGUI.Reject"));
 		buttonGroup.add(rdbtnDeuseztatu);
 		rdbtnDeuseztatu.setBounds(370, 254, 89, 21);
 		contentPane.add(rdbtnDeuseztatu);
