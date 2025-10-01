@@ -58,7 +58,7 @@ public class TestDataAccess {
 	}
 
 	public boolean removeDriver(String user) {
-		System.out.println(">> TestDataAccess: removeRide");
+		System.out.println(">> TestDataAccess: removeDriver");
 		Driver d = db.find(Driver.class, user);
 		if (d!=null) {
 			db.getTransaction().begin();
@@ -128,9 +128,10 @@ public class TestDataAccess {
 			} else 
 			return false;
 
+
 		}
 		public boolean removeCar(String matrikula) {
-			System.out.println(">> TestDataAccess: removeRide");
+			System.out.println(">> TestDataAccess: removeCar");
 		
 			Kotxe k= db.find(Kotxe.class, matrikula);
 			if (k!=null) {
@@ -142,6 +143,9 @@ public class TestDataAccess {
 			} else 
 			return false;
 
+		}
+		public Kotxe getCar(String matrikula) {
+			return db.find(Kotxe.class, matrikula);
 		}
 
 
