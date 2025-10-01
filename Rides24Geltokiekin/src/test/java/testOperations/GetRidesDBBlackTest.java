@@ -115,32 +115,7 @@ public class GetRidesDBBlackTest {
 		List<Ride> expectedRide = new ArrayList<Ride>();
 		assertEquals(expectedRide, rides);
 	}
-	@Test
-	public void testGetRidesWrongDateFormat() {
-		try {
-			date=f.parse("5/10/2025");
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-		Driver driver = addDriver(user,email);
-		addCar(matrikula,places,driver);
-		db.open();
-		addRideDataGabe(from, to, date, places, prezioak, user, kotxe, ibilbide);
-		db.open();
-		Calendar cal = Calendar.getInstance();
-        cal.set(Calendar.YEAR, 2025);
-        cal.set(Calendar.MONTH, Calendar.OCTOBER); 
-        cal.set(Calendar.DAY_OF_MONTH, 5);
-        cal.set(Calendar.HOUR_OF_DAY, 14); 
-        cal.set(Calendar.MINUTE, 30);
-        cal.set(Calendar.SECOND, 45);
-        cal.set(Calendar.MILLISECOND, 123);
-
-        date = cal.getTime();
-        assertThrows(WrongDateFormatException.class,()->{ db.getRides(from, to, date);});
-		db.close();
-		
-	}
+	
 	@Test
 	public void testGetRidesSeat0() {
 

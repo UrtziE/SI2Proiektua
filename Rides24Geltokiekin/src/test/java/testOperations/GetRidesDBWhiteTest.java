@@ -80,10 +80,11 @@ public class GetRidesDBWhiteTest {
 
 		prezioak = Arrays.asList(4.0f, 4.0f);
 		ibilbide = Arrays.asList("Bera", "Irun");
-		to="Lesaka";
+		
 		Driver driver = addDriver(user,email);
 		addCar(matrikula,places,driver);
 		addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
+		to="Lesaka";
 		db.open();
 		List<Ride> rides = db.getRides(from, to, date);
 		db.close();
