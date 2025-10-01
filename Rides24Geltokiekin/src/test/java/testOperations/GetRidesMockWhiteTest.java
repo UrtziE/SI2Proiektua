@@ -28,7 +28,7 @@ import domain.Driver;
 import domain.Kotxe;
 import domain.Ride;
 
-
+//UrtziMokito
 public class GetRidesMockWhiteTest {
 	static DataAccess sut;
 	protected MockedStatic<Persistence> persistenceMock;
