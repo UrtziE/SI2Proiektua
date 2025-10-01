@@ -28,6 +28,12 @@ public class Traveller extends Profile implements Serializable
 		super(email, name, surname, user, password, telf);
 		requests = new ArrayList<RideRequest>();
 	}
+	
+	public Traveller(String user, String email) {
+		super(user, email);
+		requests = new ArrayList<RideRequest>();
+	}
+	
     public Traveller() {
     	super();
     }

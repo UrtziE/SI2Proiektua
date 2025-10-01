@@ -13,6 +13,7 @@ import configuration.ConfigXML;
 import domain.Driver;
 import domain.Kotxe;
 import domain.Ride;
+import domain.Traveller;
 
 
 public class TestDataAccess {
@@ -56,6 +57,36 @@ public class TestDataAccess {
 		db.close();
 		System.out.println("TestDataAccess closed");
 	}
+	
+	
+	public Traveller createTraveller(String user, String email) {
+		System.out.println(">> TestDataAccess: addDriver");
+		Traveller traveller=null;
+			db.getTransaction().begin();
+			try {
+			    traveller= new Traveller(user,email);
+				db.persist(traveller);
+				db.getTransaction().commit();
+			}
+			catch (Exception e){
+				e.printStackTrace();
+			}
+			return traveller;
+    }
+	
+	public boolean removeTraveller(String user) {
+		System.out.println(">> TestDataAccess: removeTraveller");
+		Traveller t = db.find(Traveller.class, user);
+		if (t!=null) {
+			db.getTransaction().begin();
+			db.remove(t);
+			db.getTransaction().commit();
+			return true;
+		} else 
+		return false;
+    }
+
+	
 
 	public boolean removeDriver(String user) {
 		System.out.println(">> TestDataAccess: removeDriver");
