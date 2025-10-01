@@ -31,7 +31,7 @@ public class GetRidesDBWhiteTest {
 	private String user = "tester00";
 	private String email = "tester00@gmail.com";
 	SimpleDateFormat f = new SimpleDateFormat("dd/MM/yyyy");
-	private String noiz = "25/10/2030";
+	private String noiz = "25/10/2230";
 	private Date date = null;
 	private String matrikula = "9321CRNN";
 	int places = 4;

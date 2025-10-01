@@ -1,9 +1,11 @@
 package testOperations;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.ResourceBundle;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,9 +13,12 @@ import javax.persistence.Persistence;
 
 import configuration.ConfigXML;
 import domain.Driver;
+import domain.Geltoki;
 import domain.Kotxe;
 import domain.Ride;
 import domain.Traveller;
+import exceptions.RideAlreadyExistException;
+import exceptions.RideMustBeLaterThanTodayException;
 
 
 public class TestDataAccess {
@@ -178,7 +183,52 @@ public class TestDataAccess {
 		public Kotxe getCar(String matrikula) {
 			return db.find(Kotxe.class, matrikula);
 		}
+		public Ride ezabatuRideSeats(String nongoa,int rideNum) {
+			Ride ride=db.find(Ride.class, rideNum);		
+			db.getTransaction().begin();
+			List<Geltoki>geltokiList=ride.getGeltokiList();
+			int i=0;
+			boolean eginda=false;
+			while(i<geltokiList.size()&&!eginda) {
+				Geltoki geltoki= geltokiList.get(i);
+				if(geltoki.getTokiIzen().equals(nongoa)) {
+					geltoki.kenduSeatKop(geltoki.getEserleku());
+					System.out.println("Ezabatuta geltokiak"+geltoki.getEserleku());
+					eginda=true;
+				}
+				i++;
+			}
+			db.getTransaction().commit();
+		return ride;
+		}
+		public Ride createRideDataGabe(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
+				String driverUser, Kotxe kotxe, List<String> ibilbide)
+				throws RideAlreadyExistException {
+			System.out.println(
+					">> DataAccess: createRide=> from= " + from + " to= " + to + " driver=" + driverUser + " date " + date);
+			try {
+				db.getTransaction().begin();
 
+				Driver driver = db.find(Driver.class, driverUser);
+				if (driver.doesRideExists(ibilbide, date)) {
+					db.getTransaction().commit();
+					throw new RideAlreadyExistException(
+							ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
+				}
+				Ride ride = driver.addRide(from, to, date, nPlaces, price, kotxe, ibilbide);
+
+				// next instruction can be obviated
+				db.persist(driver);
+				db.getTransaction().commit();
+
+				return ride;
+			} catch (NullPointerException e) {
+				// TODO Auto-generated catch block
+				db.getTransaction().commit();
+				return null;
+			}
+
+		}
 
 		
 }
