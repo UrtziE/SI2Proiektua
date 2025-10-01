@@ -26,7 +26,6 @@ public class GetRidesDBWhiteTest {
 
 	DataAccess db = new DataAccess();
 	TestDataAccess testdb = new TestDataAccess();
-	private EntityManager db2;
 	private String from = "Bera";
 	private String to = "Irun";
 	private String user = "tester00";
@@ -67,15 +66,6 @@ public class GetRidesDBWhiteTest {
 	@Test
 	public void testGetRides1() {
 
-
-
-		try {
-			date = f.parse(noiz);
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-		prezioak = Arrays.asList(4.0f, 4.0f, 4.0f);
-		ibilbide = Arrays.asList("Bera", "Lesaka", "Irun");
 		db.open();
 		List<Ride> rides = db.getRides(from, to, date);
 		db.close();
@@ -93,7 +83,7 @@ public class GetRidesDBWhiteTest {
 		to="Lesaka";
 		Driver driver = addDriver(user,email);
 		addCar(matrikula,places,driver);
-		Ride ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
+		addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
 		db.open();
 		List<Ride> rides = db.getRides(from, to, date);
 		db.close();
@@ -109,7 +99,7 @@ public class GetRidesDBWhiteTest {
 		Driver driver = addDriver(user,email);
 		addCar(matrikula,places,driver);
 		db.open();
-		Ride ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
+		addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
 		db.open();
 		List<Ride> rides = db.getRides(from, to, date);
 		db.close();
