@@ -19,6 +19,7 @@ import org.junit.Test;
 
 import dataAccess.DataAccess;
 import domain.Driver;
+import domain.Geltoki;
 import domain.Kotxe;
 import domain.Ride;
 import exceptions.RideAlreadyExistException;
@@ -291,5 +292,6 @@ public class GetRidesDBBlackTest {
 			fail("Imposible");
 		}
 	}
+
 
 }
