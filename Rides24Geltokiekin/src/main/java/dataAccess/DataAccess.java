@@ -280,6 +280,7 @@ public class DataAccess {
 		List<RideContainer> emaitza = new ArrayList<RideContainer>();
 		for (Ride ride : rideList) {
 			emaitza.add(new RideContainer(ride));
+			System.out.println("aaaaaaaaaaaaaaaaa");
 		}
 		return emaitza;
 	}
@@ -449,7 +450,7 @@ public class DataAccess {
 
 	}
      //kz2
-	public void Kantzelatu(Ride r) {
+	public void kantzelatu(Ride r) {
 		db.getTransaction().begin();
 
 		Ride ride = db.find(Ride.class, r.getRideNumber());

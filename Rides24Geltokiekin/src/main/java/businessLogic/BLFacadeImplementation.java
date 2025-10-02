@@ -295,7 +295,7 @@ public class BLFacadeImplementation  implements BLFacade {
     @WebMethod
 	public void kantzelatu(Ride r) {
 		dbManager.open();
-		dbManager.Kantzelatu(r);
+		dbManager.kantzelatu(r);
 		dbManager.close();
 	}
     @WebMethod

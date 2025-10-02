@@ -1,0 +1,615 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 12:49:09 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 765-780)
+
+[2025-10-02 12:49:09 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 10732@LAPTOP-1CQB3TB3
+
+[2025-10-02 12:49:09 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 12:49:10 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 12:49:10 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 12:49:10 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 12:49:10 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 12:49:10 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 12:49:10 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 12:49:10 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 12:49:10 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 12:49:10 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 12:49:10 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 12:51:43 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 781-796)
+
+[2025-10-02 12:51:43 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 2572@LAPTOP-1CQB3TB3
+
+[2025-10-02 12:51:43 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 12:51:43 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 12:51:43 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 12:51:43 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 12:51:43 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 12:51:43 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 12:51:43 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 12:51:43 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 12:51:43 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 12:51:43 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 12:51:43 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 12:53:41 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 797-813)
+
+[2025-10-02 12:53:41 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 3156@LAPTOP-1CQB3TB3
+
+[2025-10-02 12:53:41 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 12:53:41 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 12:53:41 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 12:53:41 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 12:53:41 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 12:53:41 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 12:53:42 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 12:53:42 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 12:53:42 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 12:53:42 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 12:53:42 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:01:40 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 814-830)
+
+[2025-10-02 13:01:40 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 8684@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:01:40 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:01:40 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:01:40 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:01:40 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:01:40 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:01:40 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:01:40 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:01:40 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:01:40 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:01:40 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:01:40 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:02:38 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 831-847)
+
+[2025-10-02 13:02:39 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 18616@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:02:39 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:02:39 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:02:39 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:02:39 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:02:39 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:02:39 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:02:39 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:02:39 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:02:39 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:02:39 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:02:39 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:03:52 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 848-864)
+
+[2025-10-02 13:03:52 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 1604@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:03:53 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:03:53 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:03:53 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:03:53 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:03:53 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:03:53 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:03:53 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:03:53 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:03:53 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:03:53 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:03:53 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:04:29 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 865-881)
+
+[2025-10-02 13:04:29 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 19728@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:04:30 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:04:30 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:04:30 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:04:30 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:04:30 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:04:30 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:04:30 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:04:30 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:04:30 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:04:30 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:04:30 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:05:03 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 882-898)
+
+[2025-10-02 13:05:03 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 18096@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:05:03 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:05:03 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:05:03 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:05:03 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:05:03 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:05:03 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:05:03 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:05:03 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:05:03 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:05:03 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:05:03 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:06:36 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 899-915)
+
+[2025-10-02 13:06:37 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 12556@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:06:37 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:06:37 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:06:37 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:06:37 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:06:37 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:06:37 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:06:37 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:06:37 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:06:37 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:06:37 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:06:37 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:06:58 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 916-932)
+
+[2025-10-02 13:06:58 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 12236@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:06:58 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:06:58 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:06:58 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:06:58 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:06:58 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:06:58 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:06:58 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:06:58 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:06:58 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:06:58 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:06:58 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:08:09 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 933-949)
+
+[2025-10-02 13:08:09 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 13364@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:08:09 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:08:09 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:08:10 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:08:10 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:08:10 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:08:10 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:08:10 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:08:10 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:08:10 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:08:10 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:08:10 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:09:35 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 950-966)
+
+[2025-10-02 13:09:35 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 17160@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:09:35 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:09:35 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:09:35 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:09:35 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:09:35 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:09:35 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:09:35 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:09:35 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:09:35 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:09:35 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:09:35 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:09:41 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 967-973)
+
+[2025-10-02 13:09:41 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 21776@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:09:41 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:09:41 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:09:41 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:09:41 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:09:41 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:09:41 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:09:41 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:09:41 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:09:41 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:09:41 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:09:41 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:10:56 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 974-990)
+
+[2025-10-02 13:10:56 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 22264@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:10:57 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:10:57 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:10:57 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:10:57 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:10:57 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:10:57 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:10:57 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:10:57 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:10:57 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:10:57 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:10:57 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-02 13:11:34 #1 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' has been recovered (tr. 991-1007)
+
+[2025-10-02 13:11:34 #2 store] 
+Database 'C:\Users\ekait\git\SI2Proiektua\Rides24Geltokiekin\src\main\resources\rides.temp' is opened by 16264@LAPTOP-1CQB3TB3
+
+[2025-10-02 13:11:34 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-02 13:11:34 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-02 13:11:34 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-02 13:11:34 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-02 13:11:34 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-02 13:11:34 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-02 13:11:34 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-02 13:11:34 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-02 13:11:34 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-02 13:11:34 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-02 13:11:34 #13 type] 
+Type domain.Admin is not enhanced.
+

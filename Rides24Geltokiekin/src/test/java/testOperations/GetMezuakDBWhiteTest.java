@@ -132,7 +132,7 @@ public class GetMezuakDBWhiteTest {
 			testdb.open();
 			if(rideNum>0) {
 			db.open();
-			db.Kantzelatu(r);
+			db.kantzelatu(r);
 			db.close();
 			testdb.removeRide(rideNum);
 			}
