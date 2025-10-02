@@ -31,7 +31,7 @@ public class GetRidesDBWhiteTest {
 	private String user = "tester00";
 	private String email = "tester00@gmail.com";
 	SimpleDateFormat f = new SimpleDateFormat("dd/MM/yyyy");
-	private String noiz = "25/10/2030";
+	private String noiz = "25/10/2230";
 	private Date date = null;
 	private String matrikula = "9321CRNN";
 	int places = 4;
@@ -80,10 +80,11 @@ public class GetRidesDBWhiteTest {
 
 		prezioak = Arrays.asList(4.0f, 4.0f);
 		ibilbide = Arrays.asList("Bera", "Irun");
-		to="Lesaka";
+		
 		Driver driver = addDriver(user,email);
 		addCar(matrikula,places,driver);
 		addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
+		to="Lesaka";
 		db.open();
 		List<Ride> rides = db.getRides(from, to, date);
 		db.close();
