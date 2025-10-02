@@ -22,20 +22,20 @@ import domain.RideContainer;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
 
-public class GetEginRidesOfDriverTest {
+public class GetEginRidesOfDriverDBWhiteTest {
 
     private DataAccess db = new DataAccess();
     private TestDataAccess testdb = new TestDataAccess();
 
     private String from = "Bera";
     private String to = "Irun";
-    private String user = "tester00";
-    private String email = "tester00@gmail.com";
+    private String user = "Antton";
+    private String email = "antton@gmail.com";
 
     private SimpleDateFormat f = new SimpleDateFormat("dd/MM/yyyy");
-    private String noiz = "25/10/2030";
+    private String noiz = "7/1/2027";
     private Date date = null;
-    private String matrikula = "9321CRNN";
+    private String matrikula = "1234AAAA";
     private int places = 4;
 
     private int rideNum = -1;
@@ -54,7 +54,6 @@ public class GetEginRidesOfDriverTest {
             date = f.parse(noiz);
         } catch (ParseException e) {
             e.printStackTrace();
-            fail("Date parsing failed");
         }
 
         prezioak = Arrays.asList(4.0f, 4.0f, 4.0f);
@@ -81,10 +80,10 @@ public class GetEginRidesOfDriverTest {
             if (createdDriver) {
                 testdb.removeDriver(user);
             }
-            System.out.println("Cleanup done");
+            System.out.println("Ezabaketak eginda");
         } catch (Exception e) {
             e.printStackTrace();
-            fail("Cleanup failed");
+            fail("Ezabaketetan arazoa");
         } finally {
             testdb.close();
         }
@@ -93,7 +92,7 @@ public class GetEginRidesOfDriverTest {
     @Test
     public void test1() {
         
-        System.out.println("1. Test: Driver sin rides");
+        System.out.println("1. Test: Driver bidairik gabe");
 
         db.open();
         List<RideContainer> rides = db.getEginRidesOfDriver(driver);
@@ -105,7 +104,7 @@ public class GetEginRidesOfDriverTest {
     @Test
     public void test2() {
        
-        System.out.println("2. Test: Driver con ride activo");
+        System.out.println("2. Test: Driver martxan dagoen bidai batekin");
 
         Ride ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
 
@@ -127,7 +126,7 @@ public class GetEginRidesOfDriverTest {
     @Test
     public void test3() {
         
-        System.out.println("3. Test: Driver con ride cancelado");
+        System.out.println("3. Test: Driver martxan ez dagoen bidai batekin");
 
         Ride ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
 
