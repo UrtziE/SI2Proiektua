@@ -201,4 +201,8 @@ public class RideRequest implements Serializable,Comparable<RideRequest>{
 				ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.NumberOfSeats")+" "+seats);
 				//Aldatu
 	}
+	
+	public void setId(Integer id) {
+		this.requestId = id;
+	}
 }

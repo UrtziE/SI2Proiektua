@@ -1,4 +1,4 @@
-package testOperations;
+package mockTests;
 
 import static org.junit.Assert.*;
 
@@ -27,6 +27,7 @@ import dataAccess.DataAccess;
 import domain.Driver;
 import domain.Kotxe;
 import domain.Ride;
+import testOperations.TestDataAccess;
 
 //UrtziMokito
 public class GetRidesMockWhiteTest {
