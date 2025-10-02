@@ -280,7 +280,6 @@ public class DataAccess {
 		List<RideContainer> emaitza = new ArrayList<RideContainer>();
 		for (Ride ride : rideList) {
 			emaitza.add(new RideContainer(ride));
-			System.out.println("aaaaaaaaaaaaaaaaa");
 		}
 		return emaitza;
 	}
@@ -463,9 +462,11 @@ public class DataAccess {
 				t.gehituDirua(prezioa);
 				request.setState(EgoeraRideRequest.REJECTED);
 				t.gehituMezuaTransaction(5, prezioa, request);
+				//db.persist(t);
 			}
 		}
-
+		//db.persist(ride);
+		//db.persist(ride.getDriver());
 		db.getTransaction().commit();
 
 	}
