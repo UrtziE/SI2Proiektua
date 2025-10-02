@@ -81,7 +81,10 @@ public class GetMezuakDBWhiteTest {
 	}
 
 
-	
+	/**
+	 * Test that retrieves messages for a traveller without any messages.
+	 * Verifies that getMezuak doesn't return any message.
+	 */
     @Test
 	public void testGetMezuak1() {
     	db.open();
@@ -90,6 +93,12 @@ public class GetMezuakDBWhiteTest {
         assertTrue(mezuak.isEmpty());
 	}
     
+	/**
+	 * Test that creates a ride, makes a reservation, adds a complaint,
+	 * and then retrieves messages for the traveller.
+	 * Verifies that the method getMezuak doesn't return messages that
+	 * are not of type 1
+	 */
     @Test
 	public void testGetMezuak2() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
@@ -107,12 +116,17 @@ public class GetMezuakDBWhiteTest {
         db.close();
         
         for(Mezua mezu: mezuak) {
-        	if(mezu.getType() == 0) {
-                assertTrue(true);
+        	if(mezu.getType() != 1) {
+                fail();
         	}
         }
+        assertTrue(true);
 	}
 	
+	 /**
+	  * Test that creates a ride, makes a reservation, and retrieves messages.
+	  * Verifies that the list of messages is not empty.
+	  */
     @Test
 	public void testGetMezuak3() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);

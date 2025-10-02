@@ -96,7 +96,11 @@ public class GetMezuakMockBlackTest {
 	 }
 	
 	
-	
+	/**
+	 * Main test that verifies the getMezuak method returns a non-empty
+	 * list of messages after making a reservation.
+	 * Mocks the database lookups for Profile, Traveller, and Ride.
+	 */
     @Test
 	public void testMezuaItzuli() {
     	r = new Ride(1, from, to, date, places, prezioak, d, k, ibilbide);
@@ -116,6 +120,10 @@ public class GetMezuakMockBlackTest {
         assertFalse(mezuak.isEmpty());
 	}
 	
+    /**
+     * Test that verifies getMezuak throws an AtriNullException
+     * when called with a null parameter.
+     */
     @Test
 	public void testNull() {
        	assertThrows(AtriNullException.class, ()->{

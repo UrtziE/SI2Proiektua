@@ -79,6 +79,10 @@ public class GetMezuakDBBlackTest {
 		
 	}
     
+	/**
+	 * Main test that verifies the getMezuak method returns a non-empty
+	 * list of messages after making a reservation.
+	 */
     @Test
 	public void testMezuaItzuli() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
@@ -91,6 +95,10 @@ public class GetMezuakDBBlackTest {
         assertFalse(mezuak.isEmpty());
 	}
     
+    /**
+     * Test that verifies getMezuak throws an AtriNullException
+     * when called with a null parameter.
+     */
     @Test
 	public void testNull() {
        	assertThrows(AtriNullException.class, ()->{

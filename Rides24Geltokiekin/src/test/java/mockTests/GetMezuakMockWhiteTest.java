@@ -92,6 +92,12 @@ public class GetMezuakMockWhiteTest {
 		List<Ride>expected= new ArrayList<Ride>();
 		Mockito.when(queryKonprobatuEgunak.getResultList()).thenReturn(expected);
 	 }
+	
+	/**
+	 * Test that retrieves messages for a traveller without any reservations.
+	 * Mocks the database lookup for the traveller's profile.
+	 * Verifies that getMezuak can be called successfully.
+	 */
 	@Test
 	public void testGetMezuak1() {
 		Mockito.when(db.find(Profile.class, userT)).thenReturn(t);
@@ -100,55 +106,68 @@ public class GetMezuakMockWhiteTest {
         sut.close();
 	}
 	
+	/**
+	 * Test that creates a ride, makes a reservation, adds a complaint,
+	 * and then retrieves messages for the traveller.
+	 * Mocks database for Profile, Traveller, Ride, and RideRequest.
+	 * Verifies that the method getMezuak doesn't return messages that
+	 * are not of type 1
+	 */
 	 @Test
-		public void testGetMezuak2() {
-	    	r = new Ride(1, from, to, date, places, prezioak, d, k, ibilbide);
+	public void testGetMezuak2() {
+    	r = new Ride(1, from, to, date, places, prezioak, d, k, ibilbide);
 
-			Mockito.when(db.find(Profile.class, userT)).thenReturn(t);
-			Mockito.when(db.find(Traveller.class, t.getUser())).thenReturn(t);
-			Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
+		Mockito.when(db.find(Profile.class, userT)).thenReturn(t);
+		Mockito.when(db.find(Traveller.class, t.getUser())).thenReturn(t);
+		Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
 
-			//Mezua sortu
-	    	sut.open();
-	    	rr = sut.erreserbatu(date, r, t, 1, from, to);
-	    	rr.setId(1);
-	    	sut.close();
-	    	
-			Mockito.when(db.find(RideRequest.class, 1)).thenReturn(rr);
-			
-	    	sut.open();
-	    	sut.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
-	    	sut.close();
-	    	
-	    	sut.open();
-	        List<Mezua> mezuak = sut.getMezuak(t);
-	        sut.close();
-	        
-	        for(Mezua mezu: mezuak) {
-	        	if(mezu.getType() == 0) {
-	                assertTrue(true);
-	        	}
-	        }
-		}
+		//Mezua sortu
+    	sut.open();
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	rr.setId(1);
+    	sut.close();
+    	
+		Mockito.when(db.find(RideRequest.class, 1)).thenReturn(rr);
+		
+    	sut.open();
+    	sut.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
+    	sut.close();
+    	
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
+        
+        for(Mezua mezu: mezuak) {
+        	if(mezu.getType() != 1) {
+                fail();
+        	}
+        }
+        assertTrue(true);
+	}
 	 
-	    @Test
-		public void testGetMezuak3() {
-	    	r = new Ride(1, from, to, date, places, prezioak, d, k, ibilbide);
-	    	
-			Mockito.when(db.find(Profile.class, userT)).thenReturn(t);
-			Mockito.when(db.find(Traveller.class, t.getUser())).thenReturn(t);
-			Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
-	    	
-	    	sut.open();
-	    	rr = sut.erreserbatu(date, r, t, 1, from, to);
-	    	rr.setId(1);
-	    	sut.close();
-	    	
-	    	sut.open();
-	        List<Mezua> mezuak = sut.getMezuak(t);
-	        sut.close();
-	        assertFalse(mezuak.isEmpty());
-		}
+	 /**
+	  * Test that creates a ride, makes a reservation, and retrieves messages.
+	  * Mocks database for Profile, Traveller, and Ride.
+	  * Verifies that the list of messages is not empty.
+	  */
+    @Test
+	public void testGetMezuak3() {
+    	r = new Ride(1, from, to, date, places, prezioak, d, k, ibilbide);
+    	
+		Mockito.when(db.find(Profile.class, userT)).thenReturn(t);
+		Mockito.when(db.find(Traveller.class, t.getUser())).thenReturn(t);
+		Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
+    	
+    	sut.open();
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	rr.setId(1);
+    	sut.close();
+    	
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
+        assertFalse(mezuak.isEmpty());
+	}
 	
 	
 	@After
