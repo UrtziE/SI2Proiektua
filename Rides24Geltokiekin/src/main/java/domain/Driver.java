@@ -127,7 +127,6 @@ public class Driver extends Profile implements Serializable  {
 		for(Ride ride:rides) {
 			if(ride.getEgoera().equals(EgoeraRide.MARTXAN)||ride.getEgoera().equals(EgoeraRide.TOKIRIK_GABE)) {
 				emaitza.add(ride);
-				System.out.println("bbbbbbbbbb");
 			}
 		}
 		return emaitza;
