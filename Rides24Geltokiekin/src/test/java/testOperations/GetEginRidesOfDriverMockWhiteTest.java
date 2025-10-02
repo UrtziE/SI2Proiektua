@@ -150,7 +150,7 @@ public class GetEginRidesOfDriverMockWhiteTest {
         
         List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
         sut.close();
-        //System.out.println(rides);
+        //System.out.println(rides.getRide());
         assertEquals(new ArrayList<RideContainer>(), rides);
     }
 	
