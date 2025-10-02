@@ -1,4 +1,4 @@
-package testOperations;
+package mockTests;
 
 import static org.junit.Assert.*;
 
@@ -30,6 +30,7 @@ import domain.Profile;
 import domain.Ride;
 import domain.RideRequest;
 import domain.Traveller;
+import testOperations.TestDataAccess;
 
 public class GetMezuakMockWhiteTest {
 
