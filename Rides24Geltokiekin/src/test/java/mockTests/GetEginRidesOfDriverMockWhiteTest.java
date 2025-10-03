@@ -1,5 +1,5 @@
 
-package testOperations;
+package mockTests;
 
 import static org.junit.Assert.*;
 
@@ -27,9 +27,11 @@ import org.mockito.MockitoAnnotations;
 
 import dataAccess.DataAccess;
 import domain.Driver;
+import domain.EgoeraRide;
 import domain.Kotxe;
 import domain.Ride;
 import domain.RideContainer;
+import testOperations.TestDataAccess;
 
 //UrtziMokito
 public class GetEginRidesOfDriverMockWhiteTest {
@@ -48,12 +50,12 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	TestDataAccess testdb ;
 	private String from = "Bera";
 	private String to = "Irun";
-	private String user = "tester00";
-	private String email = "tester00@gmail.com";
+	private String user = "Antton";
+	private String email = "antton@gmail.coantton@gmail.co";
 	SimpleDateFormat f = new SimpleDateFormat("dd/MM/yyyy");
-	private String noiz = "25/10/2230";
+	private String noiz = "1/5/2027";
 	private Date date = null;
-	private String matrikula = "9321CRNN";
+	private String matrikula = "1234AAAA";
 	int places = 4;
 
 
@@ -135,22 +137,19 @@ public class GetEginRidesOfDriverMockWhiteTest {
 		Driver driver = new Driver(user,email);
 		Kotxe kotxe=new Kotxe();
 		Ride ride= new Ride(4,from, to, date, places, prezioak, driver, kotxe, ibilbide);
-		driver.addRide(from, to, date, places, prezioak, kotxe, ibilbide);
+		ride.setEgoera(EgoeraRide.KANTZELATUA);
+		driver.getRides().add(ride);
+		
 		
         Mockito.when(db.createQuery("SELECT r FROM Ride r", Ride.class))
         .thenReturn(queryKonprobatuEgunak);
         Mockito.when(db.find(Driver.class, user)).thenReturn(driver);
-        Mockito.when(db.find(Ride.class, ride.getRideNumber())).thenReturn(ride);
-        
-        
-        
+       
         
         sut.open();
-        sut.kantzelatu(ride);
-        
         List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
         sut.close();
-        //System.out.println(rides.getRide());
+       
         assertEquals(new ArrayList<RideContainer>(), rides);
     }
 	

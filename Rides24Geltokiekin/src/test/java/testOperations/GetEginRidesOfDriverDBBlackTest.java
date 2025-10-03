@@ -2,6 +2,7 @@ package testOperations;
 
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.fail;
 
 import java.text.ParseException;
@@ -20,6 +21,7 @@ import domain.Driver;
 import domain.Kotxe;
 import domain.Ride;
 import domain.RideContainer;
+import exceptions.AtriNullException;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
 
@@ -61,16 +63,11 @@ public class GetEginRidesOfDriverDBBlackTest {
     public void test1() {
         
         System.out.println("1. Test: null driver -> error ");
-        
+        assertThrows(AtriNullException.class, ()->{
         db.open();
-        try {
-        	List<RideContainer> rides = db.getEginRidesOfDriver(null);
-        	fail("Ez du errorerik eman");
-        }catch(Exception e) {
-        	System.out.println("Errorea eman du");
-        }
+        List<RideContainer> rides = db.getEginRidesOfDriver(null);
         db.close();
-
+        });
         
     }
 

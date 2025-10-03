@@ -462,11 +462,10 @@ public class DataAccess {
 				t.gehituDirua(prezioa);
 				request.setState(EgoeraRideRequest.REJECTED);
 				t.gehituMezuaTransaction(5, prezioa, request);
-				//db.persist(t);
+				
 			}
 		}
-		//db.persist(ride);
-		//db.persist(ride.getDriver());
+		
 		db.getTransaction().commit();
 
 	}
