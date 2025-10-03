@@ -24,7 +24,7 @@ import exceptions.RideMustBeLaterThanTodayException;
 
 public class GetRidesDBWhiteTest {
 
-	DataAccess db = new DataAccess();
+	DataAccess sut = new DataAccess();
 	TestDataAccess testdb = new TestDataAccess();
 	private String from = "Bera";
 	private String to = "Irun";
@@ -97,9 +97,9 @@ public class GetRidesDBWhiteTest {
 	
 	public void testDBEzDagoBidaiHori() {
 
-		db.open();
-		List<Ride> rides = db.getRides(from, to, date);
-		db.close();
+	sut.open();
+		List<Ride> rides = sut.getRides(from, to, date);
+		sut.close();
 		List<Ride> rideExpected = new ArrayList<Ride>();
 		assertEquals(rideExpected, rides);
 
@@ -120,9 +120,9 @@ public class GetRidesDBWhiteTest {
 		addCar(matrikula,places,driver);
 		addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
 		to="Lesaka";
-		db.open();
-		List<Ride> rides = db.getRides(from, to, date);
-		db.close();
+		sut.open();
+		List<Ride> rides = sut.getRides(from, to, date);
+		sut.close();
 		List<Ride> expectedRide = new ArrayList<Ride>();
 		assertEquals(expectedRide, rides);
 
@@ -138,11 +138,11 @@ public class GetRidesDBWhiteTest {
 		ibilbide = Arrays.asList("Lesaka", "Irun");
 		Driver driver = addDriver(user,email);
 		addCar(matrikula,places,driver);
-		db.open();
+		sut.open();
 		addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
-		db.open();
-		List<Ride> rides = db.getRides(from, to, date);
-		db.close();
+		sut.open();
+		List<Ride> rides = sut.getRides(from, to, date);
+		sut.close();
 		List<Ride> expectedRide = new ArrayList<Ride>();
 		assertEquals(expectedRide, rides);
 	}
@@ -155,11 +155,11 @@ public class GetRidesDBWhiteTest {
 	public void getRideRidekin() {
 		Driver driver = addDriver(user,email);
 		addCar(matrikula,places,driver);
-		db.open();
+		sut.open();
 		Ride ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
-		db.open();
-		List<Ride> rides = db.getRides(from, to, date);
-		db.close();
+		sut.open();
+		List<Ride> rides = sut.getRides(from, to, date);
+		sut.close();
 		List<Ride> expectedRide = new ArrayList<Ride>();
 		expectedRide.add(ride);
 		assertEquals(expectedRide, rides);
@@ -169,9 +169,9 @@ public class GetRidesDBWhiteTest {
 	 * @author Urtzi Etxegarai Taberna
 	 */
 	private boolean addCar(String matrikula, int tokiKop,Driver driver) {
-		db.open();
-		createdCar = db.createCar("Seat", "ibiza", matrikula, tokiKop, driver);
-		db.close();
+		sut.open();
+		createdCar = sut.createCar("Seat", "ibiza", matrikula, tokiKop, driver);
+		sut.close();
 		testdb.open();
 		kotxe = testdb.getCar(matrikula);
 		testdb.close();
@@ -202,17 +202,17 @@ public class GetRidesDBWhiteTest {
 	 */
 	private Ride addRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
 			String driverUser, Kotxe kotxe, List<String> ibilbide) {
-		db.open();
+		sut.open();
 		Ride ride = null;
 		try {
-			ride = db.createRide(from, to, date, nPlaces,  price, driverUser, kotxe, ibilbide);
+			ride = sut.createRide(from, to, date, nPlaces,  price, driverUser, kotxe, ibilbide);
 			rideNum=ride.getRideNumber();
 		} catch (RideAlreadyExistException e) {
 			fail("That Ride exists, you must change");
 		} catch (RideMustBeLaterThanTodayException e) {
 			fail("Ride Must Be Later Than Today");
 		}
-		db.close();
+		sut.close();
 		return ride;
 		
 	}
