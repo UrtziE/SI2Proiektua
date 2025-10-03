@@ -26,7 +26,7 @@ import exceptions.RideMustBeLaterThanTodayException;
 
 public class GetMezuakDBWhiteTest {
 
-	DataAccess db= new DataAccess();
+	DataAccess sut= new DataAccess();
 	TestDataAccess testdb= new TestDataAccess();
 	
 	private String from= "Donostia";
@@ -70,9 +70,9 @@ public class GetMezuakDBWhiteTest {
 		d = testdb.createDriver(userD, emailD);
 		testdb.close();
 		
-		db.open();
-		db.createCar("Toyota", "Yaris", matrikula, places, d);
-		db.close();
+		sut.open();
+		sut.createCar("Toyota", "Yaris", matrikula, places, d);
+		sut.close();
 		
 		testdb.open();
 		k = testdb.getCar(matrikula);
@@ -81,47 +81,64 @@ public class GetMezuakDBWhiteTest {
 	}
 
 
-	
+	/**
+	 * Erreserbarik ez dituen bidaiari baten mezuak lortzen ditu.
+	 * Berifikatzen du bidaiari horrek ez dituela mezurik.
+	 * @author Beñat Ercibengoa Calvo
+	 */
     @Test
 	public void testGetMezuak1() {
-    	db.open();
-        List<Mezua> mezuak = db.getMezuak(t);
-        db.close();
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
         assertTrue(mezuak.isEmpty());
 	}
     
+	/**
+	 * Test honek Ride bat sortu, erreserba bat egin eta ondoren erreklamazio bat
+	 * sortzen du. Azkenik, bidaiariaren mezuak lortzen ditu.
+	 * Berifikatzen du itzulitako mezuak soilik 1 motako mezuak direla.
+	 * @author Beñat Ercibengoa Calvo
+	 */
     @Test
 	public void testGetMezuak2() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
     	
-    	db.open();
-    	rr = db.erreserbatu(date, r, t, 1, from, to);
-    	db.close();
+    	sut.open();
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	sut.close();
     	
-    	db.open();
-    	db.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
-    	db.close();
+    	sut.open();
+    	sut.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
+    	sut.close();
     	
-    	db.open();
-        List<Mezua> mezuak = db.getMezuak(t);
-        db.close();
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
         
         for(Mezua mezu: mezuak) {
-        	if(mezu.getType() == 0) {
-                assertTrue(true);
+        	if(mezu.getType() != 1) {
+                fail();
         	}
         }
+        assertTrue(true);
 	}
 	
+	 /**
+	  * Test honek bidaiari batentzat erreserba bat sortzen du eta ondoren
+	  * bidaiariaren mezuak lortzen ditu.
+	  * Berifikatzen du bidaiariaren mezu lista ez dagoela hutsa.
+	  * @author Beñat Ercibengoa Calvo
+	  */
     @Test
 	public void testGetMezuak3() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
-    	db.open();
-    	rr = db.erreserbatu(date, r, t, 1, from, to);
-    	db.close();
-    	db.open();
-        List<Mezua> mezuak = db.getMezuak(t);
-        db.close();
+    	sut.open();
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	sut.close();
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
         assertFalse(mezuak.isEmpty());
 	}
 	
@@ -131,9 +148,9 @@ public class GetMezuakDBWhiteTest {
 		try {
 			testdb.open();
 			if(rideNum>0) {
-			db.open();
-			db.kantzelatu(r);
-			db.close();
+			sut.open();
+			sut.kantzelatu(r);
+			sut.close();
 			testdb.removeRide(rideNum);
 			}
 			testdb.removeCar(matrikula);
@@ -146,9 +163,9 @@ public class GetMezuakDBWhiteTest {
 	}
 	
 	private boolean addCar(String matrikula, int tokiKop,Driver driver) {
-		db.open();
-		Boolean createdCar = db.createCar("Seat", "ibiza", matrikula, tokiKop, driver);
-		db.close();
+		sut.open();
+		Boolean createdCar = sut.createCar("Seat", "ibiza", matrikula, tokiKop, driver);
+		sut.close();
 		return createdCar;
 	}
 	private Driver addDriver(String user, String email) {
@@ -166,17 +183,17 @@ public class GetMezuakDBWhiteTest {
 	}
 	private Ride addRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
 			String driverUser, Kotxe kotxe, List<String> ibilbide) {
-		db.open();
+		sut.open();
 		Ride ride = null;
 		try {
-			ride = db.createRide(from, to, date, nPlaces, prezioak, driverUser, kotxe, ibilbide);
+			ride = sut.createRide(from, to, date, nPlaces, prezioak, driverUser, kotxe, ibilbide);
 			rideNum=ride.getRideNumber();
 		} catch (RideAlreadyExistException e) {
 			fail("That Ride exists, you must change");
 		} catch (RideMustBeLaterThanTodayException e) {
 			fail("Ride Must Be Later Than Today");
 		}
-		db.close();
+		sut.close();
 		return ride;
 	}
 

@@ -280,7 +280,6 @@ public class DataAccess {
 		List<RideContainer> emaitza = new ArrayList<RideContainer>();
 		for (Ride ride : rideList) {
 			emaitza.add(new RideContainer(ride));
-			System.out.println("aaaaaaaaaaaaaaaaa");
 		}
 		return emaitza;
 	}
@@ -463,9 +462,10 @@ public class DataAccess {
 				t.gehituDirua(prezioa);
 				request.setState(EgoeraRideRequest.REJECTED);
 				t.gehituMezuaTransaction(5, prezioa, request);
+				
 			}
 		}
-
+		
 		db.getTransaction().commit();
 
 	}
@@ -638,6 +638,14 @@ public class DataAccess {
 			return null;
 	}
 
+	
+	/**
+	 * This method retrieves from the database the messages from the profile p
+	 * It only retrieves the messages of rejected rides or rejected complaiments
+	 * @param p the profile whom messages will be retrieved
+	 * @return collection of messages
+	 * @author Beñat Ercibengoa Calvo
+	 */
 	public List<Mezua> getMezuak(Profile p) {
 		db.getTransaction().begin();
 		Profile profile = db.find(Profile.class, p.getUser());

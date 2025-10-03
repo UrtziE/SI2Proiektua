@@ -60,6 +60,7 @@ public abstract class Profile implements Serializable {
 	}
  
 	public Profile(String user, String email) {
+		mezuList = new ArrayList<>();
 		this.user = user;
 		this.email = email;
 	}
