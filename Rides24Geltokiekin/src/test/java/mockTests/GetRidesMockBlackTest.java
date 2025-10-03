@@ -1,4 +1,4 @@
-package testOperations;
+package mockTests;
 
 import static org.junit.Assert.*;
 
@@ -30,6 +30,7 @@ import domain.Geltoki;
 import domain.Kotxe;
 import domain.Ride;
 import exceptions.AtriNullException;
+import testOperations.TestDataAccess;
 
 //UrtziMokito
 public class GetRidesMockBlackTest {
