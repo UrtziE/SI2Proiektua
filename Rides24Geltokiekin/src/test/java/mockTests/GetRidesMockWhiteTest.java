@@ -171,7 +171,7 @@ public class GetRidesMockWhiteTest {
 	 * Konprobatu egiten du guk DB-an sortutako bidaia lista batean itzultzen duela getRides metodoak
 	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
 	 * @author Urtzi Etxegarai Taberna
-	 */
+	 */ ///
 	@Test
 	public void getRideRidekin() {
 		List<Ride>expected= new ArrayList<Ride>();
