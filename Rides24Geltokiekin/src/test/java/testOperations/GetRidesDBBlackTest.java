@@ -47,7 +47,10 @@ public class GetRidesDBBlackTest {
 
 	Kotxe kotxe = new Kotxe();
 	List<String> ibilbide = new ArrayList<String>();
-
+	/**
+	 * Test-en aurretik parametroak hasieratzeko metodoa
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Before
 	public void initialize() {
 		System.out.println("Initialize	and	check	...");
@@ -64,8 +67,35 @@ public class GetRidesDBBlackTest {
 		createdCar=false;
 		createdDriver=false;
 	}
+	/**
+	 * DB-an sartutako gauza berriak ezabatzeko metodoa
+	 * @author Urtzi Etxegarai Taberna
+	 */
+	@After
+	public void bukatu() {
+		try {
+			testdb.open();
+			if(rideNum>0) {
+			testdb.removeRide(rideNum);
+			testdb.open();
+			}
+			if (createdCar) {
+				testdb.removeCar(matrikula);
+			}
+			if(createdDriver) {
+				testdb.removeDriver(user);
+			}
+			testdb.close();
+		} catch (Exception e) {
+			fail("Imposible");
+		}
+	}
 
-
+	/**
+	 * Test honek baliozko bidaia bat DB-an gorde eta hau bilatu egiten du
+	 * Konprobatu egiten da itzultzen duen bidaia DB-an gorde dugunaren berdina dela
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDenakOndoSeatekin() {
 		Driver driver = addDriver(user,email);
@@ -79,6 +109,12 @@ public class GetRidesDBBlackTest {
 		expectedRide.add(ride);
 		assertEquals(expectedRide, rides);
 	}
+	/**
+	 * Test honek "gaur"-ko datarekin bidaia bat sortu eta DB-an gorde egiten du, getRides-ek ride hau bilatu egiten du
+	 * Konprobatu egiten da getRides-ek ez duela ezer itzuli, "gaur"-ko eguneko bidaiak "PASATUTA" egoeran baitaude, 
+	 * ez "MARTXAN" egoeran
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDenakOndoSeatekinDateToday() {
 		date= new Date();
@@ -99,6 +135,12 @@ public class GetRidesDBBlackTest {
 		List<Ride> expectedRide = new ArrayList<Ride>();
 		assertEquals(expectedRide, rides);
 	}
+	/**
+	 * Test honek iraganeko data batekin bidaia bat sortu eta DB-an gorde egiten du, getRides-ek ride hau bilatu egiten du
+	 * Konprobatu egiten da getRides-ek ez duela ezer itzuli, iraganeko bidaiak "PASATUTA" egoeran baitaude, 
+	 * ez "MARTXAN" egoeran
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDenakOndoSeatekinBeforeToday() {
 		try {
@@ -116,7 +158,13 @@ public class GetRidesDBBlackTest {
 		List<Ride> expectedRide = new ArrayList<Ride>();
 		assertEquals(expectedRide, rides);
 	}
-	
+	/**
+	 * Test honek  bidaia bat sortu egiten du non ez duen geltokirik ibilbide posibleetako batean eta DB-an gorde egiten du,
+	 * getRides-ek eserlekurik ez duen ibilbidea bilatuko du
+	 * Konprobatu egiten da getRides-ek ez duela ezer itzuli, ez badago tokirik eskatutako "from"-etik "to"-ra
+	 * ez baitu balio bidaiak
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesSeat0() {
 
@@ -133,7 +181,11 @@ public class GetRidesDBBlackTest {
 		List<Ride> expectedRide = new ArrayList<Ride>();
 		assertEquals(expectedRide, rides);
 	}
-	
+	/**
+	 * Test honek baliozko bidaia bat gorde egiten du DB-an eta getRides metodoa from atributua null-ekin deitzen du
+	 * Konprobatu egiten da ea getRides-ek AtriNullException altxatzen duen
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesFromNull() {
 
@@ -147,6 +199,11 @@ public class GetRidesDBBlackTest {
 
 
 	}
+	/**
+	 * Test honek baliozko bidaia bat gorde egiten du DB-an eta getRides metodoa "to" atributua null-ekin deitzen du
+	 * Konprobatu egiten da ea getRides-ek AtriNullException altxatzen duen
+	 * @author Urtzi Etxegarai Taberna
+	 */
 @Test
 	public void testGetRidesToNull() {
 	Driver driver = addDriver(user,email);
@@ -157,7 +214,11 @@ public class GetRidesDBBlackTest {
 	db.close();
 
 	}
-
+/**
+ * Test honek baliozko bidaia bat gorde egiten du DB-an eta getRides metodoa "date" atributua null-ekin deitzen du
+ * Konprobatu egiten da ea getRides-ek AtriNullException altxatzen duen
+ * @author Urtzi Etxegarai Taberna
+ */
 	@Test
 	public void testGetRidesDateNull() {
 		prezioak = Arrays.asList(4.0f, 4.0f);
@@ -170,6 +231,12 @@ public class GetRidesDBBlackTest {
 	db.close();
 	
 	}
+	/**
+	 * Test honek baliozko bidaia bat gorde egiten du DB-an, getRides-en "from" atributua ez dago DB-ko bidaia
+	 * baten ibilbidean
+	 * Konprobatu egiten da ea getRides-ek lista huts bat itzultzen duen, ez baitago eskatutakoa betetzen duen bidairik
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesFromNotExistsDB() {
 	Driver driver = addDriver(user,email);
@@ -184,6 +251,12 @@ public class GetRidesDBBlackTest {
 	List<Ride>expectedRides= new ArrayList<Ride>();
 	assertEquals(expectedRides,rides);
 	}
+	/**
+	 * Test honek baliozko bidaia bat gorde egiten du DB-an, getRides-en "to" atributua ez dago DB-ko bidaia
+	 * baten ibilbidean
+	 * Konprobatu egiten da ea getRides-ek lista huts bat itzultzen duen, ez baitago eskatutakoa betetzen duen bidairik
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesToNotExistsDB() {
 		
@@ -199,6 +272,12 @@ public class GetRidesDBBlackTest {
 	List<Ride>expectedRides= new ArrayList<Ride>();
 	assertEquals(expectedRides,rides);
 	}
+	/**
+	 * Test honek baliozko bidaia bat gorde egiten du DB-an, getRides-en "date" atributua ez dago DB-ko bidaia
+	 * baten ibilbidean
+	 * Konprobatu egiten da ea getRides-ek lista huts bat itzultzen duen, ez baitago eskatutakoa betetzen duen bidairik
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDateNotExistsDB() {
 
@@ -273,25 +352,7 @@ public class GetRidesDBBlackTest {
 		return ride;
 		
 	}
-	@After
-	public void bukatu() {
-		try {
-			testdb.open();
-			if(rideNum>0) {
-			testdb.removeRide(rideNum);
-			testdb.open();
-			}
-			if (createdCar) {
-				testdb.removeCar(matrikula);
-			}
-			if(createdDriver) {
-				testdb.removeDriver(user);
-			}
-			testdb.close();
-		} catch (Exception e) {
-			fail("Imposible");
-		}
-	}
+
 
 
 }

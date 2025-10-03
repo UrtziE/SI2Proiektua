@@ -2,23 +2,23 @@
 ØtestOperations.GetMezuakDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;z
 nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.javaÖ Ö("7*è
 5
-ä ä(XZ
+ä ä(UZ
 X
 
-ä ä(X
+ä ä(U
 ridedomain.Ride"__id*/
 
 __unknown_file (
 
-%4domain.Rideúô
+%3domain.Rideúô
 
 ã ã(
-%5java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+%4java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
 
 __unknown_file (
 
 ridedomain.Ride2getRideNumber()*
-1*»
+1*Ã
 6
 ä
  ä(
@@ -30,20 +30,11 @@ X
 
 __unknown_file (0*.%
 #testOperations.GetMezuakDBBlackTest"
-sut}
-{
-
-ä2 ä(:
-%3java.util.List"__id*Q
-
-__unknown_file (5*3%
-#testOperations.GetMezuakDBBlackTest"
-
-prezioak±Æ
+sut¥±
 
 ä
- ä(X
-%4domain.Ride"§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
+ ä(U
+%3domain.Ride"§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
 
 __unknown_file (
 
@@ -62,11 +53,11 @@ X
 datejava.util.Date*"
 
 __unknown_file (
-""*2
+""*5
 
-__unknown_file (
-
-%3java.util.List*<
+__unknown_file (
+
+pricejava.util.List*<
 
 __unknown_file ( 
 
@@ -112,7 +103,7 @@ K
 }
 
 ë ë(
-%6dataAccess.DataAccess"__id*L
+%5dataAccess.DataAccess"__id*L
 
 __unknown_file (0*.%
 #testOperations.GetMezuakDBBlackTest"
@@ -120,11 +111,11 @@ K
 
 ë ë(
 
-%7void"dataAccess.DataAccess#close()V*9
+%6void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%6dataAccess.DataAccess2close()"#
+%5dataAccess.DataAccess2close()"#
 
 í í(
 

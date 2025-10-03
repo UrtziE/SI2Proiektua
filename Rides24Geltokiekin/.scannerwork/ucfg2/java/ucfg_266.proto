@@ -2,43 +2,22 @@
 ∂testOperations.GetRidesDBBlackTest#addRideDataGabe(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;y
 mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.javaÜ Ü("6*Ç
 4
-ã ã(]M
+ã ã(`M
 K
 
-ã ã(]
+ã ã(`
 ridedomain.Ride"__id*"
 
 __unknown_file (
 ""úô
 
 å å(
-%2java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
 
 __unknown_file (
 
 ridedomain.Ride2getRideNumber()*
-1*é
-5
-ã
- ã(|
-z
-
-ã= ã(E
-%0java.util.List"__id*P
-
-__unknown_file (4*2$
-"testOperations.GetRidesDBBlackTest"
-
-prezioakz
-x
-
-ãG ã(K
-%1java.lang.String"__id*L
-
-__unknown_file (0*.$
-"testOperations.GetRidesDBBlackTest"
-user*
-4*c
+1*c
 6
 à à(M
 K
@@ -48,7 +27,7 @@ K
 
 __unknown_file (
 ""*
-5*4
+4*4
 1
 ê ê("#
 

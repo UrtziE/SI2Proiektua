@@ -86,6 +86,12 @@ public class GetRidesMockBlackTest {
 	createdCar=false;
 	createdDriver=false;
 	 }
+	/**
+	 * Test honek baliozko bidaia bat sortu eta hau bilatzeko eskatzen zaio getRides-i
+	 * Konprobatu egiten da itzultzen duen bidaia DB-an gorde dugunaren berdina dela
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak find egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDenakOndoSeatekin() {
 		
@@ -108,6 +114,13 @@ public class GetRidesMockBlackTest {
 		expected.add(ride);
 		assertEquals(expected, emaitza);
 	}
+	/**
+	 * Test honek "gaur"-ko datarekin bidaia bat sortu  getRides-ek ride hau bilatzea eskatzen zaio 
+	 * Konprobatu egiten da getRides-ek ez duela ezer itzuli, "gaur"-ko eguneko bidaiak "PASATUTA" egoeran baitaude, 
+	 * ez "MARTXAN" egoeran
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery eta find egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDenakOndoSeatekinDateToday() {
 		date= new Date();
@@ -136,6 +149,13 @@ public class GetRidesMockBlackTest {
 		sut.close();
 		assertEquals(expected, emaitza);
 	}
+	/**
+	 * Test honek iraganeko data batekin bidaia bat sortu eta  getRides-ek ride hau bilatu egiten du
+	 * Konprobatu egiten da getRides-ek ez duela ezer itzuli, iraganeko bidaiak "PASATUTA" egoeran baitaude, 
+	 * ez "MARTXAN" egoeran
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDenakOndoSeatekinBeforeToday(){
 		try {
@@ -161,6 +181,14 @@ public class GetRidesMockBlackTest {
 		sut.close();
 		assertEquals(expected, emaitza);
 	}
+	/**
+	 * Test honek  bidaia bat sortu egiten du non ez duen geltokirik ibilbide posibleetako batean,
+	 * getRides-ek eserlekurik ez duen ibilbidea hartu eta bidaia bilatuko du
+	 * Konprobatu egiten da getRides-ek ez duela ezer itzuli, ez badago tokirik eskatutako "from"-etik "to"-ra
+	 * ez baitu balio bidaiak
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesSeat0(){	
 		List<Ride>expected= new ArrayList<Ride>();
@@ -181,6 +209,12 @@ public class GetRidesMockBlackTest {
 		sut.close();
 		assertEquals(expected, emaitza);
 	}
+	/**
+	 * Test honek baliozko bidaia bat sortzen du eta getRides metodoa "from" atributua null-ekin deitzen du
+	 * Konprobatu egiten da ea getRides-ek AtriNullException altxatzen duen
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesFromNull() {	
 		List<Ride>expected= new ArrayList<Ride>();
@@ -199,6 +233,12 @@ public class GetRidesMockBlackTest {
 		assertThrows(AtriNullException.class,()->{sut.getRides(null, to, date);});
 		sut.close();
 	}
+	/**
+	 * Test honek baliozko bidaia bat sortzen du eta getRides metodoa "to" atributua null-ekin deitzen du
+	 * Konprobatu egiten da ea getRides-ek AtriNullException altxatzen duen
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesToNull() {	
 		List<Ride>expected= new ArrayList<Ride>();
@@ -217,6 +257,12 @@ public class GetRidesMockBlackTest {
 		assertThrows(AtriNullException.class,()->{sut.getRides(from, null, date);});
 		sut.close();
 	}
+	/**
+	 * Test honek baliozko bidaia bat sortzen du eta getRides metodoa "date" atributua null-ekin deitzen du
+	 * Konprobatu egiten da ea getRides-ek AtriNullException altxatzen duen
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDateNull() {	
 		List<Ride>expected= new ArrayList<Ride>();
@@ -235,6 +281,13 @@ public class GetRidesMockBlackTest {
 		assertThrows(AtriNullException.class,()->{sut.getRides(from, to, null);});
 		sut.close();
 	}
+	/**
+	 * Test honek baliozko bidaia bat sortu, getRides-en "from" atributua ez dago bidaiaren
+	 * baten ibilbidean
+	 * Konprobatu egiten da ea getRides-ek lista huts bat itzultzen duen, ez baitago eskatutakoa betetzen duen bidairik
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesFromNotExistsDB() {	
 		List<Ride>expected= new ArrayList<Ride>();
@@ -255,6 +308,13 @@ public class GetRidesMockBlackTest {
 		sut.close();
 		assertEquals(expected, emaitza);
 	}
+	/**
+	 * Test honek baliozko bidaia bat sortu, getRides-en "to" atributua ez dago bidaiaren
+	 * baten ibilbidean
+	 * Konprobatu egiten da ea getRides-ek lista huts bat itzultzen duen, ez baitago eskatutakoa betetzen duen bidairik
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesToNotExistsDB() {	
 		List<Ride>expected= new ArrayList<Ride>();
@@ -275,6 +335,13 @@ public class GetRidesMockBlackTest {
 		sut.close();
 		assertEquals(expected, emaitza);
 	}
+	/**
+	 * Test honek baliozko bidaia bat sortu, getRides-en "date" atributua ez dago bidaiaren
+	 * baten ibilbidean
+	 * Konprobatu egiten da ea getRides-ek lista huts bat itzultzen duen, ez baitago eskatutakoa betetzen duen bidairik
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
 	public void testGetRidesDateNotExistsDB() {	
 		List<Ride>expected= new ArrayList<Ride>();

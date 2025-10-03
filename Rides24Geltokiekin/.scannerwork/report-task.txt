@@ -1,7 +1,7 @@
 organization=urtzie
 projectKey=UrtziE_SI2Proiektua
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.68202
+serverVersion=8.0.0.68212
 dashboardUrl=https://sonarcloud.io/dashboard?id=UrtziE_SI2Proiektua
-ceTaskId=AZmpjI4J52_DUX4yUEJ_
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZmpjI4J52_DUX4yUEJ_
+ceTaskId=AZmpqWdSMjvxfhsamfd5
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZmpqWdSMjvxfhsamfd5

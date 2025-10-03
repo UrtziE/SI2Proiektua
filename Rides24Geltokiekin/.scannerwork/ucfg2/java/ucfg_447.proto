@@ -1,18 +1,18 @@
 
-ºtestOperations.GetEginRidesOfDriverDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;…
+˜testOperations.GetEginRidesOfDriverDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILdomain/Kotxe;Ljava/util/List;)Ldomain/Ride;…
 yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java® ®("7*
 5
-³ ³(QZ
+² ²(QZ
 X
 
-³ ³(Q
+² ²(Q
 ridedomain.Ride"__id*/
 
 __unknown_file (
 
 %5domain.Rideœ™
 
-´ ´(
+³ ³(
 %6java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
 
 __unknown_file (
@@ -20,12 +20,12 @@ X
 ridedomain.Ride2getRideNumber()*
 1*ã	
 6
-³
- ³(Š
+²
+ ²(Š
 ‡
 
-³
- ³(
+²
+ ²(
 %2dataAccess.DataAccess"__id*V
 
 __unknown_file (:*80
@@ -33,7 +33,7 @@ X
 db‰
 †
 
-³1 ³(9
+²1 ²(9
 %3java.util.List"__id*\
 
 __unknown_file (@*>0
@@ -42,15 +42,15 @@ X
 prezioak‡
 „
 
-³; ³(?
+²; ²(?
 %4java.lang.String"__id*X
 
 __unknown_file (<*:0
 .testOperations.GetEginRidesOfDriverDBWhiteTest"
 user©¦
 
-³
- ³(Q
+²
+ ²(Q
 %5domain.Ride"¤dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
 
 __unknown_file (
@@ -89,17 +89,17 @@ X
 ibilbidejava.util.List2createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)*
 5*î
 7
-° °(Š
+¯ ¯(Š
 ‡
 
-° °(
+¯ ¯(
 %0dataAccess.DataAccess"__id*V
 
 __unknown_file (:*80
 .testOperations.GetEginRidesOfDriverDBWhiteTest"
 db|z
 
-° °(
+¯ ¯(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -108,24 +108,24 @@ X
 %0dataAccess.DataAccess2open()M
 K
 
-± ±(
+° °(
 ridedomain.Ride"__id*"
 
 __unknown_file (
 ""*
 6*Á
 1
-º º(Š
+¹ ¹(Š
 ‡
 
-º º(
+¹ ¹(
 %7dataAccess.DataAccess"__id*V
 
 __unknown_file (:*80
 .testOperations.GetEginRidesOfDriverDBWhiteTest"
 db~|
 
-º º(
+¹ ¹(
 
 %8void"dataAccess.DataAccess#close()V*9
 
@@ -133,7 +133,7 @@ K
 
 %7dataAccess.DataAccess2close()"#
 
-» »(
+º º(
 
 ridedomain.Ride:&
 
@@ -147,18 +147,11 @@ K
 datejava.util.Date: 
 
 __unknown_file (
-"":%
+"":#
 
-®X ®(j
-pricejava.util.List:,
-
-¯ ¯(
-
-driverUserjava.lang.String:#
-
-¯ ¯("
+®G ®(S
 kotxedomain.Kotxe:(
 
-¯# ¯(8
+®T ®(i
 ibilbidejava.util.ListB20
 .testOperations.GetEginRidesOfDriverDBWhiteTest

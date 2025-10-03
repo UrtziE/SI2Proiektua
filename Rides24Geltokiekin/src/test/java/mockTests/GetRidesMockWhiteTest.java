@@ -83,8 +83,14 @@ public class GetRidesMockWhiteTest {
 	createdCar=false;
 	createdDriver=false;
 	 }
+	/**
+	 * Existitzen ez den bidaia bat lortzen saiatzen da.
+	 * Konprobatu egiten da lista hutsa itzultzen duela getRides metodoak
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
-	public void testGetRides1() {
+	public void testDBEzDagoBidaiHori() {
 		
 		List<Ride>expected= new ArrayList<Ride>();
 		Mockito.when(db.createQuery("SELECT r FROM Ride r", Ride.class))
@@ -99,8 +105,14 @@ public class GetRidesMockWhiteTest {
 		System.out.println(expected);
 		assertEquals(expected, emaitza);
 	}
+	/**
+	 * "To" atributua duen bidaia bat lortzen saiatzen da, hau, ez da exisitzen
+	 * Ibilbide barruan to ez dagoenez konprobatu egiten da lista hutsa itzultzen duela getRides metodoak
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
-	public void testGetRides2() {
+	public void toNotDB()  {
 		prezioak = Arrays.asList(4.0f, 4.0f);
 		ibilbide = Arrays.asList("Bera", "Irun");
 		List<Ride>expected= new ArrayList<Ride>();
@@ -124,9 +136,14 @@ public class GetRidesMockWhiteTest {
 		System.out.println(emaitza);
 		assertEquals(expected, emaitza);
 	}
-	
+	/**
+	 * Testeatu egiten du eskatu egiten badiogu from bat ez dagoena DB ezta bidaia baten ibilbidean
+	 * Ibilbide barruan from ez dagoenez konprobatu egiten da lista hutsa itzultzen duela getRides metodoak
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
-	public void testGetRides3() {
+	public void fromNotDB() {
 		prezioak = Arrays.asList(4.0f, 4.0f);
 		ibilbide = Arrays.asList("Lesaka", "Irun");
 		List<Ride>expected= new ArrayList<Ride>();
@@ -149,8 +166,14 @@ public class GetRidesMockWhiteTest {
 		assertEquals(expected, emaitza);
 		
 	}
+	/**
+	 * Test honek bidaia bat sortueta bidaia honen bilaketa egiten du
+	 * Konprobatu egiten du guk DB-an sortutako bidaia lista batean itzultzen duela getRides metodoak
+	 * DB-a mockeatu egiten da(Entity manager), eta getRides-ek eta "konprobatuBidaienEgunak" metodoak createQuery egiten dutenean zer itzuli esaten da
+	 * @author Urtzi Etxegarai Taberna
+	 */
 	@Test
-	public void testGetRides4() {
+	public void getRideRidekin() {
 		List<Ride>expected= new ArrayList<Ride>();
 		List<Ride>emaitza= new ArrayList<Ride>();
 		Kotxe kotxe=new Kotxe();

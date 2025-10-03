@@ -2,23 +2,23 @@
 ®testOperations.GetRidesDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;y
 mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.javaö ö("7*
 5
-û û(QZ
+û û(TZ
 X
 
-û û(Q
+û û(T
 ridedomain.Ride"__id*/
 
 __unknown_file (
 
-%5domain.Rideœ™
+%3domain.Rideœ™
 
 ü ü(
-%6java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+%4java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
 
 __unknown_file (
 
 ridedomain.Ride2getRideNumber()*
-1*¹	
+1*Ê
 6
 û
  û(}
@@ -30,28 +30,11 @@ X
 
 __unknown_file (.*,$
 "testOperations.GetRidesDBBlackTest"
-db|
-z
-
-û1 û(9
-%3java.util.List"__id*P
-
-__unknown_file (4*2$
-"testOperations.GetRidesDBBlackTest"
-
-prezioakz
-x
-
-û; û(?
-%4java.lang.String"__id*L
-
-__unknown_file (0*.$
-"testOperations.GetRidesDBBlackTest"
-user©¦
+db´±
 
 û
- û(Q
-%5domain.Ride"¤dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
+ û(T
+%3domain.Ride"¤dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
 
 __unknown_file (
 
@@ -70,15 +53,16 @@ x
 datejava.util.Date*"
 
 __unknown_file (
-""*2
+""*5
 
-__unknown_file (
-
-%3java.util.List*4
+__unknown_file (
+
+pricejava.util.List*<
 
-__unknown_file (
-
-%4java.lang.String*3
+__unknown_file ( 
+
+
+driverUserjava.lang.String*3
 
 __unknown_file (
 
@@ -119,7 +103,7 @@ K
 {
 
 ‚ ‚(
-%7dataAccess.DataAccess"__id*J
+%5dataAccess.DataAccess"__id*J
 
 __unknown_file (.*,$
 "testOperations.GetRidesDBBlackTest"
@@ -127,11 +111,11 @@ K
 
 ‚ ‚(
 
-%8void"dataAccess.DataAccess#close()V*9
+%6void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%7dataAccess.DataAccess2close()"#
+%5dataAccess.DataAccess2close()"#
 
 ƒ ƒ(
 
