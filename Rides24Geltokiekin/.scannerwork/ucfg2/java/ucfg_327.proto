@@ -1,15 +1,91 @@
 
-7domain.Erreklamazioa#getErreserba()Ldomain/RideRequest;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javay y( "1*¨
-1z	 z(q
-o
-z	 z(
-%0domain.RideRequest"__id*C
+7dataAccess.DataAccess#getDepartCities()Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaŽ Ž($"5*ô
+2
+• •(M
+K
+
+• •(
+ridedomain.Ride"__id*"
 
-__unknown_file ('*%
-domain.Erreklamazioa"
-	erreserba"&
-z z(
+__unknown_file (
+""‹
+ˆ
+
+• •(
+ridedomain.Ride"
+__arrayGet*5
 
-%0domain.RideRequestB
-domain.ErreklamazioaH
+__unknown_file (
+
+ridesjava.util.List*"
+
+__unknown_file (
+""*
+3
+1*ó
+3
+– –(øõ
+
+– –(+
+%3java.util.List"@domain.Ride#addDepartingCities(Ljava/util/List;)Ljava/util/List;*1
+
+__unknown_file (
+
+ridedomain.Ride*6
+
+__unknown_file (
+
+citiesjava.util.List2$addDepartingCities(Ljava/util/List;)b
+`
+
+– –(+
+citiesjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List*
+2*Ñ
+5
+ (Q
+O
+
+‘ ‘(*
+%0domain.EgoeraRide"__id*"
+
+__unknown_file (
+""Q
+O
+
+“ “(+
+ridesjava.util.List"__id*"
+
+__unknown_file (
+""><
+
+” ”(-
+%1java.util.ArrayList"java.util.ArrayListl
+j
+
+” ”(/
+%2"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%1java.util.ArrayListg
+e
+
+” ”(0
+citiesjava.util.List"__id*7
+
+__unknown_file (
+
+%1java.util.ArrayList*
+2*9
+1
+˜	 ˜("(
+
+˜ ˜(
+
+citiesjava.util.ListB
+dataAccess.DataAccessH

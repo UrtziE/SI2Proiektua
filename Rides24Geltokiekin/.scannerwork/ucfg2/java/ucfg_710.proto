@@ -1,0 +1,88 @@
+
+%domain.Ride#compareTo(Ldomain/Ride;)Ib
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaÅ Å("5*%
+2
+Ö
+ Ö("
+
+Ö Ö(
+""*§
+3
+Ñ Ñ(ÜÉ
+
+Ñ Ñ('	
+%3int"$domain.Ride#getTGEskakizunTamaina()I*+
+
+__unknown_file (
+domain.Ride2getTGEskakizunTamaina()åâ
+
+Ñ( Ñ(D	
+%4int"$domain.Ride#getTGEskakizunTamaina()I*1
+
+__unknown_file (
+
+ridedomain.Ride2getTGEskakizunTamaina()s
+q
+
+Ñ Ñ(D
+%5boolean"	__compare*
+
+Ñ' Ñ((
+<*
+
+Ñ Ñ('
+	
+%3int*
+
+Ñ( Ñ(D
+	
+%4int*
+2
+1*%
+4
+É É("
+
+É É(
+""*§
+5
+Ç Ç(	ÜÉ
+
+Ç Ç(!	
+%0int"$domain.Ride#getTGEskakizunTamaina()I*+
+
+__unknown_file (
+domain.Ride2getTGEskakizunTamaina()åâ
+
+Ç" Ç(>	
+%1int"$domain.Ride#getTGEskakizunTamaina()I*1
+
+__unknown_file (
+
+ridedomain.Ride2getTGEskakizunTamaina()s
+q
+
+Ç Ç(>
+%2boolean"	__compare*
+
+Ç! Ç("
+>*
+
+Ç Ç(!
+	
+%0int*
+
+Ç" Ç(>
+	
+%1int*
+3
+4*%
+1
+á
+ á("
+
+á á(
+"":!
+
+Å Å(
+ridedomain.RideB
+domain.RideHX

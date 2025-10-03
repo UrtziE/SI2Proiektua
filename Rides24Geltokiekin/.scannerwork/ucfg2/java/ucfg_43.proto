@@ -1,7 +1,190 @@
 
-#__sonar_lambda_0$CreateRideMockTestg
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/CreateRideMockTest.java1 1(R"1*!
-11 1(("
-1 1(R
-""B
-	!Unknown!
+"gui.RegisterGUI#%field_initializer
+__unknown_file ("1*Þ(
+1 (¡ž
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java'- '(8
+%0javax.swing.ButtonGroup"javax.swing.ButtonGroup¿
+¼
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java') '(:
+%1"!javax.swing.ButtonGroup#<init>()V*+
+ (
+
+%0javax.swing.ButtonGroupÀ
+½
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java' '(;"
+gui.RegisterGUI"
+buttonGroup"__id*+
+ (
+
+%0javax.swing.ButtonGroup—”
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java* *(%
+%2javax.swing.JLabel"javax.swing.JLabelµ
+²
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java* *('
+%3"javax.swing.JLabel#<init>()V*&
+ (
+
+%2javax.swing.JLabel¸
+µ
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java* *((
+gui.RegisterGUI"
+
+errorlbl"__id*&
+ (
+
+%2javax.swing.JLabel—”
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java+ +($
+%4javax.swing.JLabel"javax.swing.JLabelÞ
+Û
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java+ +(-
+%5".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
+ (
+
+%4javax.swing.JLabel*
+ (	
+user:·
+´
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java+ +(.
+gui.RegisterGUI"	
+lbluser"__id*&
+ (
+
+%4javax.swing.JLabel—”
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java, ,($
+%6javax.swing.JLabel"javax.swing.JLabelÞ
+Û
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java, ,(-
+%7".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
+ (
+
+%6javax.swing.JLabel*
+ (	
+name:·
+´
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java, ,(.
+gui.RegisterGUI"	
+lblname"__id*&
+ (
+
+%6javax.swing.JLabel—”
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java-! -('
+%8javax.swing.JLabel"javax.swing.JLabelá
+Þ
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java- -(3
+%9".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
+ (
+
+%8javax.swing.JLabel*
+ (
+
+surname:º
+·
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java- -(4!
+gui.RegisterGUI"
+
+lblsurname"__id*&
+ (
+
+%8javax.swing.JLabel˜•
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java. .(#
+%10javax.swing.JLabel"javax.swing.JLabelß
+Ü
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java. .(+
+%11".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
+ (
+
+%10javax.swing.JLabel*
+ (
+tlf:·
+´
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java. .(,
+gui.RegisterGUI"
+lbltlf"__id*'
+ (
+
+%10javax.swing.JLabel˜•
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java/ /(%
+%12javax.swing.JLabel"javax.swing.JLabelá
+Þ
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java/ /(/
+%13".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
+ (
+
+%12javax.swing.JLabel*
+ (
+
+email:¹
+¶
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java/ /(0
+gui.RegisterGUI"
+
+lblemail"__id*'
+ (
+
+%12javax.swing.JLabel˜•
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java0" 0((
+%14javax.swing.JLabel"javax.swing.JLabelã
+à
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java0 0(4
+%15".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
+ (
+
+%14javax.swing.JLabel*
+ (
+
+password¼
+¹
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java0 0(5"
+gui.RegisterGUI"
+lblpassword"__id*'
+ (
+
+%14javax.swing.JLabel˜•
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java1# 1()
+%16javax.swing.JLabel"javax.swing.JLabelê
+ç
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java1 1(<
+%17".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
+ (
+
+%16javax.swing.JLabel*
+ (
+repeat password½
+º
+d
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java1 1(=#
+gui.RegisterGUI"
+lblRpassword"__id*'
+ (
+
+%16javax.swing.JLabel"z
+c
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java ¾(
+implicit returnB
+gui.RegisterGUI

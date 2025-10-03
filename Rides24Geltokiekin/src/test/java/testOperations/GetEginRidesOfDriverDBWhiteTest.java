@@ -106,7 +106,7 @@ public class GetEginRidesOfDriverDBWhiteTest {
        
         System.out.println("2. Test: Driver martxan dagoen bidai batekin");
 
-        Ride ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
+        Ride ride = addRide(from, to, date, places,kotxe, ibilbide);
 
         testdb.open();
         driver = testdb.existDriver(user);
@@ -128,7 +128,7 @@ public class GetEginRidesOfDriverDBWhiteTest {
         
         System.out.println("3. Test: Driver martxan ez dagoen bidai batekin");
 
-        Ride ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
+        Ride ride = addRide(from, to, date, places, kotxe, ibilbide);
 
         db.open();
         db.kantzelatu(ride);
@@ -171,8 +171,7 @@ public class GetEginRidesOfDriverDBWhiteTest {
 		return driver;
 		
 	}
-	private Ride addRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
-			String driverUser, Kotxe kotxe, List<String> ibilbide) {
+	private Ride addRide(String from, String to, Date date, int nPlaces,  Kotxe kotxe, List<String> ibilbide) {
 		db.open();
 		Ride ride = null;
 		try {

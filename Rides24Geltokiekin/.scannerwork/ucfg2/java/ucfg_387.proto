@@ -1,61 +1,15 @@
 
- domain.RideRequest#getPrezioa()Fi
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaÂ Â("1*¢
-1
-Ã Ã(e
-c
-
-Ã Ã(
-%0domain.Ride"__id*<
-
-__unknown_file ( *
-domain.RideRequest"
-rides
-q
-
-Ã* Ã(7
-%1java.lang.String"__id*E
-
-__unknown_file ()*'
-domain.RideRequest"
-fromRequestedq
-o
-
-Ã9 Ã(D
-%2java.lang.String"__id*C
-
-__unknown_file ('*%
-domain.RideRequest"
-toRequestedÀ½
-
-Ã Ã(E
-%3float"Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)F*/
-
-__unknown_file (
-
-%0domain.Ride*4
-
-__unknown_file (
-
-%1java.lang.String*4
-
-__unknown_file (
-
-%2java.lang.String2;lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)i
+/domain.Erreklamazioa#getAdmin()Ldomain/Profile;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javac c("1*œ
+1d	 d(i
 g
-
-Ä	 Ä(
-%4float"__calculate*
-
-Ä Ä(
-**
-
-Ä	 Ä(
-""*
-
-Ä Ä(
-"""
-
-Ä Ä(
-""B
-domain.RideRequestHX
+d	 d(
+%0domain.Profile"__id*?
+
+__unknown_file (#*!
+domain.Erreklamazioa"
+admin""
+d d(
+
+%0domain.ProfileB
+domain.ErreklamazioaH

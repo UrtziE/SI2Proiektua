@@ -1,15 +1,7 @@
 
-'domain.Alerta#getTo()Ljava/lang/String;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaR R("1*–
-1S	 S(a
-_
-S	 S(
-%0java.lang.String"__id*5
-
-__unknown_file (*
-domain.Alerta"
-to"$
-S S(
-
-%0java.lang.StringB
-domain.AlertaH
+domain.Geltoki#getEserleku()Ic
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Geltoki.java( (("1*!
+1)	 )("
+) )(
+""B
+domain.GeltokiHX

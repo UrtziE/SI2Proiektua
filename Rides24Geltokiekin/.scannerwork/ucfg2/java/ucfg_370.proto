@@ -1,18 +1,58 @@
 
-3domain.RideRequest#getTraveller()Ldomain/Traveller;i
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java‡ ‡("1*¨
+SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)Il
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¦ ¦(("1*°
 1
-ˆ	 ˆ(o
-m
+§ §(œ™
 
-ˆ	 ˆ(
-%0domain.Traveller"__id*A
+§! §(5
+%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
 
-__unknown_file (%*#
-domain.RideRequest"
-	traveller"&
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()J
+H
 
-ˆ ˆ(
+§ §(7
+rdomain.Ride"__id*"
+
+__unknown_file (
+""±®
+
+¨" ¨(<
+%1java.lang.String"7domain.RideRequest#getFromRequested()Ljava/lang/String;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getFromRequested()­ª
+
+¨> ¨(V
+%2java.lang.String"5domain.RideRequest#getToRequested()Ljava/lang/String;*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getToRequested()¹¶
+
+¨ ¨(W	
+%3int"Fdomain.Ride#lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)I*.
+
+__unknown_file (
+
+rdomain.Ride*4
+
+__unknown_file (
 
-%0domain.TravellerB
-domain.RideRequestH
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String29lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)"
+
+ª ª(
+"":!
+
+¦) ¦(3
+ridedomain.Ride:+
+
+¦4 ¦(G
+requestdomain.RideRequestB
+dataAccess.DataAccessHX

@@ -150,7 +150,7 @@ public class GetRidesDBWhiteTest {
 		db.open();
 		Ride ride = null;
 		try {
-			ride = db.createRide(from, to, date, nPlaces, prezioak, user, kotxe, ibilbide);
+			ride = db.createRide(from, to, date, nPlaces,  price, driverUser, kotxe, ibilbide);
 			rideNum=ride.getRideNumber();
 		} catch (RideAlreadyExistException e) {
 			fail("That Ride exists, you must change");

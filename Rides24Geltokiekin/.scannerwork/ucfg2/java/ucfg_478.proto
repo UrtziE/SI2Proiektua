@@ -1,209 +1,86 @@
 
-öbusinessLogic.BLFacadeImplementation#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaå å(!"startingBlock*Ü	
-startingBlock
-å! å(mÅ
-
-
-ã ã(
-%6"
-__annotate*)
-
-__unknown_file (
-	WebMethod*4
-
-__unknown_file (
-
-timejava.util.DateX
-V
-
-å' å(+
-timejava.util.Date"__annotation*"
-
-__unknown_file (
-
-%6~
-|
-
-ã ã(
-%7"
-__annotate*)
-
-__unknown_file (
-	WebMethod*1
-
-__unknown_file (
-
-ridedomain.RideU
-S
-
-å2 å(6
-ridedomain.Ride"__annotation*"
-
-__unknown_file (
-
-%7â
-Ü
-
-ã ã(
-%8"
-__annotate*)
-
-__unknown_file (
-	WebMethod*;
-
-__unknown_file (
-
-	travellerdomain.Traveller_
-]
-
-åB å(K
-	travellerdomain.Traveller"__annotation*"
-
-__unknown_file (
-
-%8Ñ
-Å
-
-ã ã(
-%9"
-__annotate*)
-
-__unknown_file (
-	WebMethod*6
-
-__unknown_file (
-
-fromjava.lang.StringZ
-X
-
-å] å(a
-fromjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%9É
-Ä
-
-ã ã(
-%10"
-__annotate*)
-
-__unknown_file (
-	WebMethod*4
-
-__unknown_file (
-
-tojava.lang.StringY
-W
-
-åj å(l
-tojava.lang.String"__annotation*#
-
-__unknown_file (
-
-%10*
-1*◊
+2domain.RideRequest#requestInfo()Ljava/lang/String;i
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaø ø("1*˜
 1
-è è(á
-Ñ
+¿	 ¿(sq
 
-è è(
-%0dataAccess.DataAccess"__id*S
+¿ ¿(#	
+%0int"domain.RideRequest#getId()I*2
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
+__unknown_file (
+domain.RideRequest2getId()h
+f
 
-è è(
+¿	 ¿(#
+%1java.lang.String"__concat*
 
-%1void"dataAccess.DataAccess#open()V*9
-
-__unknown_file (
-
-%0dataAccess.DataAccess2open()á
-Ñ
+¿	 ¿(
+	 request:*
 
-ê ê( 
-%2dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerçä
+¿ ¿(#
+	
+%0inte
+c
 
-ê ê(O
-%3domain.RideRequest"ãdataAccess.DataAccess#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;*9
+¿& ¿(/
+%2domain.Ride"__id*<
 
-__unknown_file (
-
-%2dataAccess.DataAccess*4
+__unknown_file ( *
+domain.RideRequest"
+rideéã
+
+¿& ¿(:
+%3java.lang.String"(domain.Ride#toString()Ljava/lang/String;*/
 
-__unknown_file (
+__unknown_file (
+
+%2domain.Ride2
+toString()Ä
+~
+
+¿	 ¿(:
+%4java.lang.String"__concat*&
+
+¿	 ¿(#
 
-timejava.util.Date*1
-
-__unknown_file (
-
-ridedomain.Ride*;
-
-__unknown_file (
-
-	travellerdomain.Traveller*"
-
-__unknown_file (
-""*6
-
-__unknown_file (
-
-fromjava.lang.String*4
-
-__unknown_file (
+%1java.lang.String*&
+
+¿& ¿(:
 
-tojava.lang.String2aerreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)k
-i
+%3java.lang.Stringt
+r
 
-ê ê(P
-requestdomain.RideRequest"__id*6
+¿	 ¿(G
+%5java.lang.String"__concat*&
+
+¿	 ¿(:
+
+%4java.lang.String*
+
+¿= ¿(G
+
+ seats: yw
+
+¿J ¿(Y	
+%6int"domain.RideRequest#getSeats()I*2
 
-__unknown_file (
-
-%3domain.RideRequestá
-Ñ
+__unknown_file (
+domain.RideRequest2
+getSeats()s
+q
 
-ë ë(
-%4dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
+¿	 ¿(Y
+%7java.lang.String"__concat*&
 
-ë ë(
+¿	 ¿(G
+
+%5java.lang.String*
 
-%5void"dataAccess.DataAccess#close()V*9
-
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"-
+¿J ¿(Y
+	
+%6int"&
 
-í í(
-
-requestdomain.RideRequest:$
-
-å" å(,
-timejava.util.Date:!
-
-å- å(7
-ridedomain.Ride:+
-
-å8 å(L
-	travellerdomain.Traveller: 
-
-__unknown_file (
-"":&
-
-åV å(b
-fromjava.lang.String:$
-
-åc å(l
-tojava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+¿ ¿(Z
+
+%7java.lang.StringB
+domain.RideRequestH

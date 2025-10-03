@@ -1,54 +1,15 @@
 
-BtestOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Zu
-kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestBusinessLogic.java ("1*Û
-1 (ç
-ä
- (#
-%0testOperations.TestDataAccess"__id*S
-
-__unknown_file (7*5"
- testOperations.TestBusinessLogic"
-dbManagerTestãà
- (
-
-%1void"%testOperations.TestDataAccess#open()V*A
-
-__unknown_file (%
-#
-%0testOperations.TestDataAccess2open()ç
-ä
- (#
-%2testOperations.TestDataAccess"__id*S
-
-__unknown_file (7*5"
- testOperations.TestBusinessLogic"
-dbManagerTestÅ˛
- (4
-%3boolean"?testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Z*A
-
-__unknown_file (%
-#
-%2testOperations.TestDataAccess*=
-
-__unknown_file (!
-
-driverEmailjava.lang.String2 removeDriver(Ljava/lang/String;)ç
-ä
- (#
-%4testOperations.TestDataAccess"__id*S
-
-__unknown_file (7*5"
- testOperations.TestBusinessLogic"
-dbManagerTestçä
- (
-
-%5void"&testOperations.TestDataAccess#close()V*A
-
-__unknown_file (%
-#
-%4testOperations.TestDataAccess2close()"
- (
-"":+
- (0
-driverEmailjava.lang.StringB$"
- testOperations.TestBusinessLogicHX
+*mockTests.GetMezuakMockBlackTest#<init>()V
+__unknown_file ("startingBlock*˘
+startingBlocks
+kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetMezuakMockBlackTest.java% %(Â
+‚
+s
+kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetMezuakMockBlackTest.java% %(
+%0"3mockTests.GetMezuakMockBlackTest#%field_initializer*0
+ ($"
+ mockTests.GetMezuakMockBlackTest"ä
+s
+kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetMezuakMockBlackTest.java% %(
+implicit returnB$"
+ mockTests.GetMezuakMockBlackTest

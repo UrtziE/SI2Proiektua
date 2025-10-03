@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758741029638*java2.Bò!
+1.0UrtziE_SI2ProiektuaJavaFrontend"1759486172526*java2.Bó!
 7
 2src/main/java/gui/IkusiTravellerErreserbakGUI.java2
 	
@@ -149,8 +149,8 @@ Lgui.IkusiTravellerErreserbakGUI$1#mouseClicked(Ljava/awt/event/MouseEvent;)V8
 domain.EgoeraRideRequest109
 >
 7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;111
-+
-$domain.EgoeraRideRequest.TratatuGabe113
+,
+%domain.EgoeraRideRequest.TRATATU_GABE113
 :
 3domain.RideRequest#getWhenDecided()Ljava/util/Date;115
 (
@@ -208,11 +208,11 @@ Pgui.IkusiTravellerErreserbakGUI$8#actionPerformed(Ljava/awt/event/ActionEvent;)
 ]
 VbusinessLogic.BLFacade#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;167
 (
-!domain.EgoeraRideRequest.Rejected169
+!domain.EgoeraRideRequest.REJECTED169
 
 kargatuOnartuak170
 (
-!domain.EgoeraRideRequest.Accepted172
+!domain.EgoeraRideRequest.ACCEPTED172
 
 kargatuEgindakoak173
 
@@ -263,6 +263,9 @@ G
 
 127
 12712828
+
+171
+17117228
 
 114
 11411528
@@ -351,9 +354,6 @@ D
 
 121
 12112228
-
-171
-17117228
 G
 129@
 12913069 *
@@ -585,6 +585,9 @@ A
 
 13
 57
+
+168
+16816928
 A
 46;
 464717 *
@@ -686,9 +689,6 @@ A
 
 94
 949528
-
-168
-16816928
 A
 43;
 434417 *
@@ -728,6 +728,9 @@ A
 
 88
 888928
+
+112
+11211328
 A
 61;
 616217 *
@@ -745,10 +748,7 @@ A
 909128
 
 100
-10010128
-
-112
-11211328rôQ
+10010128rôQ
 
 232629*
 1+
@@ -1108,10 +1108,10 @@ A
 1ž% ž(6
 
 8010830*
-1ž7 ž(B
+1ž7 ž(C
 
 8011272*
-1ž7 ž(B
+1ž7 ž(C
 
 805272*
 1Ÿ Ÿ(
@@ -1758,25 +1758,25 @@ A
 1Ý Ý(.
 
 16310830*
-1Ý/ Ý(:
+1Ý/ Ý(;
 
 16311272*
-1Ý/ Ý(:
+1Ý/ Ý(;
 
 1638572*
-1Ý> Ý(?
+1Ý? Ý(@
 
 1639471*
-1ÝJ Ý(Q
+1ÝK Ý(R
 
 1638587*
-1Ý> Ý(?
+1Ý? Ý(@
 
 1638372*
-1Ý> Ý(?
+1Ý? Ý(@
 
 1638871*
-1Ý@ Ý(G
+1ÝA Ý(H
 
 1295872*
 1æ æ(

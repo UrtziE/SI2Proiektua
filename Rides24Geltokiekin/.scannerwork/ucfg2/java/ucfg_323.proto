@@ -1,15 +1,18 @@
 
-7domain.Erreklamazioa#getDeskripzioa()Ljava/lang/String;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javai i("1*¦
-1j	 j(q
-o
-j	 j(
-%0java.lang.String"__id*E
+;configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;n
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java¨ ¨("1*°
+1
+©	 ©(w
+u
+
+©	 ©(
+%0java.lang.String"__id*I
 
-__unknown_file ()*'
-domain.Erreklamazioa"
-deskripzioa"$
-j j(
+__unknown_file (-*+
+configuration.ConfigXML"
+databaseNode"&
+
+© ©(
 
-%0java.lang.StringB
-domain.ErreklamazioaH
+%0java.lang.StringB
+configuration.ConfigXMLH

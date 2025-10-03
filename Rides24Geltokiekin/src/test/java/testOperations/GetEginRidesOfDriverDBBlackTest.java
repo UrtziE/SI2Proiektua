@@ -81,8 +81,8 @@ public class GetEginRidesOfDriverDBBlackTest {
         db.open();
         List<RideContainer> rides = db.getEginRidesOfDriver(driver);
         db.close();
-        
-        assertEquals(rides.size(),0);
+        int emaitza=rides.size();
+        assertEquals(0,emaitza);
         
         
     }

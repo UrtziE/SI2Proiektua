@@ -1,9 +1,106 @@
 
-domain.Ride#getPrice()Fb
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaÕ Õ("1*%
-1
-Œ	 Œ("
+`businessLogic.BLFacadeImplementation#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;y
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javab b("startingBlock*„
+startingBlockb b(5Å
+
+a a(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+userjava.lang.StringX
+V
+b b(#
+userjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6Ü
+É
+a a(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*:
+
+__unknown_file (
+
+passwordjava.lang.String\
+Z
+b, b(4
+passwordjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7*
+1*Ù
+1c c(Ö
+Ç
+c c(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerzx
+c c(
 
-Œ Œ(
-""B
-domain.RideHX
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()Ö
+Ç
+d d(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager“œ
+d d(+
+%3domain.Profile"QdataAccess.DataAccess#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*6
+
+__unknown_file (
+
+userjava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String2+login(Ljava/lang/String;Ljava/lang/String;)[
+Y
+d d(,
+pdomain.Profile"__id*2
+
+__unknown_file (
+
+%3domain.ProfileÖ
+Ç
+e e(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+e e(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"!
+f f(
+
+pdomain.Profile:$
+b b($
+userjava.lang.String:(
+b% b(4
+passwordjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

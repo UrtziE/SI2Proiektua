@@ -1,16 +1,73 @@
 
-)domain.Mezua#toString()Ljava/lang/String;c
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.java¯ ¯("1*Ä
-1
-°	 °(Š‡
-
-°	 °(
-%0java.lang.String"(domain.Mezua#getInfo()Ljava/lang/String;*,
++domain.Profile#toString()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javau u("1*²
+1v
+ v(d
+b
+v
+ v(
+%0java.lang.String"__id*8
 
-__unknown_file (
-domain.Mezua2	getInfo()"&
-
-° °(
+__unknown_file (*
+domain.Profile"
+userg
+e
+v
+ v(
+%1java.lang.String"__concat*$
+v
+ v(
 
-%0java.lang.StringB
-domain.MezuaH
+%0java.lang.String*
+v v(
+ d
+b
+v v(
+%2java.lang.String"__id*8
+
+__unknown_file (*
+domain.Profile"
+namez
+x
+v
+ v(
+%3java.lang.String"__concat*$
+v
+ v(
+
+%1java.lang.String*$
+v v(
+
+%2java.lang.Stringg
+e
+v
+ v(
+%4java.lang.String"__concat*$
+v
+ v(
+
+%3java.lang.String*
+v v(
+ g
+e
+v  v('
+%5java.lang.String"__id*;
+
+__unknown_file (*
+domain.Profile"	
+surnamez
+x
+v
+ v('
+%6java.lang.String"__concat*$
+v
+ v(
+
+%4java.lang.String*$
+v  v('
+
+%5java.lang.String"$
+v v()
+
+%6java.lang.StringB
+domain.ProfileH

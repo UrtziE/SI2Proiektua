@@ -1,17 +1,15 @@
 
-domain.Mezua#getId()Ic
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.javaç ç("1*ä
-1
-é	 é(c
-a
-
-é	 é(
-%0java.lang.Integer"__id*4
+*domain.Profile#getUser()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaS S("1*ô
+1T	 T(d
+b
+T	 T(
+%0java.lang.String"__id*8
 
-__unknown_file (*
-domain.Mezua"
-id"
-
-é é(
-""B
-domain.MezuaHX
+__unknown_file (*
+domain.Profile"
+user"$
+T T(
+
+%0java.lang.StringB
+domain.ProfileH

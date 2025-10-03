@@ -1,190 +1,421 @@
 
-"gui.RegisterGUI#%field_initializer
-__unknown_file ("1*ﬁ(
-1 (°û
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java'- '(8
-%0javax.swing.ButtonGroup"javax.swing.ButtonGroupø
-º
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java') '(:
-%1"!javax.swing.ButtonGroup#<init>()V*+
- (
+"gui.RegisterGUI#zeinKanpoHutsik()If
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.javaﬂ ﬂ("19*&
+13
+Ë
+ Ë("
+
+Ë Ë(
+""*Ω
+14
+Á Á(r
+p
+
+Á Á(
+%11javax.swing.JTextField"__id*=
+
+__unknown_file (!*
+gui.RegisterGUI"
+
+nameText≠™
+
+Á Á(
+%12java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
+
+__unknown_file (
 
-%0javax.swing.ButtonGroup¿
-Ω
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java' '(;"
+%11javax.swing.JTextField2	getText()}{
+
+Á Á("
+%13boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%12java.lang.String2	isBlank()*
+13
+12*&
+15
+‰
+ ‰("
+
+‰ ‰(
+""*π
+16
+„ „(q
+o
+
+„ „(
+%8javax.swing.JTextField"__id*=
+
+__unknown_file (!*
 gui.RegisterGUI"
-buttonGroup"__id*+
- (
+
+userText´®
+
+„ „(
+%9java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
+
+__unknown_file (
+
+%8javax.swing.JTextField2	getText()|z
+
+„ „("
+%10boolean"java.lang.String#isBlank()Z*4
+
+__unknown_file (
+
+%9java.lang.String2	isBlank()*
+14
+15*„
+17
+· ·(r
+p
+
+· ·(
+%6javax.swing.JTextField"__id*>
+
+__unknown_file ("* 
+gui.RegisterGUI"
+	emailText÷”
+
+· ·(
+
+%7void"<javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%6javax.swing.JTextField*"
+
+__unknown_file (
+""2setText(Ljava/lang/String;)*
+16*π
+18
+‡$ ‡(-r
+p
+
+‡$ ‡(-
+%3javax.swing.JTextField"__id*>
+
+__unknown_file ("* 
+gui.RegisterGUI"
+	emailText´®
+
+‡$ ‡(7
+%4java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
+
+__unknown_file (
+
+%3javax.swing.JTextField2	getText(){y
+
+‡$ ‡(A
+%5boolean"java.lang.String#isEmpty()Z*4
+
+__unknown_file (
+
+%4java.lang.String2	isEmpty()*
+16
+17*π
+19
+‡ ‡(r
+p
+
+‡ ‡(
+%0javax.swing.JTextField"__id*>
+
+__unknown_file ("* 
+gui.RegisterGUI"
+	emailText´®
+
+‡ ‡(
+%1java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
+
+__unknown_file (
+
+%0javax.swing.JTextField2	getText(){y
+
+‡ ‡("
+%2boolean"java.lang.String#isBlank()Z*4
+
+__unknown_file (
+
+%1java.lang.String2	isBlank()*
+17
+18*%
+1
+Ù
+ Ù("
+
+Ù Ù(
+""*%
+2
+Ú
+ Ú("
+
+Ú Ú(
+""*Õ	
+3
+Ò Ò(v
+t
+
+Ò Ò(!
+%33javax.swing.JPasswordField"__id*=
+
+__unknown_file (!*
+gui.RegisterGUI"
+
+passwordöó
+
+Ò Ò(-
+%34char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%33javax.swing.JPasswordField2getPassword()97
+
+Ò Ò(
+%35java.lang.String"java.lang.Stringò
+ï
+
+Ò Ò(.
+%36"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%35java.lang.String*+
+
+__unknown_file (
+
+%34char[]|
+z
+
+ÒA Ò(O!
+%37javax.swing.JPasswordField"__id*C
+
+__unknown_file ('*%
+gui.RegisterGUI"
+repeatPasswordöó
+
+ÒA Ò(]
+%38char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%37javax.swing.JPasswordField2getPassword()97
+
+Ò: Ò(@
+%39java.lang.String"java.lang.Stringò
+ï
+
+Ò6 Ò(^
+%40"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%39java.lang.String*+
+
+__unknown_file (
+
+%38char[]◊‘
+
+Ò Ò(_
+%41boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%35java.lang.String*5
+
+__unknown_file (
+
+%39java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*%
+4
+
+ ("
+
+ (
+""*á
+5
+ÔF Ô(T|
+z
+
+ÔF Ô(T!
+%28javax.swing.JPasswordField"__id*C
+
+__unknown_file ('*%
+gui.RegisterGUI"
+repeatPasswordöó
+
+ÔF Ô(b
+%29char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%28javax.swing.JPasswordField2getPassword()97
+
+Ô? Ô(E
+%30java.lang.String"java.lang.Stringò
+ï
+
+Ô; Ô(c
+%31"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%30java.lang.String*+
+
+__unknown_file (
+
+%29char[]}{
+
+Ô; Ô(m
+%32boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%30java.lang.String2	isBlank()*
+3
+4*Å
+6
+Ô Ô(v
+t
+
+Ô Ô(!
+%23javax.swing.JPasswordField"__id*=
+
+__unknown_file (!*
+gui.RegisterGUI"
+
+passwordöó
+
+Ô Ô(,
+%24char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%23javax.swing.JPasswordField2getPassword()97
+
+Ô Ô(
+%25java.lang.String"java.lang.Stringò
+ï
+
+Ô Ô(-
+%26"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%25java.lang.String*+
+
+__unknown_file (
+
+%24char[]}{
+
+Ô Ô(7
+%27boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%25java.lang.String2	isBlank()*
+4
+5*%
+7
+Ó
+ Ó("
+
+Ó Ó(
+""*Ù
+8
+Ì Ì(q
+o
+
+Ì Ì(
+%20javax.swing.JTextField"__id*<
+
+__unknown_file ( *
+gui.RegisterGUI"	
+tlfText≠™
+
+Ì Ì('
+%21java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
+
+__unknown_file (
 
-%0javax.swing.ButtonGroupóî
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java* *(%
-%2javax.swing.JLabel"javax.swing.JLabelµ
-≤
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java* *('
-%3"javax.swing.JLabel#<init>()V*&
- (
-
-%2javax.swing.JLabel∏
-µ
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java* *((
-gui.RegisterGUI"
-
-errorlbl"__id*&
- (
-
-%2javax.swing.JLabelóî
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java+ +($
-%4javax.swing.JLabel"javax.swing.JLabelﬁ
-€
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java+ +(-
-%5".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
- (
-
-%4javax.swing.JLabel*
- (	
-user:∑
+%20javax.swing.JTextField2	getText()∑
 ¥
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java+ +(.
+
+Ì Ì((
+%22boolean".gui.RegisterGUI#isNumeric(Ljava/lang/String;)Z*/
+
+__unknown_file (
+gui.RegisterGUI*5
+
+__unknown_file (
+
+%21java.lang.String*
+6
+7*%
+9
+Ï
+ Ï("
+
+Ï Ï(
+""*∫
+10
+Î Î(q
+o
+
+Î Î(
+%17javax.swing.JTextField"__id*<
+
+__unknown_file ( *
 gui.RegisterGUI"	
-lbluser"__id*&
- (
-
-%4javax.swing.JLabelóî
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java, ,($
-%6javax.swing.JLabel"javax.swing.JLabelﬁ
-€
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java, ,(-
-%7".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
- (
-
-%6javax.swing.JLabel*
- (	
-name:∑
-¥
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java, ,(.
-gui.RegisterGUI"	
-lblname"__id*&
- (
-
-%6javax.swing.JLabelóî
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java-! -('
-%8javax.swing.JLabel"javax.swing.JLabel·
-ﬁ
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java- -(3
-%9".javax.swing.JLabel#<init>(Ljava/lang/String;)V*&
- (
-
-%8javax.swing.JLabel*
- (
+tlfText≠™
 
-surname:∫
-∑
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java- -(4!
-gui.RegisterGUI"
-
-lblsurname"__id*&
- (
+Î Î(
+%18java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
 
-%8javax.swing.JLabelòï
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java. .(#
-%10javax.swing.JLabel"javax.swing.JLabelﬂ
-‹
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java. .(+
-%11".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
- (
-
-%10javax.swing.JLabel*
- (
-tlf:∑
-¥
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java. .(,
-gui.RegisterGUI"
-lbltlf"__id*'
- (
-
-%10javax.swing.JLabelòï
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java/ /(%
-%12javax.swing.JLabel"javax.swing.JLabel·
-ﬁ
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java/ /(/
-%13".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
- (
-
-%12javax.swing.JLabel*
- (
-
-email:π
-∂
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java/ /(0
+__unknown_file (
+
+%17javax.swing.JTextField2	getText()}{
+
+Î Î(&
+%19boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%18java.lang.String2	isBlank()*
+8
+9*&
+11
+Í
+ Í("
+
+Í Í(
+""*¿
+12
+È È(u
+s
+
+È È(
+%14javax.swing.JTextField"__id*@
+
+__unknown_file ($*"
 gui.RegisterGUI"
+surnameText≠™
 
-lblemail"__id*'
- (
-
-%12javax.swing.JLabelòï
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java0" 0((
-%14javax.swing.JLabel"javax.swing.JLabel„
-‡
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java0 0(4
-%15".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
- (
-
-%14javax.swing.JLabel*
- (
+È È( 
+%15java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
+
+__unknown_file (
+
+%14javax.swing.JTextField2	getText()}{
 
-passwordº
-π
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java0 0(5"
-gui.RegisterGUI"
-lblpassword"__id*'
- (
-
-%14javax.swing.JLabelòï
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java1# 1()
-%16javax.swing.JLabel"javax.swing.JLabelÍ
-Á
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java1 1(<
-%17".javax.swing.JLabel#<init>(Ljava/lang/String;)V*'
- (
-
-%16javax.swing.JLabel*
- (
-repeat passwordΩ
-∫
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java1 1(=#
-gui.RegisterGUI"
-lblRpassword"__id*'
- (
-
-%16javax.swing.JLabel"z
-c
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.java æ(
-implicit returnB
-gui.RegisterGUI
+È È(*
+%16boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%15java.lang.String2	isBlank()*
+10
+11B
+gui.RegisterGUIX

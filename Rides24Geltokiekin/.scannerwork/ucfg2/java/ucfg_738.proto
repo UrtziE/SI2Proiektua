@@ -1,0 +1,243 @@
+
+Fdomain.Ride#lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)Ib
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javañ ñ(!"10*
+3
+ÿ ÿ(i
+g
+
+ÿ ÿ(
+%18java.util.List"__id*<
+
+__unknown_file ( *
+domain.Ride"
+geltokiList‹
+ˆ
+
+ÿ ÿ(
+%19domain.Geltoki"
+__arrayGet*3
+
+__unknown_file (
+
+%18java.util.List*"
+
+__unknown_file (
+""}{
+
+ÿ ÿ(+
+
+%20int"domain.Geltoki#getEserleku()I*3
+
+__unknown_file (
+
+%19domain.Geltoki2getEserleku()*
+10*‚
+4
+ş	 ş(i
+g
+
+ş ş(
+%14java.util.List"__id*<
+
+__unknown_file ( *
+domain.Ride"
+geltokiList‹
+ˆ
+
+ş ş(
+%15domain.Geltoki"
+__arrayGet*3
+
+__unknown_file (
+
+%14java.util.List*"
+
+__unknown_file (
+""}{
+
+ş ş(-
+
+%16int"domain.Geltoki#getEserleku()I*3
+
+__unknown_file (
+
+%15domain.Geltoki2getEserleku()p
+n
+
+ş	 ş(-
+%17boolean"	__compare*
+
+ş ş(
+>*
+
+ş	 ş(
+""*
+
+ş ş(-
+
+
+%16int*
+3
+10*‰
+7
+ù ù(i
+g
+
+ù ù(
+%10java.util.List"__id*<
+
+__unknown_file ( *
+domain.Ride"
+geltokiList‹
+ˆ
+
+ù ù(
+%11domain.Geltoki"
+__arrayGet*3
+
+__unknown_file (
+
+%10java.util.List*"
+
+__unknown_file (
+""œ™
+
+ù ù((
+%12java.lang.String".domain.Geltoki#getTokiIzen()Ljava/lang/String;*3
+
+__unknown_file (
+
+%11domain.Geltoki2getTokiIzen()ÖÓ
+
+ù ù(3
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%12java.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String2equals(Ljava/lang/Object;)*
+4
+10*‡
+8
+ö ö(h
+f
+
+÷
+ ÷(
+%7java.util.List"__id*<
+
+__unknown_file ( *
+domain.Ride"
+geltokiList‰
+†
+
+÷
+ ÷(
+%8domain.Geltoki"
+__arrayGet*2
+
+__unknown_file (
+
+%7java.util.List*"
+
+__unknown_file (
+""{y
+
+÷
+ ÷(*	
+%9int"domain.Geltoki#getEserleku()I*2
+
+__unknown_file (
+
+%8domain.Geltoki2getEserleku()*
+7*ƒ
+9
+õ õ(h
+f
+
+õ õ(
+%3java.util.List"__id*<
+
+__unknown_file ( *
+domain.Ride"
+geltokiList‰
+†
+
+õ õ(
+%4domain.Geltoki"
+__arrayGet*2
+
+__unknown_file (
+
+%3java.util.List*"
+
+__unknown_file (
+""š—
+
+õ õ((
+%5java.lang.String".domain.Geltoki#getTokiIzen()Ljava/lang/String;*2
+
+__unknown_file (
+
+%4domain.Geltoki2getTokiIzen()ÖÓ
+
+õ õ(5
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%5java.lang.String*6
+
+__unknown_file (
+
+fromjava.lang.String2equals(Ljava/lang/Object;)*
+7
+8*á
+10
+ô ô(h
+f
+
+ô ô(
+%0java.util.List"__id*<
+
+__unknown_file ( *
+domain.Ride"
+geltokiListmk
+
+ô ô($	
+%1int"java.util.List#size()I*2
+
+__unknown_file (
+
+%0java.util.List2size()n
+l
+
+ô ô($
+%2boolean"	__compare*
+
+ô ô(
+<*
+
+ô ô(
+""*
+
+ô ô($
+	
+%1int*
+9
+1*%
+1
+ƒ ƒ("
+
+ƒ ƒ(
+"":&
+
+ñ" ñ(.
+fromjava.lang.String:$
+
+ñ/ ñ(8
+tojava.lang.StringB
+domain.RideHX

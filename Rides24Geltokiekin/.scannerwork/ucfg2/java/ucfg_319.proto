@@ -1,15 +1,18 @@
 
-.domain.Erreklamazioa#getNori()Ldomain/Profile;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javaY Y("1*›
-1Z	 Z(h
-f
-Z	 Z(
-%0domain.Profile"__id*>
+@configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;n
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java˜ ˜(#"1*µ
+1
+™	 ™(|
+z
+
+™	 ™(
+%0java.lang.String"__id*N
 
-__unknown_file ("* 
-domain.Erreklamazioa"
-nori""
-Z Z(
-
-%0domain.ProfileB
-domain.ErreklamazioaH
+__unknown_file (2*0
+configuration.ConfigXML"
+businessLogicPort"&
+
+™ ™(
+
+%0java.lang.StringB
+configuration.ConfigXMLH

@@ -1,95 +1,133 @@
 
-[businessLogic.BLFacadeImplementation#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaæ æ(2"startingBlock*÷
-startingBlock
-æ2 æ(=~
-|
-
-å å(
-%6"
-__annotate*)
+mtestOperations.GetEginRidesOfDriverDBBlackTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBBlackTest.java^ ^("4*ˆ
+2e
+ e(t
+r
+e e(<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+driver"__id*"
 
-__unknown_file (
-	WebMethod*1
+__unknown_file (
+""*
+1*ž
+3b b(”
+‘
+b b(#
+%6testOperations.TestDataAccess"__id*Z
 
-__unknown_file (
-
-ridedomain.RideU
-S
-
-æ8 æ(<
-ridedomain.Ride"__annotation*"
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbëè
+b b(,
+%7domain.Driver"_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;*A
 
-__unknown_file (
-
-%6*
-1*»
-1
-ç ç(‡
-„
-
-ç ç(
-%0dataAccess.DataAccess"__id*S
+__unknown_file (%
+#
+%6testOperations.TestDataAccess*6
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-ç ç(
-
-%1void"dataAccess.DataAccess#open()V*9
+__unknown_file (
 
-__unknown_file (
-
-%0dataAccess.DataAccess2open()‡
-„
-
-è è(
-%2dataAccess.DataAccess"__id*S
+userjava.lang.String*7
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager‰†
-
-è è(<
-%3java.util.List"LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*1
+__unknown_file (
+
+emailjava.lang.String22createDriver(Ljava/lang/String;Ljava/lang/String;)„
+
+b b(,<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+driver"__id*1
 
 __unknown_file (
 
-ridedomain.Ride2&getTravellersOfRideDone(Ldomain/Ride;)]
-[
-
-è è(=
-rjava.util.List"__id*2
+%7domain.Driver*
+1*á
+4_ _(”
+‘
+_ _(#
+%0testOperations.TestDataAccess"__id*Z
 
-__unknown_file (
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdb‹ˆ
+_ _(
+
+%1void"%testOperations.TestDataAccess#open()V*A
+
+__unknown_file (%
+#
+%0testOperations.TestDataAccess2open()”
+‘
+` `(#
+%2testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbŒ‰
+` `(#
+%3domain.Driver"LtestOperations.TestDataAccess#existDriver(Ljava/lang/String;)Ldomain/Driver;*A
+
+__unknown_file (%
+#
+%2testOperations.TestDataAccess*6
+
+__unknown_file (
+
+userjava.lang.String2existDriver(Ljava/lang/String;)„
+
+` `(#<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+driver"__id*1
+
+__unknown_file (
+
+%3domain.Driver„
+
+a a(
+%4domain.Driver"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+driverq
+o
+a a(
+%5boolean"	__compare*
+a a(
+==*!
+a a(
+
+%4domain.Driver*
+a a(
+""*
+2
+3*à
+1i i(”
+‘
+i i(#
+%8testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbŠ
+i i(
+
+%9void"&testOperations.TestDataAccess#close()V*A
+
+__unknown_file (%
+#
+%8testOperations.TestDataAccess2close()…
+‚
+j	 j(
+%10domain.Driver"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+driver""
+j j(
 
-%3java.util.List‡
-„
-
-é é(
-%4dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-é é(
-
-%5void"dataAccess.DataAccess#close()V*9
-
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"#
-
-ê ê(
-
-rjava.util.List:!
-
-æ3 æ(<
-ridedomain.RideB(&
-$businessLogic.BLFacadeImplementationH
+%10domain.Driver:$
+^ ^(&
+userjava.lang.String:%
+^' ^(3
+emailjava.lang.StringB20
+.testOperations.GetEginRidesOfDriverDBBlackTest

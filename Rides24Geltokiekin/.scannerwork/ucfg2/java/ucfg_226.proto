@@ -1,15 +1,15 @@
 
-gui.MainGUI$7#<init>()V
-__unknown_file ("startingBlock*¥
-startingBlockb
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java™( ™()´
-±
-b
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java™( ™()
-%0"&java.awt.event.WindowAdapter#<init>()V*
- (
-gui.MainGUI$7"y
-b
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java™( ™()
-implicit returnB
-gui.MainGUI$7
+/domain.Mezua#getErreserba()Ldomain/RideRequest;a
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.javaA A( "1* 
+1B	 B(i
+g
+B	 B(
+%0domain.RideRequest"__id*;
+
+__unknown_file (*
+domain.Mezua"
+	erreserba"&
+B B(
+
+%0domain.RideRequestB
+domain.MezuaH

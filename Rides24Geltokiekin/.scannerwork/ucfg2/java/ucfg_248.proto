@@ -1,7 +1,174 @@
 
-/configuration.ConfigXML#isBusinessLogicLocal()Zl
-bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.javaE E($"1*!
-1F	 F("
-F F(
-""B
-configuration.ConfigXMLHX
+5testOperations.GetRidesDBBlackTest#%field_initializer
+__unknown_file ("1*§)
+1 (∞≠
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java (
+%0dataAccess.DataAccess"dataAccess.DataAccessŒ
+À
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java (!
+%1"dataAccess.DataAccess#<init>()V*)
+ (
+
+%0dataAccess.DataAccess€
+ÿ
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java (",$
+"testOperations.GetRidesDBBlackTest"
+db"__id*)
+ (
+
+%0dataAccess.DataAccess»
+≈
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java (.0$
+"testOperations.GetRidesDBBlackTest"
+testdb"__id*
+ (
+""»
+≈
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java   (.$
+"testOperations.GetRidesDBBlackTest"
+from"__id*
+ (
+Bera∆
+√
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java! !(,$
+"testOperations.GetRidesDBBlackTest"
+to"__id*
+ (
+IrunÃ
+…
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java" "(".$
+"testOperations.GetRidesDBBlackTest"
+user"__id*
+ (
+
+tester00◊
+‘
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java# #(-/$
+"testOperations.GetRidesDBBlackTest"
+email"__id*"
+ (
+tester00@gmail.com∫∑
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java$ $(* 
+%2java.text.SimpleDateFormat"java.text.SimpleDateFormatÜ
+É
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java$ $(8
+%3"6java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V*.
+ ("
+ 
+%2java.text.SimpleDateFormat*
+ (
+
+dd/MM/yyyyﬂ
+‹
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java$ $(9+$
+"testOperations.GetRidesDBBlackTest"
+f"__id*.
+ ("
+ 
+%2java.text.SimpleDateFormatŒ
+À
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java% %($.$
+"testOperations.GetRidesDBBlackTest"
+noiz"__id*
+ (
+
+25/10/2230∆
+√
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java& &(.$
+"testOperations.GetRidesDBBlackTest"
+date"__id*
+ (
+""—
+Œ
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java' '('3$
+"testOperations.GetRidesDBBlackTest"
+	matrikula"__id*
+ (
+
+9321CRNN∆
+√
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java( ((0$
+"testOperations.GetRidesDBBlackTest"
+places"__id*
+ (2«
+ƒ
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java+ +(1$
+"testOperations.GetRidesDBBlackTest"	
+rideNum"__id*
+ (2¨©
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java. .(,
+%4java.util.ArrayList"java.util.ArrayList 
+«
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java. .(.
+%5"java.util.ArrayList#<init>()V*'
+ (
+
+%4java.util.ArrayListﬂ
+‹
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java. .(/2$
+"testOperations.GetRidesDBBlackTest"
+
+prezioak"__id*'
+ (
+
+%4java.util.ArrayListûõ
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java0 0(
+%6domain.Kotxe"domain.Kotxeº
+π
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java0 0(
+%7"domain.Kotxe#<init>()V* 
+ (
+
+%6domain.Kotxe’
+“
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java0 0(/$
+"testOperations.GetRidesDBBlackTest"
+kotxe"__id* 
+ (
+
+%6domain.Kotxe¨©
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java1 1(.
+%8java.util.ArrayList"java.util.ArrayList 
+«
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java1 1(0
+%9"java.util.ArrayList#<init>()V*'
+ (
+
+%8java.util.ArrayListﬂ
+‹
+w
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java1 1(12$
+"testOperations.GetRidesDBBlackTest"
+
+ibilbide"__id*'
+ (
+
+%8java.util.ArrayList"ç
+v
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java ©(
+implicit returnB&$
+"testOperations.GetRidesDBBlackTest

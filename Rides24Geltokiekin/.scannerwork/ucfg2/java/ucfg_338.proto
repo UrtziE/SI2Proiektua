@@ -1,16 +1,33 @@
 
-.domain.Geltoki#getTokiIzen()Ljava/lang/String;c
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Geltoki.java" "("1*ù
-1#	 #(h
-f
-#	 #(
-%0java.lang.String"__id*<
-
-__unknown_file ( *
-domain.Geltoki"
+1dataAccess.DataAccess#getMoney(Ldomain/Profile;)Fl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java≈ ≈("1*à
+1
+∆ ∆(óî
 
-tokiIzen"$
-# #(
-
-%0java.lang.StringB
-domain.GeltokiH
+∆% ∆(6
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*7
+
+__unknown_file (
+
+profiledomain.Profile2	getUser()M
+K
+
+∆ ∆(8
+pdomain.Profile"__id*"
+
+__unknown_file (
+""xv
+
+«	 «(
+%1float"domain.Profile#getWallet()F*1
+
+__unknown_file (
+
+pdomain.Profile2getWallet()"
+
+« «(
+"":'
+
+≈ ≈(&
+profiledomain.ProfileB
+dataAccess.DataAccessHX

@@ -1,14 +1,15 @@
 
-)domain.Admin#toString()Ljava/lang/String;a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Admin.java% %("1*ª
-1&	 &(u
-s
-&	 &(
-%0java.lang.String"+domain.Profile#toString()Ljava/lang/String;*"
++domain.RideContainer#getRide()Ldomain/Ride;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java ("1*•
+1 (e
+c
+ (
+%0domain.Ride"__id*>
 
-__unknown_file (
-"""$
-& &(
-
-%0java.lang.StringB
-domain.AdminH
+__unknown_file ("* 
+domain.RideContainer"
+ride"
+ (
+
+%0domain.RideB
+domain.RideContainerH

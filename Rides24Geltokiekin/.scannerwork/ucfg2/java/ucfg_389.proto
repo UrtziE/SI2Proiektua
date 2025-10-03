@@ -1,26 +1,15 @@
 
-gui.LoginGUI#%field_initializer
-__unknown_file ("1*£
-1 (ž›
-a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/LoginGUI.java"- "(8
-%0javax.swing.ButtonGroup"javax.swing.ButtonGroup¼
-¹
-a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/LoginGUI.java") "(:
-%1"!javax.swing.ButtonGroup#<init>()V*+
- (
-
-%0javax.swing.ButtonGroupº
-·
-a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/LoginGUI.java" "(;
-gui.LoginGUI"
-buttonGroup"__id*+
- (
-
-%0javax.swing.ButtonGroup"w
-`
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/LoginGUI.java ·(
-implicit returnB
-gui.LoginGUI
+7domain.Erreklamazioa#getDeskripzioa()Ljava/lang/String;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javak k("1*¦
+1l	 l(q
+o
+l	 l(
+%0java.lang.String"__id*E
+
+__unknown_file ()*'
+domain.Erreklamazioa"
+deskripzioa"$
+l l(
+
+%0java.lang.StringB
+domain.ErreklamazioaH

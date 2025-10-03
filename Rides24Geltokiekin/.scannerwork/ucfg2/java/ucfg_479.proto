@@ -1,95 +1,61 @@
 
-ZbusinessLogic.BLFacadeImplementation#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java– –(!"startingBlock*‘
-startingBlock
-–! –(8‹
-ˆ
-
-• •(
-%6"
-__annotate*)
-
-__unknown_file (
-	WebMethod*=
-
-__unknown_file (!
-
-	erreserbadomain.RideRequesta
-_
-
-–. –(7
-	erreserbadomain.RideRequest"__annotation*"
-
-__unknown_file (
-
-%6*
-1*Â
+ domain.RideRequest#getPrezioa()Fi
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaÂ Â("1*¢
 1
-— —(‡
-„
+Ã Ã(e
+c
 
-— —(
-%0dataAccess.DataAccess"__id*S
+Ã Ã(
+%0domain.Ride"__id*<
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
+__unknown_file ( *
+domain.RideRequest"
+rides
+q
 
-— —(
-
-%1void"dataAccess.DataAccess#open()V*9
+Ã* Ã(7
+%1java.lang.String"__id*E
 
-__unknown_file (
-
-%0dataAccess.DataAccess2open()‡
-„
+__unknown_file ()*'
+domain.RideRequest"
+fromRequestedq
+o
 
-˜ ˜(
-%2dataAccess.DataAccess"__id*S
+Ã9 Ã(D
+%2java.lang.String"__id*C
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager“
+__unknown_file ('*%
+domain.RideRequest"
+toRequestedÀ½
 
-˜ ˜(5
-%3domain.Ride"KdataAccess.DataAccess#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*=
-
-__unknown_file (!
-
-	erreserbadomain.RideRequest2(getRideFromRequest(Ldomain/RideRequest;)Z
-X
-
-˜ ˜(7
-ridedomain.Ride"__id*/
+Ã Ã(E
+%3float"Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)F*/
 
 __unknown_file (
 
-%3domain.Ride‡
-„
-
-™ ™(
-%4dataAccess.DataAccess"__id*S
+%0domain.Ride*4
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-™ ™(
-
-%5void"dataAccess.DataAccess#close()V*9
+__unknown_file (
+
+%1java.lang.String*4
 
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"#
+__unknown_file (
+
+%2java.lang.String2;lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)i
+g
 
-š š(
-
-ridedomain.Ride:-
+Ä	 Ä(
+%4float"__calculate*
 
-–" –(7
-	erreserbadomain.RideRequestB(&
-$businessLogic.BLFacadeImplementationH
+Ä Ä(
+**
+
+Ä	 Ä(
+""*
+
+Ä Ä(
+"""
+
+Ä Ä(
+""B
+domain.RideRequestHX

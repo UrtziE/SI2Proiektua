@@ -1,65 +1,71 @@
 
-gui.MainGUI#%field_initializer
-__unknown_file ("1*µ
-1 (†
-ù
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java# #($
-gui.MainGUI"
-jContentPane"__id*
- (
-""¶
-£
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java$ $(+%
-gui.MainGUI"
-jButtonCreateQuery"__id*
- (
-""ß
-§
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java% %(,&
-gui.MainGUI"
-jButtonQueryQueries"__id*
- (
-""ùö
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java5- 5(8
-%0javax.swing.ButtonGroup"javax.swing.ButtonGroupª
-∏
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java5) 5(:
-%1"!javax.swing.ButtonGroup#<init>()V*+
- (
-
-%0javax.swing.ButtonGroup∏
-µ
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java5 5(;
-gui.MainGUI"
-buttonGroup"__id*+
- (
-
-%0javax.swing.ButtonGroupùö
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java8# 8(.
-%2gui.MainGUI$SwingAction"gui.MainGUI$SwingAction»
-≈
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java8 8(0
-%3".gui.MainGUI$SwingAction#<init>(Lgui/MainGUI;)V*+
- (
-
-%2gui.MainGUI$SwingAction≥
-∞
-`
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java8 8(1
-gui.MainGUI"
-action"__id*+
- (
-
-%2gui.MainGUI$SwingAction"v
-_
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/MainGUI.java —(
-implicit returnB
-gui.MainGUI
+,domain.Profile#getMezuList()Ljava/util/List;e
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaû û("3*¢
+2
+† †(,86
+
+† †(*
+%2java.util.Vector"java.util.Vectorf
+d
+
+† †(,
+%3"java.util.Vector#<init>()V*4
+
+__unknown_file (
+
+%2java.util.Vectorj
+h
+
+†	 †(,
+domain.Profile"
+
+mezuList"__id*4
+
+__unknown_file (
+
+%2java.util.Vector*
+1*˝
+3
+ü ü(
+h
+f
+
+ü ü(
+%0java.util.List"__id*<
+
+__unknown_file ( *
+domain.Profile"
+
+mezuListz
+x
+
+ü ü(
+%1boolean"	__compare*
+
+ü ü(
+==*$
+
+ü ü(
+
+%0java.util.List*
+
+ü ü(
+""*
+2
+1*ü
+1
+¢	 ¢(h
+f
+
+¢	 ¢(
+%4java.util.List"__id*<
+
+__unknown_file ( *
+domain.Profile"
+
+mezuList"$
+
+¢ ¢(
+
+%4java.util.ListB
+domain.ProfileH

@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758741028761*java2.BÒ)
+1.0UrtziE_SI2ProiektuaJavaFrontend"1759486170921*java2.BÓ)
 9
 4src/main/java/gui/ErreserbakOnartuEtaDeuseztatu.java2
 	
@@ -241,8 +241,8 @@ LbusinessLogic.BLFacade#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;1
 domain.EgoeraRideRequest184
 >
 7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;186
-+
-$domain.EgoeraRideRequest.TratatuGabe188
+,
+%domain.EgoeraRideRequest.TRATATU_GABE188
 
 clearEtiketak189
 
@@ -1892,10 +1892,10 @@ H
 1¹# ¹(4
 
 13218330*
-1¹5 ¹(@
+1¹5 ¹(A
 
 132187117*
-1¹5 ¹(@
+1¹5 ¹(A
 
 1328117*
 1À À(

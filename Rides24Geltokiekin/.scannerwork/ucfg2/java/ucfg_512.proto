@@ -1,92 +1,181 @@
 
-HbusinessLogic.BLFacadeImplementation#isBaloratua(Ldomain/RideRequest;Z)Z{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaô ô("startingBlock*ç
-startingBlock
-ô ô(Câ
-Ü
-
-ò ò(
-%6"
-__annotate*)
+*domain.Alerta#toString()Ljava/lang/String;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.java= =("1*Ì
+1>	 >(U
+S
+>" >(+
+%0java.lang.String"__id*)
 
 __unknown_file (
-	WebMethod*;
+	EtiquetasÔ
+Ï
+>	 >(,
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
 
-__unknown_file (
-
-requestdomain.RideRequest_
-]
-
-ô+ ô(2
-requestdomain.RideRequest"__annotation*"
+__unknown_file ("
+java.util.ResourceBundle*4
 
-__unknown_file (
-
-%6*
-1*›
-1
-ö ö(á
-Ñ
-
-ö ö(
-%0dataAccess.DataAccess"__id*S
+__unknown_file (
+
+%0java.lang.StringÉÄ
+>	 >(O
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-ö ö(
-
-%1void"dataAccess.DataAccess#open()V*9
+__unknown_file ( 
+
+%1java.util.ResourceBundle*5
 
-__unknown_file (
-
-%0dataAccess.DataAccess2open()á
-Ñ
-
-õ õ(!
-%2dataAccess.DataAccess"__id*S
+__unknown_file (
+TReservationsGUI.From2getString(Ljava/lang/String;)g
+e
+>	 ?(
+%3java.lang.String"__concat*$
+>	 >(O
+
+%2java.lang.String*
+? ?(
+ c
+a
+? ?(
+%4java.lang.String"__id*7
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerôñ
-
-õ õ(>
-%3boolean"9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Z*9
+__unknown_file (*
+domain.Alerta"
+fromz
+x
+>	 ?(
+%5java.lang.String"__concat*$
+>	 ?(
+
+%3java.lang.String*$
+? ?(
+
+%4java.lang.Stringg
+e
+>	 ?(
+%6java.lang.String"__concat*$
+>	 ?(
+
+%5java.lang.String*
+? ?(
+ U
+S
+?* ?(3
+%7java.lang.String"__id*)
 
-__unknown_file (
-
-%2dataAccess.DataAccess*;
+__unknown_file (
+	EtiquetasÔ
+Ï
+? ?(4
+%8java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
 
-__unknown_file (
-
-requestdomain.RideRequest*"
+__unknown_file ("
+java.util.ResourceBundle*4
 
-__unknown_file (
-""2"isBaloratua(Ldomain/RideRequest;Z)á
-Ñ
-
-ú ú(
-%4dataAccess.DataAccess"__id*S
+__unknown_file (
+
+%7java.lang.StringÅ˛
+? ?(U
+%9java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
 
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-ú ú(
-
-%5void"dataAccess.DataAccess#close()V*9
+__unknown_file ( 
+
+%8java.util.ResourceBundle*3
 
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"
-
-ù ù(
-"":+
-
-ô ô(3
-requestdomain.RideRequest: 
+__unknown_file (
+TReservationsGUI.To2getString(Ljava/lang/String;){
+y
+>	 ?(U
+%10java.lang.String"__concat*$
+>	 ?(
+
+%6java.lang.String*$
+? ?(U
+
+%9java.lang.Stringi
+g
+>	 @(
+%11java.lang.String"__concat*%
+>	 ?(U
+
+%10java.lang.String*
+@ @(
+ b
+`
+@	 @(
+%12java.lang.String"__id*5
 
-__unknown_file (
-""B(&
-$businessLogic.BLFacadeImplementationHX
+__unknown_file (*
+domain.Alerta"
+to}
+{
+>	 @(
+%13java.lang.String"__concat*%
+>	 @(
+
+%11java.lang.String*%
+@	 @(
+
+%12java.lang.Stringi
+g
+>	 @(
+%14java.lang.String"__concat*%
+>	 @(
+
+%13java.lang.String*
+@ @(
+ V
+T
+@+ @(4
+%15java.lang.String"__id*)
+
+__unknown_file (
+	EtiquetasÒ
+Ó
+@ @(5
+%16java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+
+__unknown_file ("
+java.util.ResourceBundle*5
+
+__unknown_file (
+
+%15java.lang.StringÖÇ
+@ @(X
+%17java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
+
+__unknown_file (!
+
+%16java.util.ResourceBundle*5
+
+__unknown_file (
+TReservationsGUI.When2getString(Ljava/lang/String;)}
+{
+>	 @(X
+%18java.lang.String"__concat*%
+>	 @(
+
+%14java.lang.String*%
+@ @(X
+
+%17java.lang.Stringb
+`
+@Z @(^
+%19java.util.Date"__id*7
+
+__unknown_file (*
+domain.Alerta"
+when{
+y
+>	 @(^
+%20java.lang.String"__concat*%
+>	 @(X
+
+%18java.lang.String*#
+@Z @(^
+
+%19java.util.Date"%
+> @(`
+
+%20java.lang.StringB
+domain.AlertaH

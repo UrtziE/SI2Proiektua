@@ -1,18 +1,28 @@
 
-'domain.Ride#getFrom()Ljava/lang/String;b
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java” ”("1*œ
-1
-•	 •(c
-a
-
-•	 •(
-%0java.lang.String"__id*5
-
-__unknown_file (*
-domain.Ride"
-from"&
-
-• •(
-
-%0java.lang.StringB
-domain.RideH
+#gui.TravellerGUI#%field_initializer
+__unknown_file ("1*Í
+1 (š—
+e
+[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java'* '(1
+%0javax.swing.JButton"javax.swing.JButtonÞ
+Û
+e
+[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java'& '(}
+%1"/javax.swing.JButton#<init>(Ljava/lang/String;)V*'
+ (
+
+%0javax.swing.JButton*
+ (
+""Â
+¿
+e
+[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java' '(~'
+gui.TravellerGUI"
+btnAlertakIkusi"__id*'
+ (
+
+%0javax.swing.JButton"{
+d
+[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java" «(
+implicit returnB
+gui.TravellerGUI

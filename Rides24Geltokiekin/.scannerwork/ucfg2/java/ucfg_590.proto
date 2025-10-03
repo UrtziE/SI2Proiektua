@@ -1,115 +1,149 @@
 
-(domain.Ride#toString()Ljava/lang/String;b
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaü ü("1*÷
-1
-ı	 ı(j
-h
+sbusinessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java§ §("startingBlock*¿
+startingBlock
+§ §(>„
+
 
-ı	 ı(
-%0java.lang.Integer"__id*;
-
-__unknown_file (*
-domain.Ride"
-
-rideNumberp
-n
-
-ı	 ı(
-%1java.lang.String"__concat*'
-
-ı	 ı(
-
-%0java.lang.Integer*
-
-ı ı(
- ; o
-m
-
-ı	 ı(
-%2java.lang.String"__concat*&
-
-ı	 ı(
-
-%1java.lang.String*
-
-ı ı(
- ; æ
-ã
-
-ı  ı(E
-%3java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
+¦ ¦(
+%6"
+__annotate*)
 
 __unknown_file (
-	Etiquetas‰†
-
-ı  ı(l
-%4java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
+	WebMethod*6
 
-__unknown_file ( 
-
-%3java.util.ResourceBundle*9
+__unknown_file (
 
-__unknown_file (
-TReservationsGUI.Ibilbide2getString(Ljava/lang/String;)€
-~
+fromjava.lang.StringZ
+X
 
-ı	 ı(l
-%5java.lang.String"__concat*&
-
-ı	 ı(
-
-%2java.lang.String*&
-
-ı  ı(l
-
-%4java.lang.String’
-
-ım ı({
-%6java.lang.String",domain.Ride#getIbilbidea()Ljava/lang/String;*+
+§# §('
+fromjava.lang.String"__annotation*"
 
-__unknown_file (
-domain.Ride2getIbilbidea()€
-~
+__unknown_file (
+
+%6
+
 
-ı	 ı({
-%7java.lang.String"__concat*&
-
-ı	 ı(l
-
-%5java.lang.String*&
-
-ım ı({
-
-%6java.lang.Stringq
-o
-ı	 ı(
-%8java.lang.String"__concat*&
-
-ı	 ı({
-
-%7java.lang.String*
-ı| ı(
- ; c
-a
-ı‚ ı(†
-%9java.util.Date"__id*5
+¦ ¦(
+%7"
+__annotate*)
 
-__unknown_file (*
-domain.Ride"
-date„
-
-ı	 ı(†
-%10java.lang.String"__concat*'
-ı	 ı(
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
 
-%8java.lang.String*&
-ı‚ ı(†
+tojava.lang.StringX
+V
+
+§0 §(2
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7
+
+
+¦ ¦(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+datejava.util.DateX
+V
+
+§9 §(=
+datejava.util.Date"__annotation*"
+
+__unknown_file (
+
+%8*
+1*ä	
+1
+¨ ¨(‡
+„
+
+¨ ¨(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+¨ ¨(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+© ©(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerª§
+
+© ©(6
+%3java.util.List"ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date2>getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)a
+_
+
+© ©(7
+ridesjava.util.List"__id*2
+
+__unknown_file (
 
-%9java.util.Date"(
-ı ı(‡
+%3java.util.List‡
+„
+
+ª ª(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ª ª(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"'
+
+« «(
 
-%10java.lang.StringB
-domain.RideH
+ridesjava.util.List:&
+
+§ §((
+fromjava.lang.String:$
+
+§) §(3
+tojava.lang.String:$
+
+§4 §(=
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementationH

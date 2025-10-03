@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758741024077*java2.B¯#
+1.0UrtziE_SI2ProiektuaJavaFrontend"1759486163289*java2.B°#
 ,
 'src/main/java/gui/MyRidesTraveller.java2
 	
@@ -232,8 +232,8 @@ VbusinessLogic.BLFacade#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/uti
 domain.EgoeraRideRequest186
 >
 7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;188
-'
- domain.EgoeraRideRequest.NotDone190
+(
+!domain.EgoeraRideRequest.NOT_DONE190
 
 domain.EgoeraRide192
 1
@@ -243,13 +243,13 @@ VbusinessLogic.BLFacade#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/uti
 
 kargatuKantzelatuak197
 (
-!domain.EgoeraRideRequest.Accepted199
+!domain.EgoeraRideRequest.ACCEPTED199
 $
 domain.EgoeraRide.KANTZELATUA201
 
 kargatuEgindakoak202
 $
-domain.EgoeraRideRequest.Done204
+domain.EgoeraRideRequest.DONE204
 
 kargatuTratatuGabeak205
 
@@ -283,9 +283,6 @@ A
 13
 54
 
-189
-18919028
-
 200
 20020128
 
@@ -303,6 +300,9 @@ A
 
 13
 72
+
+198
+19819928
 
 207
 20720828
@@ -342,9 +342,6 @@ I
 
 13
 119
-
-198
-19819928
 A
 58;
 585917 *
@@ -450,9 +447,6 @@ A
 
 96
 969728
-
-203
-20320428
 
 103
 10310428
@@ -578,6 +572,12 @@ D
 
 191
 19119228
+
+189
+18919028
+
+203
+20320428
 A
 15;
 151617 *
@@ -1803,10 +1803,10 @@ A
 1þ þ(*
 
 15618530*
-1þ+ þ(2
+1þ+ þ(3
 
 15618983*
-1þ+ þ(2
+1þ+ þ(3
 
 1569429*
 1ÿ ÿ(

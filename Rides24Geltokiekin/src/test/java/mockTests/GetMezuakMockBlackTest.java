@@ -60,7 +60,7 @@ public class GetMezuakMockBlackTest {
 	private Traveller t;
 	private Kotxe k;
 	private Ride r;
-	private RideRequest rr;
+	
 	private List<String> ibilbide;
 	
 	@Mock
@@ -111,7 +111,7 @@ public class GetMezuakMockBlackTest {
 		Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
 		
 		sut.open();
-    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+		RideRequest rr = sut.erreserbatu(date, r, t, 1, from, to);
     	sut.close();
     	
     	Mockito.when(db.find(Profile.class, userT)).thenReturn(t);

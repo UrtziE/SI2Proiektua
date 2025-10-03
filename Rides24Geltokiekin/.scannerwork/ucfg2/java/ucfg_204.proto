@@ -1,18 +1,47 @@
 
-#domain.Mezua#getRide()Ldomain/Ride;c
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.java§ §("1*“
-1
-¨	 ¨(_
-]
-
-¨	 ¨(
-%0domain.Ride"__id*6
+!domain.Profile#getRatingLuzera()Ic
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javai i("3*ü
+2k
+ k(l
+j
+k
+ k(
+%2java.util.List"__id*B
 
-__unknown_file (*
-domain.Mezua"
-ride"!
-
-¨ ¨(
-
-%0domain.RideB
-domain.MezuaH
+__unknown_file (&*$
+domain.Profile"
+balorazioListaki
+k
+ k(	
+%3int"java.util.List#size()I*2
+
+__unknown_file (
+
+%2java.util.List2size()"
+k k( 
+""*÷
+3j j(l
+j
+j j(
+%0java.util.List"__id*B
+
+__unknown_file (&*$
+domain.Profile"
+balorazioListar
+p
+j j(
+%1boolean"	__compare*
+j j(
+!=*"
+j j(
+
+%0java.util.List*
+j j(
+""*
+2
+1*!
+1m
+ m("
+m m(
+""B
+domain.ProfileHX

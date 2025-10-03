@@ -1,88 +1,43 @@
 
-[domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Driver.javam m("10*û
-2x x(c
-a
-x x(
-%11java.util.List"__id*8
+(domain.Driver#removeRide(I)Ldomain/Ride;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Driver.javam m("7*›
+3s	 s(b
+`
+s	 s(
+%7java.util.List"__id*8
 
 __unknown_file (*
 domain.Driver"
-ridesâ
-Ü
-x x(
-%12domain.Ride"__arrayRemove*3
-
-__unknown_file (
-
-%11java.util.List*"
-
-__unknown_file (
-"""
-y y(
-
-rdomain.Ride*†
-5se s(iÜÉ
-	s~ s(â
-%9java.util.Date"%domain.Ride#getDate()Ljava/util/Date;*.
-
-__unknown_file (
-
-rdomain.Ride2	getDate()¸
-˘
-	se s(è
-%10boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
-
-__unknown_file ("
-java.util.Objects*2
+ridesá
+Ñ
+s	 s(
+%8domain.Ride"__arrayRemove*2
 
 __unknown_file (
 
-%9java.util.Date*4
+%7java.util.List*"
 
-__unknown_file (
-
-datejava.util.Date*	
-2
-8
-1*¢
-6s9 s(=ÖÇ
-sR s([
-%7java.lang.String"%domain.Ride#getTo()Ljava/lang/String;*.
+__unknown_file (
+""X
+V
+s s(
+ridedomain.Ride"__id*/
 
-__unknown_file (
-
-rdomain.Ride2getTo()¸
-˘
-s9 s(_
-%8boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
-
-__unknown_file ("
-java.util.Objects*4
-
-__unknown_file (
-
-%7java.lang.String*4
-
-__unknown_file (
-
-tojava.lang.String*
-2
+__unknown_file (
+
+%8domain.Ride*
 5
-8
-1*Í
-7r r(
-b
+1*ï
+4r r(b
 `
-r r(
-
+r r(
 %3java.util.List"__id*8
 
 __unknown_file (*
 domain.Driver"
 ridesÑ
 Å
-r r(
+r r(
 %4domain.Ride"
 __arrayGet*2
 
@@ -91,82 +46,66 @@ __arrayGet*2
 %3java.util.List*"
 
 __unknown_file (
-""U
-S
-r r(
-rdomain.Ride"__id*/
+""òï
+r r("
+%5java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*/
 
 __unknown_file (
 
-%4domain.RideâÜ
-s" s(-
-%5java.lang.String"'domain.Ride#getFrom()Ljava/lang/String;*.
-
-__unknown_file (
-
-rdomain.Ride2	getFrom()˛
-˚
-s	 s(3
-%6boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*1
-
-__unknown_file ("
-java.util.Objects*4
-
-__unknown_file (
-
-%5java.lang.String*6
-
-__unknown_file (
-
-fromjava.lang.String*
-2
-6
-8
-1*“
-8q q(b
+%4domain.Ride2getRideNumber()u
+s
+r r('
+%6boolean"	__compare*
+r" r($
+==*%
+r r("
+
+%5java.lang.Integer*
+r$ r('
+""*	
+3
+5
+1*Œ
+5q q(b
 `
-q q(
+q q(
 %0java.util.List"__id*8
 
 __unknown_file (*
 domain.Driver"
 rideski
-q q(&	
+q q("	
 %1int"java.util.List#size()I*2
 
 __unknown_file (
 
-%0java.util.List2size()g
-e
-q q(&
-%2boolean"	__compare*
-q q(
-<=*
-q q(
+%0java.util.List2size()f
+d
+q q("
+%2boolean"	__compare*
+q q(
+<*
+q q(
 ""*
-q q(&
+q q("
 	
-%1int*	
-2
-7
-1*c
-10n n(H
-F
-p p(
-rdomain.Ride"__id*"
+%1int*
+4
+1*b
+7n n(	K
+I
+o o(
+ridedomain.Ride"__id*"
 
 __unknown_file (
-""*	
-2
-8
-1*!
-1z z("
-z	 z(
-"":$
-m m($
-fromjava.lang.String:"
-m% m(/
-tojava.lang.String:"
-m0 m(9
-datejava.util.DateB
+""*
+5
+1*0
+1x	 x("!
+x x(
+
+ridedomain.Ride: 
+
+__unknown_file (
+""B
 domain.DriverH

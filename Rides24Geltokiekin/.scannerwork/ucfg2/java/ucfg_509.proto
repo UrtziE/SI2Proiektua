@@ -1,95 +1,15 @@
 
-[businessLogic.BLFacadeImplementation#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÜ Ü()"startingBlock*ç
-startingBlock
-Ü) Ü(>â
-Ü
-
-Ö Ö(
-%6"
-__annotate*)
+'domain.Alerta#getWhen()Ljava/util/Date;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.java2 2("1*î
+13	 3(a
+_
+3	 3(
+%0java.util.Date"__id*7
 
-__unknown_file (
-	WebMethod*;
-
-__unknown_file (
-
-	travellerdomain.Traveller_
-]
-
-Ü4 Ü(=
-	travellerdomain.Traveller"__annotation*"
-
-__unknown_file (
-
-%6*
-1*œ
-1
-á á(á
-Ñ
-
-á á(
-%0dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-á á(
-
-%1void"dataAccess.DataAccess#open()V*9
-
-__unknown_file (
-
-%0dataAccess.DataAccess2open()á
-Ñ
-
-à à(!
-%2dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerìê
-
-à à(@
-%3java.util.List"LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*;
-
-__unknown_file (
-
-	travellerdomain.Traveller2&getIkusiGabeAlerta(Ldomain/Traveller;)b
-`
-
-à à(A
-mezuakjava.util.List"__id*2
-
-__unknown_file (
+__unknown_file (*
+domain.Alerta"
+when""
+3 3(
 
-%3java.util.Listá
-Ñ
-
-â â(
-%4dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-â â(
-
-%5void"dataAccess.DataAccess#close()V*9
-
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"(
-
-ä ä(
-
-mezuakjava.util.List:+
-
-Ü* Ü(=
-	travellerdomain.TravellerB(&
-$businessLogic.BLFacadeImplementationH
+%0java.util.DateB
+domain.AlertaH

@@ -1,15 +1,19 @@
 
-/domain.Erreklamazioa#getAdmin()Ldomain/Profile;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javaa a("1*œ
-1b	 b(i
-g
-b	 b(
-%0domain.Profile"__id*?
+9configuration.ConfigXML#getDbFilename()Ljava/lang/String;n
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java   ("1*®
+1
+¡	 ¡(u
+s
+
+¡	 ¡(
+%0java.lang.String"__id*G
 
-__unknown_file (#*!
-domain.Erreklamazioa"
-admin""
-b b(
-
-%0domain.ProfileB
-domain.ErreklamazioaH
+__unknown_file (+*)
+configuration.ConfigXML"
+
+dbFilename"&
+
+¡ ¡(
+
+%0java.lang.StringB
+configuration.ConfigXMLH

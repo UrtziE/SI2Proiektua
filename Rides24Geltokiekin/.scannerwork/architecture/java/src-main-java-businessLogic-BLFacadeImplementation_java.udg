@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758741028453*java2.B±Y
+1.0UrtziE_SI2ProiektuaJavaFrontend"1759486170510*java2.B±Y
 <
 7src/main/java/businessLogic/BLFacadeImplementation.java2
 	
@@ -258,7 +258,7 @@ F
 
 kantzelatu199
 7
-0dataAccess.DataAccess#Kantzelatu(Ldomain/Ride;)V201
+0dataAccess.DataAccess#kantzelatu(Ldomain/Ride;)V201
 T
 MbusinessLogic.BLFacadeImplementation#egindaEdoEzEgina(Ldomain/RideRequest;Z)V203
 
@@ -517,6 +517,9 @@ G
 
 13
 149
+
+200
+20020117
 A
 36;
 363738 *
@@ -609,9 +612,6 @@ G
 
 195
 19519617
-
-200
-20020117
 G
 288@
 28828938 *

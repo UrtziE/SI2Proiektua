@@ -1,95 +1,131 @@
 
-VbusinessLogic.BLFacadeImplementation#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÆ Æ(,"startingBlock*Å
-startingBlock
-Æ, Æ(;É
+>mockTests.GetEginRidesOfDriverMockWhiteTest#%field_initializer
+__unknown_file ("1* 
+1 (€
+ÿ
 Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java3 3(7-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+from"__id*
+ (
+BeraŸ
+÷
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java4 4(5-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+to"__id*
+ (
+Irun›
+⁄
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java5 5( 7-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+user"__id*
+ (
+
+Anttonˆ
+Û
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java6 6(98-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+email"__id*.
+ (" 
+antton@gmail.coantton@gmail.coƒ¡
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java7 7(* 
+%0java.text.SimpleDateFormat"java.text.SimpleDateFormatê
+ç
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java7 7(8
+%1"6java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V*.
+ ("
+ 
+%0java.text.SimpleDateFormat*
+ (
 
-≠ ≠(
-%6"
-__annotate*)
-
-__unknown_file (
-	WebMethod*5
-
-__unknown_file (
-
-driverdomain.DriverY
-W
+dd/MM/yyyyÚ
+Ô
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java7 7(94-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+f"__id*.
+ ("
+ 
+%0java.text.SimpleDateFormatﬂ
+‹
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java8 8("7-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+noiz"__id*
+ (
 
-Æ4 Æ(:
-driverdomain.Driver"__annotation*"
-
-__unknown_file (
-
-%6*
-1*Ω
-1
-Ø Ø(á
-Ñ
+1/5/2027Ÿ
+÷
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java9 9(7-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+date"__id*
+ (
+""‰
+·
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java: :('<-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+	matrikula"__id*
+ (
 
-Ø Ø(
-%0dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
+1234AAAAŸ
+÷
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java; ;(9-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
+places"__id*
+ (2⁄
+◊
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java> >(:-
++mockTests.GetEginRidesOfDriverMockWhiteTest"	
+rideNum"__id*
+ (2∂≥
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.javaA A(,
+%2java.util.ArrayList"java.util.ArrayList‘
+—
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.javaA A(.
+%3"java.util.ArrayList#<init>()V*'
+ (
+
+%2java.util.ArrayListÚ
+Ô
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.javaA A(/;-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
 
-Ø Ø(
+prezioak"__id*'
+ (
+
+%2java.util.ArrayList∂≥
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.javaB B(.
+%4java.util.ArrayList"java.util.ArrayList‘
+—
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.javaB B(0
+%5"java.util.ArrayList#<init>()V*'
+ (
+
+%4java.util.ArrayListÚ
+Ô
+Ä
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.javaB B(1;-
++mockTests.GetEginRidesOfDriverMockWhiteTest"
 
-%1void"dataAccess.DataAccess#open()V*9
-
-__unknown_file (
-
-%0dataAccess.DataAccess2open()á
-Ñ
-
-∞ ∞(%
-%2dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerÉÄ
-
-∞ ∞(>
-%3java.util.List"GdataAccess.DataAccess#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*5
-
-__unknown_file (
-
-driverdomain.Driver2!getRidesOfDriver(Ldomain/Driver;)a
-_
-
-∞ ∞(?
-ridesjava.util.List"__id*2
-
-__unknown_file (
-
-%3java.util.Listá
-Ñ
-
-± ±(
-%4dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-± ±(
-
-%5void"dataAccess.DataAccess#close()V*9
-
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"'
-
-≤ ≤(
-
-ridesjava.util.List:%
-
-Æ- Æ(:
-driverdomain.DriverB(&
-$businessLogic.BLFacadeImplementationH
+ibilbide"__id*'
+ (
+
+%4java.util.ArrayList"ñ
+
+vC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetEginRidesOfDriverMockWhiteTest.java% °(
+implicit returnB/-
++mockTests.GetEginRidesOfDriverMockWhiteTest

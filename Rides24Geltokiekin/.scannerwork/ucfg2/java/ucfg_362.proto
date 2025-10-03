@@ -1,17 +1,20 @@
 
-5domain.RideRequest#getToRequested()Ljava/lang/String;g
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java? ?("1*¤
-1@
- @(o
-m
-@
- @(
-%0java.lang.String"__id*C
+IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÞ Þ(#"1*™
+1
+ß ß(X
+V
+
+ä ä(3
+alertaMezuakjava.util.List"__id*"
 
-__unknown_file ('*%
-domain.RideRequest"
-toRequested"$
-@ @(
-
-%0java.lang.StringB
-domain.RideRequestH
+__unknown_file (
+""".
+
+å å( 
+
+alertaMezuakjava.util.List:+
+
+Þ$ Þ(7
+	travellerdomain.TravellerB
+dataAccess.DataAccessH

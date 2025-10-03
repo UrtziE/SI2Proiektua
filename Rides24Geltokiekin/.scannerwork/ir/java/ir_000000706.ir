@@ -1,11 +1,0 @@
-
-"/"java.lang.String(this ("domain.RideContainer"÷2
-0
-   ("#get-field# ride:Bdomain.Ride@
->
-   ( "#get-field# rideRequestList:Bjava.util.List6
-4
- %  (+"#get-field# driver:Bdomain.Driver7
-5
-   (+"	#binop +#2+:Bjava.lang.String
-   (,*_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java

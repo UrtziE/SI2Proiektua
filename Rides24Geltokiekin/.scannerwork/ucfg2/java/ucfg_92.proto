@@ -1,140 +1,7 @@
 
-#gui.CreateCarGUI#zeinKanpoHutsik()Ig
-[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/CreateCarGUI.javaÅ Å("9*%
-2
-ã
- ã("
-
-ã ã(
-""*Ω
-3
-ä ä(v
-t
-
-ä ä(
-%9javax.swing.JTextField"__id*B
-
-__unknown_file (&*$
-gui.CreateCarGUI"
-matrikulaTxt¨©
-
-ä ä(!
-%10java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
-
-__unknown_file (
-
-%9javax.swing.JTextField2	getText()}{
-
-ä ä(+
-%11boolean"java.lang.String#isBlank()Z*5
-
-__unknown_file (
-
-%10java.lang.String2	isBlank()*
-2
-1*%
-4
-â
- â("
-
-â â(
-""*∏
-5
-à à(t
-r
-
-à à(
-%6javax.swing.JTextField"__id*@
-
-__unknown_file ($*"
-gui.CreateCarGUI"
-
-tokiKopTxt´®
-
-à à(
-%7java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
-
-__unknown_file (
-
-%6javax.swing.JTextField2	getText(){y
-
-à à()
-%8boolean"java.lang.String#isBlank()Z*4
-
-__unknown_file (
-
-%7java.lang.String2	isBlank()*
-3
-4*%
-6
-á
- á("
-
-á á(
-""*∑
-7
-Ü Ü(s
-q
-
-Ü Ü(
-%3javax.swing.JTextField"__id*?
-
-__unknown_file (#*!
-gui.CreateCarGUI"
-	modelotxt´®
-
-Ü Ü(
-%4java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
-
-__unknown_file (
-
-%3javax.swing.JTextField2	getText(){y
-
-Ü Ü(#
-%5boolean"java.lang.String#isBlank()Z*4
-
-__unknown_file (
-
-%4java.lang.String2	isBlank()*
-5
-6*%
-8
-É
- É("
-
-É É(
-""*∂
-9
-Ç Ç(r
-p
-
-Ç Ç(
-%0javax.swing.JTextField"__id*>
-
-__unknown_file ("* 
-gui.CreateCarGUI"
-
-markaTxt´®
-
-Ç Ç(
-%1java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
-
-__unknown_file (
-
-%0javax.swing.JTextField2	getText(){y
-
-Ç Ç("
-%2boolean"java.lang.String#isBlank()Z*4
-
-__unknown_file (
-
-%1java.lang.String2	isBlank()*
-7
-8*%
-1
-ç
- ç("
-
-ç ç(
-""B
-gui.CreateCarGUIX
+1__sonar_lambda_1$mockTests.GetMezuakMockBlackTestu
+kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetMezuakMockBlackTest.javaM N(7"1*!
+1N N("
+N N(7
+""B
+	!Unknown!

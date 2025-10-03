@@ -1,8 +1,20 @@
 
-'domain.RideRequest#isBidaiaEsandaZer()Zg
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaE E(""1*!
-1F
- F("
-F F(
-""B
-domain.RideRequestHX
+QdataAccess.DataAccess#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaó ó(,"1*
+1
+ô ô(S
+Q
+
+ù ù(/
+alertakjava.util.List"__id*"
+
+__unknown_file (
+""")
+
+ú ú(
+
+alertakjava.util.List:+
+
+ó- ó(@
+	travellerdomain.TravellerB
+dataAccess.DataAccessH

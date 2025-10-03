@@ -2258,7 +2258,7 @@ getEmail()+domain.Profile#getEmail()Ljava/lang/String;I
 #setErreklamazioak(Ljava/util/List;)3domain.Profile#setErreklamazioak(Ljava/util/List;)V,
 setWallet(F)domain.Profile#setWallet(F)V9
 
-toString()+domain.Profile#toString()Ljava/lang/String;¢
+toString()+domain.Profile#toString()Ljava/lang/String;ª
 domain.Driverdomain.Profilejava.io.Serializable#
 <init>()domain.Driver#<init>()Vk
 ,<init>(Ljava/lang/String;Ljava/lang/String;);domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V¸
@@ -2271,8 +2271,8 @@ laddRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ld
 getIzenaAbizenaUser()5domain.Driver#getIzenaAbizenaUser()Ljava/lang/String;D
 getKotxeGuztiak()/domain.Driver#getKotxeGuztiak()Ljava/util/List;6
 
-getRides()(domain.Driver#getRides()Ljava/util/List;ü
-@removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)[domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;8
+getRides()(domain.Driver#getRides()Ljava/util/List;9
+removeRide(I)(domain.Driver#removeRide(I)Ldomain/Ride;8
 
 toString()*domain.Driver#toString()Ljava/lang/String;õ
 java.lang.Throwablejava.io.Serializablejava.lang.Object)
@@ -2687,167 +2687,7 @@ valueOf(I)/java.lang.Integer#valueOf(I)Ljava/lang/Integer;_
 ,exceptions.RideMustBeLaterThanTodayExceptionjava.lang.ExceptionB
 <init>()6exceptions.RideMustBeLaterThanTodayException#<init>()Vf
 <init>(Ljava/lang/String;)Hexceptions.RideMustBeLaterThanTodayException#<init>(Ljava/lang/String;)V*
-java.util.RandomAccessjava.lang.Object÷&
-java.util.Vectorjava.io.Serializablejava.lang.Cloneablejava.util.AbstractListjava.util.Listjava.util.RandomAccess&
-<init>()java.util.Vector#<init>()V(
-	<init>(I)java.util.Vector#<init>(I)V*
-
-<init>(II)java.util.Vector#<init>(II)VR
-<init>(Ljava/util/Collection;)0java.util.Vector#<init>(Ljava/util/Collection;)VF
-add(ILjava/lang/Object;)*java.util.Vector#add(ILjava/lang/Object;)VD
-add(Ljava/lang/Object;))java.util.Vector#add(Ljava/lang/Object;)Zl
-+add(Ljava/lang/Object;[Ljava/lang/Object;I)=java.util.Vector#add(Ljava/lang/Object;[Ljava/lang/Object;I)VT
-addAll(ILjava/util/Collection;)1java.util.Vector#addAll(ILjava/util/Collection;)ZR
-addAll(Ljava/util/Collection;)0java.util.Vector#addAll(Ljava/util/Collection;)ZR
-addElement(Ljava/lang/Object;)0java.util.Vector#addElement(Ljava/lang/Object;)Vj
-*bulkRemove(Ljava/util/function/Predicate;)<java.util.Vector#bulkRemove(Ljava/util/function/Predicate;)Z*
-
-capacity()java.util.Vector#capacity()I8
-checkInvariants()#java.util.Vector#checkInvariants()V$
-clear()java.util.Vector#clear()V5
-clone()*java.util.Vector#clone()Ljava/lang/Object;N
-contains(Ljava/lang/Object;).java.util.Vector#contains(Ljava/lang/Object;)Z\
-#containsAll(Ljava/util/Collection;)5java.util.Vector#containsAll(Ljava/util/Collection;)ZP
-copyInto([Ljava/lang/Object;)/java.util.Vector#copyInto([Ljava/lang/Object;)V?
-elementAt(I)/java.util.Vector#elementAt(I)Ljava/lang/Object;e
-elementAt([Ljava/lang/Object;I)Bjava.util.Vector#elementAt([Ljava/lang/Object;I)Ljava/lang/Object;C
-elementData(I)1java.util.Vector#elementData(I)Ljava/lang/Object;@
-
-elements()2java.util.Vector#elements()Ljava/util/Enumeration;8
-ensureCapacity(I)#java.util.Vector#ensureCapacity(I)VJ
-equals(Ljava/lang/Object;),java.util.Vector#equals(Ljava/lang/Object;)ZC
-firstElement()1java.util.Vector#firstElement()Ljava/lang/Object;b
-&forEach(Ljava/util/function/Consumer;)8java.util.Vector#forEach(Ljava/util/function/Consumer;)V3
-get(I))java.util.Vector#get(I)Ljava/lang/Object;4
-grow()*java.util.Vector#grow()[Ljava/lang/Object;6
-grow(I)+java.util.Vector#grow(I)[Ljava/lang/Object;*
-
-hashCode()java.util.Vector#hashCode()IL
-indexOf(Ljava/lang/Object;)-java.util.Vector#indexOf(Ljava/lang/Object;)IN
-indexOf(Ljava/lang/Object;I).java.util.Vector#indexOf(Ljava/lang/Object;I)I^
-$insertElementAt(Ljava/lang/Object;I)6java.util.Vector#insertElementAt(Ljava/lang/Object;I)V.
-isClear([JI)java.util.Vector#isClear([JI)Z(
-	isEmpty()java.util.Vector#isEmpty()Z=
-
-iterator()/java.util.Vector#iterator()Ljava/util/Iterator;A
-lastElement()0java.util.Vector#lastElement()Ljava/lang/Object;T
-lastIndexOf(Ljava/lang/Object;)1java.util.Vector#lastIndexOf(Ljava/lang/Object;)IV
- lastIndexOf(Ljava/lang/Object;I)2java.util.Vector#lastIndexOf(Ljava/lang/Object;I)II
-listIterator()7java.util.Vector#listIterator()Ljava/util/ListIterator;K
-listIterator(I)8java.util.Vector#listIterator(I)Ljava/util/ListIterator;'
-nBits(I)java.util.Vector#nBits(I)[Jd
-'readObject(Ljava/io/ObjectInputStream;)9java.util.Vector#readObject(Ljava/io/ObjectInputStream;)V9
-	remove(I),java.util.Vector#remove(I)Ljava/lang/Object;J
-remove(Ljava/lang/Object;),java.util.Vector#remove(Ljava/lang/Object;)ZX
-!removeAll(Ljava/util/Collection;)3java.util.Vector#removeAll(Ljava/util/Collection;)Z<
-removeAllElements()%java.util.Vector#removeAllElements()VX
-!removeElement(Ljava/lang/Object;)3java.util.Vector#removeElement(Ljava/lang/Object;)Z:
-removeElementAt(I)$java.util.Vector#removeElementAt(I)Vf
-(removeIf(Ljava/util/function/Predicate;):java.util.Vector#removeIf(Ljava/util/function/Predicate;)Z4
-removeRange(II)!java.util.Vector#removeRange(II)Vr
-.replaceAll(Ljava/util/function/UnaryOperator;)@java.util.Vector#replaceAll(Ljava/util/function/UnaryOperator;)VX
-!retainAll(Ljava/util/Collection;)3java.util.Vector#retainAll(Ljava/util/Collection;)ZW
-set(ILjava/lang/Object;);java.util.Vector#set(ILjava/lang/Object;)Ljava/lang/Object;,
-setBit([JI)java.util.Vector#setBit([JI)VX
-!setElementAt(Ljava/lang/Object;I)3java.util.Vector#setElementAt(Ljava/lang/Object;I)V*
-
-setSize(I)java.util.Vector#setSize(I)Vd
-'shiftTailOverGap([Ljava/lang/Object;II)9java.util.Vector#shiftTailOverGap([Ljava/lang/Object;II)V"
-size()java.util.Vector#size()IN
-sort(Ljava/util/Comparator;).java.util.Vector#sort(Ljava/util/Comparator;)VF
-spliterator()5java.util.Vector#spliterator()Ljava/util/Spliterator;;
-subList(II),java.util.Vector#subList(II)Ljava/util/List;:
-	toArray()-java.util.Vector#toArray()[Ljava/lang/Object;`
-toArray([Ljava/lang/Object;)@java.util.Vector#toArray([Ljava/lang/Object;)[Ljava/lang/Object;;
-
-toString()-java.util.Vector#toString()Ljava/lang/String;.
-trimToSize()java.util.Vector#trimToSize()Vh
-)writeObject(Ljava/io/ObjectOutputStream;);java.util.Vector#writeObject(Ljava/io/ObjectOutputStream;)Vì'
-domain.Ridejava.io.Serializablejava.lang.Comparablejava.lang.Object!
-<init>()domain.Ride#<init>()V≠
-ç<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/List;)ödomain.Ride#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/List;)Vü
-Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/LinkedList;)ìdomain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/LinkedList;)Và
-4addArrivalCities(Ljava/lang/String;Ljava/util/List;)Pdomain.Ride#addArrivalCities(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;h
-$addDepartingCities(Ljava/util/List;)@domain.Ride#addDepartingCities(Ljava/util/List;)Ljava/util/List;Q
- addRequest(Ldomain/RideRequest;)-domain.Ride#addRequest(Ldomain/RideRequest;)V}
-6badaBideSeatekin(Ljava/lang/String;Ljava/lang/String;)Cdomain.Ride#badaBideSeatekin(Ljava/lang/String;Ljava/lang/String;)ZQ
- badaBiderenBat(Ljava/util/List;)-domain.Ride#badaBiderenBat(Ljava/util/List;)ZA
-compareTo(Ldomain/Ride;)%domain.Ride#compareTo(Ldomain/Ride;)I;
-containsRequestDone()"domain.Ride#containsRequestDone()ZA
-containsRequestNotDone()%domain.Ride#containsRequestNotDone()ZÅ
-8deuseztatuSeatKopuruBainaHandiagoa(Ldomain/RideRequest;)Edomain.Ride#deuseztatuSeatKopuruBainaHandiagoa(Ldomain/RideRequest;)VE
-equals(Ljava/lang/Object;)'domain.Ride#equals(Ljava/lang/Object;)Z9
-eserlekuakAmaituta()!domain.Ride#eserlekuakAmaituta()Z?
-ezabatuAllRideRequest()$domain.Ride#ezabatuAllRideRequest()Va
-(ezabatuRideRequest(Ldomain/RideRequest;)5domain.Ride#ezabatuRideRequest(Ldomain/RideRequest;)V=
-gehituSeatGeltokiei(I)#domain.Ride#gehituSeatGeltokiei(I)VÉ
-9geltokiListContains(Ljava/lang/String;Ljava/lang/String;)Fdomain.Ride#geltokiListContains(Ljava/lang/String;Ljava/lang/String;)ZJ
-geltokiListToString()1domain.Ride#geltokiListToString()Ljava/util/List;l
-&geltokiListToString0SeatBainaGehiago()Bdomain.Ride#geltokiListToString0SeatBainaGehiago()Ljava/util/List;2
-	getDate()%domain.Ride#getDate()Ljava/util/Date;5
-getDriver()&domain.Ride#getDriver()Ldomain/Driver;9
-getEgoera()*domain.Ride#getEgoera()Ldomain/EgoeraRide;@
-getEskakizunak(),domain.Ride#getEskakizunak()Ljava/util/List;4
-	getFrom()'domain.Ride#getFrom()Ljava/lang/String;@
-getGeltokiList(),domain.Ride#getGeltokiList()Ljava/util/List;<
-getIbilbide()+domain.Ride#getIbilbide()Ljava/lang/String;>
-getIbilbidea(),domain.Ride#getIbilbidea()Ljava/lang/String;4
-	getInfo()'domain.Ride#getInfo()Ljava/lang/String;2
-
-getKotxe()$domain.Ride#getKotxe()Ldomain/Kotxe;%
-
-getPrice()domain.Ride#getPrice()F:
-getRequests())domain.Ride#getRequests()Ljava/util/List;A
-getRideNumber().domain.Ride#getRideNumber()Ljava/lang/Integer;?
-getTGEskakizunTamaina()$domain.Ride#getTGEskakizunTamaina()I0
-getTo()%domain.Ride#getTo()Ljava/lang/String;)
-getnPlaces()domain.Ride#getnPlaces()IÉ
-9kenduSeatGeltokiei(ILjava/lang/String;Ljava/lang/String;)Fdomain.Ride#kenduSeatGeltokiei(ILjava/lang/String;Ljava/lang/String;)Vá
-;lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)FÉ
-9lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)Fdomain.Ride#lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)I0
-mezua()%domain.Ride#mezua()Ljava/lang/String;[
-%removeOfTheList(Ldomain/RideRequest;)2domain.Ride#removeOfTheList(Ldomain/RideRequest;)Vp
-&requestOnTheList(Ldomain/RideRequest;)Fdomain.Ride#requestOnTheList(Ldomain/RideRequest;)Ldomain/RideRequest;;
-seat0DuenLehenIndi(I)"domain.Ride#seat0DuenLehenIndi(I)I1
-setBetMinimum(I)domain.Ride#setBetMinimum(I)VC
-setDate(Ljava/util/Date;)&domain.Ride#setDate(Ljava/util/Date;)VE
-setDriver(Ldomain/Driver;)'domain.Ride#setDriver(Ldomain/Driver;)VM
-setEgoera(Ldomain/EgoeraRide;)+domain.Ride#setEgoera(Ldomain/EgoeraRide;)VG
-setFrom(Ljava/lang/String;)(domain.Ride#setFrom(Ljava/lang/String;)VQ
- setGeltokiList(Ljava/util/List;)-domain.Ride#setGeltokiList(Ljava/util/List;)VA
-setKotxe(Ldomain/Kotxe;)%domain.Ride#setKotxe(Ldomain/Kotxe;)V'
-setPrice(F)domain.Ride#setPrice(F)VK
-setRequests(Ljava/util/List;)*domain.Ride#setRequests(Ljava/util/List;)VU
-"setRideNumber(Ljava/lang/Integer;)/domain.Ride#setRideNumber(Ljava/lang/Integer;)VC
-setTo(Ljava/lang/String;)&domain.Ride#setTo(Ljava/lang/String;)V+
-setnPlaces(I)domain.Ride#setnPlaces(I)V}
-6sortuGeltokiGuztiak(Ljava/util/List;Ljava/util/List;I)Cdomain.Ride#sortuGeltokiGuztiak(Ljava/util/List;Ljava/util/List;I)V6
-
-toString()(domain.Ride#toString()Ljava/lang/String;@
-travellersDone(),domain.Ride#travellersDone()Ljava/util/List;F
-travellersNotDone()/domain.Ride#travellersNotDone()Ljava/util/List;Û
-java.util.Objectsjava.lang.Object'
-<init>()java.util.Objects#<init>()VE
-checkFromIndexSize(III)*java.util.Objects#checkFromIndexSize(III)IE
-checkFromIndexSize(JJJ)*java.util.Objects#checkFromIndexSize(JJJ)JA
-checkFromToIndex(III)(java.util.Objects#checkFromToIndex(III)IA
-checkFromToIndex(JJJ)(java.util.Objects#checkFromToIndex(JJJ)J3
-checkIndex(II)!java.util.Objects#checkIndex(II)I3
-checkIndex(JJ)!java.util.Objects#checkIndex(JJ)Jù
-Ccompare(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;)Vjava.util.Objects#compare(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;)Iw
-0deepEquals(Ljava/lang/Object;Ljava/lang/Object;)Cjava.util.Objects#deepEquals(Ljava/lang/Object;Ljava/lang/Object;)Zo
-,equals(Ljava/lang/Object;Ljava/lang/Object;)?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)ZI
-hash([Ljava/lang/Object;),java.util.Objects#hash([Ljava/lang/Object;)IO
-hashCode(Ljava/lang/Object;)/java.util.Objects#hashCode(Ljava/lang/Object;)IK
-isNull(Ljava/lang/Object;)-java.util.Objects#isNull(Ljava/lang/Object;)ZM
-nonNull(Ljava/lang/Object;).java.util.Objects#nonNull(Ljava/lang/Object;)Zl
-"requireNonNull(Ljava/lang/Object;)Fjava.util.Objects#requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;ê
-4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Xjava.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;¶
-?requireNonNull(Ljava/lang/Object;Ljava/util/function/Supplier;)cjava.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;ò
-8requireNonNullElse(Ljava/lang/Object;Ljava/lang/Object;)\java.util.Objects#requireNonNullElse(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;¥
-FrequireNonNullElseGet(Ljava/lang/Object;Ljava/util/function/Supplier;)jjava.util.Objects#requireNonNullElseGet(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;`
-toString(Ljava/lang/Object;)@java.util.Objects#toString(Ljava/lang/Object;)Ljava/lang/String;Ñ
-.toString(Ljava/lang/Object;Ljava/lang/String;)Rjava.util.Objects#toString(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;ù&
+java.util.RandomAccessjava.lang.Objectù&
 java.util.ArrayListjava.io.Serializablejava.lang.Cloneablejava.util.AbstractListjava.util.Listjava.util.RandomAccess)
 <init>()java.util.ArrayList#<init>()V+
 	<init>(I)java.util.ArrayList#<init>(I)VU
@@ -2911,7 +2751,90 @@ iterator()2java.util.ArrayList#iterator()Ljava/util/Iterator;W
 	toArray()0java.util.ArrayList#toArray()[Ljava/lang/Object;c
 toArray([Ljava/lang/Object;)Cjava.util.ArrayList#toArray([Ljava/lang/Object;)[Ljava/lang/Object;1
 trimToSize()!java.util.ArrayList#trimToSize()Vk
-)writeObject(Ljava/io/ObjectOutputStream;)>java.util.ArrayList#writeObject(Ljava/io/ObjectOutputStream;)V£
+)writeObject(Ljava/io/ObjectOutputStream;)>java.util.ArrayList#writeObject(Ljava/io/ObjectOutputStream;)V§&
+domain.Ridejava.io.Serializablejava.lang.Comparablejava.lang.Object!
+<init>()domain.Ride#<init>()V≠
+ç<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/List;)ödomain.Ride#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/List;)Vü
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/LinkedList;)ìdomain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/LinkedList;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/LinkedList;)Và
+4addArrivalCities(Ljava/lang/String;Ljava/util/List;)Pdomain.Ride#addArrivalCities(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;h
+$addDepartingCities(Ljava/util/List;)@domain.Ride#addDepartingCities(Ljava/util/List;)Ljava/util/List;Q
+ addRequest(Ldomain/RideRequest;)-domain.Ride#addRequest(Ldomain/RideRequest;)V}
+6badaBideSeatekin(Ljava/lang/String;Ljava/lang/String;)Cdomain.Ride#badaBideSeatekin(Ljava/lang/String;Ljava/lang/String;)ZQ
+ badaBiderenBat(Ljava/util/List;)-domain.Ride#badaBiderenBat(Ljava/util/List;)ZA
+compareTo(Ldomain/Ride;)%domain.Ride#compareTo(Ldomain/Ride;)I;
+containsRequestDone()"domain.Ride#containsRequestDone()ZA
+containsRequestNotDone()%domain.Ride#containsRequestNotDone()ZÅ
+8deuseztatuSeatKopuruBainaHandiagoa(Ldomain/RideRequest;)Edomain.Ride#deuseztatuSeatKopuruBainaHandiagoa(Ldomain/RideRequest;)VE
+equals(Ljava/lang/Object;)'domain.Ride#equals(Ljava/lang/Object;)Z9
+eserlekuakAmaituta()!domain.Ride#eserlekuakAmaituta()Z?
+ezabatuAllRideRequest()$domain.Ride#ezabatuAllRideRequest()Va
+(ezabatuRideRequest(Ldomain/RideRequest;)5domain.Ride#ezabatuRideRequest(Ldomain/RideRequest;)V=
+gehituSeatGeltokiei(I)#domain.Ride#gehituSeatGeltokiei(I)VÉ
+9geltokiListContains(Ljava/lang/String;Ljava/lang/String;)Fdomain.Ride#geltokiListContains(Ljava/lang/String;Ljava/lang/String;)ZJ
+geltokiListToString()1domain.Ride#geltokiListToString()Ljava/util/List;l
+&geltokiListToString0SeatBainaGehiago()Bdomain.Ride#geltokiListToString0SeatBainaGehiago()Ljava/util/List;2
+	getDate()%domain.Ride#getDate()Ljava/util/Date;5
+getDriver()&domain.Ride#getDriver()Ldomain/Driver;9
+getEgoera()*domain.Ride#getEgoera()Ldomain/EgoeraRide;@
+getEskakizunak(),domain.Ride#getEskakizunak()Ljava/util/List;4
+	getFrom()'domain.Ride#getFrom()Ljava/lang/String;@
+getGeltokiList(),domain.Ride#getGeltokiList()Ljava/util/List;<
+getIbilbide()+domain.Ride#getIbilbide()Ljava/lang/String;>
+getIbilbidea(),domain.Ride#getIbilbidea()Ljava/lang/String;4
+	getInfo()'domain.Ride#getInfo()Ljava/lang/String;2
+
+getKotxe()$domain.Ride#getKotxe()Ldomain/Kotxe;%
+
+getPrice()domain.Ride#getPrice()FA
+getRideNumber().domain.Ride#getRideNumber()Ljava/lang/Integer;?
+getTGEskakizunTamaina()$domain.Ride#getTGEskakizunTamaina()I0
+getTo()%domain.Ride#getTo()Ljava/lang/String;)
+getnPlaces()domain.Ride#getnPlaces()IÉ
+9kenduSeatGeltokiei(ILjava/lang/String;Ljava/lang/String;)Fdomain.Ride#kenduSeatGeltokiei(ILjava/lang/String;Ljava/lang/String;)Vá
+;lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)Hdomain.Ride#lortuBidaiarenPrezioa(Ljava/lang/String;Ljava/lang/String;)FÉ
+9lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)Fdomain.Ride#lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)I0
+mezua()%domain.Ride#mezua()Ljava/lang/String;[
+%removeOfTheList(Ldomain/RideRequest;)2domain.Ride#removeOfTheList(Ldomain/RideRequest;)Vp
+&requestOnTheList(Ldomain/RideRequest;)Fdomain.Ride#requestOnTheList(Ldomain/RideRequest;)Ldomain/RideRequest;;
+seat0DuenLehenIndi(I)"domain.Ride#seat0DuenLehenIndi(I)IC
+setDate(Ljava/util/Date;)&domain.Ride#setDate(Ljava/util/Date;)VE
+setDriver(Ldomain/Driver;)'domain.Ride#setDriver(Ldomain/Driver;)VM
+setEgoera(Ldomain/EgoeraRide;)+domain.Ride#setEgoera(Ldomain/EgoeraRide;)VG
+setFrom(Ljava/lang/String;)(domain.Ride#setFrom(Ljava/lang/String;)VQ
+ setGeltokiList(Ljava/util/List;)-domain.Ride#setGeltokiList(Ljava/util/List;)VA
+setKotxe(Ldomain/Kotxe;)%domain.Ride#setKotxe(Ldomain/Kotxe;)V'
+setPrice(F)domain.Ride#setPrice(F)VK
+setRequests(Ljava/util/List;)*domain.Ride#setRequests(Ljava/util/List;)VU
+"setRideNumber(Ljava/lang/Integer;)/domain.Ride#setRideNumber(Ljava/lang/Integer;)VC
+setTo(Ljava/lang/String;)&domain.Ride#setTo(Ljava/lang/String;)V+
+setnPlaces(I)domain.Ride#setnPlaces(I)V}
+6sortuGeltokiGuztiak(Ljava/util/List;Ljava/util/List;I)Cdomain.Ride#sortuGeltokiGuztiak(Ljava/util/List;Ljava/util/List;I)V6
+
+toString()(domain.Ride#toString()Ljava/lang/String;@
+travellersDone(),domain.Ride#travellersDone()Ljava/util/List;F
+travellersNotDone()/domain.Ride#travellersNotDone()Ljava/util/List;Û
+java.util.Objectsjava.lang.Object'
+<init>()java.util.Objects#<init>()VE
+checkFromIndexSize(III)*java.util.Objects#checkFromIndexSize(III)IE
+checkFromIndexSize(JJJ)*java.util.Objects#checkFromIndexSize(JJJ)JA
+checkFromToIndex(III)(java.util.Objects#checkFromToIndex(III)IA
+checkFromToIndex(JJJ)(java.util.Objects#checkFromToIndex(JJJ)J3
+checkIndex(II)!java.util.Objects#checkIndex(II)I3
+checkIndex(JJ)!java.util.Objects#checkIndex(JJ)Jù
+Ccompare(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;)Vjava.util.Objects#compare(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Comparator;)Iw
+0deepEquals(Ljava/lang/Object;Ljava/lang/Object;)Cjava.util.Objects#deepEquals(Ljava/lang/Object;Ljava/lang/Object;)Zo
+,equals(Ljava/lang/Object;Ljava/lang/Object;)?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)ZI
+hash([Ljava/lang/Object;),java.util.Objects#hash([Ljava/lang/Object;)IO
+hashCode(Ljava/lang/Object;)/java.util.Objects#hashCode(Ljava/lang/Object;)IK
+isNull(Ljava/lang/Object;)-java.util.Objects#isNull(Ljava/lang/Object;)ZM
+nonNull(Ljava/lang/Object;).java.util.Objects#nonNull(Ljava/lang/Object;)Zl
+"requireNonNull(Ljava/lang/Object;)Fjava.util.Objects#requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;ê
+4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Xjava.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;¶
+?requireNonNull(Ljava/lang/Object;Ljava/util/function/Supplier;)cjava.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;ò
+8requireNonNullElse(Ljava/lang/Object;Ljava/lang/Object;)\java.util.Objects#requireNonNullElse(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;¥
+FrequireNonNullElseGet(Ljava/lang/Object;Ljava/util/function/Supplier;)jjava.util.Objects#requireNonNullElseGet(Ljava/lang/Object;Ljava/util/function/Supplier;)Ljava/lang/Object;`
+toString(Ljava/lang/Object;)@java.util.Objects#toString(Ljava/lang/Object;)Ljava/lang/String;Ñ
+.toString(Ljava/lang/Object;Ljava/lang/String;)Rjava.util.Objects#toString(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;£
 java.lang.Enumjava.io.Serializablejava.lang.Comparablejava.lang.Objectjava.lang.constant.ConstableJ
 <init>(Ljava/lang/String;I)+java.lang.Enum#<init>(Ljava/lang/String;I)V3
 clone()(java.lang.Enum#clone()Ljava/lang/Object;J
@@ -2933,64 +2856,7 @@ toString()+java.lang.Enum#toString()Ljava/lang/String;{
 domain.EgoeraRidejava.lang.EnumM
 <init>(Ljava/lang/String;I).domain.EgoeraRide#<init>(Ljava/lang/String;I)V_
 valueOf(Ljava/lang/String;)@domain.EgoeraRide#valueOf(Ljava/lang/String;)Ldomain/EgoeraRide;:
-values().domain.EgoeraRide#values()[Ldomain/EgoeraRide;Ã
-CreateRideMockTestjava.lang.Object(
-<init>()CreateRideMockTest#<init>()V$
-init()CreateRideMockTest#init()V,
-
-tearDown()CreateRideMockTest#tearDown()V&
-test1()CreateRideMockTest#test1()Vú2
-dataAccess.DataAccessjava.lang.Object+
-<init>()dataAccess.DataAccess#<init>()VM
-Kantzelatu(Ldomain/Ride;)0dataAccess.DataAccess#Kantzelatu(Ldomain/Ride;)Vy
-/baloratu(ILdomain/Profile;Ldomain/RideRequest;)FdataAccess.DataAccess#baloratu(ILdomain/Profile;Ldomain/RideRequest;)V)
-close()dataAccess.DataAccess#close()VΩ
-QcreateCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z´
-ÅcreateRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;]
-!deuseztatuAlerta(Ldomain/Alerta;)8dataAccess.DataAccess#deuseztatuAlerta(Ldomain/Alerta;)Vi
-'egindaEdoEzEgina(Ldomain/RideRequest;Z)>dataAccess.DataAccess#egindaEdoEzEgina(Ldomain/RideRequest;Z)Vè
-:erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)QdataAccess.DataAccess#erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)VÒ
-aerreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)ãdataAccess.DataAccess#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;”
-\gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)sdataAccess.DataAccess#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)VÀ
-QgetAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)vdataAccess.DataAccess#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;r
-$getAllRidesOfDriver(Ldomain/Driver;)JdataAccess.DataAccess#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;r
-$getArrivalCities(Ljava/lang/String;)JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;_
-"getBalorazioMedia(Ldomain/Driver;)9dataAccess.DataAccess#getBalorazioMedia(Ldomain/Driver;)FL
-getDepartCities()7dataAccess.DataAccess#getDepartCities()Ljava/util/List;t
-%getEginRidesOfDriver(Ldomain/Driver;)KdataAccess.DataAccess#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;x
-'getErreklamazioMezuak(Ldomain/Profile;)MdataAccess.DataAccess#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;p
-#getErreklamazioak(Ldomain/Profile;)IdataAccess.DataAccess#getErreklamazioak(Ldomain/Profile;)Ljava/util/List;v
-&getIkusiGabeAlerta(Ldomain/Traveller;)LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;j
- getKotxeGuztiak(Ldomain/Driver;)FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;`
-getMezuak(Ldomain/Profile;)AdataAccess.DataAccess#getMezuak(Ldomain/Profile;)Ljava/util/List;O
-getMoney(Ldomain/Profile;)1dataAccess.DataAccess#getMoney(Ldomain/Profile;)Fw
-(getRideFromRequest(Ldomain/RideRequest;)KdataAccess.DataAccess#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;¶
->getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;l
-!getRidesOfDriver(Ldomain/Driver;)GdataAccess.DataAccess#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;t
-%getRidesRequestsOfRide(Ldomain/Ride;)KdataAccess.DataAccess#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;à
-/getRidesRequestsOfTraveller(Ldomain/Traveller;)UdataAccess.DataAccess#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List; 
-PgetThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;v
-&getTravellersOfRideDone(Ldomain/Ride;)LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;|
-)getTravellersOfRideNotDone(Ldomain/Ride;)OdataAccess.DataAccess#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;p
-#ikusitakoAlerta(Ldomain/Traveller;)IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;7
-initializeDB()%dataAccess.DataAccess#initializeDB()V_
-"isBaloratua(Ldomain/RideRequest;Z)9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Ze
-%isErreklamatua(Ldomain/RideRequest;Z)<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)ZÄ
-+kargatuTravellerAlertak(Ldomain/Traveller;)QdataAccess.DataAccess#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;U
-kenduDirua(FLdomain/Profile;)4dataAccess.DataAccess#kenduDirua(FLdomain/Profile;)V[
- konprobatuAlertak(Ldomain/Ride;)7dataAccess.DataAccess#konprobatuAlertak(Ldomain/Ride;)VM
-konprobatuBidaienEgunak()0dataAccess.DataAccess#konprobatuBidaienEgunak()VÄ
-+login(Ljava/lang/String;Ljava/lang/String;)QdataAccess.DataAccess#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;Ü
-.lortuErreklamazioakProzesuan(Ldomain/Profile;)TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;§
-;lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)edataAccess.DataAccess#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;ì
-<lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)IY
-mezuaIrakurrita(Ldomain/Mezua;)6dataAccess.DataAccess#mezuaIrakurrita(Ldomain/Mezua;)Vo
-*onartuEdoDeuseztatu(Ldomain/RideRequest;Z)AdataAccess.DataAccess#onartuEdoDeuseztatu(Ldomain/RideRequest;Z)V'
-open()dataAccess.DataAccess#open()Vº
-àregister(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ÆdataAccess.DataAccess#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;U
-sartuDirua(FLdomain/Profile;)4dataAccess.DataAccess#sartuDirua(FLdomain/Profile;)V¡
-SsortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)jdataAccess.DataAccess#sortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Vx
-$takeNewErreklamazioa(Ldomain/Admin;)PdataAccess.DataAccess#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;Ô
+values().domain.EgoeraRide#values()[Ldomain/EgoeraRide;Ô
 gui.RegisterGUIjavax.swing.JFrame%
 <init>()gui.RegisterGUI#<init>()V3
 Desagertarazi() gui.RegisterGUI#Desagertarazi()V1
@@ -3196,13 +3062,200 @@ isItalic()java.awt.Font#isItalic()Z%
 textRequiresLayout([CII)'java.awt.Font#textRequiresLayout([CII)Z8
 
 toString()*java.awt.Font#toString()Ljava/lang/String;e
-)writeObject(Ljava/io/ObjectOutputStream;)8java.awt.Font#writeObject(Ljava/io/ObjectOutputStream;)VÙ
+)writeObject(Ljava/io/ObjectOutputStream;)8java.awt.Font#writeObject(Ljava/io/ObjectOutputStream;)Vù
+#testOperations.GetMezuakDBWhiteTestjava.lang.Object9
+<init>()-testOperations.GetMezuakDBWhiteTest#<init>()V}
+*addCar(Ljava/lang/String;ILdomain/Driver;)OtestOperations.GetMezuakDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Zï
+/addDriver(Ljava/lang/String;Ljava/lang/String;)btestOperations.GetMezuakDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;≤
+~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)ØtestOperations.GetMezuakDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;9
+bukatu()-testOperations.GetMezuakDBWhiteTest#bukatu()VA
+initialize()1testOperations.GetMezuakDBWhiteTest#initialize()VI
+testGetMezuak1()5testOperations.GetMezuakDBWhiteTest#testGetMezuak1()VI
+testGetMezuak2()5testOperations.GetMezuakDBWhiteTest#testGetMezuak2()VI
+testGetMezuak3()5testOperations.GetMezuakDBWhiteTest#testGetMezuak3()Vú2
+dataAccess.DataAccessjava.lang.Object+
+<init>()dataAccess.DataAccess#<init>()Vy
+/baloratu(ILdomain/Profile;Ldomain/RideRequest;)FdataAccess.DataAccess#baloratu(ILdomain/Profile;Ldomain/RideRequest;)V)
+close()dataAccess.DataAccess#close()VΩ
+QcreateCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z´
+ÅcreateRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;]
+!deuseztatuAlerta(Ldomain/Alerta;)8dataAccess.DataAccess#deuseztatuAlerta(Ldomain/Alerta;)Vi
+'egindaEdoEzEgina(Ldomain/RideRequest;Z)>dataAccess.DataAccess#egindaEdoEzEgina(Ldomain/RideRequest;Z)Vè
+:erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)QdataAccess.DataAccess#erreklamazioaOnartuEdoDeuseztatu(Ldomain/Erreklamazioa;FZ)VÒ
+aerreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)ãdataAccess.DataAccess#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;”
+\gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)sdataAccess.DataAccess#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)VÀ
+QgetAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)vdataAccess.DataAccess#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;r
+$getAllRidesOfDriver(Ldomain/Driver;)JdataAccess.DataAccess#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;r
+$getArrivalCities(Ljava/lang/String;)JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;_
+"getBalorazioMedia(Ldomain/Driver;)9dataAccess.DataAccess#getBalorazioMedia(Ldomain/Driver;)FL
+getDepartCities()7dataAccess.DataAccess#getDepartCities()Ljava/util/List;t
+%getEginRidesOfDriver(Ldomain/Driver;)KdataAccess.DataAccess#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;x
+'getErreklamazioMezuak(Ldomain/Profile;)MdataAccess.DataAccess#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;p
+#getErreklamazioak(Ldomain/Profile;)IdataAccess.DataAccess#getErreklamazioak(Ldomain/Profile;)Ljava/util/List;v
+&getIkusiGabeAlerta(Ldomain/Traveller;)LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;j
+ getKotxeGuztiak(Ldomain/Driver;)FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;`
+getMezuak(Ldomain/Profile;)AdataAccess.DataAccess#getMezuak(Ldomain/Profile;)Ljava/util/List;O
+getMoney(Ldomain/Profile;)1dataAccess.DataAccess#getMoney(Ldomain/Profile;)Fw
+(getRideFromRequest(Ldomain/RideRequest;)KdataAccess.DataAccess#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;¶
+>getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;l
+!getRidesOfDriver(Ldomain/Driver;)GdataAccess.DataAccess#getRidesOfDriver(Ldomain/Driver;)Ljava/util/List;t
+%getRidesRequestsOfRide(Ldomain/Ride;)KdataAccess.DataAccess#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;à
+/getRidesRequestsOfTraveller(Ldomain/Traveller;)UdataAccess.DataAccess#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List; 
+PgetThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;v
+&getTravellersOfRideDone(Ldomain/Ride;)LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;|
+)getTravellersOfRideNotDone(Ldomain/Ride;)OdataAccess.DataAccess#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;p
+#ikusitakoAlerta(Ldomain/Traveller;)IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;7
+initializeDB()%dataAccess.DataAccess#initializeDB()V_
+"isBaloratua(Ldomain/RideRequest;Z)9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Ze
+%isErreklamatua(Ldomain/RideRequest;Z)<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)ZM
+kantzelatu(Ldomain/Ride;)0dataAccess.DataAccess#kantzelatu(Ldomain/Ride;)VÄ
++kargatuTravellerAlertak(Ldomain/Traveller;)QdataAccess.DataAccess#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;U
+kenduDirua(FLdomain/Profile;)4dataAccess.DataAccess#kenduDirua(FLdomain/Profile;)V[
+ konprobatuAlertak(Ldomain/Ride;)7dataAccess.DataAccess#konprobatuAlertak(Ldomain/Ride;)VM
+konprobatuBidaienEgunak()0dataAccess.DataAccess#konprobatuBidaienEgunak()VÄ
++login(Ljava/lang/String;Ljava/lang/String;)QdataAccess.DataAccess#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;Ü
+.lortuErreklamazioakProzesuan(Ldomain/Profile;)TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;§
+;lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)edataAccess.DataAccess#lortuLehenRequestBidaiakoa(Ldomain/Ride;Ldomain/Traveller;)Ldomain/RideRequest;ì
+<lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)IY
+mezuaIrakurrita(Ldomain/Mezua;)6dataAccess.DataAccess#mezuaIrakurrita(Ldomain/Mezua;)Vo
+*onartuEdoDeuseztatu(Ldomain/RideRequest;Z)AdataAccess.DataAccess#onartuEdoDeuseztatu(Ldomain/RideRequest;Z)V'
+open()dataAccess.DataAccess#open()Vº
+àregister(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ÆdataAccess.DataAccess#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;U
+sartuDirua(FLdomain/Profile;)4dataAccess.DataAccess#sartuDirua(FLdomain/Profile;)V¡
+SsortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)jdataAccess.DataAccess#sortuAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Vx
+$takeNewErreklamazioa(Ldomain/Admin;)PdataAccess.DataAccess#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;»)
+java.text.SimpleDateFormatjava.text.DateFormat0
+<init>()$java.text.SimpleDateFormat#<init>()VT
+<init>(Ljava/lang/String;)6java.text.SimpleDateFormat#<init>(Ljava/lang/String;)Vé
+7<init>(Ljava/lang/String;Ljava/text/DateFormatSymbols;)Sjava.text.SimpleDateFormat#<init>(Ljava/lang/String;Ljava/text/DateFormatSymbols;)Vx
+,<init>(Ljava/lang/String;Ljava/util/Locale;)Hjava.text.SimpleDateFormat#<init>(Ljava/lang/String;Ljava/util/Locale;)Vr
+)applyLocalizedPattern(Ljava/lang/String;)Ejava.text.SimpleDateFormat#applyLocalizedPattern(Ljava/lang/String;)V`
+ applyPattern(Ljava/lang/String;)<java.text.SimpleDateFormat#applyPattern(Ljava/lang/String;)Vh
+$applyPatternImpl(Ljava/lang/String;)@java.text.SimpleDateFormat#applyPatternImpl(Ljava/lang/String;)V^
+checkNegativeNumberExpression();java.text.SimpleDateFormat#checkNegativeNumberExpression()V?
+clone()4java.text.SimpleDateFormat#clone()Ljava/lang/Object;W
+compile(Ljava/lang/String;)8java.text.SimpleDateFormat#compile(Ljava/lang/String;)[Cf
+#encode(IILjava/lang/StringBuilder;)?java.text.SimpleDateFormat#encode(IILjava/lang/StringBuilder;)VT
+equals(Ljava/lang/Object;)6java.text.SimpleDateFormat#equals(Ljava/lang/Object;)Z…
+Iformat(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)|java.text.SimpleDateFormat#format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;ÿ
+Pformat(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/Format$FieldDelegate;)Éjava.text.SimpleDateFormat#format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/Format$FieldDelegate;)Ljava/lang/StringBuffer;†
+-formatToCharacterIterator(Ljava/lang/Object;)ojava.text.SimpleDateFormat#formatToCharacterIterator(Ljava/lang/Object;)Ljava/text/AttributedCharacterIterator;W
+get2DigitYearStart()?java.text.SimpleDateFormat#get2DigitYearStart()Ljava/util/Date;h
+getDateFormatSymbols()Njava.text.SimpleDateFormat#getDateFormatSymbols()Ljava/text/DateFormatSymbols;ä
+.getDisplayContextNamesMap(ILjava/util/Locale;)Xjava.text.SimpleDateFormat#getDisplayContextNamesMap(ILjava/util/Locale;)Ljava/util/Map;|
+'getDisplayNamesMap(ILjava/util/Locale;)Qjava.text.SimpleDateFormat#getDisplayNamesMap(ILjava/util/Locale;)Ljava/util/Map;4
+
+hashCode()&java.text.SimpleDateFormat#hashCode()I\
+initialize(Ljava/util/Locale;):java.text.SimpleDateFormat#initialize(Ljava/util/Locale;)Vl
+&initializeCalendar(Ljava/util/Locale;)Bjava.text.SimpleDateFormat#initializeCalendar(Ljava/util/Locale;)VT
+initializeDefaultCentury()6java.text.SimpleDateFormat#initializeDefaultCentury()V4
+
+isDigit(C)&java.text.SimpleDateFormat#isDigit(C)Zí
+9matchDSTString(Ljava/lang/String;III[[Ljava/lang/String;)Ujava.text.SimpleDateFormat#matchDSTString(Ljava/lang/String;III[[Ljava/lang/String;)Z∂
+KmatchString(Ljava/lang/String;IILjava/util/Map;Ljava/text/CalendarBuilder;)gjava.text.SimpleDateFormat#matchString(Ljava/lang/String;IILjava/util/Map;Ljava/text/CalendarBuilder;)Iæ
+OmatchString(Ljava/lang/String;II[Ljava/lang/String;Ljava/text/CalendarBuilder;)kjava.text.SimpleDateFormat#matchString(Ljava/lang/String;II[Ljava/lang/String;Ljava/text/CalendarBuilder;)Ié
+7matchZoneString(Ljava/lang/String;I[Ljava/lang/String;)Sjava.text.SimpleDateFormat#matchZoneString(Ljava/lang/String;I[Ljava/lang/String;)Iì
+2parse(Ljava/lang/String;Ljava/text/ParsePosition;)]java.text.SimpleDateFormat#parse(Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/util/Date;x
+,parseAmbiguousDatesAsAfter(Ljava/util/Date;)Hjava.text.SimpleDateFormat#parseAmbiguousDatesAsAfter(Ljava/util/Date;)Vn
+'readObject(Ljava/io/ObjectInputStream;)Cjava.text.SimpleDateFormat#readObject(Ljava/io/ObjectInputStream;)Vh
+$set2DigitYearStart(Ljava/util/Date;)@java.text.SimpleDateFormat#set2DigitYearStart(Ljava/util/Date;)VÜ
+3setDateFormatSymbols(Ljava/text/DateFormatSymbols;)Ojava.text.SimpleDateFormat#setDateFormatSymbols(Ljava/text/DateFormatSymbols;)VF
+shouldObeyCount(II)/java.text.SimpleDateFormat#shouldObeyCount(II)Z¨
+FsubFormat(IILjava/text/Format$FieldDelegate;Ljava/lang/StringBuffer;Z)bjava.text.SimpleDateFormat#subFormat(IILjava/text/Format$FieldDelegate;Ljava/lang/StringBuffer;Z)VŒ
+WsubParse(Ljava/lang/String;IIIZ[ZLjava/text/ParsePosition;ZLjava/text/CalendarBuilder;)sjava.text.SimpleDateFormat#subParse(Ljava/lang/String;IIIZ[ZLjava/text/ParsePosition;ZLjava/text/CalendarBuilder;)I¨
+FsubParseNumericZone(Ljava/lang/String;IIIZLjava/text/CalendarBuilder;)bjava.text.SimpleDateFormat#subParseNumericZone(Ljava/lang/String;IIIZLjava/text/CalendarBuilder;)I§
+BsubParseZoneString(Ljava/lang/String;ILjava/text/CalendarBuilder;)^java.text.SimpleDateFormat#subParseZoneString(Ljava/lang/String;ILjava/text/CalendarBuilder;)IY
+toLocalizedPattern()Ajava.text.SimpleDateFormat#toLocalizedPattern()Ljava/lang/String;G
+toPattern()8java.text.SimpleDateFormat#toPattern()Ljava/lang/String;¡
+HtranslatePattern(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ujava.text.SimpleDateFormat#translatePattern(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;L
+useDateFormatSymbols()2java.text.SimpleDateFormat#useDateFormatSymbols()Z|
+.zeroPaddingNumber(IIILjava/lang/StringBuffer;)Jjava.text.SimpleDateFormat#zeroPaddingNumber(IIILjava/lang/StringBuffer;)VÖ
+java.util.Datejava.io.Serializablejava.lang.Cloneablejava.lang.Comparablejava.lang.Object$
+<init>()java.util.Date#<init>()V*
+<init>(III)java.util.Date#<init>(III)V.
+<init>(IIIII)java.util.Date#<init>(IIIII)V0
+<init>(IIIIII)java.util.Date#<init>(IIIIII)V&
+	<init>(J)java.util.Date#<init>(J)VH
+<init>(Ljava/lang/String;)*java.util.Date#<init>(Ljava/lang/String;)V*
+UTC(IIIIII)java.util.Date#UTC(IIIIII)JB
+after(Ljava/util/Date;)'java.util.Date#after(Ljava/util/Date;)ZD
+before(Ljava/util/Date;)(java.util.Date#before(Ljava/util/Date;)Z3
+clone()(java.util.Date#clone()Ljava/lang/Object;J
+compareTo(Ljava/util/Date;)+java.util.Date#compareTo(Ljava/util/Date;)I†
+:convertToAbbr(Ljava/lang/StringBuilder;Ljava/lang/String;)bjava.util.Date#convertToAbbr(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/StringBuilder;H
+equals(Ljava/lang/Object;)*java.util.Date#equals(Ljava/lang/Object;)ZU
+from(Ljava/time/Instant;)8java.util.Date#from(Ljava/time/Instant;)Ljava/util/Date;Z
+getCalendarDate()Ejava.util.Date#getCalendarDate()Lsun/util/calendar/BaseCalendar$Date;[
+getCalendarSystem(I)Cjava.util.Date#getCalendarSystem(I)Lsun/util/calendar/BaseCalendar;[
+getCalendarSystem(J)Cjava.util.Date#getCalendarSystem(J)Lsun/util/calendar/BaseCalendar;£
+8getCalendarSystem(Lsun/util/calendar/BaseCalendar$Date;)gjava.util.Date#getCalendarSystem(Lsun/util/calendar/BaseCalendar$Date;)Lsun/util/calendar/BaseCalendar;&
+	getDate()java.util.Date#getDate()I$
+getDay()java.util.Date#getDay()I(
+
+getHours()java.util.Date#getHours()IY
+getJulianCalendar()Bjava.util.Date#getJulianCalendar()Lsun/util/calendar/BaseCalendar;N
+getMillisOf(Ljava/util/Date;)-java.util.Date#getMillisOf(Ljava/util/Date;)J,
+getMinutes()java.util.Date#getMinutes()I(
+
+getMonth()java.util.Date#getMonth()I,
+getSeconds()java.util.Date#getSeconds()I&
+	getTime()java.util.Date#getTime()J.
+getTimeImpl()java.util.Date#getTimeImpl()J:
+getTimezoneOffset()#java.util.Date#getTimezoneOffset()I&
+	getYear()java.util.Date#getYear()I(
+
+hashCode()java.util.Date#hashCode()IN
+normalize()?java.util.Date#normalize()Lsun/util/calendar/BaseCalendar$Date;ò
+0normalize(Lsun/util/calendar/BaseCalendar$Date;)djava.util.Date#normalize(Lsun/util/calendar/BaseCalendar$Date;)Lsun/util/calendar/BaseCalendar$Date;F
+parse(Ljava/lang/String;))java.util.Date#parse(Ljava/lang/String;)Jb
+'readObject(Ljava/io/ObjectInputStream;)7java.util.Date#readObject(Ljava/io/ObjectInputStream;)V(
+
+setDate(I)java.util.Date#setDate(I)V*
+setHours(I)java.util.Date#setHours(I)V.
+setMinutes(I)java.util.Date#setMinutes(I)V*
+setMonth(I)java.util.Date#setMonth(I)V.
+setSeconds(I)java.util.Date#setSeconds(I)V(
+
+setTime(J)java.util.Date#setTime(J)V(
+
+setYear(I)java.util.Date#setYear(I)V?
+toGMTString().java.util.Date#toGMTString()Ljava/lang/String;<
+toInstant()-java.util.Date#toInstant()Ljava/time/Instant;E
+toLocaleString()1java.util.Date#toLocaleString()Ljava/lang/String;9
+
+toString()+java.util.Date#toString()Ljava/lang/String;f
+)writeObject(Ljava/io/ObjectOutputStream;)9java.util.Date#writeObject(Ljava/io/ObjectOutputStream;)Vô
+domain.Mezuajava.io.Serializablejava.lang.Comparablejava.lang.Object"
+<init>()domain.Mezua#<init>()VF
+<init>(IFLdomain/Profile;)(domain.Mezua#<init>(IFLdomain/Profile;)Vn
+.<init>(IFLdomain/RideRequest;Ldomain/Profile;)<domain.Mezua#<init>(IFLdomain/RideRequest;Ldomain/Profile;)Vä
+<<init>(ILdomain/Profile;Ldomain/Ride;Ldomain/Erreklamazioa;)Jdomain.Mezua#<init>(ILdomain/Profile;Ldomain/Ride;Ldomain/Erreklamazioa;)Vz
+4<init>(Ldomain/Profile;Ldomain/Ride;Ldomain/Alerta;)Bdomain.Mezua#<init>(Ldomain/Profile;Ldomain/Ride;Ldomain/Alerta;)VD
+compareTo(Ldomain/Mezua;)'domain.Mezua#compareTo(Ldomain/Mezua;)I6
+getAlerta()'domain.Mezua#getAlerta()Ldomain/Alerta;A
+getErreserba()/domain.Mezua#getErreserba()Ldomain/RideRequest; 
+getId()domain.Mezua#getId()I5
+	getInfo()(domain.Mezua#getInfo()Ljava/lang/String;-
+getP()#domain.Mezua#getP()Ldomain/Profile;0
+	getRide()#domain.Mezua#getRide()Ldomain/Ride;$
+	getType()domain.Mezua#getType()I3
+	getWhen()&domain.Mezua#getWhen()Ljava/util/Date;.
+isIrakurrita()domain.Mezua#isIrakurrita()ZV
+"setErreserba(Ldomain/RideRequest;)0domain.Mezua#setErreserba(Ldomain/RideRequest;)Vh
++setInfo(Ljava/lang/String;Ljava/util/Date;)9domain.Mezua#setInfo(Ljava/lang/String;Ljava/util/Date;)Vå
+=setInfo(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)Kdomain.Mezua#setInfo(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)V8
+setIrakurritaTrue()!domain.Mezua#setIrakurritaTrue()V7
+
+toString())domain.Mezua#toString()Ljava/lang/String;*
+zeinAlerta()domain.Mezua#zeinAlerta()V8
+zeinErreklamazio(I)!domain.Mezua#zeinErreklamazio(I)V6
+zeinTransaction(I) domain.Mezua#zeinTransaction(I)VÙ
 gui.BaloratuGUIjavax.swing.JFrameç
 <<init>(Ldomain/Profile;Ldomain/Profile;Ldomain/RideRequest;)Mgui.BaloratuGUI#<init>(Ldomain/Profile;Ldomain/Profile;Ldomain/RideRequest;)V=
 kargatuBalorazioak()%gui.BaloratuGUI#kargatuBalorazioak()VÒ
 gui.BaloratuGUI$1java.awt.event.ActionListenerjava.lang.Object∑
 œ<init>(Lgui/BaloratuGUI;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ldomain/Profile;Ldomain/RideRequest;Ldomain/Profile;)‚gui.BaloratuGUI$1#<init>(Lgui/BaloratuGUI;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ljavax/swing/JRadioButton;Ldomain/Profile;Ldomain/RideRequest;Ldomain/Profile;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@gui.BaloratuGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V∞
+-actionPerformed(Ljava/awt/event/ActionEvent;)@gui.BaloratuGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V˛
 domain.RideRequestjava.io.Serializablejava.lang.Comparablejava.lang.Object(
 <init>()domain.RideRequest#<init>()V–
 \<init>(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)pdomain.RideRequest#<init>(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)VV
@@ -3231,7 +3284,8 @@ getState()7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;I
 setBaloratuaTraveller(Z),domain.RideRequest#setBaloratuaTraveller(Z)VB
 setBidaiaEsandaTrue())domain.RideRequest#setBidaiaEsandaTrue()VH
 setErreklamatuaDriver(Z),domain.RideRequest#setErreklamatuaDriver(Z)VN
-setErreklamatuaTraveller(Z)/domain.RideRequest#setErreklamatuaTraveller(Z)V`
+setErreklamatuaTraveller(Z)/domain.RideRequest#setErreklamatuaTraveller(Z)VL
+setId(Ljava/lang/Integer;).domain.RideRequest#setId(Ljava/lang/Integer;)V`
 $setState(Ldomain/EgoeraRideRequest;)8domain.RideRequest#setState(Ldomain/EgoeraRideRequest;)VX
  setWhenDecided(Ljava/util/Date;)4domain.RideRequest#setWhenDecided(Ljava/util/Date;)V=
 
@@ -3399,73 +3453,16 @@ setHgap(I)!java.awt.BorderLayout#setHgap(I)V/
 
 setVgap(I)!java.awt.BorderLayout#setVgap(I)V@
 
-toString()2java.awt.BorderLayout#toString()Ljava/lang/String;™
-domain.Travellerdomain.Profilejava.io.Serializable&
-<init>()domain.Traveller#<init>()Vˇ
-t<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Üdomain.Traveller#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V¢
-?addAlerta(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)_domain.Traveller#addAlerta(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;l
-+addAlertaMezu(Ldomain/Ride;Ldomain/Alerta;)=domain.Traveller#addAlertaMezu(Ldomain/Ride;Ldomain/Alerta;)V≈
-NaddRequest(Ljava/util/Date;Ldomain/Ride;ILjava/lang/String;Ljava/lang/String;)sdomain.Traveller#addRequest(Ljava/util/Date;Ldomain/Ride;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;å
-;doneNotDoneErreserbaBerdinak(ZLdomain/Ride;Ldomain/Driver;)Mdomain.Traveller#doneNotDoneErreserbaBerdinak(ZLdomain/Ride;Ldomain/Driver;)VJ
-equals(Ljava/lang/Object;),domain.Traveller#equals(Ljava/lang/Object;)Zf
-(ezabatuRideRequest(Ldomain/RideRequest;):domain.Traveller#ezabatuRideRequest(Ldomain/RideRequest;)V?
-getRequests().domain.Traveller#getRequests()Ljava/util/List;j
-*jadanikErreserbatuta(Ldomain/RideRequest;)<domain.Traveller#jadanikErreserbatuta(Ldomain/RideRequest;)Z{
-)lortuLehenRequestBidaiakoa(Ldomain/Ride;)Ndomain.Traveller#lortuLehenRequestBidaiakoa(Ldomain/Ride;)Ldomain/RideRequest;õ
-domain.Alertajava.lang.Object#
-<init>()domain.Alerta#<init>()VØ
-N<init>(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)]domain.Alerta#<init>(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V6
-	getFrom())domain.Alerta#getFrom()Ljava/lang/String;!
-getId()domain.Alerta#getId()I2
-getTo()'domain.Alerta#getTo()Ljava/lang/String;@
-getTraveller().domain.Alerta#getTraveller()Ldomain/Traveller;4
-	getWhen()'domain.Alerta#getWhen()Ljava/util/Date;-
-isEzabatuta()domain.Alerta#isEzabatuta()Z1
-setEzabatuta(Z)domain.Alerta#setEzabatuta(Z)V8
+toString()2java.awt.BorderLayout#toString()Ljava/lang/String;Ï
+mockTests.GetRidesMockWhiteTestjava.lang.Object5
+<init>())mockTests.GetRidesMockWhiteTest#<init>()V1
+init()'mockTests.GetRidesMockWhiteTest#init()V9
 
-toString()*domain.Alerta#toString()Ljava/lang/String;ô
-domain.Mezuajava.io.Serializablejava.lang.Comparablejava.lang.Object"
-<init>()domain.Mezua#<init>()VF
-<init>(IFLdomain/Profile;)(domain.Mezua#<init>(IFLdomain/Profile;)Vn
-.<init>(IFLdomain/RideRequest;Ldomain/Profile;)<domain.Mezua#<init>(IFLdomain/RideRequest;Ldomain/Profile;)Vä
-<<init>(ILdomain/Profile;Ldomain/Ride;Ldomain/Erreklamazioa;)Jdomain.Mezua#<init>(ILdomain/Profile;Ldomain/Ride;Ldomain/Erreklamazioa;)Vz
-4<init>(Ldomain/Profile;Ldomain/Ride;Ldomain/Alerta;)Bdomain.Mezua#<init>(Ldomain/Profile;Ldomain/Ride;Ldomain/Alerta;)VD
-compareTo(Ldomain/Mezua;)'domain.Mezua#compareTo(Ldomain/Mezua;)I6
-getAlerta()'domain.Mezua#getAlerta()Ldomain/Alerta;A
-getErreserba()/domain.Mezua#getErreserba()Ldomain/RideRequest; 
-getId()domain.Mezua#getId()I5
-	getInfo()(domain.Mezua#getInfo()Ljava/lang/String;-
-getP()#domain.Mezua#getP()Ldomain/Profile;0
-	getRide()#domain.Mezua#getRide()Ldomain/Ride;$
-	getType()domain.Mezua#getType()I3
-	getWhen()&domain.Mezua#getWhen()Ljava/util/Date;.
-isIrakurrita()domain.Mezua#isIrakurrita()ZV
-"setErreserba(Ldomain/RideRequest;)0domain.Mezua#setErreserba(Ldomain/RideRequest;)Vh
-+setInfo(Ljava/lang/String;Ljava/util/Date;)9domain.Mezua#setInfo(Ljava/lang/String;Ljava/util/Date;)Vå
-=setInfo(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)Kdomain.Mezua#setInfo(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)V8
-setIrakurritaTrue()!domain.Mezua#setIrakurritaTrue()V7
-
-toString())domain.Mezua#toString()Ljava/lang/String;*
-zeinAlerta()domain.Mezua#zeinAlerta()V8
-zeinErreklamazio(I)!domain.Mezua#zeinErreklamazio(I)V6
-zeinTransaction(I) domain.Mezua#zeinTransaction(I)Vπ
-domain.EgoeraRideRequestjava.lang.EnumT
-<init>(Ljava/lang/String;I)5domain.EgoeraRideRequest#<init>(Ljava/lang/String;I)Vm
-valueOf(Ljava/lang/String;)Ndomain.EgoeraRideRequest#valueOf(Ljava/lang/String;)Ldomain/EgoeraRideRequest;H
-values()<domain.EgoeraRideRequest#values()[Ldomain/EgoeraRideRequest;á
-gui.CreateCarGUI$1java.awt.event.ActionListenerjava.lang.ObjectL
-<init>(Lgui/CreateCarGUI;).gui.CreateCarGUI$1#<init>(Lgui/CreateCarGUI;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Agui.CreateCarGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vá
-gui.CreateCarGUI$2java.awt.event.ActionListenerjava.lang.ObjectL
-<init>(Lgui/CreateCarGUI;).gui.CreateCarGUI$2#<init>(Lgui/CreateCarGUI;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Agui.CreateCarGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)V¡
- testOperations.TestBusinessLogicjava.lang.Object6
-<init>()*testOperations.TestBusinessLogic#<init>()Vè
-maddDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)ùtestOperations.TestBusinessLogic#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;ò
-2createDriver(Ljava/lang/String;Ljava/lang/String;)btestOperations.TestBusinessLogic#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;d
-existDriver(Ljava/lang/String;)AtestOperations.TestBusinessLogic#existDriver(Ljava/lang/String;)Zf
- removeDriver(Ljava/lang/String;)BtestOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Z◊
-RremoveRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)ÄtestOperations.TestBusinessLogic#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;(
+tearDown()+mockTests.GetRidesMockWhiteTest#tearDown()VC
+testGetRides1()0mockTests.GetRidesMockWhiteTest#testGetRides1()VC
+testGetRides2()0mockTests.GetRidesMockWhiteTest#testGetRides2()VC
+testGetRides3()0mockTests.GetRidesMockWhiteTest#testGetRides3()VC
+testGetRides4()0mockTests.GetRidesMockWhiteTest#testGetRides4()V(
 java.lang.Appendablejava.lang.Object+
 java.lang.AutoCloseablejava.lang.Object>
 java.io.Closeablejava.lang.AutoCloseablejava.lang.Object%
@@ -3546,7 +3543,60 @@ setError()java.io.PrintStream#setError()Vl
 	write([C)java.io.PrintStream#write([C)V5
 writeBytes([B)#java.io.PrintStream#writeBytes([B)VO
 writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V/
-writeln([C) java.io.PrintStream#writeln([C)V‰	
+writeln([C) java.io.PrintStream#writeln([C)V≈
+java.text.ParseExceptionjava.lang.ExceptionT
+<init>(Ljava/lang/String;I)5java.text.ParseException#<init>(Ljava/lang/String;I)V>
+getErrorOffset()*java.text.ParseException#getErrorOffset()I‚
+ mockTests.GetMezuakMockBlackTestjava.lang.Object6
+<init>()*mockTests.GetMezuakMockBlackTest#<init>()V2
+init()(mockTests.GetMezuakMockBlackTest#init()V:
+
+tearDown(),mockTests.GetMezuakMockBlackTest#tearDown()VH
+testMezuaItzuli()3mockTests.GetMezuakMockBlackTest#testMezuaItzuli()V:
+
+testNull(),mockTests.GetMezuakMockBlackTest#testNull()Vö
+domain.Travellerdomain.Profilejava.io.Serializable&
+<init>()domain.Traveller#<init>()Vn
+,<init>(Ljava/lang/String;Ljava/lang/String;)>domain.Traveller#<init>(Ljava/lang/String;Ljava/lang/String;)Vˇ
+t<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Üdomain.Traveller#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V¢
+?addAlerta(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)_domain.Traveller#addAlerta(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;l
++addAlertaMezu(Ldomain/Ride;Ldomain/Alerta;)=domain.Traveller#addAlertaMezu(Ldomain/Ride;Ldomain/Alerta;)V≈
+NaddRequest(Ljava/util/Date;Ldomain/Ride;ILjava/lang/String;Ljava/lang/String;)sdomain.Traveller#addRequest(Ljava/util/Date;Ldomain/Ride;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;å
+;doneNotDoneErreserbaBerdinak(ZLdomain/Ride;Ldomain/Driver;)Mdomain.Traveller#doneNotDoneErreserbaBerdinak(ZLdomain/Ride;Ldomain/Driver;)VJ
+equals(Ljava/lang/Object;),domain.Traveller#equals(Ljava/lang/Object;)Zf
+(ezabatuRideRequest(Ldomain/RideRequest;):domain.Traveller#ezabatuRideRequest(Ldomain/RideRequest;)V?
+getRequests().domain.Traveller#getRequests()Ljava/util/List;j
+*jadanikErreserbatuta(Ldomain/RideRequest;)<domain.Traveller#jadanikErreserbatuta(Ldomain/RideRequest;)Z{
+)lortuLehenRequestBidaiakoa(Ldomain/Ride;)Ndomain.Traveller#lortuLehenRequestBidaiakoa(Ldomain/Ride;)Ldomain/RideRequest;õ
+domain.Alertajava.lang.Object#
+<init>()domain.Alerta#<init>()VØ
+N<init>(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)]domain.Alerta#<init>(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)V6
+	getFrom())domain.Alerta#getFrom()Ljava/lang/String;!
+getId()domain.Alerta#getId()I2
+getTo()'domain.Alerta#getTo()Ljava/lang/String;@
+getTraveller().domain.Alerta#getTraveller()Ldomain/Traveller;4
+	getWhen()'domain.Alerta#getWhen()Ljava/util/Date;-
+isEzabatuta()domain.Alerta#isEzabatuta()Z1
+setEzabatuta(Z)domain.Alerta#setEzabatuta(Z)V8
+
+toString()*domain.Alerta#toString()Ljava/lang/String;π
+domain.EgoeraRideRequestjava.lang.EnumT
+<init>(Ljava/lang/String;I)5domain.EgoeraRideRequest#<init>(Ljava/lang/String;I)Vm
+valueOf(Ljava/lang/String;)Ndomain.EgoeraRideRequest#valueOf(Ljava/lang/String;)Ldomain/EgoeraRideRequest;H
+values()<domain.EgoeraRideRequest#values()[Ldomain/EgoeraRideRequest;á
+gui.CreateCarGUI$1java.awt.event.ActionListenerjava.lang.ObjectL
+<init>(Lgui/CreateCarGUI;).gui.CreateCarGUI$1#<init>(Lgui/CreateCarGUI;)Vr
+-actionPerformed(Ljava/awt/event/ActionEvent;)Agui.CreateCarGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vá
+gui.CreateCarGUI$2java.awt.event.ActionListenerjava.lang.ObjectL
+<init>(Lgui/CreateCarGUI;).gui.CreateCarGUI$2#<init>(Lgui/CreateCarGUI;)Vr
+-actionPerformed(Ljava/awt/event/ActionEvent;)Agui.CreateCarGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)Ví
+ testOperations.TestBusinessLogicjava.lang.Object6
+<init>()*testOperations.TestBusinessLogic#<init>()VÍ
+öaddDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;) testOperations.TestBusinessLogic#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Driver;ò
+2createDriver(Ljava/lang/String;Ljava/lang/String;)btestOperations.TestBusinessLogic#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;r
+existDriver(Ljava/lang/String;)OtestOperations.TestBusinessLogic#existDriver(Ljava/lang/String;)Ldomain/Driver;f
+ removeDriver(Ljava/lang/String;)BtestOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Z@
+removeRide(I)/testOperations.TestBusinessLogic#removeRide(I)Z‰	
 configuration.ConfigXMLjava.lang.Object-
 <init>()!configuration.ConfigXML#<init>()VZ
 getBusinessLogicName()@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;Z
@@ -3562,18 +3612,7 @@ setError()java.io.PrintStream#setError()Vl
 	getUser()3configuration.ConfigXML#getUser()Ljava/lang/String;I
 isBusinessLogicLocal()/configuration.ConfigXML#isBusinessLogicLocal()ZK
 isDatabaseInitialized()0configuration.ConfigXML#isDatabaseInitialized()Z?
-isDatabaseLocal()*configuration.ConfigXML#isDatabaseLocal()Zè
-testOperations.TestDataAccessjava.lang.Object3
-<init>()'testOperations.TestDataAccess#<init>()Vå
-maddDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)ötestOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;1
-close()&testOperations.TestDataAccess#close()Vï
-2createDriver(Ljava/lang/String;Ljava/lang/String;)_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;a
-existDriver(Ljava/lang/String;)>testOperations.TestDataAccess#existDriver(Ljava/lang/String;)Z/
-open()%testOperations.TestDataAccess#open()Vc
- removeDriver(Ljava/lang/String;)?testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Z”
-RremoveRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)}testOperations.TestDataAccess#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Ride;H
-CreateRideTestjava.lang.Object$
-<init>()CreateRideTest#<init>()V◊
+isDatabaseLocal()*configuration.ConfigXML#isDatabaseLocal()Z◊
 $exceptions.RideAlreadyExistExceptionjava.lang.Exception:
 <init>().exceptions.RideAlreadyExistException#<init>()V^
 <init>(Ljava/lang/String;)@exceptions.RideAlreadyExistException#<init>(Ljava/lang/String;)V∫
@@ -3726,62 +3765,7 @@ NsetDropLocation(Ljavax/swing/TransferHandler$DropLocation;Ljava/lang/Object;Z)
 updateFixedCellSize()(javax.swing.JList#updateFixedCellSize()V+
 
 updateUI()javax.swing.JList#updateUI()Vi
-)writeObject(Ljava/io/ObjectOutputStream;)<javax.swing.JList#writeObject(Ljava/io/ObjectOutputStream;)VÖ
-java.util.Datejava.io.Serializablejava.lang.Cloneablejava.lang.Comparablejava.lang.Object$
-<init>()java.util.Date#<init>()V*
-<init>(III)java.util.Date#<init>(III)V.
-<init>(IIIII)java.util.Date#<init>(IIIII)V0
-<init>(IIIIII)java.util.Date#<init>(IIIIII)V&
-	<init>(J)java.util.Date#<init>(J)VH
-<init>(Ljava/lang/String;)*java.util.Date#<init>(Ljava/lang/String;)V*
-UTC(IIIIII)java.util.Date#UTC(IIIIII)JB
-after(Ljava/util/Date;)'java.util.Date#after(Ljava/util/Date;)ZD
-before(Ljava/util/Date;)(java.util.Date#before(Ljava/util/Date;)Z3
-clone()(java.util.Date#clone()Ljava/lang/Object;J
-compareTo(Ljava/util/Date;)+java.util.Date#compareTo(Ljava/util/Date;)I†
-:convertToAbbr(Ljava/lang/StringBuilder;Ljava/lang/String;)bjava.util.Date#convertToAbbr(Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/lang/StringBuilder;H
-equals(Ljava/lang/Object;)*java.util.Date#equals(Ljava/lang/Object;)ZU
-from(Ljava/time/Instant;)8java.util.Date#from(Ljava/time/Instant;)Ljava/util/Date;Z
-getCalendarDate()Ejava.util.Date#getCalendarDate()Lsun/util/calendar/BaseCalendar$Date;[
-getCalendarSystem(I)Cjava.util.Date#getCalendarSystem(I)Lsun/util/calendar/BaseCalendar;[
-getCalendarSystem(J)Cjava.util.Date#getCalendarSystem(J)Lsun/util/calendar/BaseCalendar;£
-8getCalendarSystem(Lsun/util/calendar/BaseCalendar$Date;)gjava.util.Date#getCalendarSystem(Lsun/util/calendar/BaseCalendar$Date;)Lsun/util/calendar/BaseCalendar;&
-	getDate()java.util.Date#getDate()I$
-getDay()java.util.Date#getDay()I(
-
-getHours()java.util.Date#getHours()IY
-getJulianCalendar()Bjava.util.Date#getJulianCalendar()Lsun/util/calendar/BaseCalendar;N
-getMillisOf(Ljava/util/Date;)-java.util.Date#getMillisOf(Ljava/util/Date;)J,
-getMinutes()java.util.Date#getMinutes()I(
-
-getMonth()java.util.Date#getMonth()I,
-getSeconds()java.util.Date#getSeconds()I&
-	getTime()java.util.Date#getTime()J.
-getTimeImpl()java.util.Date#getTimeImpl()J:
-getTimezoneOffset()#java.util.Date#getTimezoneOffset()I&
-	getYear()java.util.Date#getYear()I(
-
-hashCode()java.util.Date#hashCode()IN
-normalize()?java.util.Date#normalize()Lsun/util/calendar/BaseCalendar$Date;ò
-0normalize(Lsun/util/calendar/BaseCalendar$Date;)djava.util.Date#normalize(Lsun/util/calendar/BaseCalendar$Date;)Lsun/util/calendar/BaseCalendar$Date;F
-parse(Ljava/lang/String;))java.util.Date#parse(Ljava/lang/String;)Jb
-'readObject(Ljava/io/ObjectInputStream;)7java.util.Date#readObject(Ljava/io/ObjectInputStream;)V(
-
-setDate(I)java.util.Date#setDate(I)V*
-setHours(I)java.util.Date#setHours(I)V.
-setMinutes(I)java.util.Date#setMinutes(I)V*
-setMonth(I)java.util.Date#setMonth(I)V.
-setSeconds(I)java.util.Date#setSeconds(I)V(
-
-setTime(J)java.util.Date#setTime(J)V(
-
-setYear(I)java.util.Date#setYear(I)V?
-toGMTString().java.util.Date#toGMTString()Ljava/lang/String;<
-toInstant()-java.util.Date#toInstant()Ljava/time/Instant;E
-toLocaleString()1java.util.Date#toLocaleString()Ljava/lang/String;9
-
-toString()+java.util.Date#toString()Ljava/lang/String;f
-)writeObject(Ljava/io/ObjectOutputStream;)9java.util.Date#writeObject(Ljava/io/ObjectOutputStream;)V¡
+)writeObject(Ljava/io/ObjectOutputStream;)<javax.swing.JList#writeObject(Ljava/io/ObjectOutputStream;)V¡
 gui.MyRidesTraveller$2java.awt.event.ActionListenerjava.lang.Object~
 1<init>(Lgui/MyRidesTraveller;Ljavax/swing/JList;)Igui.MyRidesTraveller$2#<init>(Lgui/MyRidesTraveller;Ljavax/swing/JList;)Vv
 -actionPerformed(Ljava/awt/event/ActionEvent;)Egui.MyRidesTraveller$2#actionPerformed(Ljava/awt/event/ActionEvent;)V¡
@@ -3921,7 +3905,21 @@ $reverseOrder(Ljava/util/Comparator;)Pjava.util.Collections#reverseOrder(Ljava/
  unmodifiableSet(Ljava/util/Set;)Ejava.util.Collections#unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;á
 ,unmodifiableSortedMap(Ljava/util/SortedMap;)Wjava.util.Collections#unmodifiableSortedMap(Ljava/util/SortedMap;)Ljava/util/SortedMap;á
 ,unmodifiableSortedSet(Ljava/util/SortedSet;)Wjava.util.Collections#unmodifiableSortedSet(Ljava/util/SortedSet;)Ljava/util/SortedSet;q
-"zeroLengthArray(Ljava/lang/Class;)Kjava.util.Collections#zeroLengthArray(Ljava/lang/Class;)[Ljava/lang/Object;l
+"zeroLengthArray(Ljava/lang/Class;)Kjava.util.Collections#zeroLengthArray(Ljava/lang/Class;)[Ljava/lang/Object;ø
+exceptions.AtriNullExceptionjava.lang.Exception2
+<init>()&exceptions.AtriNullException#<init>()VV
+<init>(Ljava/lang/String;)8exceptions.AtriNullException#<init>(Ljava/lang/String;)V’
+"testOperations.GetRidesDBWhiteTestjava.lang.Object8
+<init>(),testOperations.GetRidesDBWhiteTest#<init>()V|
+*addCar(Ljava/lang/String;ILdomain/Driver;)NtestOperations.GetRidesDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Zî
+/addDriver(Ljava/lang/String;Ljava/lang/String;)atestOperations.GetRidesDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;±
+~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)ÆtestOperations.GetRidesDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;8
+bukatu(),testOperations.GetRidesDBWhiteTest#bukatu()V@
+initialize()0testOperations.GetRidesDBWhiteTest#initialize()VF
+testGetRides1()3testOperations.GetRidesDBWhiteTest#testGetRides1()VF
+testGetRides2()3testOperations.GetRidesDBWhiteTest#testGetRides2()VF
+testGetRides3()3testOperations.GetRidesDBWhiteTest#testGetRides3()VF
+testGetRides4()3testOperations.GetRidesDBWhiteTest#testGetRides4()Vl
 gui.AlertaGUIjavax.swing.JFrameG
 <init>(Ldomain/Traveller;))gui.AlertaGUI#<init>(Ldomain/Traveller;)V⁄
 gui.AlertaGUI$1java.awt.event.ActionListenerjava.lang.Object%
@@ -3960,7 +3958,100 @@ getAdmin()/domain.Erreklamazioa#getAdmin()Ldomain/Profile;K
 setWhen(Ljava/util/Date;)/domain.Erreklamazioa#setWhen(Ljava/util/Date;)VZ
  setWhenDecided(Ljava/util/Date;)6domain.Erreklamazioa#setWhenDecided(Ljava/util/Date;)V?
 
-toString()1domain.Erreklamazioa#toString()Ljava/lang/String;ı
+toString()1domain.Erreklamazioa#toString()Ljava/lang/String;÷&
+java.util.Vectorjava.io.Serializablejava.lang.Cloneablejava.util.AbstractListjava.util.Listjava.util.RandomAccess&
+<init>()java.util.Vector#<init>()V(
+	<init>(I)java.util.Vector#<init>(I)V*
+
+<init>(II)java.util.Vector#<init>(II)VR
+<init>(Ljava/util/Collection;)0java.util.Vector#<init>(Ljava/util/Collection;)VF
+add(ILjava/lang/Object;)*java.util.Vector#add(ILjava/lang/Object;)VD
+add(Ljava/lang/Object;))java.util.Vector#add(Ljava/lang/Object;)Zl
++add(Ljava/lang/Object;[Ljava/lang/Object;I)=java.util.Vector#add(Ljava/lang/Object;[Ljava/lang/Object;I)VT
+addAll(ILjava/util/Collection;)1java.util.Vector#addAll(ILjava/util/Collection;)ZR
+addAll(Ljava/util/Collection;)0java.util.Vector#addAll(Ljava/util/Collection;)ZR
+addElement(Ljava/lang/Object;)0java.util.Vector#addElement(Ljava/lang/Object;)Vj
+*bulkRemove(Ljava/util/function/Predicate;)<java.util.Vector#bulkRemove(Ljava/util/function/Predicate;)Z*
+
+capacity()java.util.Vector#capacity()I8
+checkInvariants()#java.util.Vector#checkInvariants()V$
+clear()java.util.Vector#clear()V5
+clone()*java.util.Vector#clone()Ljava/lang/Object;N
+contains(Ljava/lang/Object;).java.util.Vector#contains(Ljava/lang/Object;)Z\
+#containsAll(Ljava/util/Collection;)5java.util.Vector#containsAll(Ljava/util/Collection;)ZP
+copyInto([Ljava/lang/Object;)/java.util.Vector#copyInto([Ljava/lang/Object;)V?
+elementAt(I)/java.util.Vector#elementAt(I)Ljava/lang/Object;e
+elementAt([Ljava/lang/Object;I)Bjava.util.Vector#elementAt([Ljava/lang/Object;I)Ljava/lang/Object;C
+elementData(I)1java.util.Vector#elementData(I)Ljava/lang/Object;@
+
+elements()2java.util.Vector#elements()Ljava/util/Enumeration;8
+ensureCapacity(I)#java.util.Vector#ensureCapacity(I)VJ
+equals(Ljava/lang/Object;),java.util.Vector#equals(Ljava/lang/Object;)ZC
+firstElement()1java.util.Vector#firstElement()Ljava/lang/Object;b
+&forEach(Ljava/util/function/Consumer;)8java.util.Vector#forEach(Ljava/util/function/Consumer;)V3
+get(I))java.util.Vector#get(I)Ljava/lang/Object;4
+grow()*java.util.Vector#grow()[Ljava/lang/Object;6
+grow(I)+java.util.Vector#grow(I)[Ljava/lang/Object;*
+
+hashCode()java.util.Vector#hashCode()IL
+indexOf(Ljava/lang/Object;)-java.util.Vector#indexOf(Ljava/lang/Object;)IN
+indexOf(Ljava/lang/Object;I).java.util.Vector#indexOf(Ljava/lang/Object;I)I^
+$insertElementAt(Ljava/lang/Object;I)6java.util.Vector#insertElementAt(Ljava/lang/Object;I)V.
+isClear([JI)java.util.Vector#isClear([JI)Z(
+	isEmpty()java.util.Vector#isEmpty()Z=
+
+iterator()/java.util.Vector#iterator()Ljava/util/Iterator;A
+lastElement()0java.util.Vector#lastElement()Ljava/lang/Object;T
+lastIndexOf(Ljava/lang/Object;)1java.util.Vector#lastIndexOf(Ljava/lang/Object;)IV
+ lastIndexOf(Ljava/lang/Object;I)2java.util.Vector#lastIndexOf(Ljava/lang/Object;I)II
+listIterator()7java.util.Vector#listIterator()Ljava/util/ListIterator;K
+listIterator(I)8java.util.Vector#listIterator(I)Ljava/util/ListIterator;'
+nBits(I)java.util.Vector#nBits(I)[Jd
+'readObject(Ljava/io/ObjectInputStream;)9java.util.Vector#readObject(Ljava/io/ObjectInputStream;)V9
+	remove(I),java.util.Vector#remove(I)Ljava/lang/Object;J
+remove(Ljava/lang/Object;),java.util.Vector#remove(Ljava/lang/Object;)ZX
+!removeAll(Ljava/util/Collection;)3java.util.Vector#removeAll(Ljava/util/Collection;)Z<
+removeAllElements()%java.util.Vector#removeAllElements()VX
+!removeElement(Ljava/lang/Object;)3java.util.Vector#removeElement(Ljava/lang/Object;)Z:
+removeElementAt(I)$java.util.Vector#removeElementAt(I)Vf
+(removeIf(Ljava/util/function/Predicate;):java.util.Vector#removeIf(Ljava/util/function/Predicate;)Z4
+removeRange(II)!java.util.Vector#removeRange(II)Vr
+.replaceAll(Ljava/util/function/UnaryOperator;)@java.util.Vector#replaceAll(Ljava/util/function/UnaryOperator;)VX
+!retainAll(Ljava/util/Collection;)3java.util.Vector#retainAll(Ljava/util/Collection;)ZW
+set(ILjava/lang/Object;);java.util.Vector#set(ILjava/lang/Object;)Ljava/lang/Object;,
+setBit([JI)java.util.Vector#setBit([JI)VX
+!setElementAt(Ljava/lang/Object;I)3java.util.Vector#setElementAt(Ljava/lang/Object;I)V*
+
+setSize(I)java.util.Vector#setSize(I)Vd
+'shiftTailOverGap([Ljava/lang/Object;II)9java.util.Vector#shiftTailOverGap([Ljava/lang/Object;II)V"
+size()java.util.Vector#size()IN
+sort(Ljava/util/Comparator;).java.util.Vector#sort(Ljava/util/Comparator;)VF
+spliterator()5java.util.Vector#spliterator()Ljava/util/Spliterator;;
+subList(II),java.util.Vector#subList(II)Ljava/util/List;:
+	toArray()-java.util.Vector#toArray()[Ljava/lang/Object;`
+toArray([Ljava/lang/Object;)@java.util.Vector#toArray([Ljava/lang/Object;)[Ljava/lang/Object;;
+
+toString()-java.util.Vector#toString()Ljava/lang/String;.
+trimToSize()java.util.Vector#trimToSize()Vh
+)writeObject(Ljava/io/ObjectOutputStream;);java.util.Vector#writeObject(Ljava/io/ObjectOutputStream;)V–
+"testOperations.GetRidesDBBlackTestjava.lang.Object8
+<init>(),testOperations.GetRidesDBBlackTest#<init>()V|
+*addCar(Ljava/lang/String;ILdomain/Driver;)NtestOperations.GetRidesDBBlackTest#addCar(Ljava/lang/String;ILdomain/Driver;)Zî
+/addDriver(Ljava/lang/String;Ljava/lang/String;)atestOperations.GetRidesDBBlackTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;±
+~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)ÆtestOperations.GetRidesDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;¬
+ÜaddRideDataGabe(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)∂testOperations.GetRidesDBBlackTest#addRideDataGabe(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;8
+bukatu(),testOperations.GetRidesDBBlackTest#bukatu()V@
+initialize()0testOperations.GetRidesDBBlackTest#initialize()Vb
+testGetRidesDateNotExistsDB()AtestOperations.GetRidesDBBlackTest#testGetRidesDateNotExistsDB()VT
+testGetRidesDateNull():testOperations.GetRidesDBBlackTest#testGetRidesDateNull()Vf
+testGetRidesDenakOndoSeatekin()CtestOperations.GetRidesDBBlackTest#testGetRidesDenakOndoSeatekin()V|
+*testGetRidesDenakOndoSeatekinBeforeToday()NtestOperations.GetRidesDBBlackTest#testGetRidesDenakOndoSeatekinBeforeToday()Vx
+(testGetRidesDenakOndoSeatekinDateToday()LtestOperations.GetRidesDBBlackTest#testGetRidesDenakOndoSeatekinDateToday()Vb
+testGetRidesFromNotExistsDB()AtestOperations.GetRidesDBBlackTest#testGetRidesFromNotExistsDB()VT
+testGetRidesFromNull():testOperations.GetRidesDBBlackTest#testGetRidesFromNull()VN
+testGetRidesSeat0()7testOperations.GetRidesDBBlackTest#testGetRidesSeat0()V^
+testGetRidesToNotExistsDB()?testOperations.GetRidesDBBlackTest#testGetRidesToNotExistsDB()VP
+testGetRidesToNull()8testOperations.GetRidesDBBlackTest#testGetRidesToNull()Vı
 java.util.TimeZonejava.io.Serializablejava.lang.Cloneablejava.lang.Object(
 <init>()java.util.TimeZone#<init>()V7
 clone(),java.util.TimeZone#clone()Ljava/lang/Object;L
@@ -4078,7 +4169,15 @@ toString()0java.awt.GridLayout#toString()Ljava/lang/String;†
 -actionPerformed(Ljava/awt/event/ActionEvent;)>gui.MezuakGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)V†
 gui.MezuakGUI$3java.awt.event.ActionListenerjava.lang.Objectk
 +<init>(Lgui/MezuakGUI;Ljavax/swing/JLabel;)<gui.MezuakGUI$3#<init>(Lgui/MezuakGUI;Ljavax/swing/JLabel;)Vo
--actionPerformed(Ljava/awt/event/ActionEvent;)>gui.MezuakGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)V™
+-actionPerformed(Ljava/awt/event/ActionEvent;)>gui.MezuakGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)V±
+#testOperations.GetMezuakDBBlackTestjava.lang.Object9
+<init>()-testOperations.GetMezuakDBBlackTest#<init>()V≤
+~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)ØtestOperations.GetMezuakDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;9
+bukatu()-testOperations.GetMezuakDBBlackTest#bukatu()VA
+initialize()1testOperations.GetMezuakDBBlackTest#initialize()VK
+testMezuaItzuli()6testOperations.GetMezuakDBBlackTest#testMezuaItzuli()V=
+
+testNull()/testOperations.GetMezuakDBBlackTest#testNull()V™
 (javax.xml.parsers.DocumentBuilderFactoryjava.lang.Object>
 <init>()2javax.xml.parsers.DocumentBuilderFactory#<init>()V`
 getSchema()Qjavax.xml.parsers.DocumentBuilderFactory#getSchema()Ljavax/xml/validation/Schema;J
@@ -4399,7 +4498,22 @@ EreplacementTreeNode(Ljava/util/HashMap$Node;Ljava/util/HashMap$Node;)sjava.uti
 getEserleku()domain.Geltoki#getEserleku()I,
 getPrezioa()domain.Geltoki#getPrezioa()F?
 getTokiIzen().domain.Geltoki#getTokiIzen()Ljava/lang/String;2
-kenduSeatKop(I)domain.Geltoki#kenduSeatKop(I)Vê
+kenduSeatKop(I)domain.Geltoki#kenduSeatKop(I)VÛ
+testOperations.TestDataAccessjava.lang.Object3
+<init>()'testOperations.TestDataAccess#<init>()VÁ
+öaddDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)«testOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Driver;1
+close()&testOperations.TestDataAccess#close()Vï
+2createDriver(Ljava/lang/String;Ljava/lang/String;)_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;√
+âcreateRideDataGabe(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)¥testOperations.TestDataAccess#createRideDataGabe(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;û
+5createTraveller(Ljava/lang/String;Ljava/lang/String;)etestOperations.TestDataAccess#createTraveller(Ljava/lang/String;Ljava/lang/String;)Ldomain/Traveller;o
+existDriver(Ljava/lang/String;)LtestOperations.TestDataAccess#existDriver(Ljava/lang/String;)Ldomain/Driver;y
+%ezabatuRideSeats(Ljava/lang/String;I)PtestOperations.TestDataAccess#ezabatuRideSeats(Ljava/lang/String;I)Ldomain/Ride;d
+getCar(Ljava/lang/String;)FtestOperations.TestDataAccess#getCar(Ljava/lang/String;)Ldomain/Kotxe;/
+open()%testOperations.TestDataAccess#open()V]
+removeCar(Ljava/lang/String;)<testOperations.TestDataAccess#removeCar(Ljava/lang/String;)Zc
+ removeDriver(Ljava/lang/String;)?testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Z=
+removeRide(I),testOperations.TestDataAccess#removeRide(I)Zi
+#removeTraveller(Ljava/lang/String;)BtestOperations.TestDataAccess#removeTraveller(Ljava/lang/String;)Zê
 gui.AdminErreklamazioakGUIjavax.swing.JFrameL
 <init>(Ldomain/Admin;)2gui.AdminErreklamazioakGUI#<init>(Ldomain/Admin;)V>
 clearEtiketak()+gui.AdminErreklamazioakGUI#clearEtiketak()Vp
@@ -4413,10 +4527,38 @@ $<init>(Lgui/AdminErreklamazioakGUI;)Bgui.AdminErreklamazioakGUI$2#<init>(Lgui/
 -actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)VÑ
 gui.AdminErreklamazioakGUI$3java.awt.event.ActionListenerjava.lang.Object¥
 I<init>(Lgui/AdminErreklamazioakGUI;Ldomain/Admin;Ljavax/swing/JComboBox;)ggui.AdminErreklamazioakGUI$3#<init>(Lgui/AdminErreklamazioakGUI;Ldomain/Admin;Ljavax/swing/JComboBox;)V|
--actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)Vú
-gui.AdminErreklamazioakGUI$4java.awt.event.ActionListenerjava.lang.ObjectÃ
-U<init>(Lgui/AdminErreklamazioakGUI;Ljavax/swing/JComboBox;Ljavax/swing/JRadioButton;)sgui.AdminErreklamazioakGUI$4#<init>(Lgui/AdminErreklamazioakGUI;Ljavax/swing/JComboBox;Ljavax/swing/JRadioButton;)V|
--actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$4#actionPerformed(Ljava/awt/event/ActionEvent;)VÛ
+-actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)VË
+gui.AdminErreklamazioakGUI$4java.awt.event.ActionListenerjava.lang.Objectò
+;<init>(Lgui/AdminErreklamazioakGUI;Ljavax/swing/JComboBox;)Ygui.AdminErreklamazioakGUI$4#<init>(Lgui/AdminErreklamazioakGUI;Ljavax/swing/JComboBox;)V|
+-actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$4#actionPerformed(Ljava/awt/event/ActionEvent;)Vä
++mockTests.GetEginRidesOfDriverMockBlackTestjava.lang.ObjectA
+<init>()5mockTests.GetEginRidesOfDriverMockBlackTest#<init>()V=
+init()3mockTests.GetEginRidesOfDriverMockBlackTest#init()VE
+
+tearDown()7mockTests.GetEginRidesOfDriverMockBlackTest#tearDown()V?
+test1()4mockTests.GetEginRidesOfDriverMockBlackTest#test1()V?
+test2()4mockTests.GetEginRidesOfDriverMockBlackTest#test2()V÷
+.testOperations.GetEginRidesOfDriverDBWhiteTestjava.lang.ObjectD
+<init>()8testOperations.GetEginRidesOfDriverDBWhiteTest#<init>()Và
+*addCar(Ljava/lang/String;ILdomain/Driver;)ZtestOperations.GetEginRidesOfDriverDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Z†
+/addDriver(Ljava/lang/String;Ljava/lang/String;)mtestOperations.GetEginRidesOfDriverDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;Ω
+~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)∫testOperations.GetEginRidesOfDriverDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;D
+bukatu()8testOperations.GetEginRidesOfDriverDBWhiteTest#bukatu()VL
+initialize()<testOperations.GetEginRidesOfDriverDBWhiteTest#initialize()VB
+test1()7testOperations.GetEginRidesOfDriverDBWhiteTest#test1()VB
+test2()7testOperations.GetEginRidesOfDriverDBWhiteTest#test2()VB
+test3()7testOperations.GetEginRidesOfDriverDBWhiteTest#test3()V‘
+#exceptions.WrongDateFormatExceptionjava.lang.Exception9
+<init>()-exceptions.WrongDateFormatException#<init>()V]
+<init>(Ljava/lang/String;)?exceptions.WrongDateFormatException#<init>(Ljava/lang/String;)VÀ
++mockTests.GetEginRidesOfDriverMockWhiteTestjava.lang.ObjectA
+<init>()5mockTests.GetEginRidesOfDriverMockWhiteTest#<init>()V=
+init()3mockTests.GetEginRidesOfDriverMockWhiteTest#init()VE
+
+tearDown()7mockTests.GetEginRidesOfDriverMockWhiteTest#tearDown()V?
+test1()4mockTests.GetEginRidesOfDriverMockWhiteTest#test1()V?
+test2()4mockTests.GetEginRidesOfDriverMockWhiteTest#test2()V?
+test3()4mockTests.GetEginRidesOfDriverMockWhiteTest#test3()VÛ
 gui.LoginGUI$1java.awt.event.ActionListenerjava.lang.Object@
 <init>(Lgui/LoginGUI;)&gui.LoginGUI$1#<init>(Lgui/LoginGUI;)Vn
 -actionPerformed(Ljava/awt/event/ActionEvent;)=gui.LoginGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)VÛ
@@ -4429,7 +4571,14 @@ U<init>(Lgui/AdminErreklamazioakGUI;Ljavax/swing/JComboBox;Ljavax/swing/JRadioBu
 gui.AdminGUIjavax.swing.JFrame>
 <init>(Ldomain/Admin;)$gui.AdminGUI#<init>(Ldomain/Admin;)VM
 getBusinessLogic()7gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;h
-+setBussinessLogic(LbusinessLogic/BLFacade;)9gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V¥
++setBussinessLogic(LbusinessLogic/BLFacade;)9gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V«
+.testOperations.GetEginRidesOfDriverDBBlackTestjava.lang.ObjectD
+<init>()8testOperations.GetEginRidesOfDriverDBBlackTest#<init>()V†
+/addDriver(Ljava/lang/String;Ljava/lang/String;)mtestOperations.GetEginRidesOfDriverDBBlackTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;D
+bukatu()8testOperations.GetEginRidesOfDriverDBBlackTest#bukatu()VL
+initialize()<testOperations.GetEginRidesOfDriverDBBlackTest#initialize()VB
+test1()7testOperations.GetEginRidesOfDriverDBBlackTest#test1()VB
+test2()7testOperations.GetEginRidesOfDriverDBBlackTest#test2()V¥
 gui.DiruaAteraGUI$1java.awt.event.ActionListenerjava.lang.Objectw
 /<init>(Lgui/DiruaAteraGUI;Ljavax/swing/JLabel;)Dgui.DiruaAteraGUI$1#<init>(Lgui/DiruaAteraGUI;Ljavax/swing/JLabel;)Vs
 -actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.DiruaAteraGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vå
@@ -4465,7 +4614,9 @@ B<init>(Lgui/MyRidesGUI;Ljavax/swing/JButton;Ljavax/swing/JButton;)Tgui.MyRides
 -actionPerformed(Ljava/awt/event/ActionEvent;)?gui.MyRidesGUI$9#actionPerformed(Ljava/awt/event/ActionEvent;)V’
 gui.MyRidesGUI$10java.awt.event.ActionListenerjava.lang.Objectõ
 B<init>(Lgui/MyRidesGUI;Ljavax/swing/JButton;Ljavax/swing/JButton;)Ugui.MyRidesGUI$10#<init>(Lgui/MyRidesGUI;Ljavax/swing/JButton;Ljavax/swing/JButton;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@gui.MyRidesGUI$10#actionPerformed(Ljava/awt/event/ActionEvent;)V´
+-actionPerformed(Ljava/awt/event/ActionEvent;)@gui.MyRidesGUI$10#actionPerformed(Ljava/awt/event/ActionEvent;)V\
+mockTests.CreateRideTestjava.lang.Object.
+<init>()"mockTests.CreateRideTest#<init>()V´
 gui.ApplicationLauncherjava.lang.Object-
 <init>()!gui.ApplicationLauncher#<init>()VO
 main([Ljava/lang/String;)2gui.ApplicationLauncher#main([Ljava/lang/String;)V«2
@@ -5417,7 +5568,32 @@ Cthrowing(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)]java.util.
 -actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.KantzelatuGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)Vå
 gui.KantzelatuGUI$3java.awt.event.ActionListenerjava.lang.ObjectO
 <init>(Lgui/KantzelatuGUI;)0gui.KantzelatuGUI$3#<init>(Lgui/KantzelatuGUI;)Vs
--actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.KantzelatuGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)V›
+-actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.KantzelatuGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)V¥
+ mockTests.GetMezuakMockWhiteTestjava.lang.Object6
+<init>()*mockTests.GetMezuakMockWhiteTest#<init>()V2
+init()(mockTests.GetMezuakMockWhiteTest#init()V:
+
+tearDown(),mockTests.GetMezuakMockWhiteTest#tearDown()VF
+testGetMezuak1()2mockTests.GetMezuakMockWhiteTest#testGetMezuak1()VF
+testGetMezuak2()2mockTests.GetMezuakMockWhiteTest#testGetMezuak2()VF
+testGetMezuak3()2mockTests.GetMezuakMockWhiteTest#testGetMezuak3()V®
+
+mockTests.GetRidesMockBlackTestjava.lang.Object5
+<init>())mockTests.GetRidesMockBlackTest#<init>()Vï
+2ezabatuEserlekuak(Ljava/lang/String;Ldomain/Ride;)_mockTests.GetRidesMockBlackTest#ezabatuEserlekuak(Ljava/lang/String;Ldomain/Ride;)Ldomain/Ride;1
+init()'mockTests.GetRidesMockBlackTest#init()V9
+
+tearDown()+mockTests.GetRidesMockBlackTest#tearDown()V_
+testGetRidesDateNotExistsDB()>mockTests.GetRidesMockBlackTest#testGetRidesDateNotExistsDB()VQ
+testGetRidesDateNull()7mockTests.GetRidesMockBlackTest#testGetRidesDateNull()Vc
+testGetRidesDenakOndoSeatekin()@mockTests.GetRidesMockBlackTest#testGetRidesDenakOndoSeatekin()Vy
+*testGetRidesDenakOndoSeatekinBeforeToday()KmockTests.GetRidesMockBlackTest#testGetRidesDenakOndoSeatekinBeforeToday()Vu
+(testGetRidesDenakOndoSeatekinDateToday()ImockTests.GetRidesMockBlackTest#testGetRidesDenakOndoSeatekinDateToday()V_
+testGetRidesFromNotExistsDB()>mockTests.GetRidesMockBlackTest#testGetRidesFromNotExistsDB()VQ
+testGetRidesFromNull()7mockTests.GetRidesMockBlackTest#testGetRidesFromNull()VK
+testGetRidesSeat0()4mockTests.GetRidesMockBlackTest#testGetRidesSeat0()V[
+testGetRidesToNotExistsDB()<mockTests.GetRidesMockBlackTest#testGetRidesToNotExistsDB()VM
+testGetRidesToNull()5mockTests.GetRidesMockBlackTest#testGetRidesToNull()V›
 !gui.IkusiTravellerErreserbakGUI$1java.awt.event.MouseAdapterü
 <<init>(Lgui/IkusiTravellerErreserbakGUI;Ljavax/swing/JList;)_gui.IkusiTravellerErreserbakGUI$1#<init>(Lgui/IkusiTravellerErreserbakGUI;Ljavax/swing/JList;)Vy
 )mouseClicked(Ljava/awt/event/MouseEvent;)Lgui.IkusiTravellerErreserbakGUI$1#mouseClicked(Ljava/awt/event/MouseEvent;)Vû
@@ -5445,7 +5621,13 @@ S<init>(Lgui/IkusiTravellerErreserbakGUI;Ljavax/swing/JButton;Ljavax/swing/JButt
 domain.EgoeraErreklamazioajava.lang.EnumV
 <init>(Ljava/lang/String;I)7domain.EgoeraErreklamazioa#<init>(Ljava/lang/String;I)Vq
 valueOf(Ljava/lang/String;)Rdomain.EgoeraErreklamazioa#valueOf(Ljava/lang/String;)Ldomain/EgoeraErreklamazioa;L
-values()@domain.EgoeraErreklamazioa#values()[Ldomain/EgoeraErreklamazioa;¥
+values()@domain.EgoeraErreklamazioa#values()[Ldomain/EgoeraErreklamazioa;˛
+mockTests.CreateRideMockTestjava.lang.Object2
+<init>()&mockTests.CreateRideMockTest#<init>()V.
+init()$mockTests.CreateRideMockTest#init()V6
+
+tearDown()(mockTests.CreateRideMockTest#tearDown()V0
+test1()%mockTests.CreateRideMockTest#test1()V¥
 gui.DiruaSartuGUI$1java.awt.event.ActionListenerjava.lang.Objectw
 /<init>(Lgui/DiruaSartuGUI;Ljavax/swing/JLabel;)Dgui.DiruaSartuGUI$1#<init>(Lgui/DiruaSartuGUI;Ljavax/swing/JLabel;)Vs
 -actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.DiruaSartuGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vå
@@ -5481,4 +5663,12 @@ S<init>(Lgui/IkusiTravellerErreserbakGUI;Ljavax/swing/JButton;Ljavax/swing/JButt
 *windowClosed(Ljava/awt/event/WindowEvent;)ObusinessLogic.BusinessLogicServer$1#windowClosed(Ljava/awt/event/WindowEvent;)Vó
 #businessLogic.BusinessLogicServer$2java.awt.event.ActionListenerjava.lang.Object9
 <init>()-businessLogic.BusinessLogicServer$2#<init>()VÉ
--actionPerformed(Ljava/awt/event/ActionEvent;)RbusinessLogic.BusinessLogicServer$2#actionPerformed(Ljava/awt/event/ActionEvent;)V
+-actionPerformed(Ljava/awt/event/ActionEvent;)RbusinessLogic.BusinessLogicServer$2#actionPerformed(Ljava/awt/event/ActionEvent;)VH
+CreateRideTestjava.lang.Object$
+<init>()CreateRideTest#<init>()VÃ
+CreateRideMockTestjava.lang.Object(
+<init>()CreateRideMockTest#<init>()V$
+init()CreateRideMockTest#init()V,
+
+tearDown()CreateRideMockTest#tearDown()V&
+test1()CreateRideMockTest#test1()V

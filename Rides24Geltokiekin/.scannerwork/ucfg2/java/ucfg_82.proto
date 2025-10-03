@@ -1,112 +1,131 @@
 
-,domain.Traveller#equals(Ljava/lang/Object;)Ze
-[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Traveller.java5 5("9*!
-2>
- >("
-> >(
-""*˘
-3<  <(#d
-b
-< <($
-otherdomain.Traveller"__id*5
-
-__unknown_file (
-
-objjava.lang.Objectéã
-= =(
-%5java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*0
-
-__unknown_file (
-domain.Traveller2	getUser()ïí
-= =(,
-%6java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*7
-
-__unknown_file (
+2mockTests.GetRidesMockWhiteTest#%field_initializer
+__unknown_file ("1*‚
+1 (¬
+ø
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java/ /(+!
+mockTests.GetRidesMockWhiteTest"
+from"__id*
+ (
+Bera¿
+Ω
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java0 0()!
+mockTests.GetRidesMockWhiteTest"
+to"__id*
+ (
+Irun∆
+√
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java1 1("+!
+mockTests.GetRidesMockWhiteTest"
+user"__id*
+ (
+
+tester00—
+Œ
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java2 2(-,!
+mockTests.GetRidesMockWhiteTest"
+email"__id*"
+ (
+tester00@gmail.com∑¥
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java3 3(* 
+%0java.text.SimpleDateFormat"java.text.SimpleDateFormatÉ
+Ä
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java3 3(8
+%1"6java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V*.
+ ("
+ 
+%0java.text.SimpleDateFormat*
+ (
+
+dd/MM/yyyyŸ
+÷
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java3 3(9(!
+mockTests.GetRidesMockWhiteTest"
+f"__id*.
+ ("
+ 
+%0java.text.SimpleDateFormat»
+≈
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java4 4($+!
+mockTests.GetRidesMockWhiteTest"
+noiz"__id*
+ (
+
+25/10/2230¿
+Ω
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java5 5(+!
+mockTests.GetRidesMockWhiteTest"
+date"__id*
+ (
+""À
+»
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java6 6('0!
+mockTests.GetRidesMockWhiteTest"
+	matrikula"__id*
+ (
+
+9321CRNN¿
+Ω
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java7 7(-!
+mockTests.GetRidesMockWhiteTest"
+places"__id*
+ (2¡
+æ
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java: :(.!
+mockTests.GetRidesMockWhiteTest"	
+rideNum"__id*
+ (2©¶
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java= =(,
+%2java.util.ArrayList"java.util.ArrayList«
+ƒ
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java= =(.
+%3"java.util.ArrayList#<init>()V*'
+ (
 
-otherdomain.Traveller2	getUser()“œ
-= =(-
-%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
-
-__unknown_file (
-
-%5java.lang.String*4
-
-__unknown_file (
-
-%6java.lang.String2equals(Ljava/lang/Object;)*
-2
-1*!
-4;
- ;("
-; ;(
-""*»
-5: :(êç
-: :(
-%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*0
-
-__unknown_file (
-domain.Traveller2
-getClass()ïí
-: :("
-%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
-
-__unknown_file (
-
-objjava.lang.Object2
-getClass()Ö
-Ç
-: :("
-%4boolean"	__compare*
-: :(
-!=*#
-: :(
-
-%2java.lang.Class*#
-: :("
-
-%3java.lang.Class*
-3
-4*!
-69
- 9("
-9 9(
-""*å
-78 8(	u
+%2java.util.ArrayListŸ
+÷
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java= =(//!
+mockTests.GetRidesMockWhiteTest"
+
+prezioak"__id*'
+ (
+
+%2java.util.ArrayList©¶
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java> >(.
+%4java.util.ArrayList"java.util.ArrayList«
+ƒ
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java> >(0
+%5"java.util.ArrayList#<init>()V*'
+ (
+
+%4java.util.ArrayListŸ
+÷
+t
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java> >(1/!
+mockTests.GetRidesMockWhiteTest"
+
+ibilbide"__id*'
+ (
+
+%4java.util.ArrayList"ä
 s
-8 8(
-%1boolean"	__compare*
-8
- 8(
-==*%
-8 8(	
-
-objjava.lang.Object*
-8 8(
-""*
-5
-6*!
-87
- 7("
-7 7(
-""*ú
-96 6(
-Ñ
-Å
-6 6(
-%0boolean"	__compare*
-6 6(
-==* 
-6 6(
-
-domain.Traveller*%
-6 6(
-
-objjava.lang.Object*
-7
-8*!
-1?	 ?("
-? ?(
-"":#
-5 5(!
-objjava.lang.ObjectB
-domain.TravellerHX
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockWhiteTest.java! ¥(
+implicit returnB#!
+mockTests.GetRidesMockWhiteTest

@@ -1,34 +1,15 @@
 
-KdataAccess.DataAccess#getRidesRequestsOfRide(Ldomain/Ride;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¨ ¨(0"1*¸
-1
-ª ª(œ™
-
-ª ª(3
-%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
-
-__unknown_file (
-
-ridedomain.Ride2getRideNumber()J
-H
-
-ª ª(5
-rdomain.Ride"__id*"
-
-__unknown_file (
-""•’
-
-¬	 ¬(
-%1java.util.List",domain.Ride#getEskakizunak()Ljava/util/List;*.
-
-__unknown_file (
-
-rdomain.Ride2getEskakizunak()"$
-
-¬ ¬(
-
-%1java.util.List:!
-
-¨1 ¨(:
-ridedomain.RideB
-dataAccess.DataAccessH
+,testOperations.GetRidesDBBlackTest#<init>()V
+__unknown_file ("startingBlock*ƒ
+startingBlocku
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java (ë
+è
+u
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java (
+%0"5testOperations.GetRidesDBBlackTest#%field_initializer*2
+ (&$
+"testOperations.GetRidesDBBlackTest"Œ
+u
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBBlackTest.java (
+implicit returnB&$
+"testOperations.GetRidesDBBlackTest

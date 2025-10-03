@@ -135,7 +135,7 @@ public class GetMezuakDBBlackTest {
 		sut.open();
 		Ride ride = null;
 		try {
-			ride = sut.createRide(from, to, date, nPlaces, prezioak, driverUser, kotxe, ibilbide);
+			ride = sut.createRide(from, to, date, nPlaces, price, driverUser, kotxe, ibilbide);
 			rideNum=ride.getRideNumber();
 		} catch (RideAlreadyExistException e) {
 			fail("That Ride exists, you must change");

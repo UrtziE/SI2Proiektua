@@ -1,18 +1,62 @@
 
-2domain.Profile#getBalorazioLista()Ljava/util/List;e
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.java∑ ∑(&"1*•
-1
-∏	 ∏(n
-l
+atestOperations.GetRidesDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;y
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBWhiteTest.javaÖ Ö("4*g
+2
+å
+ å(Q
+O
 
-∏	 ∏(
-%0java.util.List"__id*B
+å å(
+driverdomain.Driver"__id*"
 
-__unknown_file (&*$
-domain.Profile"
-balorazioLista"$
+__unknown_file (
+""*
+1*g
+3
+â â(Q
+O
 
-∏ ∏(
-
-%0java.util.ListB
-domain.ProfileH
+â â(,
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""*
+1*È
+4
+Ü Ü(Q
+O
+
+á á(+
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""}
+{
+
+à à(
+%0boolean"	__compare*
+
+à à(
+==*'
+
+à à(
+
+driverdomain.Driver*
+
+à à(
+""*
+2
+3*8
+1
+ê ê("'
+
+ë ë(
+
+driverdomain.Driver:&
+
+Ö Ö(&
+userjava.lang.String:'
+
+Ö' Ö(3
+emailjava.lang.StringB&$
+"testOperations.GetRidesDBWhiteTest

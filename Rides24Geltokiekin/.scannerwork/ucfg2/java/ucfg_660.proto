@@ -1,0 +1,493 @@
+
+2mockTests.GetMezuakMockWhiteTest#testGetMezuak2()Vu
+kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetMezuakMockWhiteTest.javaw w("6*˜
+2
+é é(N
+L
+
+é é(
+mezudomain.Mezua"__id*"
+
+__unknown_file (
+""ç
+ä
+
+é é(
+mezudomain.Mezua"
+__arrayGet*6
+
+__unknown_file (
+
+mezuakjava.util.List*"
+
+__unknown_file (
+""*
+4
+0*˘
+4
+è è(rp
+
+è è(
+
+%45int"domain.Mezua#getType()I*2
+
+__unknown_file (
+
+mezudomain.Mezua2	getType()o
+m
+
+è è(
+%46boolean"	__compare*
+
+è è(
+!=*
+
+è è(
+
+
+%45int*
+
+è è(2*
+2*ﬂ:
+6x x(v
+t
+x x(
+%0java.lang.String"__id*J
+
+__unknown_file (.*,"
+ mockTests.GetMezuakMockWhiteTest"
+fromt
+r
+x x(
+%1java.lang.String"__id*H
+
+__unknown_file (,**"
+ mockTests.GetMezuakMockWhiteTest"
+tot
+r
+x x(#
+%2java.util.Date"__id*J
+
+__unknown_file (.*,"
+ mockTests.GetMezuakMockWhiteTest"
+datex
+v
+x- x(5
+%3java.util.List"__id*N
+
+__unknown_file (2*0"
+ mockTests.GetMezuakMockWhiteTest"
+
+prezioakp
+n
+x7 x(8
+%4domain.Driver"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+do
+m
+x: x(;
+%5domain.Kotxe"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+kx
+v
+x= x(E
+%6java.util.List"__id*N
+
+__unknown_file (2*0"
+ mockTests.GetMezuakMockWhiteTest"
+
+ibilbide,*
+x x(
+%7domain.Ride"domain.Rideî
+ë
+x	 x(F
+%8"ödomain.Ride#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Driver;Ldomain/Kotxe;Ljava/util/List;)V*/
+
+__unknown_file (
+
+%7domain.Ride* 
+
+__unknown_file (2*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*2
+
+__unknown_file (
+
+%2java.util.Date*"
+
+__unknown_file (
+""*2
+
+__unknown_file (
+
+%3java.util.List*1
+
+__unknown_file (
+
+%4domain.Driver*0
+
+__unknown_file (
+
+%5domain.Kotxe*2
+
+__unknown_file (
+
+%6java.util.Listn
+l
+x x(F)"
+ mockTests.GetMezuakMockWhiteTest"
+r"__id*/
+
+__unknown_file (
+
+%7domain.Ridew
+u
+z& z(+
+%9java.lang.String"__id*K
+
+__unknown_file (/*-"
+ mockTests.GetMezuakMockWhiteTest"
+userTt
+r
+z9 z(:
+%10domain.Traveller"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+tt
+r
+{( {()
+%11domain.Traveller"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+tîë
+{( {(3
+%12java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*5
+
+__unknown_file (
+
+%11domain.Traveller2	getUser()t
+r
+{A {(B
+%13domain.Traveller"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+to
+m
+|2 |(3
+%14domain.Ride"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+r{
+y
+ (
+%15dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sut|z
+ (
+%16void"dataAccess.DataAccess#open()V*:
+
+__unknown_file (
+
+%15dataAccess.DataAccess2open()}
+{
+
+Ä
+ Ä(
+%17dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sutw
+u
+
+Ä Ä(
+%18java.util.Date"__id*J
+
+__unknown_file (.*,"
+ mockTests.GetMezuakMockWhiteTest"
+dateq
+o
+
+Ä  Ä(!
+%19domain.Ride"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+rv
+t
+
+Ä# Ä($
+%20domain.Traveller"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+ty
+w
+
+Ä) Ä(-
+%21java.lang.String"__id*J
+
+__unknown_file (.*,"
+ mockTests.GetMezuakMockWhiteTest"
+fromw
+u
+
+Ä/ Ä(1
+%22java.lang.String"__id*H
+
+__unknown_file (,**"
+ mockTests.GetMezuakMockWhiteTest"
+toÖÇ
+
+Ä
+ Ä(2
+%23domain.RideRequest"ãdataAccess.DataAccess#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;*:
+
+__unknown_file (
+
+%17dataAccess.DataAccess*3
+
+__unknown_file (
+
+%18java.util.Date*0
+
+__unknown_file (
+
+%19domain.Ride*5
+
+__unknown_file (
+
+%20domain.Traveller* 
+
+__unknown_file (2*5
+
+__unknown_file (
+
+%21java.lang.String*5
+
+__unknown_file (
+
+%22java.lang.String2aerreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)y
+w
+
+Ä Ä(2*"
+ mockTests.GetMezuakMockWhiteTest"
+rr"__id*7
+
+__unknown_file (
+
+%23domain.RideRequesty
+w
+
+Å Å(
+%24domain.RideRequest"__id*H
+
+__unknown_file (,**"
+ mockTests.GetMezuakMockWhiteTest"
+rr√¿
+
+Å Å(
+%25void".domain.RideRequest#setId(Ljava/lang/Integer;)V*7
+
+__unknown_file (
+
+%24domain.RideRequest* 
+
+__unknown_file (22setId(Ljava/lang/Integer;)}
+{
+
+Ç Ç(
+%26dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sutÄ~
+
+Ç Ç(
+%27void"dataAccess.DataAccess#close()V*:
+
+__unknown_file (
+
+%26dataAccess.DataAccess2close()y
+w
+
+Ñ9 Ñ(;
+%28domain.RideRequest"__id*H
+
+__unknown_file (,**"
+ mockTests.GetMezuakMockWhiteTest"
+rr}
+{
+
+Ü Ü(
+%29dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sut~|
+
+Ü Ü(
+%30void"dataAccess.DataAccess#open()V*:
+
+__unknown_file (
+
+%29dataAccess.DataAccess2open()}
+{
+
+á á(
+%31dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sutv
+t
+
+á á(
+%32domain.Traveller"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+ts
+q
+
+á  á(!
+%33domain.Driver"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+dy
+w
+
+á; á(=
+%34domain.RideRequest"__id*H
+
+__unknown_file (,**"
+ mockTests.GetMezuakMockWhiteTest"
+rr£†
+
+á á(>
+%35void"sdataAccess.DataAccess#gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)V*:
+
+__unknown_file (
+
+%31dataAccess.DataAccess*5
+
+__unknown_file (
+
+%32domain.Traveller*2
+
+__unknown_file (
+
+%33domain.Driver*.
+
+__unknown_file (
+DeskripzioTest*"
+
+__unknown_file (
+""*7
+
+__unknown_file (
+
+%34domain.RideRequest2\gehituErreklamazioa(Ldomain/Profile;Ldomain/Profile;Ljava/lang/String;FLdomain/RideRequest;)}
+{
+
+à à(
+%36dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sutÄ~
+
+à à(
+%37void"dataAccess.DataAccess#close()V*:
+
+__unknown_file (
+
+%36dataAccess.DataAccess2close()}
+{
+
+ä ä(
+%38dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sut~|
+
+ä ä(
+%39void"dataAccess.DataAccess#open()V*:
+
+__unknown_file (
+
+%38dataAccess.DataAccess2open()}
+{
+
+ã ã( 
+%40dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sutv
+t
+
+ã+ ã(,
+%41domain.Traveller"__id*G
+
+__unknown_file (+*)"
+ mockTests.GetMezuakMockWhiteTest"
+t˘ˆ
+
+ã ã(-
+%42java.util.List"AdataAccess.DataAccess#getMezuak(Ldomain/Profile;)Ljava/util/List;*:
+
+__unknown_file (
+
+%40dataAccess.DataAccess*5
+
+__unknown_file (
+
+%41domain.Traveller2getMezuak(Ldomain/Profile;)c
+a
+
+ã ã(.
+mezuakjava.util.List"__id*3
+
+__unknown_file (
+
+%42java.util.List}
+{
+
+å å(
+%43dataAccess.DataAccess"__id*I
+
+__unknown_file (-*+"
+ mockTests.GetMezuakMockWhiteTest"
+sutÄ~
+
+å å(
+%44void"dataAccess.DataAccess#close()V*:
+
+__unknown_file (
+
+%43dataAccess.DataAccess2close()*
+2*(
+0 "!
+
+î î(
+implicit returnB$"
+ mockTests.GetMezuakMockWhiteTestH

@@ -1,27 +1,29 @@
 
-$gui.DiruaSartuGUI#%field_initializer
-__unknown_file ("1*û
-1 (ôñ
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaSartuGUI.java ($
-%0javax.swing.JLabel"javax.swing.JLabel∑
-¥
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaSartuGUI.java (}
-%1"javax.swing.JLabel#<init>()V*&
- (
-
-%0javax.swing.JLabel∫
-∑
-d
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaSartuGUI.java (~!
-gui.DiruaSartuGUI"
-
-errorlbl"__id*&
- (
-
-%0javax.swing.JLabel"|
-e
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaSartuGUI.java É(
-implicit returnB
-gui.DiruaSartuGUI
+gui.AdminGUI#%field_initializer
+__unknown_file ("1*Ç
+1 (¢
+ü
+a
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java   ($ 
+gui.AdminGUI"
+jContentPane"__id*
+ (
+""®
+•
+a
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java! !(+&
+gui.AdminGUI"
+jButtonCreateQuery"__id*
+ (
+""©
+¶
+a
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java" "(,'
+gui.AdminGUI"
+jButtonQueryQueries"__id*
+ (
+"""w
+`
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java ç(
+implicit returnB
+gui.AdminGUI

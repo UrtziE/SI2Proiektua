@@ -1,0 +1,126 @@
+
+_mockTests.GetRidesMockBlackTest#ezabatuEserlekuak(Ljava/lang/String;Ldomain/Ride;)Ldomain/Ride;v
+jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/mockTests/GetRidesMockBlackTest.java™ ™("7*…
+3
+± ±(Ä~
+
+± ±(.	
+%6int"domain.Geltoki#getEserleku()I*7
+
+__unknown_file (
+
+geltokidomain.Geltoki2getEserleku()Ø¨
+
+± ±(/
+
+%7void"domain.Geltoki#kenduSeatKop(I)V*7
+
+__unknown_file (
+
+geltokidomain.Geltoki*'
+
+__unknown_file (
+	
+%6int2kenduSeatKop(I)*
+6*é
+4
+Ø Ø(í
+è
+
+Ø Ø(&
+%3domain.Geltoki"
+__arrayGet*;
+
+__unknown_file (
+
+geltokiListjava.util.List*"
+
+__unknown_file (
+""c
+a
+
+Ø Ø('
+geltokidomain.Geltoki"__id*2
+
+__unknown_file (
+
+%3domain.Geltokiüú
+
+∞ ∞(
+%4java.lang.String".domain.Geltoki#getTokiIzen()Ljava/lang/String;*7
+
+__unknown_file (
+
+geltokidomain.Geltoki2getTokiIzen()ÿ’
+
+∞ ∞(*
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%4java.lang.String*8
+
+__unknown_file (
+
+nongoajava.lang.String2equals(Ljava/lang/Object;)*
+3
+6*ˇ
+6
+Æ Æ(	vt
+
+Æ
+ Æ(	
+%1int"java.util.List#size()I*;
+
+__unknown_file (
+
+geltokiListjava.util.List2size()n
+l
+
+Æ Æ(
+%2boolean"	__compare*
+
+Æ	 Æ(
+
+<*
+
+Æ Æ(	
+""*
+
+Æ
+ Æ(
+	
+%1int*
+4
+1*ò
+7
+´ ´(òï
+
+´ ´(0
+%0java.util.List",domain.Ride#getGeltokiList()Ljava/util/List;*1
+
+__unknown_file (
+
+ridedomain.Ride2getGeltokiList()g
+e
+
+´ ´(1
+geltokiListjava.util.List"__id*2
+
+__unknown_file (
+
+%0java.util.List*
+6*4
+1
+∂	 ∂("#
+
+∂ ∂(
+
+ridedomain.Ride:(
+
+™  ™(.
+nongoajava.lang.String:!
+
+™. ™(7
+ridedomain.RideB#!
+mockTests.GetRidesMockBlackTest

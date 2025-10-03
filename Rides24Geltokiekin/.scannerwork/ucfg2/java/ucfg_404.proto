@@ -1,15 +1,16 @@
 
-.domain.Alerta#getTraveller()Ldomain/Traveller;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaL L("1*ù
-1M	 M(h
+.domain.Geltoki#getTokiIzen()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Geltoki.java" "("1*ù
+1#	 #(h
 f
-M	 M(
-%0domain.Traveller"__id*<
+#	 #(
+%0java.lang.String"__id*<
 
-__unknown_file ( *
-domain.Alerta"
-	traveller"$
-M M(
+__unknown_file ( *
+domain.Geltoki"
+
+tokiIzen"$
+# #(
 
-%0domain.TravellerB
-domain.AlertaH
+%0java.lang.StringB
+domain.GeltokiH

@@ -1,56 +1,143 @@
 
-9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Zl
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÙ Ù("3*¡
-2
-˜
- ˜(ôñ
+6testOperations.GetMezuakDBBlackTest#%field_initializer
+__unknown_file ("1*¶"
+1 (±Æ
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java ( 
+%0dataAccess.DataAccess"dataAccess.DataAccessœ
+Ã
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java ("
+%1"dataAccess.DataAccess#<init>()V*)
+ (
+
+%0dataAccess.DataAccessﬁ
+€
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java (#.%
+#testOperations.GetMezuakDBBlackTest"
+sut"__id*)
+ (
+
+%0dataAccess.DataAccess 
+«
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java (.1%
+#testOperations.GetMezuakDBBlackTest"
+testdb"__id*
+ (
+""Œ
+À
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java (!/%
+#testOperations.GetMezuakDBBlackTest"
+from"__id*
+ (
 
-˜
- ˜("
-%1boolean"*domain.RideRequest#isBaloratuaTraveller()Z*5
-
-__unknown_file (
-
-rdomain.RideRequest2isBaloratuaTraveller()"
+Donostia…
+∆
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java   (-%
+#testOperations.GetMezuakDBBlackTest"
+to"__id*
+ (	
+Bilboª∏
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java" "(- 
+%2java.text.SimpleDateFormat"java.text.SimpleDateFormatá
+Ñ
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java" "(;
+%3"6java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V*.
+ ("
+ 
+%2java.text.SimpleDateFormat*
+ (
 
-˜ ˜(#
-""*Ë
-3
-ı ı(|z
+dd/MM/yyyy·
+ﬁ
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java" "(<,%
+#testOperations.GetMezuakDBBlackTest"
+f"__id*.
+ ("
+ 
+%2java.text.SimpleDateFormat–
+Õ
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java# #(&/%
+#testOperations.GetMezuakDBBlackTest"
+noiz"__id*
+ (
 
-ı- ı(<	
-%0int"domain.RideRequest#getId()I*;
-
-__unknown_file (
-
-requestdomain.RideRequest2getId()Q
-O
+25/10/2030…
+∆
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java$ $(2%
+#testOperations.GetMezuakDBBlackTest"	
+rideNum"__id*
+ (2≠™
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java% %(,
+%4java.util.ArrayList"java.util.ArrayListÀ
+»
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java% %(.
+%5"java.util.ArrayList#<init>()V*'
+ (
+
+%4java.util.ArrayList·
+ﬁ
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java% %(/3%
+#testOperations.GetMezuakDBBlackTest"
 
-ı ı(>
-rdomain.RideRequest"__id*"
-
-__unknown_file (
-""*
-2
-1*ª
-1
-˘
- ˘(ìê
-
-˘
- ˘(
-%2boolean"'domain.RideRequest#isBaloratuaDriver()Z*5
-
-__unknown_file (
-
-rdomain.RideRequest2isBaloratuaDriver()"
-
-˘ ˘( 
-"":+
-
-Ù Ù(0
-requestdomain.RideRequest: 
-
-__unknown_file (
-""B
-dataAccess.DataAccessHX
+prezioak"__id*'
+ (
+
+%4java.util.ArrayList»
+≈
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java& &(1%
+#testOperations.GetMezuakDBBlackTest"
+places"__id*
+ (2ÿ
+’
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java+ +(,0%
+#testOperations.GetMezuakDBBlackTest"
+userT"__id*!
+ (
+userTravellerTest⁄
+◊
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java, ,(.1%
+#testOperations.GetMezuakDBBlackTest"
+emailT"__id*"
+ (
+emailTravellerTest’
+“
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java- -()0%
+#testOperations.GetMezuakDBBlackTest"
+userD"__id*
+ (
+userDriverTest◊
+‘
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java. .(+1%
+#testOperations.GetMezuakDBBlackTest"
+emailD"__id*
+ (
+emailDriverTest“
+œ
+x
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java/ /(&4%
+#testOperations.GetMezuakDBBlackTest"
+	matrikula"__id*
+ (	
+1234ABC"é
+w
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java î(
+implicit returnB'%
+#testOperations.GetMezuakDBBlackTest

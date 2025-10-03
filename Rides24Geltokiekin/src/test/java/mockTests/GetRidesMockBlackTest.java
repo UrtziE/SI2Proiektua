@@ -278,7 +278,7 @@ public class GetRidesMockBlackTest {
 	@Test
 	public void testGetRidesDateNotExistsDB() {	
 		List<Ride>expected= new ArrayList<Ride>();
-		List<Ride>emaitza= new ArrayList<Ride>();
+		List<Ride>emaitza;
 		Mockito.when(db.createQuery("SELECT r FROM Ride r", Ride.class))
         .thenReturn(queryKonprobatuEgunak);
 		Mockito.when(queryKonprobatuEgunak.getResultList()).thenReturn(expected);

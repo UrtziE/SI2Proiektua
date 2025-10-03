@@ -1,0 +1,141 @@
+
+-domain.Ride#badaBiderenBat(Ljava/util/List;)Zb
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaÀ À( "8*%
+4
+È È("
+
+È È(
+""*œ
+5
+Å Å(
+Š
+
+Å Å(!
+%6java.lang.String"
+__arrayGet*4
+
+__unknown_file (
+
+ibiljava.util.List*"
+
+__unknown_file (
+""g
+e
+
+Å Å("
+helmugajava.lang.String"__id*4
+
+__unknown_file (
+
+%6java.lang.String‰
+†
+
+Æ Æ(8
+%7boolean"Fdomain.Ride#geltokiListContains(Ljava/lang/String;Ljava/lang/String;)Z*+
+
+__unknown_file (
+domain.Ride*9
+
+__unknown_file (
+
+irteerajava.lang.String*9
+
+__unknown_file (
+
+helmugajava.lang.String*
+4
+6*ø
+6
+Ä Ä(om
+
+Ä Ä(!	
+%4int"java.util.List#size()I*4
+
+__unknown_file (
+
+ibiljava.util.List2size()n
+l
+
+Ä Ä(!
+%5boolean"	__compare*
+
+Ä Ä(
+<*
+
+Ä Ä(
+""*
+
+Ä Ä(!
+	
+%4int*
+5
+8*ô
+7
+Ã Ã(
+Š
+
+Ã Ã( 
+%2java.lang.String"
+__arrayGet*4
+
+__unknown_file (
+
+ibiljava.util.List*"
+
+__unknown_file (
+""g
+e
+
+Ã Ã(!
+irteerajava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringe
+c
+
+Ä Ä(	
+%3int"__calculate*
+
+Ä Ä(
++*
+
+Ä Ä(
+""*
+
+Ä Ä(2*
+6*ø
+8
+Â Â(om
+
+Â Â(	
+%0int"java.util.List#size()I*4
+
+__unknown_file (
+
+ibiljava.util.List2size()n
+l
+
+Â Â(
+%1boolean"	__compare*
+
+Â Â(
+<*
+
+Â Â(
+""*
+
+Â Â(
+	
+%0int*
+7
+1*%
+1
+Ì Ì("
+
+Ì Ì(
+"":$
+
+À! À(1
+ibiljava.util.ListB
+domain.RideHX

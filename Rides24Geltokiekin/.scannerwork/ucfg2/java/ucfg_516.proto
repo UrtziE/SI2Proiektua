@@ -1,95 +1,27 @@
 
-cbusinessLogic.BLFacadeImplementation#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java³* ³(F"startingBlock*÷
-startingBlock
-³F ³(Q~
-|
-
-³ ³(
-%6"
-__annotate*)
+$gui.DiruaAteraGUI#%field_initializer
+__unknown_file ("1* 
+1 (™–
+f
+\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (%
+%0javax.swing.JLabel"javax.swing.JLabel·
+´
+f
+\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (~
+%1"javax.swing.JLabel#<init>()V*&
+ (
 
-__unknown_file (
-	WebMethod*1
+%0javax.swing.JLabel¼
+¹
+f
+\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (!
+gui.DiruaAteraGUI"
+
+errorlbl"__id*&
+ (
 
-__unknown_file (
-
-adomain.ProfileU
-S
-
-³O ³(P
-adomain.Profile"__annotation*"
-
-__unknown_file (
-
-%6*
-1*Ù
-1
-´ ´(‡
-„
-
-´ ´(
-%0dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-´ ´(
-
-%1void"dataAccess.DataAccess#open()V*9
-
-__unknown_file (
-
-%0dataAccess.DataAccess2open()‡
-„
-
-µ" µ(+
-%2dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager™–
-
-µ" µ(K
-%3java.util.List"TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*1
-
-__unknown_file (
-
-adomain.Profile2.lortuErreklamazioakProzesuan(Ldomain/Profile;)d
-b
-
-µ µ(L
-erreklamjava.util.List"__id*2
-
-__unknown_file (
-
-%3java.util.List‡
-„
-
-¶ ¶(
-%4dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-¶ ¶(
-
-%5void"dataAccess.DataAccess#close()V*9
-
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"*
-
-· ·(
-
-erreklamjava.util.List:!
-
-³G ³(P
-adomain.ProfileB(&
-$businessLogic.BLFacadeImplementationH
+%0javax.swing.JLabel"|
+e
+\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java Š(
+implicit returnB
+gui.DiruaAteraGUI

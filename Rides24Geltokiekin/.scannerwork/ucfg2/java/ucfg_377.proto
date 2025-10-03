@@ -1,9 +1,15 @@
 
-*domain.RideRequest#isBaloratuaTraveller()Zi
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaŸ Ÿ($"1*%
-1
- 	  ("
-
-   (
-""B
-domain.RideRequestHX
+5domain.Erreklamazioa#getWhenDecided()Ljava/util/Date;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.java? ?("1*¢
+1@	 @(o
+m
+@	 @(
+%0java.util.Date"__id*E
+
+__unknown_file ()*'
+domain.Erreklamazioa"
+whenDecided""
+@ @(
+
+%0java.util.DateB
+domain.ErreklamazioaH

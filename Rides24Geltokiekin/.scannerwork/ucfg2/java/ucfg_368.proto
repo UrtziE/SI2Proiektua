@@ -1,14 +1,27 @@
 
-domain.RideRequest#getId()Ig
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaz z("1*ë
-1{	 {(n
-l
-{	 {(
-%0java.lang.Integer"__id*A
+TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaó ó(8"1*Ì
+1
+ô$ ô(&Z
+X
+
+ù ù(5 
+%0domain.EgoeraErreklamazioa"__id*"
 
-__unknown_file (%*#
-domain.RideRequest"
-	requestId"
-{ {(
-""B
-domain.RideRequestHX
+__unknown_file (
+""T
+R
+
+ü ü(7
+erreklamjava.util.List"__id*"
+
+__unknown_file (
+"""*
+
+† †(
+
+erreklamjava.util.List:!
+
+ó9 ó(B
+adomain.ProfileB
+dataAccess.DataAccessH

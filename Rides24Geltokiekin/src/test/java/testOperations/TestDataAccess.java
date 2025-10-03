@@ -32,7 +32,7 @@ public class TestDataAccess {
 		
 		System.out.println("TestDataAccess created");
 
-		//open();
+		
 		
 	}
 
@@ -144,14 +144,7 @@ public class TestDataAccess {
 	    }
 		
 		
-		/*public boolean existRide(String email, String from, String to, Date date) {
-			System.out.println(">> TestDataAccess: existRide");
-			Driver d = db.find(Driver.class, email);
-			if (d!=null) {
-				return true;//d.doesRideExists(from, to, date);
-			} else 
-			return false;
-		}*/
+		
 		public boolean removeRide(int num) {
 			System.out.println(">> TestDataAccess: removeRide");
 			Ride r = db.find(Ride.class, num);
@@ -223,7 +216,7 @@ public class TestDataAccess {
 
 				return ride;
 			} catch (NullPointerException e) {
-				// TODO Auto-generated catch block
+
 				db.getTransaction().commit();
 				return null;
 			}

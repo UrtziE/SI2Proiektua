@@ -1,113 +1,15 @@
 
-bbusinessLogic.BLFacadeImplementation#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java­ ­(3"startingBlock*ä
-startingBlock
-­3 ­(S~
-|
-
-­ ­(
-%6"
-__annotate*)
+'domain.Alerta#getTo()Ljava/lang/String;b
+XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaR R("1*–
+1S	 S(a
+_
+S	 S(
+%0java.lang.String"__id*5
 
-__unknown_file (
-	WebMethod*1
-
-__unknown_file (
-
-ridedomain.RideU
-S
-
-­9 ­(=
-ridedomain.Ride"__annotation*"
-
-__unknown_file (
-
-%6‰
-†
-
-­ ­(
-%7"
-__annotate*)
-
-__unknown_file (
-	WebMethod*;
-
-__unknown_file (
-
-requestdomain.RideRequest_
-]
-
-­K ­(R
-requestdomain.RideRequest"__annotation*"
-
-__unknown_file (
-
-%7*
-1*œ
-1
-® ®(‡
-„
-
-® ®(
-%0dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-® ®(
-
-%1void"dataAccess.DataAccess#open()V*9
-
-__unknown_file (
-
-%0dataAccess.DataAccess2open()‡
-„
-
-¯ ¯(
-%2dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerØÕ
-
-¯ ¯(@	
-%3int"SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)I*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*1
-
-__unknown_file (
-
-ridedomain.Ride*;
-
-__unknown_file (
-
-requestdomain.RideRequest2<lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)‡
-„
-
-° °(
-%4dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-° °(
-
-%5void"dataAccess.DataAccess#close()V*9
-
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"
-
-± ±(
-"":!
-
-­4 ­(>
-ridedomain.Ride:+
-
-­? ­(R
-requestdomain.RideRequestB(&
-$businessLogic.BLFacadeImplementationHX
+__unknown_file (*
+domain.Alerta"
+to"$
+S S(
+
+%0java.lang.StringB
+domain.AlertaH

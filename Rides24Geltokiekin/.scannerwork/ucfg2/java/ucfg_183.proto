@@ -1,9 +1,81 @@
 
-!domain.Profile#getBalorazioKop()Ie
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.java¥ ¥("1*%
-1
-µ	 µ("
+NtestOperations.GetRidesDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Zw
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBWhiteTest.java| |("1*˚	
+1} }({
+y
+} }(
+%0dataAccess.DataAccess"__id*J
+
+__unknown_file (.*,$
+"testOperations.GetRidesDBWhiteTest"
+dbzx
+} }(
 
-µ µ(
-""B
-domain.ProfileHX
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open(){
+y
+~ ~(
+%2dataAccess.DataAccess"__id*J
+
+__unknown_file (.*,$
+"testOperations.GetRidesDBWhiteTest"
+db˘ˆ
+~ ~(H
+%3boolean"hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*$
+
+__unknown_file (
+Seat*%
+
+__unknown_file (	
+ibiza*;
+
+__unknown_file (
+
+	matrikulajava.lang.String*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+driverdomain.Driver2QcreateCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;){
+y
+ (
+%4dataAccess.DataAccess"__id*J
+
+__unknown_file (.*,$
+"testOperations.GetRidesDBWhiteTest"
+db|z
+ (
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()i
+g
+
+Å Å("/$
+"testOperations.GetRidesDBWhiteTest"
+kotxe"__id*"
+
+__unknown_file (
+"""
+
+É É(
+"":)
+| |()
+	matrikulajava.lang.String: 
+
+__unknown_file (
+"":#
+|6 |(C
+driverdomain.DriverB&$
+"testOperations.GetRidesDBWhiteTestX

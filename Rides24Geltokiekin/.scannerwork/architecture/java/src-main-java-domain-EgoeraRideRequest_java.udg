@@ -1,5 +1,5 @@
 
-1.0UrtziE_SI2ProiektuaJavaFrontend"1758741029068*java2.BÃ
+1.0UrtziE_SI2ProiektuaJavaFrontend"1759486171386*java2.BÇ
 0
 +src/main/java/domain/EgoeraRideRequest.java2
 	
@@ -45,30 +45,30 @@ Ndomain.EgoeraRideRequest#valueOf(Ljava/lang/String;)Ldomain/EgoeraRideRequest;
 
 uses28
 '
-!domain.EgoeraRideRequest.Rejected30
+!domain.EgoeraRideRequest.REJECTED30
 
 field31
 
-Rejected32
+REJECTED32
 
 calls33
-*
-$domain.EgoeraRideRequest.TratatuGabe35
-
-TratatuGabe36
++
+%domain.EgoeraRideRequest.TRATATU_GABE35
+
+TRATATU_GABE36
 '
-!domain.EgoeraRideRequest.Accepted38
+!domain.EgoeraRideRequest.ACCEPTED38
 
-Accepted39
+ACCEPTED39
 #
-domain.EgoeraRideRequest.Done41
+domain.EgoeraRideRequest.DONE41
 
 
-Done42
-&
- domain.EgoeraRideRequest.NotDone44
-
-NotDone45J
+DONE42
+'
+!domain.EgoeraRideRequest.NOT_DONE44
+
+NOT_DONE45J
 
 1
 12
@@ -83,9 +83,18 @@ $domain.EgoeraRideRequest.TratatuGabe35
 26
 262724
 5
+29/
+293031 *
+1 (
+28:5B
+
+
+13
+32
+5
 37/
 373831 *
-1 (28:5B
+1 ( 28:5B
 
 
 13
@@ -93,7 +102,7 @@ $domain.EgoeraRideRequest.TratatuGabe35
 5
 43/
 434431 *
-1' (.28:5B
+1( (028:5B
 
 
 13
@@ -114,6 +123,14 @@ $domain.EgoeraRideRequest.TratatuGabe35
 13
 14
 5
+40/
+404131 *
+1" (&28:5B
+
+
+13
+42
+5
 15/
 151617 *
 1 (28:5B
@@ -122,22 +139,13 @@ $domain.EgoeraRideRequest.TratatuGabe35
 13
 18
 5
-29/
-293031 *
-1 (
-28:5B
+34/
+343531 *
+1 (28:5B
 
 
 13
-32
-5
-40/
-404131 *
-1! (%28:5B
-
-
-13
-42
+36
 5
 19/
 192017 *
@@ -145,15 +153,7 @@ $domain.EgoeraRideRequest.TratatuGabe35
 
 
 13
-21
-5
-34/
-343531 *
-1 (28:5B
-
-
-13
-36r¸
+21r¸
 
 82225*
 1 (
@@ -170,25 +170,25 @@ $domain.EgoeraRideRequest.TratatuGabe35
 
 
 34833*
-1 (
+1 (
 
 34833*
-1 (
+1 (
 
 37833*
-1 (
+1 ( 
 
 37833*
-1 (
+1 ( 
 
 40833*
-1! (%
+1" (&
 
 40833*
-1! (%
+1" (&
 
 43833*
-1' (.
+1( (0
 
 43833*
-1' (.
+1( (0

@@ -1,18 +1,16 @@
 
-'domain.Mezua#getAlerta()Ldomain/Alerta;c
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.javaï ï("1*ô
-1
-ñ	 ñ(c
-a
-
-ñ	 ñ(
-%0domain.Alerta"__id*8
+.domain.Profile#getPassword()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.java[ [("1*ù
+1\	 \(h
+f
+\	 \(
+%0java.lang.String"__id*<
 
-__unknown_file (*
-domain.Mezua"
-alerta"#
+__unknown_file ( *
+domain.Profile"
 
-ñ ñ(
-
-%0domain.AlertaB
-domain.MezuaH
+password"$
+\ \(
+
+%0java.lang.StringB
+domain.ProfileH

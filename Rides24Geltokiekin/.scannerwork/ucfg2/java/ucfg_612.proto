@@ -1,15 +1,95 @@
 
-+gui.IkusiTravellerErreserbakGUI$1#<init>()V
-__unknown_file ("startingBlock*ı
-startingBlockv
-jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/IkusiTravellerErreserbakGUI.javaê8 ê(9€
-ÿ
-v
-jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/IkusiTravellerErreserbakGUI.javaê8 ê(9
-%0"%java.awt.event.MouseAdapter#<init>()V*1
- (%#
-!gui.IkusiTravellerErreserbakGUI$1"ç
-v
-jC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/IkusiTravellerErreserbakGUI.javaê8 ê(9
-implicit returnB%#
-!gui.IkusiTravellerErreserbakGUI$1
+_businessLogic.BLFacadeImplementation#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaﬂ ﬂ(*"startingBlock*Û
+startingBlock
+ﬂ* ﬂ(3|
+z
+
+ﬁ ﬁ(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*/
+
+__unknown_file (
+
+adomain.AdminS
+Q
+
+ﬂ1 ﬂ(2
+adomain.Admin"__annotation*"
+
+__unknown_file (
+
+%6*
+1*Î
+1
+‡ ‡(á
+Ñ
+
+‡ ‡(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+‡ ‡(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+·! ·(*
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerèå
+
+·! ·(B
+%3domain.Erreklamazioa"PdataAccess.DataAccess#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*/
+
+__unknown_file (
+
+adomain.Admin2$takeNewErreklamazioa(Ldomain/Admin;)u
+s
+
+· ·(C%
+erreklamazioadomain.Erreklamazioa"__id*8
+
+__unknown_file (
+
+%3domain.Erreklamazioaá
+Ñ
+
+‚ ‚(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+‚ ‚(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"5
+
+„ „('
+%
+erreklamazioadomain.Erreklamazioa:
+
+ﬂ+ ﬂ(2
+adomain.AdminB(&
+$businessLogic.BLFacadeImplementationH

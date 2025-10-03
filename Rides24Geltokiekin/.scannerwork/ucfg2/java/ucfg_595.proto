@@ -1,19 +1,86 @@
 
-)domain.Ride#getRequests()Ljava/util/List;b
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaô ô(%"1*ú
-1
-ö	 ö(e
-c
+@businessLogic.BLFacadeImplementation#getMoney(Ldomain/Profile;)F{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÀ À("startingBlock*˜
+startingBlock
+À À(!~
+|
 
-ö	 ö(
-%0java.util.List"__id*9
+   (
+%6"
+__annotate*)
 
-__unknown_file (*
-domain.Ride"
+__unknown_file (
+	WebMethod*1
+
+__unknown_file (
+
+pdomain.ProfileU
+S
 
-requests"$
+À À( 
+pdomain.Profile"__annotation*"
+
+__unknown_file (
+
+%6*
+1*ù
+1
+Ã Ã(á
+Ñ
 
-ö ö(
-
-%0java.util.ListB
-domain.RideH
+Ã Ã(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+Ã Ã(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+Õ Õ(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerŸ÷
+
+Õ Õ(#
+%3float"1dataAccess.DataAccess#getMoney(Ldomain/Profile;)F*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+pdomain.Profile2getMoney(Ldomain/Profile;)á
+Ñ
+
+Œ Œ(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+Œ Œ(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+œ œ(
+"":!
+
+À À( 
+pdomain.ProfileB(&
+$businessLogic.BLFacadeImplementationHX

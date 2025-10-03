@@ -1,18 +1,7 @@
 
-&domain.Mezua#getWhen()Ljava/util/Date;c
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.java‘ ‘("1*™
-1
-’	 ’(b
-`
-
-’	 ’(
-%0java.util.Date"__id*6
-
-__unknown_file (*
-domain.Mezua"
-when"$
-
-’ ’(
-
-%0java.util.DateB
-domain.MezuaH
+domain.Profile#getWallet()Fc
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaW W("1*!
+1X	 X("
+X X(
+""B
+domain.ProfileHX

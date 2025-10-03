@@ -1,15 +1,7 @@
 
-)domain.Alerta#getFrom()Ljava/lang/String;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaO O("1*˜
-1P	 P(c
-a
-P	 P(
-%0java.lang.String"__id*7
-
-__unknown_file (*
-domain.Alerta"
-from"$
-P P(
-
-%0java.lang.StringB
-domain.AlertaH
+domain.Geltoki#getPrezioa()Fc
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Geltoki.java% %("1*!
+1&	 &("
+& &(
+""B
+domain.GeltokiHX
