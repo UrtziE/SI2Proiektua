@@ -2,7 +2,6 @@ package mockTests;
 
 import static org.junit.Assert.*;
 
-<<<<<<< HEAD
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -309,15 +308,6 @@ public class GetRidesMockBlackTest {
 			i++;
 		}
 		return ride;
-=======
-import org.junit.Test;
-
-public class GetRidesMockBlackTest {
-
-	@Test
-	public void testGetRides() {
-		fail("Not yet implemented");
->>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
 	}
 
 }
