@@ -97,9 +97,10 @@ public class GetMezuakMockBlackTest {
 	
 	
 	/**
-	 * Main test that verifies the getMezuak method returns a non-empty
-	 * list of messages after making a reservation.
-	 * Mocks the database lookups for Profile, Traveller, and Ride.
+	 * Test nagusia konprobatzen duena getMezuak zerrenda ez huts bat
+	 * itzultzen duela erreserba bat egin ondoren.
+	 * Profile, Traveller eta Ride mockeatu dira.
+	 * @author Beñat Ercibengoa Calvo
 	 */
     @Test
 	public void testMezuaItzuli() {
@@ -121,8 +122,9 @@ public class GetMezuakMockBlackTest {
 	}
 	
     /**
-     * Test that verifies getMezuak throws an AtriNullException
-     * when called with a null parameter.
+     * getMezuak AtriNullException salbuespena altxatzen duela
+     * profil nulu bat sartuz gero berifikatzen duen testa
+     * @author Beñat Ercibengoa Calvo
      */
     @Test
 	public void testNull() {

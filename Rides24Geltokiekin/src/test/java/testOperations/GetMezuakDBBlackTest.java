@@ -25,8 +25,8 @@ import exceptions.RideMustBeLaterThanTodayException;
 
 public class GetMezuakDBBlackTest {
 
-	DataAccess db= new DataAccess();
-	TestDataAccess testdb= new TestDataAccess();
+	DataAccess sut = new DataAccess();
+	TestDataAccess testdb = new TestDataAccess();
 	
 	private String from= "Donostia";
 	private String to= "Bilbo";
@@ -69,9 +69,9 @@ public class GetMezuakDBBlackTest {
 		d = testdb.createDriver(userD, emailD);
 		testdb.close();
 		
-		db.open();
-		db.createCar("Toyota", "Yaris", matrikula, places, d);
-		db.close();
+		sut.open();
+		sut.createCar("Toyota", "Yaris", matrikula, places, d);
+		sut.close();
 		
 		testdb.open();
 		k = testdb.getCar(matrikula);
@@ -80,31 +80,34 @@ public class GetMezuakDBBlackTest {
 	}
     
 	/**
-	 * Main test that verifies the getMezuak method returns a non-empty
-	 * list of messages after making a reservation.
+	 * Test nagusia konprobatzen duena getMezuak zerrenda ez huts bat
+	 * itzultzen duela erreserba bat egin ondoren.
+	 * Profile, Traveller eta Ride mockeatu dira.
+	 * @author Beñat Ercibengoa Calvo
 	 */
     @Test
 	public void testMezuaItzuli() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
-    	db.open();
-    	rr = db.erreserbatu(date, r, t, 1, from, to);
-    	db.close();
-    	db.open();
-        List<Mezua> mezuak = db.getMezuak(t);
-        db.close();
+    	sut.open();
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	sut.close();
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
         assertFalse(mezuak.isEmpty());
 	}
     
     /**
-     * Test that verifies getMezuak throws an AtriNullException
-     * when called with a null parameter.
+     * getMezuak AtriNullException salbuespena altxatzen duela
+     * profil nulu bat sartuz gero berifikatzen duen testa
+     * @author Beñat Ercibengoa Calvo
      */
     @Test
 	public void testNull() {
-       	assertThrows(AtriNullException.class, ()->{
-            db.open();
-    		db.getMezuak(null);
-            db.close();
+       	assertThrows("Ez du AtriNullException salbuespena altxatzen", AtriNullException.class, ()->{
+            sut.open();
+    		sut.getMezuak(null);
+    		sut.close();
     		});	
     }
    
@@ -114,9 +117,9 @@ public class GetMezuakDBBlackTest {
 		try {
 			testdb.open();
 			if(rideNum>0) {
-			db.open();
-			db.kantzelatu(r);
-			db.close();
+			sut.open();
+			sut.kantzelatu(r);
+			sut.close();
 			testdb.removeRide(rideNum);
 			}
 			testdb.removeCar(matrikula);
@@ -129,17 +132,17 @@ public class GetMezuakDBBlackTest {
 	}
 	private Ride addRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
 			String driverUser, Kotxe kotxe, List<String> ibilbide) {
-		db.open();
+		sut.open();
 		Ride ride = null;
 		try {
-			ride = db.createRide(from, to, date, nPlaces, prezioak, driverUser, kotxe, ibilbide);
+			ride = sut.createRide(from, to, date, nPlaces, prezioak, driverUser, kotxe, ibilbide);
 			rideNum=ride.getRideNumber();
 		} catch (RideAlreadyExistException e) {
 			fail("That Ride exists, you must change");
 		} catch (RideMustBeLaterThanTodayException e) {
 			fail("Ride Must Be Later Than Today");
 		}
-		db.close();
+		sut.close();
 		return ride;
 	}
 }

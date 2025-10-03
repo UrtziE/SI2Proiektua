@@ -94,9 +94,10 @@ public class GetMezuakMockWhiteTest {
 	 }
 	
 	/**
-	 * Test that retrieves messages for a traveller without any reservations.
-	 * Mocks the database lookup for the traveller's profile.
-	 * Verifies that getMezuak can be called successfully.
+	 * Erreserbarik ez dituen bidaiari baten mezuak lortzen ditu.
+	 * Berifikatzen du bidaiari horrek ez dituela mezurik.
+	 * Bidaiaria datu basean mockeatzen du.
+	 * @author Beñat Ercibengoa Calvo
 	 */
 	@Test
 	public void testGetMezuak1() {
@@ -104,14 +105,15 @@ public class GetMezuakMockWhiteTest {
 		sut.open();
         List<Mezua> mezuak = sut.getMezuak(t);
         sut.close();
+        assertTrue(mezuak.isEmpty());
 	}
 	
 	/**
-	 * Test that creates a ride, makes a reservation, adds a complaint,
-	 * and then retrieves messages for the traveller.
-	 * Mocks database for Profile, Traveller, Ride, and RideRequest.
-	 * Verifies that the method getMezuak doesn't return messages that
-	 * are not of type 1
+	 * Test honek Ride bat sortu, erreserba bat egin eta ondoren erreklamazio bat
+	 * sortzen du. Azkenik, bidaiariaren mezuak lortzen ditu.
+	 * Berifikatzen du itzulitako mezuak soilik 1 motako mezuak direla.
+	 * Profila, bidaiaria, bidaia eta bidai eskaera mockeatzen ditu
+	 * @author Beñat Ercibengoa Calvo
 	 */
 	 @Test
 	public void testGetMezuak2() {
@@ -144,11 +146,13 @@ public class GetMezuakMockWhiteTest {
         }
         assertTrue(true);
 	}
-	 
+
 	 /**
-	  * Test that creates a ride, makes a reservation, and retrieves messages.
-	  * Mocks database for Profile, Traveller, and Ride.
-	  * Verifies that the list of messages is not empty.
+	  * Test honek bidaiari batentzat erreserba bat sortzen du eta ondoren
+	  * bidaiariaren mezuak lortzen ditu.
+	  * Berifikatzen du bidaiariaren mezu lista ez dagoela hutsa.
+	  * Profila, bidaiaria eta bidaia datu basean mockeatzen ditu
+	  * @author Beñat Ercibengoa Calvo
 	  */
     @Test
 	public void testGetMezuak3() {
