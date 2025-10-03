@@ -60,7 +60,7 @@ public class GetMezuakMockBlackTest {
 	private Traveller t;
 	private Kotxe k;
 	private Ride r;
-	
+	private RideRequest rr;
 	private List<String> ibilbide;
 	
 	@Mock
@@ -96,6 +96,8 @@ public class GetMezuakMockBlackTest {
 	 }
 	
 	
+	
+	
 	/**
 	 * Test nagusia konprobatzen duena getMezuak zerrenda ez huts bat
 	 * itzultzen duela erreserba bat egin ondoren.
@@ -111,7 +113,7 @@ public class GetMezuakMockBlackTest {
 		Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
 		
 		sut.open();
-		RideRequest rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
     	sut.close();
     	
     	Mockito.when(db.find(Profile.class, userT)).thenReturn(t);
@@ -120,6 +122,44 @@ public class GetMezuakMockBlackTest {
         sut.close();
         assertFalse(mezuak.isEmpty());
 	}
+    
+    
+    /**
+	 * getMezuak '1' motako mezuak ez diren mezuak
+	 * itzultzen ez dituela konprobatzen dituen testa
+	 * @author Beñat Ercibengoa Calvo
+	 */
+    @Test
+	public void testMezuEzMotaBat() {
+    	r = new Ride(1, from, to, date, places, prezioak, d, k, ibilbide);
+		t = new Traveller(userT, emailT);
+		Mockito.when(db.find(Profile.class, userT)).thenReturn(t);
+		Mockito.when(db.find(Traveller.class, t.getUser())).thenReturn(t);
+		Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
+		
+		sut.open();
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	rr.setId(1);
+    	sut.close();
+    	
+    	Mockito.when(db.find(RideRequest.class, 1)).thenReturn(rr);
+
+    	sut.open();
+    	sut.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
+    	sut.close();
+    	
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
+        
+        for(Mezua mezu: mezuak) {
+        	if(mezu.getType() != 1) {
+                fail();
+        	}
+        }
+        assertTrue(true);
+    }
+    
 	
     /**
      * getMezuak AtriNullException salbuespena altxatzen duela

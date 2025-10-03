@@ -97,6 +97,34 @@ public class GetMezuakDBBlackTest {
         assertFalse(mezuak.isEmpty());
 	}
     
+	/**
+	 * getMezuak 1 motako mezuak itzultzen ez dituela
+	 * konprobatzen dituen testa
+	 * @author Beñat Ercibengoa Calvo
+	 */
+    @Test
+	public void testMezuEzMotaBat() {
+    	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
+    	sut.open();
+    	rr = sut.erreserbatu(date, r, t, 1, from, to);
+    	sut.close();
+    	
+    	sut.open();
+    	sut.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
+    	sut.close();
+    	
+    	sut.open();
+        List<Mezua> mezuak = sut.getMezuak(t);
+        sut.close();
+        
+        for(Mezua mezu: mezuak) {
+        	if(mezu.getType() != 1) {
+                fail();
+        	}
+        }
+        assertTrue(true);
+	
+    }
     /**
      * getMezuak AtriNullException salbuespena altxatzen duela
      * profil nulu bat sartuz gero berifikatzen duen testa
@@ -135,7 +163,7 @@ public class GetMezuakDBBlackTest {
 		sut.open();
 		Ride ride = null;
 		try {
-			ride = sut.createRide(from, to, date, nPlaces, price, driverUser, kotxe, ibilbide);
+			ride = sut.createRide(from, to, date, nPlaces, prezioak, driverUser, kotxe, ibilbide);
 			rideNum=ride.getRideNumber();
 		} catch (RideAlreadyExistException e) {
 			fail("That Ride exists, you must change");
