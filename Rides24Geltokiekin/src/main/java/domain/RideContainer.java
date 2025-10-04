@@ -31,4 +31,16 @@ public Driver getDriver() {
 public String toString() {
 	return ride+"/"+rideRequestList+"/"+driver;
 }
+public boolean equals(Object obj) {
+	if (this == obj)
+		return true;
+	if (obj == null)
+		return false;
+	if (getClass() != obj.getClass())
+		return false;
+	RideContainer other = (RideContainer) obj;
+	if (!this.getRide().equals(other.getRide()))
+		return false;
+	return true;
+}
 }
