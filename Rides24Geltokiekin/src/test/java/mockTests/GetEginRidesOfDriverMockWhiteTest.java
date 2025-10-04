@@ -117,18 +117,15 @@ public class GetEginRidesOfDriverMockWhiteTest {
 		Kotxe kotxe = new Kotxe();
 		Mockito.when(db.createQuery("SELECT r FROM Ride r", Ride.class)).thenReturn(queryKonprobatuEgunak);
 		Mockito.when(db.find(Driver.class, user)).thenReturn(driver);
-		Ride ride = new Ride(4, from, to, date, places, prezioak, driver, kotxe, ibilbide);
 
-		driver.addRide(from, to, date, places, prezioak, kotxe, ibilbide);
+		Ride ride = driver.addRide(from, to, date, places, prezioak, kotxe, ibilbide);
 		sut.open();
 		List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
 		sut.close();
-		System.out.println(rides.get(0).getRide().getRideNumber());// Galdetu urtziri 4 ride number moduan utzi edo
-																	// bilatu beste era bat
 
-		Ride expected = ride;
-		assertEquals(1, rides.size());
-		assertEquals(expected, rides.get(0).getRide());
+		List<RideContainer> expected= new ArrayList<>();
+		expected.add(new RideContainer(ride));
+		assertEquals(expected, rides);
 	}
 	/**
 	 * Driver-ak ez du martxan edo tokirik gabeko bidairik

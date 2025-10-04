@@ -174,9 +174,6 @@ public class GetEginRidesOfDriverMockBlackTest {
        	
         assertTrue(rides.isEmpty());
    	}
-   
-	
-	
 	
 	@After
 	public void tearDown() {
