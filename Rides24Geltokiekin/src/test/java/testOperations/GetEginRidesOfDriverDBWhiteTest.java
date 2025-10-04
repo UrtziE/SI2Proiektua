@@ -21,7 +21,11 @@ import domain.Ride;
 import domain.RideContainer;
 import exceptions.RideAlreadyExistException;
 import exceptions.RideMustBeLaterThanTodayException;
-
+/**
+ * Klase honek getRidesOfDriver metodoaren kutxa txuriaren testing-a egingo du.
+ * 
+ * @author Ekaitz Pinedo Alvarez
+ */
 public class GetEginRidesOfDriverDBWhiteTest {
 
     private DataAccess db = new DataAccess();
@@ -88,7 +92,10 @@ public class GetEginRidesOfDriverDBWhiteTest {
             testdb.close();
         }
     }
-
+    /**
+	 * Driver-ak ez ditu bidairik
+	 * @author Ekaitz Pinedo Alvarez
+	 */
     @Test
     public void test1() {
         
@@ -100,7 +107,10 @@ public class GetEginRidesOfDriverDBWhiteTest {
 
         assertEquals(new ArrayList<RideContainer>(), rides);
     }
-
+    /**
+	 * Driver-ak badu bidai bat martxan
+	 * @author Ekaitz Pinedo Alvarez
+	 */
     @Test
     public void test2() {
        
@@ -122,7 +132,10 @@ public class GetEginRidesOfDriverDBWhiteTest {
         assertEquals(1,rides.size());
         assertEquals(expected, rides.get(0).getRide());
     }
-
+    /**
+	 * Driver-ak ez du martxan edo tokirik gabeko bidairik
+	 * @author Ekaitz Pinedo Alvarez
+	 */
     @Test
     public void test3() {
         
