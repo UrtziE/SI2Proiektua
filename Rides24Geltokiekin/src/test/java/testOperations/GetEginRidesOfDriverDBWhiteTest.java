@@ -125,12 +125,11 @@ public class GetEginRidesOfDriverDBWhiteTest {
         db.open();
         List<RideContainer> rides = db.getEginRidesOfDriver(driver);
         db.close();
-        
-        System.out.println(rides.toString());
 
-        Ride expected = ride;
-        assertEquals(1,rides.size());
-        assertEquals(expected, rides.get(0).getRide());
+
+        List<RideContainer>expected= new ArrayList<RideContainer>();
+        expected.add(new RideContainer(ride));
+        assertEquals(expected, rides);
     }
     /**
 	 * Driver-ak ez du martxan edo tokirik gabeko bidairik
