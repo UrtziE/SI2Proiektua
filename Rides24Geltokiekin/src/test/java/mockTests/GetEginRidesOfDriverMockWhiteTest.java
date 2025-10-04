@@ -87,7 +87,6 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	}
 	/**
 	 * Driver-ak ez ditu bidairik
-	 * Driver eta Ride-ak mockeatu dira
 	 * @author Ekaitz Pinedo Alvarez
 	 */
 	@Test
@@ -107,7 +106,6 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	}
 	/**
 	 * Driver-ak badu bidai bat martxan
-	 * Driver eta Ride-ak mockeatu dira
 	 * @author Ekaitz Pinedo Alvarez
 	 */
 	@Test
@@ -134,7 +132,6 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	}
 	/**
 	 * Driver-ak ez du martxan edo tokirik gabeko bidairik
-	 * Driver eta Ride-ak mockeatu dira
 	 * @author Ekaitz Pinedo Alvarez
 	 */
 	@Test

@@ -139,14 +139,15 @@ public class GetEginRidesOfDriverDBBlackTest {
 		System.out.println("3. Test: Driver-a badu aktibo dagoen bidai bat");
 
 		driver = addDriver(user, email);
-		// ride = new Ride(4, from, to, date, places, prezioak, driver, kotxe,
-		// ibilbide);
-		// ride.setEgoera(EgoeraRide.TOKIRIK_GABE);
+		addCar(matrikula, places, driver);
+		ride = addRide(from, to, date, places, prezioak, user, kotxe, ibilbide);
 		sut.open();
 		List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
 		sut.close();
+		Ride expected=ride;
 		int emaitza = rides.size();
-		assertEquals(0, emaitza);
+		assertEquals(1, emaitza);
+		assertEquals(expected, rides.get(0).getRide());
 
 	}
 
@@ -172,40 +173,8 @@ public class GetEginRidesOfDriverDBBlackTest {
 
 	}
 
-	private Driver addDriver(String user, String email) {
-		testdb.open();
-		driver = testdb.existDriver(user);
-		if (driver == null) {
-			driver = testdb.createDriver(user, email);
-			createdDriver = true;
-		} else {
-			driver = null;
-			createdDriver = false;
-			fail("Gidaria jadanik existitzen da, ezin dira guztiz zehatz jakin erantzunak");
-		}
-		testdb.close();
-		return driver;
 
-	}
-
-	private Ride addRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
-			String driverUser, Kotxe kotxe, List<String> ibilbide) {
-		sut.open();
-		Ride r = null;
-		try {
-			r = sut.createRide(from, to, date, nPlaces, price, driverUser, kotxe, ibilbide);
-			rideNum = r.getRideNumber();
-		} catch (RideAlreadyExistException e) {
-			fail("That Ride exists, you must change");
-		} catch (RideMustBeLaterThanTodayException e) {
-			fail("Ride Must Be Later Than Today");
-		}
-		sut.close();
-		return r;
-
-	}
-
-	private boolean addCar(String matrikula, int tokiKop, Driver driver) {
+	private boolean addCar(String matrikula, int tokiKop,Driver driver) {
 		sut.open();
 		createdCar = sut.createCar("Seat", "ibiza", matrikula, tokiKop, driver);
 		sut.close();
@@ -213,6 +182,37 @@ public class GetEginRidesOfDriverDBBlackTest {
 		kotxe = testdb.getCar(matrikula);
 		testdb.close();
 		return createdCar;
+	}
+	private Driver addDriver(String user, String email) {
+		testdb.open();
+		Driver driver = testdb.existDriver(user);
+		if (driver == null) {
+			driver = testdb.createDriver(user, email);
+			createdDriver=true;
+		}else {
+			driver=null;
+			createdDriver=false;
+			fail("Gidaria jadanik existitzen da, ezin dira guztiz zehatz jakin erantzunak");
+		}
+		testdb.close();
+		return driver;
+		
+	}
+	private Ride addRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
+			String driverUser, Kotxe kotxe, List<String> ibilbide) {
+		sut.open();
+		Ride ride = null;
+		try {
+			ride = sut.createRide(from, to, date, nPlaces, price, driverUser, kotxe, ibilbide);
+			rideNum=ride.getRideNumber();
+		} catch (RideAlreadyExistException e) {
+			fail("That Ride exists, you must change");
+		} catch (RideMustBeLaterThanTodayException e) {
+			fail("Ride Must Be Later Than Today");
+		}
+		sut.close();
+		return ride;
+		
 	}
 
 }

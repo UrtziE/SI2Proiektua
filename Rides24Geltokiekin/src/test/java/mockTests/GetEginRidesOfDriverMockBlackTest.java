@@ -79,8 +79,8 @@ public class GetEginRidesOfDriverMockBlackTest {
 
 
 	/**
-	 * Driver eta Ride mockeatu dira
 	 * 
+	 * Datu basea Mockeatu da
 	 * @author Ekaitz Pinedo Alvarez
 	 */
 	@Before
