@@ -35,6 +35,7 @@ import domain.RideContainer;
 import domain.RideRequest;
 import domain.Traveller;
 import exceptions.AtriNullException;
+import exceptions.DriverNotInDBException;
 import testOperations.TestDataAccess;
 /**
  * Klase honek getRidesOfDriver metodoaren kutxa beltzaren mock datu basearekin
@@ -109,7 +110,7 @@ public class GetEginRidesOfDriverMockBlackTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
     @Test
-	public void test1() {
+	public void testDriverNull() {
     	System.out.println("1. Test: null driver -> error ");
     	
        	assertThrows(AtriNullException.class, ()->{
@@ -125,12 +126,12 @@ public class GetEginRidesOfDriverMockBlackTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
     @Test
-	public void test2() {
+	public void testDriverEzDagoDBn() {
 
 		System.out.println("2. Test: Driver-a ez dago datu basean");
 
 		driver = new Driver();
-		assertThrows(AtriNullException.class, () -> {
+		assertThrows(DriverNotInDBException.class, () -> {
 			sut.open();
 			List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
 	    	sut.close();
@@ -142,7 +143,7 @@ public class GetEginRidesOfDriverMockBlackTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
     @Test
-	public void test3() {
+	public void testRideAktibo() {
     	System.out.println("3. Test: Driver ez null eta badu aktibo dagoen bidai bat");
         
         driver.addRide(from, to, date, places, prezioak, kotxe, ibilbide);
@@ -159,7 +160,7 @@ public class GetEginRidesOfDriverMockBlackTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
     @Test
-   	public void test4() {
+   	public void testEzDaudeRideAktiborik() {
        	System.out.println("3. Test: Driver ez null eta badu aktibo dagoen bidai bat");
            
        	Ride ride = new Ride(4, from, to, date, places, prezioak, driver, kotxe, ibilbide);

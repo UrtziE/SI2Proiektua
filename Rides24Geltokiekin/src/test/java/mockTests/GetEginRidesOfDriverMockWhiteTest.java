@@ -52,7 +52,6 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	protected TypedQuery<Ride> typedQueryRide;
 	@Mock
 	protected TypedQuery<Ride> queryKonprobatuEgunak;
-	TestDataAccess testdb;
 	private String from = "Bera";
 	private String to = "Irun";
 	private String user = "Antton";
@@ -92,7 +91,7 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
 	@Test
-	public void test1() {
+	public void testBidairikEz() {
 		System.out.println("1. Test: Driver bidairik gabe");
 
 		Driver driver = new Driver(user, email);
@@ -112,7 +111,7 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
 	@Test
-	public void test2() {
+	public void testBidaiBatAktibo() {
 
 		System.out.println("2. Test: Driver martxan dagoen bidai batekin");
 
@@ -120,14 +119,18 @@ public class GetEginRidesOfDriverMockWhiteTest {
 		Kotxe kotxe = new Kotxe();
 		Mockito.when(db.createQuery("SELECT r FROM Ride r", Ride.class)).thenReturn(queryKonprobatuEgunak);
 		Mockito.when(db.find(Driver.class, user)).thenReturn(driver);
-		Ride ride=driver.addRide(from, to, date, places, prezioak, kotxe, ibilbide);
+		Ride ride = new Ride(4, from, to, date, places, prezioak, driver, kotxe, ibilbide);
+
+		driver.addRide(from, to, date, places, prezioak, kotxe, ibilbide);
 		sut.open();
 		List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
 		sut.close();
-		
-		List<RideContainer>expected= new ArrayList<>();
-		expected.add(new RideContainer(ride));
-		assertEquals(expected, rides);
+		System.out.println(rides.get(0).getRide().getRideNumber());// Galdetu urtziri 4 ride number moduan utzi edo
+																	// bilatu beste era bat
+
+		Ride expected = ride;
+		assertEquals(1, rides.size());
+		assertEquals(expected, rides.get(0).getRide());
 	}
 	/**
 	 * Driver-ak ez du martxan edo tokirik gabeko bidairik
@@ -135,7 +138,7 @@ public class GetEginRidesOfDriverMockWhiteTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
 	@Test
-	public void test3() {
+	public void testEzDagoBidaiAktiborik() {
 
 		System.out.println("3. Test: Driver martxan ez dagoen bidai batekin");
 
