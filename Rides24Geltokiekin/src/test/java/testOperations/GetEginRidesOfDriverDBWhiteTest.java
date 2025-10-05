@@ -28,7 +28,7 @@ import exceptions.RideMustBeLaterThanTodayException;
  */
 public class GetEginRidesOfDriverDBWhiteTest {
 
-    private DataAccess db = new DataAccess();
+    private DataAccess sut = new DataAccess();
     private TestDataAccess testdb = new TestDataAccess();
 
     private String from = "Bera";
@@ -92,18 +92,19 @@ public class GetEginRidesOfDriverDBWhiteTest {
             testdb.close();
         }
     }
+    
     /**
 	 * Driver-ak ez ditu bidairik
 	 * @author Ekaitz Pinedo Alvarez
 	 */
     @Test
-    public void test1() {
+    public void testBidairikEz() {
         
         System.out.println("1. Test: Driver bidairik gabe");
 
-        db.open();
-        List<RideContainer> rides = db.getEginRidesOfDriver(driver);
-        db.close();
+        sut.open();
+        List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
+        sut.close();
 
         assertEquals(new ArrayList<RideContainer>(), rides);
     }
@@ -112,7 +113,7 @@ public class GetEginRidesOfDriverDBWhiteTest {
 	 * @author Ekaitz Pinedo Alvarez
 	 */
     @Test
-    public void test2() {
+    public void testBidaiBatAktibo() {
        
         System.out.println("2. Test: Driver martxan dagoen bidai batekin");
 
@@ -122,37 +123,46 @@ public class GetEginRidesOfDriverDBWhiteTest {
         driver = testdb.existDriver(user);
         testdb.close();
 
+<<<<<<< HEAD
         db.open();
         List<RideContainer> rides = db.getEginRidesOfDriver(driver);
         db.close();
+=======
+        sut.open();
+        List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
+        sut.close();
+        
+        System.out.println(rides.toString());
+>>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
 
 
         List<RideContainer>expected= new ArrayList<RideContainer>();
         expected.add(new RideContainer(ride));
         assertEquals(expected, rides);
     }
+    
     /**
 	 * Driver-ak ez du martxan edo tokirik gabeko bidairik
 	 * @author Ekaitz Pinedo Alvarez
 	 */
     @Test
-    public void test3() {
+    public void testEzDagoBidaiAktiborik() {
         
         System.out.println("3. Test: Driver martxan ez dagoen bidai batekin");
 
         Ride ride = addRide(from, to, date, places, kotxe, ibilbide);
 
-        db.open();
-        db.kantzelatu(ride);
-        db.close();
+        sut.open();
+        sut.kantzelatu(ride);
+        sut.close();
 
         testdb.open();
         driver = testdb.existDriver(user);
         testdb.close();
 
-        db.open();
-        List<RideContainer> rides = db.getEginRidesOfDriver(driver);
-        db.close();
+        sut.open();
+        List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
+        sut.close();
 
         assertEquals(new ArrayList<RideContainer>(), rides);
     }
@@ -160,9 +170,9 @@ public class GetEginRidesOfDriverDBWhiteTest {
    
 
 	private boolean addCar(String matrikula, int tokiKop,Driver driver) {
-		db.open();
-		createdCar = db.createCar("Seat", "ibiza", matrikula, tokiKop, driver);
-		db.close();
+		sut.open();
+		createdCar = sut.createCar("Seat", "ibiza", matrikula, tokiKop, driver);
+		sut.close();
 		testdb.open();
 		kotxe = testdb.getCar(matrikula);
 		testdb.close();
@@ -184,17 +194,17 @@ public class GetEginRidesOfDriverDBWhiteTest {
 		
 	}
 	private Ride addRide(String from, String to, Date date, int nPlaces,  Kotxe kotxe, List<String> ibilbide) {
-		db.open();
+		sut.open();
 		Ride ride = null;
 		try {
-			ride = db.createRide(from, to, date, nPlaces, prezioak, user, kotxe, ibilbide);
+			ride = sut.createRide(from, to, date, nPlaces, prezioak, user, kotxe, ibilbide);
 			rideNum=ride.getRideNumber();
 		} catch (RideAlreadyExistException e) {
 			fail("That Ride exists, you must change");
 		} catch (RideMustBeLaterThanTodayException e) {
 			fail("Ride Must Be Later Than Today");
 		}
-		db.close();
+		sut.close();
 		return ride;
 		
 	}
