@@ -123,18 +123,11 @@ public class GetEginRidesOfDriverDBWhiteTest {
         driver = testdb.existDriver(user);
         testdb.close();
 
-<<<<<<< HEAD
-        db.open();
-        List<RideContainer> rides = db.getEginRidesOfDriver(driver);
-        db.close();
-=======
+
         sut.open();
         List<RideContainer> rides = sut.getEginRidesOfDriver(driver);
         sut.close();
         
-        System.out.println(rides.toString());
->>>>>>> branch 'main' of https://github.com/UrtziE/SI2Proiektua
-
 
         List<RideContainer>expected= new ArrayList<RideContainer>();
         expected.add(new RideContainer(ride));
