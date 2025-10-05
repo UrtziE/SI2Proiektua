@@ -1,29 +1,95 @@
 
-gui.AdminGUI#%field_initializer
-__unknown_file ("1*Ç
-1 (¢
-ü
-a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java   ($ 
-gui.AdminGUI"
-jContentPane"__id*
- (
-""®
-•
-a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java! !(+&
-gui.AdminGUI"
-jButtonCreateQuery"__id*
- (
-""©
-¶
-a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java" "(,'
-gui.AdminGUI"
-jButtonQueryQueries"__id*
- (
-"""w
-`
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java ç(
-implicit returnB
-gui.AdminGUI
+[businessLogic.BLFacadeImplementation#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÊ Ê(2"startingBlock*˜
+startingBlock
+Ê2 Ê(=~
+|
+
+Â Â(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*1
+
+__unknown_file (
+
+ridedomain.RideU
+S
+
+Ê8 Ê(<
+ridedomain.Ride"__annotation*"
+
+__unknown_file (
+
+%6*
+1*ª
+1
+Á Á(á
+Ñ
+
+Á Á(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+Á Á(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+Ë Ë(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerâÜ
+
+Ë Ë(<
+%3java.util.List"LdataAccess.DataAccess#getTravellersOfRideDone(Ldomain/Ride;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+ridedomain.Ride2&getTravellersOfRideDone(Ldomain/Ride;)]
+[
+
+Ë Ë(=
+rjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.Listá
+Ñ
+
+È È(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+È È(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"#
+
+Í Í(
+
+rjava.util.List:!
+
+Ê3 Ê(<
+ridedomain.RideB(&
+$businessLogic.BLFacadeImplementationH

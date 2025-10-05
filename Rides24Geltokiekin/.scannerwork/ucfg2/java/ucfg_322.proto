@@ -1,9 +1,18 @@
 
-0configuration.ConfigXML#isDatabaseInitialized()Zn
-bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java¤ ¤(%"1*%
+@configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;n
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java” ”(#"1*µ
 1
-¥	 ¥("
+•	 •(|
+z
 
-¥ ¥(
-""B
-configuration.ConfigXMLHX
+•	 •(
+%0java.lang.String"__id*N
+
+__unknown_file (2*0
+configuration.ConfigXML"
+businessLogicNode"&
+
+• •(
+
+%0java.lang.StringB
+configuration.ConfigXMLH

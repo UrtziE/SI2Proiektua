@@ -1,22 +1,42 @@
 
-<testOperations.TestDataAccess#removeCar(Ljava/lang/String;)Zt
-hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.java¢ ¢("3*%
-2
-§ §("
-
-ª ª(
-""*–
-3
-£ £(	S
-Q
-
-£ £(
+_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;r
+hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.javak k("7*r
+5p p($^
+\
+p p($
+driverdomain.Driver"__id*1
+
+__unknown_file (
+
+%2domain.Driver*
+1*»
+6p p(0.
+p p(
+%2domain.Driver"domain.Driverô
+ñ
+p p($
+%3";domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%2domain.Driver*6
+
+__unknown_file (
+
+userjava.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.String*
+5*˜
+7l l(Q
+O
+l l(
 %0java.io.PrintStream"__id*"
 
 __unknown_file (
-""áÞ
-
-£ £(5
+""ßÜ
+l l(4
 
 %1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
 
@@ -25,39 +45,21 @@ Q
 %0java.io.PrintStream*<
 
 __unknown_file ( 
->> TestDataAccess: removeCar2println(Ljava/lang/String;)K
-I
-
-¥ ¥(,
-kdomain.Kotxe"__id*"
+>> TestDataAccess: addDriver2println(Ljava/lang/String;)O
+M
+m m(
+driverdomain.Driver"__id*"
 
 __unknown_file (
-""w
-u
-
-¦ ¦(
-%2boolean"	__compare*
-
-¦ ¦(
-
-!=*!
-
-¦ ¦(
-
-kdomain.Kotxe*
-
-¦
- ¦(
-""*
-2
-1*%
-1
-­
- ­("
-
-­ ­(
-"":+
-
-¢ ¢(+
-	matrikulajava.lang.StringB!
-testOperations.TestDataAccessHX
+""*
+6*4
+1w
+ w("%
+w w(
+
+driverdomain.Driver:$
+k k((
+userjava.lang.String:%
+k) k(5
+emailjava.lang.StringB!
+testOperations.TestDataAccessH

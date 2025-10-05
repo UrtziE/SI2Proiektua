@@ -1,17 +1,15 @@
 
-7domain.RideRequest#getFromRequested()Ljava/lang/String;g
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaB B( "1*¶
-1C
- C(q
-o
-C
- C(
-%0java.lang.String"__id*E
-
-__unknown_file ()*'
-domain.RideRequest"
-fromRequested"$
-C C(
-
-%0java.lang.StringB
-domain.RideRequestH
+8testOperations.GetEginRidesOfDriverDBWhiteTest#<init>()V
+__unknown_file ("startingBlock*¬
+startingBlockÅ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java (ê
+ç
+Å
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java (
+%0"AtestOperations.GetEginRidesOfDriverDBWhiteTest#%field_initializer*>
+ (20
+.testOperations.GetEginRidesOfDriverDBWhiteTest"ô
+Å
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java (
+implicit returnB20
+.testOperations.GetEginRidesOfDriverDBWhiteTest

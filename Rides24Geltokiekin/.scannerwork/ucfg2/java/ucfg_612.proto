@@ -1,41 +1,58 @@
 
-_businessLogic.BLFacadeImplementation#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaﬂ ﬂ(*"startingBlock*Û
+UbusinessLogic.BLFacadeImplementation#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÚ Ú(#"startingBlock*¥
 startingBlock
-ﬂ* ﬂ(3|
-z
+Ú# Ú(2É
+Ä
 
-ﬁ ﬁ(
+ (
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*/
+	WebMethod*5
 
-__unknown_file (
-
-adomain.AdminS
-Q
+__unknown_file (
+
+driverdomain.Driverå
+â
 
-ﬂ1 ﬂ(2
-adomain.Admin"__annotation*"
+Ò Ò(
+
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+driverdomain.Driver}
+{
+
+Ú+ Ú(1
+driverdomain.Driver"__annotation*"
 
 __unknown_file (
 
-%6*
-1*Î
+%6*"
+
+__unknown_file (
+
+%7*
+1*√
 1
-‡ ‡(á
+Û Û(á
 Ñ
 
-‡ ‡(
+Û Û(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-‡ ‡(
+Û Û(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,52 +61,52 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-·! ·(*
+Ù Ù(!
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerèå
+	dbManagerÅ˛
 
-·! ·(B
-%3domain.Erreklamazioa"PdataAccess.DataAccess#takeNewErreklamazioa(Ldomain/Admin;)Ldomain/Erreklamazioa;*9
+Ù Ù(9
+%3java.util.List"FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*/
+%2dataAccess.DataAccess*5
 
-__unknown_file (
-
-adomain.Admin2$takeNewErreklamazioa(Ldomain/Admin;)u
-s
+__unknown_file (
+
+driverdomain.Driver2 getKotxeGuztiak(Ldomain/Driver;)e
+c
 
-· ·(C%
-erreklamazioadomain.Erreklamazioa"__id*8
+Ù Ù(:
+	kotxeListjava.util.List"__id*2
 
-__unknown_file (
-
-%3domain.Erreklamazioaá
+__unknown_file (
+
+%3java.util.Listá
 Ñ
 
-‚ ‚(
+ı ı(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-‚ ‚(
+ı ı(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"5
+%4dataAccess.DataAccess2close()"+
 
-„ „('
-%
-erreklamazioadomain.Erreklamazioa:
+ˆ ˆ(
+
+	kotxeListjava.util.List:%
 
-ﬂ+ ﬂ(2
-adomain.AdminB(&
+Ú$ Ú(1
+driverdomain.DriverB(&
 $businessLogic.BLFacadeImplementationH

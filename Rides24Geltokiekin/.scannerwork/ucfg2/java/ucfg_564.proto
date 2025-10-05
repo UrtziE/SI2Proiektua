@@ -1,28 +1,15 @@
 
-#gui.TravellerGUI#%field_initializer
-__unknown_file ("1*Í
-1 (š—
-e
-[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java'* '(1
-%0javax.swing.JButton"javax.swing.JButtonÞ
-Û
-e
-[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java'& '(}
-%1"/javax.swing.JButton#<init>(Ljava/lang/String;)V*'
- (
-
-%0javax.swing.JButton*
- (
-""Â
-¿
-e
-[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java' '(~'
-gui.TravellerGUI"
-btnAlertakIkusi"__id*'
- (
-
-%0javax.swing.JButton"{
-d
-[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/TravellerGUI.java" «(
-implicit returnB
-gui.TravellerGUI
+/domain.RideContainer#getDriver()Ldomain/Driver;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideContainer.java ("1*›
+1 (i
+g
+ (
+%0domain.Driver"__id*@
+
+__unknown_file ($*"
+domain.RideContainer"
+driver"!
+ (
+
+%0domain.DriverB
+domain.RideContainerH

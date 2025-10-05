@@ -1,15 +1,95 @@
 
-7gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/AdminGUI.java& &(("1*±
-1'	 '(v
-t
-'	 '(
-%0businessLogic.BLFacade"__id*D
+^businessLogic.BLFacadeImplementation#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÌ Ì(5"startingBlock*˜
+startingBlock
+Ì5 Ì(@~
+|
+
+Ï Ï(
+%6"
+__annotate*)
 
-__unknown_file ((*&
-gui.AdminGUI"
-appFacadeInterface"*
-' '(
-
-%0businessLogic.BLFacadeB"
-gui.AdminGUIH
+__unknown_file (
+	WebMethod*1
+
+__unknown_file (
+
+ridedomain.RideU
+S
+
+Ì; Ì(?
+ridedomain.Ride"__annotation*"
+
+__unknown_file (
+
+%6*
+1*¡
+1
+Ó Ó(á
+Ñ
+
+Ó Ó(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+Ó Ó(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+Ô Ô(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerèå
+
+Ô Ô(?
+%3java.util.List"OdataAccess.DataAccess#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+ridedomain.Ride2)getTravellersOfRideNotDone(Ldomain/Ride;)]
+[
+
+Ô Ô(@
+rjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.Listá
+Ñ
+
+ (
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ (
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"#
+
+Ò Ò(
+
+rjava.util.List:!
+
+Ì6 Ì(?
+ridedomain.RideB(&
+$businessLogic.BLFacadeImplementationH

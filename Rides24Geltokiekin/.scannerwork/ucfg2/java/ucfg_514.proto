@@ -1,15 +1,143 @@
 
-)domain.Alerta#getFrom()Ljava/lang/String;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaO O("1*˜
-1P	 P(c
-a
-P	 P(
-%0java.lang.String"__id*7
+ZtestOperations.GetEginRidesOfDriverDBBlackTest#addCar(Ljava/lang/String;ILdomain/Driver;)Z…
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBBlackTest.java± ±("1*Ì
+1
+² ²(‹
+ˆ
+
+² ²(
+%0dataAccess.DataAccess"__id*W
 
-__unknown_file (*
-domain.Alerta"
-from"$
-P P(
-
-%0java.lang.StringB
-domain.AlertaH
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+sut|z
+
+² ²(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‹
+ˆ
+
+³ ³(
+%2dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+sutûø
+
+³ ³(I
+%3boolean"hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*$
+
+__unknown_file (
+Seat*%
+
+__unknown_file (	
+ibiza*;
+
+__unknown_file (
+
+	matrikulajava.lang.String*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+driverdomain.Driver2QcreateCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)‹
+ˆ
+
+´ ´(
+%4dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+sut~|
+
+´ ´(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()–
+“
+
+µ µ(#
+%6testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbŠ
+
+µ µ(
+
+%7void"%testOperations.TestDataAccess#open()V*A
+
+__unknown_file (%
+#
+%6testOperations.TestDataAccess2open()–
+“
+
+¶
+ ¶(#
+%8testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdb‡„
+
+¶
+ ¶("
+%9domain.Kotxe"FtestOperations.TestDataAccess#getCar(Ljava/lang/String;)Ldomain/Kotxe;*A
+
+__unknown_file (%
+#
+%8testOperations.TestDataAccess*;
+
+__unknown_file (
+
+	matrikulajava.lang.String2getCar(Ljava/lang/String;)„
+
+
+¶ ¶(";0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+kotxe"__id*0
+
+__unknown_file (
+
+%9domain.Kotxe—
+”
+
+· ·($
+%10testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdb‘Ž
+
+· ·(
+%11void"&testOperations.TestDataAccess#close()V*B
+
+__unknown_file (&
+$
+%10testOperations.TestDataAccess2close()"
+
+¸ ¸(
+"":+
+
+± ±()
+	matrikulajava.lang.String: 
+
+__unknown_file (
+"":%
+
+±6 ±(C
+driverdomain.DriverB20
+.testOperations.GetEginRidesOfDriverDBBlackTestX

@@ -1,27 +1,20 @@
 
-TdataAccess.DataAccess#lortuErreklamazioakProzesuan(Ldomain/Profile;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java— —(8"1*í
+QdataAccess.DataAccess#kargatuTravellerAlertak(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaó ó(,"1*
 1
-™$ ™(&Z
-X
+ô ô(S
+Q
 
- (5 
-%0domain.EgoeraErreklamazioa"__id*"
+ù ù(/
+alertakjava.util.List"__id*"
 
 __unknown_file (
-""T
-R
+""")
 
-Ÿ Ÿ(7
-erreklamjava.util.List"__id*"
-
-__unknown_file (
-"""*
+ú ú(
+
+alertakjava.util.List:+
 
-   (
-
-erreklamjava.util.List:!
-
-—9 —(B
-adomain.ProfileB
+ó- ó(@
+	travellerdomain.TravellerB
 dataAccess.DataAccessH

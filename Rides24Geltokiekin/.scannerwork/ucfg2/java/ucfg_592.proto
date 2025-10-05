@@ -1,95 +1,82 @@
 
-YbusinessLogic.BLFacadeImplementation#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaµ µ(/"startingBlock*Å
-startingBlock
-µ/ µ(>É
-Ä
-
-¥ ¥(
+]businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;y
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaE  E(4"startingBlock*¸
+startingBlockE4 E(AÅ
+
+E E(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*5
+	WebMethod*6
 
-__unknown_file (
-
-driverdomain.DriverY
-W
-
-µ7 µ(=
-driverdomain.Driver"__annotation*"
+__unknown_file (
+
+fromjava.lang.StringX
+V
+E< E(@
+fromjava.lang.String"__annotation*"
 
 __unknown_file (
 
 %6*
-1*√
-1
-∂ ∂(á
-Ñ
-
-∂ ∂(
+1*¿
+1F F(Ö
+Ç
+F F(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-∂ ∂(
+	dbManagerzx
+F F(
 
 %1void"dataAccess.DataAccess#open()V*9
 
 __unknown_file (
 
-%0dataAccess.DataAccess2open()á
-Ñ
-
-∑ ∑(%
+%0dataAccess.DataAccess2open()Ö
+Ç
+H H(&
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerâÜ
-
-∑ ∑(A
-%3java.util.List"JdataAccess.DataAccess#getAllRidesOfDriver(Ldomain/Driver;)Ljava/util/List;*9
+	dbManageràÖ
+H H(=
+%3java.util.List"JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*5
+%2dataAccess.DataAccess*6
 
-__unknown_file (
-
-driverdomain.Driver2$getAllRidesOfDriver(Ldomain/Driver;)a
-_
-
-∑ ∑(B
-ridesjava.util.List"__id*2
+__unknown_file (
+
+fromjava.lang.String2$getArrivalCities(Ljava/lang/String;)f
+d
+H H(>
+targetCitiesjava.util.List"__id*2
 
 __unknown_file (
 
-%3java.util.Listá
-Ñ
-
-∏ ∏(
+%3java.util.ListÖ
+Ç
+J J(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-∏ ∏(
+	dbManager|z
+J J(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"'
-
-π π(
-
-ridesjava.util.List:%
-
-µ0 µ(=
-driverdomain.DriverB(&
+%4dataAccess.DataAccess2close()",
+L L( 
+
+targetCitiesjava.util.List:$
+E5 E(@
+fromjava.lang.StringB(&
 $businessLogic.BLFacadeImplementationH

@@ -1,56 +1,20 @@
 
-9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Zl
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÑ Ñ("3*¡
-2
-á
- á(ôñ
+IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaﬁ ﬁ(#"1*ô
+1
+ﬂ ﬂ(X
+V
 
-á
- á("
-%1boolean"*domain.RideRequest#isBaloratuaTraveller()Z*5
-
-__unknown_file (
-
-rdomain.RideRequest2isBaloratuaTraveller()"
-
-á á(#
-""*Ë
-3
-Ö Ö(|z
-
-Ö- Ö(<	
-%0int"domain.RideRequest#getId()I*;
-
-__unknown_file (
-
-requestdomain.RideRequest2getId()Q
-O
-
-Ö Ö(>
-rdomain.RideRequest"__id*"
+‰ ‰(3
+alertaMezuakjava.util.List"__id*"
 
 __unknown_file (
-""*
-2
-1*ª
-1
-â
- â(ìê
+""".
 
-â
- â(
-%2boolean"'domain.RideRequest#isBaloratuaDriver()Z*5
-
-__unknown_file (
-
-rdomain.RideRequest2isBaloratuaDriver()"
+Â Â( 
+
+alertaMezuakjava.util.List:+
 
-â â( 
-"":+
-
-Ñ Ñ(0
-requestdomain.RideRequest: 
-
-__unknown_file (
-""B
-dataAccess.DataAccessHX
+ﬁ$ ﬁ(7
+	travellerdomain.TravellerB
+dataAccess.DataAccessH

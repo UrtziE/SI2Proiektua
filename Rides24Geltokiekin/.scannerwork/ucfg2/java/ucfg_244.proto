@@ -1,41 +1,18 @@
 
-'domain.Mezua#compareTo(Ldomain/Mezua;)Ic
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.java≥ ≥("1*Ë
+#domain.Mezua#getRide()Ldomain/Ride;c
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.javaß ß("1*ì
 1
-µ
- µ(b
-`
+®	 ®(_
+]
 
-µ
- µ(
-%0java.util.Date"__id*6
+®	 ®(
+%0domain.Ride"__id*6
 
 __unknown_file (*
 domain.Mezua"
-whençä
+ride"!
 
-µ µ(-
-%1java.util.Date"&domain.Mezua#getWhen()Ljava/util/Date;*3
-
-__unknown_file (
-
-mezuadomain.Mezua2	getWhen()Ã…
-
-µ
- µ(.	
-%2int"+java.util.Date#compareTo(Ljava/util/Date;)I*2
-
-__unknown_file (
-
-%0java.util.Date*2
-
-__unknown_file (
-
-%1java.util.Date2compareTo(Ljava/util/Date;)"
-
-µ µ(0
-"":#
-
-≥ ≥(!
-mezuadomain.MezuaB
-domain.MezuaHX
+® ®(
+
+%0domain.RideB
+domain.MezuaH

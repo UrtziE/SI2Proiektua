@@ -1,20 +1,33 @@
 
-IdataAccess.DataAccess#ikusitakoAlerta(Ldomain/Traveller;)Ljava/util/List;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaﬁ ﬁ(#"1*ô
+9dataAccess.DataAccess#getBalorazioMedia(Ldomain/Driver;)Fl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java∏ ∏("1*ß
 1
-ﬂ ﬂ(X
-V
+π π(êç
 
-‰ ‰(3
-alertaMezuakjava.util.List"__id*"
+π( π(3
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*0
+
+__unknown_file (
+
+ddomain.Driver2	getUser()Q
+O
+
+π π(5
+driverdomain.Driver"__id*"
 
 __unknown_file (
-""".
+""ôñ
 
-Â Â( 
-
-alertaMezuakjava.util.List:+
+∫	 ∫()
+%1float")domain.Profile#kalkulatuBalorazioMedia()F*5
+
+__unknown_file (
+
+driverdomain.Driver2kalkulatuBalorazioMedia()"
 
-ﬁ$ ﬁ(7
-	travellerdomain.TravellerB
-dataAccess.DataAccessH
+∫ ∫(*
+"": 
+
+∏  ∏((
+ddomain.DriverB
+dataAccess.DataAccessHX

@@ -1,18 +1,7 @@
 
->configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;n
-bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.javaê ê($"1*Ω
-1
-ë	 ë(}
-{
-
-ë	 ë(
-%0configuration.ConfigXML"__id*H
-
-__unknown_file (,**
-configuration.ConfigXML"
-theInstance"-
-
-ë ë(
-
-%0configuration.ConfigXMLB"
-configuration.ConfigXMLH
+*configuration.ConfigXML#isDatabaseLocal()Zl
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.javaA A("1*!
+1B	 B("
+B B(
+""B
+configuration.ConfigXMLHX

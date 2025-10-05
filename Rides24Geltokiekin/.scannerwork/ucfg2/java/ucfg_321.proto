@@ -1,19 +1,18 @@
 
-9configuration.ConfigXML#getDbFilename()Ljava/lang/String;n
-bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java† †("1*Æ
+>configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;n
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.javaê ê($"1*Ω
 1
-°	 °(u
-s
+ë	 ë(}
+{
 
-°	 °(
-%0java.lang.String"__id*G
+ë	 ë(
+%0configuration.ConfigXML"__id*H
 
-__unknown_file (+*)
-configuration.ConfigXML"
+__unknown_file (,**
+configuration.ConfigXML"
+theInstance"-
 
-dbFilename"&
-
-° °(
-
-%0java.lang.StringB
+ë ë(
+
+%0configuration.ConfigXMLB"
 configuration.ConfigXMLH

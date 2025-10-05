@@ -1,479 +1,421 @@
 
-gui.RegisterGUI#zeinErrore(I)Vf
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.javaÅ Å("1*∫
-2
-¢ •(	l
-j
+"gui.RegisterGUI#zeinKanpoHutsik()If
+ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/RegisterGUI.javaﬂ ﬂ("19*&
+13
+Ë
+ Ë("
 
-£ £(	
-%43javax.swing.JLabel"__id*;
-
-__unknown_file (*
-gui.RegisterGUI"
-lbltlfO
-M
-
-£ £(*
-%44java.awt.Color"__id*"
-
-__unknown_file (
-""‰·
-
-£ £(+
-%45void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*7
-
-__unknown_file (
-
-%43javax.swing.JLabel*3
-
-__unknown_file (
-
-%44java.awt.Color2setForeground(Ljava/awt/Color;)*
-0*â
-
-3
-ù °(	n
-l
-
-û û(
-%36javax.swing.JLabel"__id*=
-
-__unknown_file (!*
-gui.RegisterGUI"
-
-errorlblÁ
-‰
-
-û û(9
-%37java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetasèå
-
-û û(d
-%38java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%37java.util.ResourceBundle*=
-
-__unknown_file (!
-RegisterGUI.errorPwdIncorrect2getString(Ljava/lang/String;)⁄◊
-
-û û(e
-%39void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%36javax.swing.JLabel*5
-
-__unknown_file (
-
-%38java.lang.String2setText(Ljava/lang/String;)r
+Ë Ë(
+""*Ω
+14
+Á Á(r
 p
 
-ü ü(
-%40javax.swing.JLabel"__id*A
-
-__unknown_file (%*#
-gui.RegisterGUI"
-lblRpasswordO
-M
-
-ü ü(0
-%41java.awt.Color"__id*"
-
-__unknown_file (
-""‰·
-
-ü ü(1
-%42void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*7
-
-__unknown_file (
-
-%40javax.swing.JLabel*3
-
-__unknown_file (
-
-%41java.awt.Color2setForeground(Ljava/awt/Color;)*
-0*ˇ	
-4
-ò ú(	n
-l
-
-ô ô(
-%29javax.swing.JLabel"__id*=
+Á Á(
+%11javax.swing.JTextField"__id*=
 
 __unknown_file (!*
 gui.RegisterGUI"
 
-errorlblÁ
-‰
+nameText≠™
 
-ô ô(9
-%30java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+Á Á(
+%12java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
 
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÜÉ
+__unknown_file (
+
+%11javax.swing.JTextField2	getText()}{
 
-ô ô([
-%31java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%30java.util.ResourceBundle*4
-
-__unknown_file (
-RegisterGUI.errorPwd2getString(Ljava/lang/String;)⁄◊
-
-ô ô(\
-%32void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%29javax.swing.JLabel*5
+Á Á("
+%13boolean"java.lang.String#isBlank()Z*5
 
 __unknown_file (
 
-%31java.lang.String2setText(Ljava/lang/String;)q
+%12java.lang.String2	isBlank()*
+13
+12*&
+15
+‰
+ ‰("
+
+‰ ‰(
+""*π
+16
+„ „(q
 o
 
-ö ö(
-%33javax.swing.JLabel"__id*@
-
-__unknown_file ($*"
-gui.RegisterGUI"
-lblpasswordO
-M
-
-ö ö(/
-%34java.awt.Color"__id*"
-
-__unknown_file (
-""‰·
-
-ö ö(0
-%35void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*7
-
-__unknown_file (
-
-%33javax.swing.JLabel*3
-
-__unknown_file (
-
-%34java.awt.Color2setForeground(Ljava/awt/Color;)*
-0*˙	
-5
-ì ó(	n
-l
-
-î î(
-%22javax.swing.JLabel"__id*=
+„ „(
+%8javax.swing.JTextField"__id*=
 
 __unknown_file (!*
 gui.RegisterGUI"
 
-errorlblÁ
-‰
+userText´®
 
-î î(9
-%23java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
+„ „(
+%9java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
 
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÜÉ
+__unknown_file (
+
+%8javax.swing.JTextField2	getText()|z
 
-î î([
-%24java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%23java.util.ResourceBundle*4
-
-__unknown_file (
-RegisterGUI.errorTlf2getString(Ljava/lang/String;)⁄◊
-
-î î(\
-%25void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%22javax.swing.JLabel*5
-
-__unknown_file (
-
-%24java.lang.String2setText(Ljava/lang/String;)l
-j
-
-ï ï(	
-%26javax.swing.JLabel"__id*;
-
-__unknown_file (*
-gui.RegisterGUI"
-lbltlfO
-M
-
-ï ï(*
-%27java.awt.Color"__id*"
-
-__unknown_file (
-""‰·
-
-ï ï(+
-%28void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*7
-
-__unknown_file (
-
-%26javax.swing.JLabel*3
-
-__unknown_file (
-
-%27java.awt.Color2setForeground(Ljava/awt/Color;)*
-0*Ç
-
-6
-é í(	n
-l
-
-è è(
-%15javax.swing.JLabel"__id*=
-
-__unknown_file (!*
-gui.RegisterGUI"
-
-errorlblÁ
-‰
-
-è è(9
-%16java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetasäá
-
-è è(_
-%17java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%16java.util.ResourceBundle*8
-
-__unknown_file (
-RegisterGUI.errorSurname2getString(Ljava/lang/String;)⁄◊
-
-è è(`
-%18void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%15javax.swing.JLabel*5
-
-__unknown_file (
-
-%17java.lang.String2setText(Ljava/lang/String;)p
-n
-
-ê ê(
-%19javax.swing.JLabel"__id*?
-
-__unknown_file (#*!
-gui.RegisterGUI"
-
-lblsurnameO
-M
-
-ê ê(.
-%20java.awt.Color"__id*"
-
-__unknown_file (
-""‰·
-
-ê ê(/
-%21void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*7
-
-__unknown_file (
-
-%19javax.swing.JLabel*3
-
-__unknown_file (
-
-%20java.awt.Color2setForeground(Ljava/awt/Color;)*
-0*¯	
-7
-â ç(	m
-k
-
-ä ä(
-%8javax.swing.JLabel"__id*=
-
-__unknown_file (!*
-gui.RegisterGUI"
-
-errorlblÊ
-„
-
-ä ä(9
-%9java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÜÉ
-
-ä ä(\
-%10java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
-
-__unknown_file ( 
-
-%9java.util.ResourceBundle*5
-
-__unknown_file (
-RegisterGUI.errorName2getString(Ljava/lang/String;)Ÿ÷
-
-ä ä(]
-%11void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*6
-
-__unknown_file (
-
-%8javax.swing.JLabel*5
-
-__unknown_file (
-
-%10java.lang.String2setText(Ljava/lang/String;)m
-k
-
-ã ã(
-
-%12javax.swing.JLabel"__id*<
-
-__unknown_file ( *
-gui.RegisterGUI"	
-lblnameO
-M
-
-ã ã(+
-%13java.awt.Color"__id*"
-
-__unknown_file (
-""‰·
-
-ã ã(,
-%14void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*7
-
-__unknown_file (
-
-%12javax.swing.JLabel*3
-
-__unknown_file (
-
-%13java.awt.Color2setForeground(Ljava/awt/Color;)*
-0*	
-8
-Ñ à(	m
-k
-
-Ö Ö(
-%1javax.swing.JLabel"__id*=
-
-__unknown_file (!*
-gui.RegisterGUI"
-
-errorlblÊ
-„
-
-Ö Ö(9
-%2java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÖÇ
-
-Ö Ö(\
-%3java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
-
-__unknown_file ( 
-
-%2java.util.ResourceBundle*5
-
-__unknown_file (
-RegisterGUI.errorUser2getString(Ljava/lang/String;)◊‘
-
-Ö Ö(]
-
-%4void"/javax.swing.JLabel#setText(Ljava/lang/String;)V*6
-
-__unknown_file (
-
-%1javax.swing.JLabel*4
+„ „("
+%10boolean"java.lang.String#isBlank()Z*4
 
 __unknown_file (
 
-%3java.lang.String2setText(Ljava/lang/String;)l
-j
+%9java.lang.String2	isBlank()*
+14
+15*„
+17
+· ·(r
+p
 
-Ü Ü(
-
-%5javax.swing.JLabel"__id*<
+· ·(
+%6javax.swing.JTextField"__id*>
+
+__unknown_file ("* 
+gui.RegisterGUI"
+	emailText÷”
+
+· ·(
+
+%7void"<javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%6javax.swing.JTextField*"
+
+__unknown_file (
+""2setText(Ljava/lang/String;)*
+16*π
+18
+‡$ ‡(-r
+p
+
+‡$ ‡(-
+%3javax.swing.JTextField"__id*>
+
+__unknown_file ("* 
+gui.RegisterGUI"
+	emailText´®
+
+‡$ ‡(7
+%4java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
+
+__unknown_file (
+
+%3javax.swing.JTextField2	getText(){y
+
+‡$ ‡(A
+%5boolean"java.lang.String#isEmpty()Z*4
+
+__unknown_file (
+
+%4java.lang.String2	isEmpty()*
+16
+17*π
+19
+‡ ‡(r
+p
+
+‡ ‡(
+%0javax.swing.JTextField"__id*>
+
+__unknown_file ("* 
+gui.RegisterGUI"
+	emailText´®
+
+‡ ‡(
+%1java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
+
+__unknown_file (
+
+%0javax.swing.JTextField2	getText(){y
+
+‡ ‡("
+%2boolean"java.lang.String#isBlank()Z*4
+
+__unknown_file (
+
+%1java.lang.String2	isBlank()*
+17
+18*%
+1
+Ù
+ Ù("
+
+Ù Ù(
+""*%
+2
+Ú
+ Ú("
+
+Ú Ú(
+""*Õ	
+3
+Ò Ò(v
+t
+
+Ò Ò(!
+%33javax.swing.JPasswordField"__id*=
+
+__unknown_file (!*
+gui.RegisterGUI"
+
+passwordöó
+
+Ò Ò(-
+%34char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%33javax.swing.JPasswordField2getPassword()97
+
+Ò Ò(
+%35java.lang.String"java.lang.Stringò
+ï
+
+Ò Ò(.
+%36"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%35java.lang.String*+
+
+__unknown_file (
+
+%34char[]|
+z
+
+ÒA Ò(O!
+%37javax.swing.JPasswordField"__id*C
+
+__unknown_file ('*%
+gui.RegisterGUI"
+repeatPasswordöó
+
+ÒA Ò(]
+%38char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%37javax.swing.JPasswordField2getPassword()97
+
+Ò: Ò(@
+%39java.lang.String"java.lang.Stringò
+ï
+
+Ò6 Ò(^
+%40"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%39java.lang.String*+
+
+__unknown_file (
+
+%38char[]◊‘
+
+Ò Ò(_
+%41boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%35java.lang.String*5
+
+__unknown_file (
+
+%39java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*%
+4
+
+ ("
+
+ (
+""*á
+5
+ÔF Ô(T|
+z
+
+ÔF Ô(T!
+%28javax.swing.JPasswordField"__id*C
+
+__unknown_file ('*%
+gui.RegisterGUI"
+repeatPasswordöó
+
+ÔF Ô(b
+%29char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%28javax.swing.JPasswordField2getPassword()97
+
+Ô? Ô(E
+%30java.lang.String"java.lang.Stringò
+ï
+
+Ô; Ô(c
+%31"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%30java.lang.String*+
+
+__unknown_file (
+
+%29char[]}{
+
+Ô; Ô(m
+%32boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%30java.lang.String2	isBlank()*
+3
+4*Å
+6
+Ô Ô(v
+t
+
+Ô Ô(!
+%23javax.swing.JPasswordField"__id*=
+
+__unknown_file (!*
+gui.RegisterGUI"
+
+passwordöó
+
+Ô Ô(,
+%24char[]"*javax.swing.JPasswordField#getPassword()[C*?
+
+__unknown_file (#
+!
+%23javax.swing.JPasswordField2getPassword()97
+
+Ô Ô(
+%25java.lang.String"java.lang.Stringò
+ï
+
+Ô Ô(-
+%26"java.lang.String#<init>([C)V*5
+
+__unknown_file (
+
+%25java.lang.String*+
+
+__unknown_file (
+
+%24char[]}{
+
+Ô Ô(7
+%27boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%25java.lang.String2	isBlank()*
+4
+5*%
+7
+Ó
+ Ó("
+
+Ó Ó(
+""*Ù
+8
+Ì Ì(q
+o
+
+Ì Ì(
+%20javax.swing.JTextField"__id*<
 
 __unknown_file ( *
 gui.RegisterGUI"	
-lbluserN
-L
+tlfText≠™
 
-Ü Ü(+
-%6java.awt.Color"__id*"
+Ì Ì('
+%21java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
 
-__unknown_file (
-""·ﬁ
+__unknown_file (
+
+%20javax.swing.JTextField2	getText()∑
+¥
 
-Ü Ü(,
-
-%7void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*6
-
-__unknown_file (
-
-%5javax.swing.JLabel*2
-
-__unknown_file (
-
-%6java.awt.Color2setForeground(Ljava/awt/Color;)*
-0*(
-0 "!
-
-ß ß(
-implicit return*ó
-1
-Ç Ç(l
-j
-
-Ç Ç(
-
-%0void"gui.RegisterGUI#denakBeltzez()V*/
+Ì Ì((
+%22boolean".gui.RegisterGUI#isNumeric(Ljava/lang/String;)Z*/
 
 __unknown_file (
-gui.RegisterGUI*
-2
-3
-4
-5
-6
-7
-8
-0: 
+gui.RegisterGUI*5
 
-__unknown_file (
-""B
-gui.RegisterGUI
+__unknown_file (
+
+%21java.lang.String*
+6
+7*%
+9
+Ï
+ Ï("
+
+Ï Ï(
+""*∫
+10
+Î Î(q
+o
+
+Î Î(
+%17javax.swing.JTextField"__id*<
+
+__unknown_file ( *
+gui.RegisterGUI"	
+tlfText≠™
+
+Î Î(
+%18java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
+
+__unknown_file (
+
+%17javax.swing.JTextField2	getText()}{
+
+Î Î(&
+%19boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%18java.lang.String2	isBlank()*
+8
+9*&
+11
+Í
+ Í("
+
+Í Í(
+""*¿
+12
+È È(u
+s
+
+È È(
+%14javax.swing.JTextField"__id*@
+
+__unknown_file ($*"
+gui.RegisterGUI"
+surnameText≠™
+
+È È( 
+%15java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*;
+
+__unknown_file (
+
+%14javax.swing.JTextField2	getText()}{
+
+È È(*
+%16boolean"java.lang.String#isBlank()Z*5
+
+__unknown_file (
+
+%15java.lang.String2	isBlank()*
+10
+11B
+gui.RegisterGUIX

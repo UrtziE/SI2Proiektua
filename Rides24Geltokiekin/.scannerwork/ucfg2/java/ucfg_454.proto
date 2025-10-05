@@ -1,17 +1,157 @@
 
-5domain.RideRequest#getToRequested()Ljava/lang/String;g
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java? ?("1*¤
-1@
- @(o
-m
-@
- @(
-%0java.lang.String"__id*C
+˜testOperations.GetEginRidesOfDriverDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILdomain/Kotxe;Ljava/util/List;)Ldomain/Ride;…
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java½ ½("7*
+5
+Á Á(RZ
+X
+
+Á Á(R
+ridedomain.Ride"__id*/
 
-__unknown_file ('*%
-domain.RideRequest"
-toRequested"$
-@ @(
+__unknown_file (
+
+%5domain.Rideœ™
+
+Â Â(
+%6java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()*
+1*ä	
+6
+Á
+ Á(‹
+ˆ
+
+Á
+ Á(
+%2dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+sut‰
+†
+
+Á2 Á(:
+%3java.util.List"__id*\
+
+__unknown_file (@*>0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+
+prezioak‡
+„
+
+Á< Á(@
+%4java.lang.String"__id*X
+
+__unknown_file (<*:0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+user©¦
+
+Á
+ Á(R
+%5domain.Ride"¤dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
 
-%0java.lang.StringB
-domain.RideRequestH
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date*"
+
+__unknown_file (
+""*2
+
+__unknown_file (
+
+%3java.util.List*4
+
+__unknown_file (
+
+%4java.lang.String*3
+
+__unknown_file (
+
+kotxedomain.Kotxe*8
+
+__unknown_file (
+
+ibilbidejava.util.List2createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)*
+5*ï
+7
+¾ ¾(‹
+ˆ
+
+¾ ¾(
+%0dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+sut|z
+
+¾ ¾(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()M
+K
+
+¿ ¿(
+ridedomain.Ride"__id*"
+
+__unknown_file (
+""*
+6*Â
+1
+È È(‹
+ˆ
+
+È È(
+%7dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+sut~|
+
+È È(
+
+%8void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%7dataAccess.DataAccess2close()"#
+
+É É(
+
+ridedomain.Ride:&
+
+½ ½("
+fromjava.lang.String:$
+
+½# ½(-
+tojava.lang.String:$
+
+½. ½(8
+datejava.util.Date: 
+
+__unknown_file (
+"":#
+
+½G ½(S
+kotxedomain.Kotxe:(
+
+½T ½(i
+ibilbidejava.util.ListB20
+.testOperations.GetEginRidesOfDriverDBWhiteTest

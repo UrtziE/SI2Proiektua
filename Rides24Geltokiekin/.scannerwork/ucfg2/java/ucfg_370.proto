@@ -1,58 +1,56 @@
 
-SdataAccess.DataAccess#lortuZenbatEserlekuGeratu(Ldomain/Ride;Ldomain/RideRequest;)Il
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¶ ¶(("1*∞
-1
-ß ß(úô
+9dataAccess.DataAccess#isBaloratua(Ldomain/RideRequest;Z)Zl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÑ Ñ("3*¡
+2
+á
+ á(ôñ
 
-ß! ß(5
-%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+á
+ á("
+%1boolean"*domain.RideRequest#isBaloratuaTraveller()Z*5
 
-__unknown_file (
-
-ridedomain.Ride2getRideNumber()J
-H
+__unknown_file (
+
+rdomain.RideRequest2isBaloratuaTraveller()"
 
-ß ß(7
-rdomain.Ride"__id*"
+á á(#
+""*Ë
+3
+Ö Ö(|z
+
+Ö- Ö(<	
+%0int"domain.RideRequest#getId()I*;
+
+__unknown_file (
+
+requestdomain.RideRequest2getId()Q
+O
+
+Ö Ö(>
+rdomain.RideRequest"__id*"
 
 __unknown_file (
-""±Æ
+""*
+2
+1*ª
+1
+â
+ â(ìê
 
-®" ®(<
-%1java.lang.String"7domain.RideRequest#getFromRequested()Ljava/lang/String;*;
+â
+ â(
+%2boolean"'domain.RideRequest#isBaloratuaDriver()Z*5
 
-__unknown_file (
-
-requestdomain.RideRequest2getFromRequested()≠™
+__unknown_file (
+
+rdomain.RideRequest2isBaloratuaDriver()"
 
-®> ®(V
-%2java.lang.String"5domain.RideRequest#getToRequested()Ljava/lang/String;*;
+â â( 
+"":+
+
+Ñ Ñ(0
+requestdomain.RideRequest: 
 
-__unknown_file (
-
-requestdomain.RideRequest2getToRequested()π∂
-
-® ®(W	
-%3int"Fdomain.Ride#lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)I*.
-
-__unknown_file (
-
-rdomain.Ride*4
-
-__unknown_file (
-
-%1java.lang.String*4
-
-__unknown_file (
-
-%2java.lang.String29lortuEserlekuKopMin(Ljava/lang/String;Ljava/lang/String;)"
-
-™ ™(
-"":!
-
-¶) ¶(3
-ridedomain.Ride:+
-
-¶4 ¶(G
-requestdomain.RideRequestB
+__unknown_file (
+""B
 dataAccess.DataAccessHX

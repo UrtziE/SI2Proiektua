@@ -1,32 +1,12 @@
 
-…businessLogic.BLFacadeImplementation#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaÈ È("startingBlock*¬
+…businessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaØ Ø(-"startingBlock*¿
 startingBlock
-È È(Q‰
-†
-
-Ç Ç(
-%6"
-__annotate*)
-
-__unknown_file (
-	WebMethod*;
-
-__unknown_file (
-
-	travellerdomain.Traveller_
-]
-
-È& È(/
-	travellerdomain.Traveller"__annotation*"
-
-__unknown_file (
-
-%6„
+Ø- Ø(P„
 
 
-Ç Ç(
-%7"
+× ×(
+%6"
 __annotate*)
 
 __unknown_file (
@@ -37,16 +17,16 @@ __annotate*)
 fromjava.lang.StringZ
 X
 
-È7 È(;
+Ø5 Ø(9
 fromjava.lang.String"__annotation*"
 
 __unknown_file (
 
-%7
+%6
 
 
-Ç Ç(
-%8"
+× ×(
+%7"
 __annotate*)
 
 __unknown_file (
@@ -57,16 +37,16 @@ __annotate*)
 tojava.lang.StringX
 V
 
-ÈC È(E
+ØB Ø(D
 tojava.lang.String"__annotation*"
 
 __unknown_file (
 
-%8
+%7
 
 
-Ç Ç(
-%9"
+× ×(
+%8"
 __annotate*)
 
 __unknown_file (
@@ -74,29 +54,29 @@ __annotate*)
 
 __unknown_file (
 
-whenjava.util.DateX
+datejava.util.DateX
 V
 
-ÈL È(P
-whenjava.util.Date"__annotation*"
+ØK Ø(O
+datejava.util.Date"__annotation*"
 
 __unknown_file (
 
-%9*
-1*Ä
+%8*
+1*ˆ
 
 1
-É É(‡
+Ù Ù(‡
 „
 
-É É(
+Ù Ù(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-É É(
+Ù Ù(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -105,23 +85,19 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-Ê Ê(
+Ú Ú(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager‹ˆ
+	dbManagerÎË
 
-Ê Ê(>
-%3domain.Alerta"vdataAccess.DataAccess#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;*9
+Ú Ú(H
+%3java.util.List"vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*;
-
-__unknown_file (
-
-	travellerdomain.Traveller*6
+%2dataAccess.DataAccess*6
 
 __unknown_file (
 
@@ -133,25 +109,25 @@ $businessLogic.BLFacadeImplementation"
 
 __unknown_file (
 
-whenjava.util.Date2QgetAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)`
-^
+datejava.util.Date2PgetThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)a
+_
 
-Ê Ê(?
-alertadomain.Alerta"__id*1
+Ú Ú(I
+datesjava.util.List"__id*2
 
-__unknown_file (
-
-%3domain.Alerta‡
+__unknown_file (
+
+%3java.util.List‡
 „
 
-Ë Ë(
+Û Û(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-Ë Ë(
+Û Û(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -159,19 +135,16 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"'
 
-Ì Ì(
+Ü Ü(
 
-alertadomain.Alerta:+
+datesjava.util.List:&
 
-È È(0
-	travellerdomain.Traveller:&
-
-È0 È(<
+Ø. Ø(:
 fromjava.lang.String:$
 
-È< È(F
+Ø; Ø(E
 tojava.lang.String:$
 
-ÈG È(P
-whenjava.util.DateB(&
+ØF Ø(O
+datejava.util.DateB(&
 $businessLogic.BLFacadeImplementationH

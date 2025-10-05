@@ -1,157 +1,129 @@
 
-mtestOperations.GetEginRidesOfDriverDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;…
-yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.javaŸ Ÿ("4*Œ
-2
-¦
- ¦(v
-t
-
-¦ ¦(<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-driver"__id*"
-
-__unknown_file (
-""*
-1*¦
-3
-£ £(–
-“
-
-£ £(#
-%6testOperations.TestDataAccess"__id*Z
-
-__unknown_file (>*<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-testdbíê
-
-£ £(,
-%7domain.Driver"_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;*A
-
-__unknown_file (%
-#
-%6testOperations.TestDataAccess*6
-
-__unknown_file (
-
-userjava.lang.String*7
-
-__unknown_file (
-
-emailjava.lang.String22createDriver(Ljava/lang/String;Ljava/lang/String;)†
+AtestOperations.GetEginRidesOfDriverDBWhiteTest#%field_initializer
+__unknown_file ("1*õ!
+1 (½º
 ƒ
-
-£ £(,<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-driver"__id*1
-
-__unknown_file (
-
-%7domain.Driver*
-1*÷
-4
-   (–
-“
-
-   (#
-%0testOperations.TestDataAccess"__id*Z
-
-__unknown_file (>*<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-testdbŠ
-
-   (
-
-%1void"%testOperations.TestDataAccess#open()V*A
-
-__unknown_file (%
-#
-%0testOperations.TestDataAccess2open()–
-“
-
-¡ ¡(#
-%2testOperations.TestDataAccess"__id*Z
-
-__unknown_file (>*<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-testdbŽ‹
-
-¡ ¡(#
-%3domain.Driver"LtestOperations.TestDataAccess#existDriver(Ljava/lang/String;)Ldomain/Driver;*A
-
-__unknown_file (%
-#
-%2testOperations.TestDataAccess*6
-
-__unknown_file (
-
-userjava.lang.String2existDriver(Ljava/lang/String;)†
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java! (+
+%0dataAccess.DataAccess"dataAccess.DataAccessÛ
+Ø
 ƒ
-
-¡ ¡(#<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-driver"__id*1
-
-__unknown_file (
-
-%3domain.Driver†
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java (-
+%1"dataAccess.DataAccess#<init>()V*)
+ (
+
+%0dataAccess.DataAccessõ
+ò
 ƒ
-
-¢ ¢(
-%4domain.Driver"__id*Z
-
-__unknown_file (>*<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-drivery
-w
-
-¢ ¢(
-%5boolean"	__compare*
-
-¢ ¢(
-==*#
-
-¢ ¢(
-
-%4domain.Driver*
-
-¢ ¢(
-""*
-2
-3*ê
-1
-ª ª(–
-“
-
-ª ª(#
-%8testOperations.TestDataAccess"__id*Z
-
-__unknown_file (>*<0
-.testOperations.GetEginRidesOfDriverDBWhiteTest"
-testdbŒ
-
-ª ª(
-
-%9void"&testOperations.TestDataAccess#close()V*A
-
-__unknown_file (%
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java (.90
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+sut"__id*)
+ (
+
+%0dataAccess.DataAccessÍÊ
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java (  (6#
+%2testOperations.TestDataAccess"testOperations.TestDataAccessë
+è
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java $  (8
+%3"'testOperations.TestDataAccess#<init>()V*1
+ (%
 #
-%8testOperations.TestDataAccess2close()‡
-„
-
-«	 «(
-%10domain.Driver"__id*Z
-
-__unknown_file (>*<0
+%2testOperations.TestDataAccess€
+ý
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java   (9<0
 .testOperations.GetEginRidesOfDriverDBWhiteTest"
-driver"$
+testdb"__id*1
+ (%
+#
+%2testOperations.TestDataAccessá
+Þ
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java" "(!:0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+from"__id*
+ (
+Beraß
+Ü
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java# #(80
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+to"__id*
+ (
+Irunã
+à
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java$ $(#:0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+user"__id*
+ (
+
+Anttonî
+ë
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java% %(.;0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+email"__id* 
+ (
+antton@gmail.comÇÄ
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java'% '(5 
+%4java.text.SimpleDateFormat"java.text.SimpleDateFormat“
+
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java'! '(C
+%5"6java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V*.
+ ("
+ 
+%4java.text.SimpleDateFormat*
+ (
 
-« «(
-
-%10domain.Driver:&
+dd/MM/yyyyø
+õ
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java' '(D70
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+f"__id*.
+ ("
+ 
+%4java.text.SimpleDateFormatå
+â
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java( ((%:0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+noiz"__id*
+ (
 
-Ÿ Ÿ(&
-userjava.lang.String:'
+7/1/2027ß
+Ü
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java) )(:0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+date"__id*
+ (
+""ê
+ç
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java* *(*?0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+	matrikula"__id*
+ (
 
-Ÿ' Ÿ(3
-emailjava.lang.StringB20
+1234AAAAß
+Ü
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java+ +(<0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"
+places"__id*
+ (2à
+Ý
+ƒ
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java- -(=0
+.testOperations.GetEginRidesOfDriverDBWhiteTest"	
+rideNum"__id*
+ (2"š
+‚
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBWhiteTest.java Ì(
+implicit returnB20
 .testOperations.GetEginRidesOfDriverDBWhiteTest

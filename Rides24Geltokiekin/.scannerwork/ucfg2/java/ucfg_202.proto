@@ -1,16 +1,15 @@
 
-.domain.Profile#getPassword()Ljava/lang/String;c
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.java[ [("1*ù
-1\	 \(h
-f
-\	 \(
-%0java.lang.String"__id*<
+-domain.Profile#getSurname()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaO O("1*ú
+1P	 P(g
+e
+P	 P(
+%0java.lang.String"__id*;
 
-__unknown_file ( *
-domain.Profile"
-
-password"$
-\ \(
+__unknown_file (*
+domain.Profile"	
+surname"$
+P P(
 
 %0java.lang.StringB
 domain.ProfileH

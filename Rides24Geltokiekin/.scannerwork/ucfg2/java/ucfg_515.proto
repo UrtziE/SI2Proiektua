@@ -1,15 +1,138 @@
 
-'domain.Alerta#getTo()Ljava/lang/String;b
-XC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Alerta.javaR R("1*–
-1S	 S(a
-_
-S	 S(
-%0java.lang.String"__id*5
+mtestOperations.GetEginRidesOfDriverDBBlackTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;…
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBBlackTest.javaº º("4*g
+2
+Á
+ Á(Q
+O
+
+Á Á(
+driverdomain.Driver"__id*"
 
-__unknown_file (*
-domain.Alerta"
-to"$
-S S(
-
-%0java.lang.StringB
-domain.AlertaH
+__unknown_file (
+""*
+1*ÿ
+3
+¾ ¾(–
+“
+
+¾ ¾(#
+%5testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbíê
+
+¾ ¾(,
+%6domain.Driver"_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;*A
+
+__unknown_file (%
+#
+%5testOperations.TestDataAccess*6
+
+__unknown_file (
+
+userjava.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.String22createDriver(Ljava/lang/String;Ljava/lang/String;)`
+^
+
+¾ ¾(,
+driverdomain.Driver"__id*1
+
+__unknown_file (
+
+%6domain.Driver*
+1*Ë
+4
+» »(–
+“
+
+» »(#
+%0testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbŠ
+
+» »(
+
+%1void"%testOperations.TestDataAccess#open()V*A
+
+__unknown_file (%
+#
+%0testOperations.TestDataAccess2open()–
+“
+
+¼ ¼(#
+%2testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbŽ‹
+
+¼ ¼(*
+%3domain.Driver"LtestOperations.TestDataAccess#existDriver(Ljava/lang/String;)Ldomain/Driver;*A
+
+__unknown_file (%
+#
+%2testOperations.TestDataAccess*6
+
+__unknown_file (
+
+userjava.lang.String2existDriver(Ljava/lang/String;)`
+^
+
+¼ ¼(+
+driverdomain.Driver"__id*1
+
+__unknown_file (
+
+%3domain.Driver}
+{
+
+½ ½(
+%4boolean"	__compare*
+
+½ ½(
+==*'
+
+½ ½(
+
+driverdomain.Driver*
+
+½ ½(
+""*
+2
+3*ã
+1
+Å Å(–
+“
+
+Å Å(#
+%7testOperations.TestDataAccess"__id*Z
+
+__unknown_file (>*<0
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+testdbŒ
+
+Å Å(
+
+%8void"&testOperations.TestDataAccess#close()V*A
+
+__unknown_file (%
+#
+%7testOperations.TestDataAccess2close()"'
+
+Æ Æ(
+
+driverdomain.Driver:&
+
+º º(&
+userjava.lang.String:'
+
+º' º(3
+emailjava.lang.StringB20
+.testOperations.GetEginRidesOfDriverDBBlackTest

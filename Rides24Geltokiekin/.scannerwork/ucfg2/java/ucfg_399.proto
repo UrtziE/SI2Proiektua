@@ -1,417 +1,18 @@
 
-1domain.Erreklamazioa#toString()Ljava/lang/String;k
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javaî î("1* 8
++domain.Erreklamazioa#getRide()Ldomain/Ride;k
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javaÉ É("1*õ
 1
-ï	 ï(Ê
-„
+Ñ	 Ñ(g
+e
 
-ï	 ï(.
-%0java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetas˝˙
-
-ï	 ï(I
-%1java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
-
-__unknown_file ( 
-
-%0java.util.ResourceBundle*-
-
-__unknown_file (
-Erreklamazioa2getString(Ljava/lang/String;)o
-m
-
-ï	 ï(O
-%2java.lang.String"__concat*&
-
-ï	 ï(I
-
-%1java.lang.String*
-
-ïJ ï(O
-: [Ê
-„
-
-ïP ï(u
-%3java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÉÄ
-ïP ï(ï
-%4java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*<
-
-__unknown_file ( 
-
-%3java.util.ResourceBundle*2
-
-__unknown_file (
-Erreklamazioa.nork2getString(Ljava/lang/String;)É
-Ä
-ï	 ï(ï
-%5java.lang.String"__concat*&
-
-ï	 ï(O
-
-%2java.lang.String*'
-ïP ï(ï
-
-%4java.lang.Stringl
-j
-ïó ï(õ
-%6domain.Profile"__id*>
+Ñ	 Ñ(
+%0domain.Ride"__id*>
 
 __unknown_file ("* 
 domain.Erreklamazioa"
-norkîë
-ïó ï(•
-%7java.lang.String"*domain.Profile#getName()Ljava/lang/String;*2
-
-__unknown_file (
-
-%6domain.Profile2	getName()Ö
-Ç
-ï	 ï(•
-%8java.lang.String"__concat*'
-ï	 ï(ï
-
-%5java.lang.String*(
-ïó ï(•
-
-%7java.lang.Stringo
-m
+ride"!
 
-ï	 ñ(
-%9java.lang.String"__concat*'
-ï	 ï(•
-
-%8java.lang.String*
-
-ñ ñ(
-, Á
-‰
-
-ñ
- ñ(/
-%10java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÑÅ
-
-ñ
- ñ(O
-%11java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%10java.util.ResourceBundle*2
-
-__unknown_file (
-Erreklamazioa.nori2getString(Ljava/lang/String;)É
-Ä
-
-ï	 ñ(O
-%12java.lang.String"__concat*&
-
-ï	 ñ(
-
-%9java.lang.String*'
-
-ñ
- ñ(O
-
-%11java.lang.Stringk
-i
-
-ñR ñ(V
-%13domain.Profile"__id*>
-
-__unknown_file ("* 
-domain.Erreklamazioa"
-noriîë
-
-ñR ñ(`
-%14java.lang.String"*domain.Profile#getName()Ljava/lang/String;*3
-
-__unknown_file (
-
-%13domain.Profile2	getName()Ñ
-Å
-
-ï	 ñ(`
-%15java.lang.String"__concat*'
-
-ï	 ñ(O
-
-%12java.lang.String*'
-
-ñR ñ(`
-
-%14java.lang.Stringp
-n
-
-ï	 ñ(g
-%16java.lang.String"__concat*'
-
-ï	 ñ(`
-
-%15java.lang.String*
-
-ñc ñ(g
-, Ë
-Â
-ñh ñ(ç
-%17java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	Etiquetasåâ
-ñh ñ(¥
-%18java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%17java.util.ResourceBundle*9
-
-__unknown_file (
-Erreklamazioa.deskripzioa2getString(Ljava/lang/String;)Ü
-É
-ï	 ñ(¥
-%19java.lang.String"__concat*'
-
-ï	 ñ(g
-
-%16java.lang.String*(
-ñh ñ(¥
-
-%18java.lang.Stringt
-r
-
-ó ó(
-%20java.lang.String"__id*E
-
-__unknown_file ()*'
-domain.Erreklamazioa"
-deskripzioaÖ
-Ç
-
-ï	 ó(
-%21java.lang.String"__concat*(
-ï	 ñ(¥
-
-%19java.lang.String*'
-
-ó ó(
-
-%20java.lang.Stringp
-n
-
-ï	 ó(
-%22java.lang.String"__concat*'
-
-ï	 ó(
-
-%21java.lang.String*
-
-ó ó(
-, Á
-‰
-
-ó ó(>
-%23java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÜÉ
-
-ó ó(`
-%24java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%23java.util.ResourceBundle*4
-
-__unknown_file (
-Erreklamazioa.egoera2getString(Ljava/lang/String;)Ñ
-Å
-
-ï	 ó(`
-%25java.lang.String"__concat*'
-
-ï	 ó(
-
-%22java.lang.String*'
-
-ó ó(`
-
-%24java.lang.Stringy
-w
-
-ób ó(h!
-%26domain.EgoeraErreklamazioa"__id*@
-
-__unknown_file ($*"
-domain.Erreklamazioa"
-egoeraé
-ã
-
-ï	 ó(h
-%27java.lang.String"__concat*'
-
-ï	 ó(`
-
-%25java.lang.String*1
-
-ób ó(h#
-!
-%26domain.EgoeraErreklamazioap
-n
-
-ï	 ó(o
-%28java.lang.String"__concat*'
-
-ï	 ó(h
-
-%27java.lang.String*
-
-ók ó(o
-, Ë
-Â
-óp ó(ï
-%29java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasÖÇ
-óp ó(µ
-%30java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%29java.util.ResourceBundle*2
-
-__unknown_file (
-Erreklamazioa.Ride2getString(Ljava/lang/String;)Ü
-É
-ï	 ó(µ
-%31java.lang.String"__concat*'
-
-ï	 ó(o
-
-%28java.lang.String*(
-óp ó(µ
-
-%30java.lang.Stringj
-h
-ó∏ ó(º
-%32domain.Ride"__id*>
-
-__unknown_file ("* 
-domain.Erreklamazioa"
-rideêç
-ó∏ ó(∆
-%33java.lang.String"'domain.Ride#getInfo()Ljava/lang/String;*0
-
-__unknown_file (
-
-%32domain.Ride2	getInfo()à
-Ö
-ï	 ó(∆
-%34java.lang.String"__concat*(
-ï	 ó(µ
-
-%31java.lang.String*)
-ó∏ ó(∆
-
-%33java.lang.Strings
-q
-ï	 ó(À
-%35java.lang.String"__concat*(
-ï	 ó(∆
-
-%34java.lang.String*
-ó» ó(À
- È
-Ê
-óÃ ó(Ò
-%36java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*8
-
-__unknown_file ("
-java.util.ResourceBundle*)
-
-__unknown_file (
-	EtiquetasáÑ
-óÃ ó(í
-%37java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-%36java.util.ResourceBundle*3
-
-__unknown_file (
-Erreklamazioa.Seats2getString(Ljava/lang/String;)à
-Ö
-ï	 ó(í
-%38java.lang.String"__concat*(
-ï	 ó(À
-
-%35java.lang.String*)
-óÃ ó(í
-
-%37java.lang.Stringv
-t
-óî ó(ù
-%39domain.RideRequest"__id*C
-
-__unknown_file ('*%
-domain.Erreklamazioa"
-	erreserbaÅ
-óî ó(®
-
-%40int"domain.RideRequest#getSeats()I*7
-
-__unknown_file (
-
-%39domain.RideRequest2
-getSeats()z
-x
-ï	 ó(®
-%41java.lang.String"__concat*(
-ï	 ó(í
-
-%38java.lang.String*
-óî ó(®
-
-
-%40intp
-n
-
-ï	 ò(	
-%42java.lang.String"__concat*(
-ï	 ó(®
-
-%41java.lang.String*
-
-ò ò(	
-]"'
-
-ï ò(
-
-
-%42java.lang.StringB
+Ñ Ñ(
+
+%0domain.RideB
 domain.ErreklamazioaH

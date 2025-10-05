@@ -1,18 +1,18 @@
 
-#domain.Mezua#getRide()Ldomain/Ride;c
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.java§ §("1*“
+&domain.Mezua#getWhen()Ljava/util/Date;c
+WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Mezua.java‘ ‘("1*™
 1
-¨	 ¨(_
-]
+’	 ’(b
+`
 
-¨	 ¨(
-%0domain.Ride"__id*6
+’	 ’(
+%0java.util.Date"__id*6
 
 __unknown_file (*
 domain.Mezua"
-ride"!
+when"$
 
-¨ ¨(
-
-%0domain.RideB
+’ ’(
+
+%0java.util.DateB
 domain.MezuaH

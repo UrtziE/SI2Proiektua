@@ -1,75 +1,34 @@
 
-QdataAccess.DataAccess#login(Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaò ò("5*4
-2
-° °("#
+FdataAccess.DataAccess#getKotxeGuztiak(Ldomain/Driver;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java   (#"1*π
+1
+À À(ïí
 
-° °(
-
-pdomain.Profile*ê
-3
-† †(ôñ
-
-† †(
-%1java.lang.String".domain.Profile#getPassword()Ljava/lang/String;*1
+À# À(3
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*5
 
-__unknown_file (
-
-pdomain.Profile2getPassword()⁄◊
+__unknown_file (
+
+driverdomain.Driver2	getUser()L
+J
 
-† †('
-%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
-
-__unknown_file (
-
-%1java.lang.String*:
-
-__unknown_file (
-
-passwordjava.lang.String2equals(Ljava/lang/Object;)*
-2
-1*%
-4
-ù
- ù("
-
-ù ù(
-""*·
-5
-ô ô(M
-K
-
-ô ô(+
-pdomain.Profile"__id*"
+À À(5
+ddomain.Driver"__id*"
 
 __unknown_file (
-""y
-w
+""õò
 
-õ õ(
-%0boolean"	__compare*
+Ã	 Ã(
+%1java.util.List"/domain.Driver#getKotxeGuztiak()Ljava/util/List;*0
+
+__unknown_file (
+
+ddomain.Driver2getKotxeGuztiak()"$
 
-õ õ(
-
-==*#
+Ã Ã(
+
+%1java.util.List:%
 
-õ õ(
-
-pdomain.Profile*
-
-õ õ(
-""*
-3
-4*%
-1
-§ §("
-
-§ §(
-"":&
-
-ò ò("
-userjava.lang.String:*
-
-ò# ò(2
-passwordjava.lang.StringB
+ $  (1
+driverdomain.DriverB
 dataAccess.DataAccessH

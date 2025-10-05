@@ -1,15 +1,15 @@
 
-7domain.Erreklamazioa#getErreserba()Ldomain/RideRequest;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.java{ {( "1*¨
-1|	 |(q
+7domain.Erreklamazioa#getDeskripzioa()Ljava/lang/String;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javak k("1*¦
+1l	 l(q
 o
-|	 |(
-%0domain.RideRequest"__id*C
+l	 l(
+%0java.lang.String"__id*E
 
-__unknown_file ('*%
-domain.Erreklamazioa"
-	erreserba"&
-| |(
-
-%0domain.RideRequestB
+__unknown_file ()*'
+domain.Erreklamazioa"
+deskripzioa"$
+l l(
+
+%0java.lang.StringB
 domain.ErreklamazioaH

@@ -1,18 +1,8 @@
 
-5domain.RideRequest#getWhenRequested()Ljava/util/Date;i
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java‹ ‹("1*¨
-1
-Œ	 Œ(q
-o
-
-Œ	 Œ(
-%0java.util.Date"__id*E
-
-__unknown_file ()*'
-domain.RideRequest"
-whenRequested"$
-
-Œ Œ(
-
-%0java.util.DateB
-domain.RideRequestH
+'domain.RideRequest#isBidaiaEsandaZer()Zg
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaE E(""1*!
+1F
+ F("
+F F(
+""B
+domain.RideRequestHX

@@ -1,154 +1,47 @@
 
-ÇtestOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Driver;r
-hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.java (!"11*8
-3
-‰ ‰("'
-
-‰ ‰(
-
-driverdomain.Driver*Ö
-6
-‡ ‡(¿¼
-
-‡ ‡(W
-%5domain.Ride"‡domain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*5
-
-__unknown_file (
-
-driverdomain.Driver*6
-
-__unknown_file (
-
-fromjava.lang.String*4
-
-__unknown_file (
-
-tojava.lang.String*4
-
-__unknown_file (
-
-datejava.util.Date*"
-
-__unknown_file (
-""*5
-
-__unknown_file (
-
-pricejava.util.List*3
-
-__unknown_file (
-
-kotxedomain.Kotxe*8
-
-__unknown_file (
-
-ibilbidejava.util.List2laddRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)*
-3*v
-7
-† †(#`
-^
-
-† †(#
-driverdomain.Driver"__id*1
-
-__unknown_file (
-
-%3domain.Driver*
-6*Á
-8
-† †(20
-
-† †(
-%3domain.Driver"domain.Driverö
-ó
-
-† †(#
-%4";domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V*1
-
-__unknown_file (
-
-%3domain.Driver*6
-
-__unknown_file (
-
-userjava.lang.String*7
-
-__unknown_file (
-
-emailjava.lang.String*
-7*é
-9
-„ „(*Q
+BtestOperations.TestDataAccess#removeTraveller(Ljava/lang/String;)Zr
+hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.javaR R("3*!
+2V V("
+Y Y(
+""*”
+3S S(Q
 O
-
-„ „(*
-driverdomain.Driver"__id*"
-
-__unknown_file (
-""}
-{
-
-…	 …(
-%2boolean"	__compare*
-
-… …(
-==*'
-
-…	 …(
-
-driverdomain.Driver*
-
-… …(
-""*
-6
-8*©
-11
-€ €(	S
-Q
-
-€ €(
+S S(
 %0java.io.PrintStream"__id*"
 
 __unknown_file (
-""éæ
-
-€ €(=
+""åâ
+S S(:
 
 %1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
 
 __unknown_file (
 
-%0java.io.PrintStream*D
+%0java.io.PrintStream*B
 
-__unknown_file ((&
-$>> TestDataAccess: addDriverWithRide2println(Ljava/lang/String;)Q
-O
-
- (
-driverdomain.Driver"__id*"
+__unknown_file (&$
+">> TestDataAccess: removeTraveller2println(Ljava/lang/String;)M
+K
+T T(/
+tdomain.Traveller"__id*"
 
 __unknown_file (
-""*
-9:$
-" (.
-userjava.lang.String:%
-/ (<
-emailjava.lang.String:$
-< (H
-fromjava.lang.String:"
-I (S
-tojava.lang.String:"
-T (^
-datejava.util.Date: 
-
-__unknown_file (
+""s
+q
+U U(
+%2boolean"	__compare*
+U U(	
+!=*#
+U U(
+
+tdomain.Traveller*
+U	 U(
+""*
+2
+1*!
+1[	 [("
+[ [(
 "":$
-	| (
-pricejava.util.List:#
-
- (™
-kotxedomain.Kotxe:(
-
-™ (­
-ibilbidejava.util.ListB!
-testOperations.TestDataAccessH
+R  R(+
+userjava.lang.StringB!
+testOperations.TestDataAccessHX

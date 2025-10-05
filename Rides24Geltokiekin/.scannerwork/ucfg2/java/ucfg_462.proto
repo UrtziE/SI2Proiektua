@@ -1,18 +1,17 @@
 
-3domain.RideRequest#getTraveller()Ldomain/Traveller;i
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java‡ ‡("1*¨
-1
-ˆ	 ˆ(o
-m
-
-ˆ	 ˆ(
-%0domain.Traveller"__id*A
+7domain.RideRequest#getFromRequested()Ljava/lang/String;g
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaB B( "1*¦
+1C
+ C(q
+o
+C
+ C(
+%0java.lang.String"__id*E
 
-__unknown_file (%*#
-domain.RideRequest"
-	traveller"&
-
-ˆ ˆ(
+__unknown_file ()*'
+domain.RideRequest"
+fromRequested"$
+C C(
 
-%0domain.TravellerB
+%0java.lang.StringB
 domain.RideRequestH

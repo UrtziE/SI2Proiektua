@@ -235,7 +235,7 @@ public class DataAccess {
 	 * @param date the date of the ride
 	 * @return collection of rides
 	 */
-	//kz 2
+	
 	public List<Ride> getRides(String from, String to, Date date) {
 		System.out.println(">> DataAccess: getRides=> from= " + from + " to= " + to + " date " + date);
 
@@ -257,7 +257,7 @@ public class DataAccess {
 
 	
 
-	//kz 1
+	
 
 	public List<RideContainer> getRidesOfDriver(Driver driver) {
 		List<RideContainer> res = new ArrayList<>();

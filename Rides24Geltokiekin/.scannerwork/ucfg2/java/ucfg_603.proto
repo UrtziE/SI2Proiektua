@@ -1,41 +1,81 @@
 
-\businessLogic.BLFacadeImplementation#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java¡ ¡(,"startingBlock*÷
+sbusinessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java§ §("startingBlock*¿
 startingBlock
-¡, ¡(7~
-|
+§ §(>„
+
 
-   (
+¦ ¦(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*1
+	WebMethod*6
 
-__unknown_file (
-
-pdomain.ProfileU
-S
+__unknown_file (
+
+fromjava.lang.StringZ
+X
 
-¡5 ¡(6
-pdomain.Profile"__annotation*"
+§# §('
+fromjava.lang.String"__annotation*"
 
 __unknown_file (
 
-%6*
-1*Å
+%6
+
+
+¦ ¦(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringX
+V
+
+§0 §(2
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7
+
+
+¦ ¦(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+datejava.util.DateX
+V
+
+§9 §(=
+datejava.util.Date"__annotation*"
+
+__unknown_file (
+
+%8*
+1*ä	
 1
-¢ ¢(‡
+¨ ¨(‡
 „
 
-¢ ¢(
+¨ ¨(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-¢ ¢(
+¨ ¨(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,41 +84,49 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-£ £(!
+© ©(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager‹ˆ
+	dbManagerª§
 
-£ £(:
-%3java.util.List"MdataAccess.DataAccess#getErreklamazioMezuak(Ldomain/Profile;)Ljava/util/List;*9
+© ©(6
+%3java.util.List"ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*1
+%2dataAccess.DataAccess*6
 
-__unknown_file (
-
-pdomain.Profile2'getErreklamazioMezuak(Ldomain/Profile;)a
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date2>getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)a
 _
 
-£ £(;
-mListjava.util.List"__id*2
+© ©(7
+ridesjava.util.List"__id*2
 
 __unknown_file (
 
 %3java.util.List‡
 „
 
-¤ ¤(
+ª ª(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-¤ ¤(
+ª ª(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -86,10 +134,16 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"'
 
-¥ ¥(
+« «(
 
-mListjava.util.List:!
+ridesjava.util.List:&
 
-¡- ¡(6
-pdomain.ProfileB(&
+§ §((
+fromjava.lang.String:$
+
+§) §(3
+tojava.lang.String:$
+
+§4 §(=
+datejava.util.DateB(&
 $businessLogic.BLFacadeImplementationH

@@ -1,15 +1,10 @@
 
--domain.Kotxe#getMatrikula()Ljava/lang/String;a
-WC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Kotxe.java' '("1*œ
-1(	 ((g
-e
-(	 ((
-%0java.lang.String"__id*;
+/testOperations.TestBusinessLogic#removeRide(I)Zu
+kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestBusinessLogic.java7 7("1*!
+18 8("
+; ;(
+"": 
 
-__unknown_file (*
-domain.Kotxe"
-	matrikula"$
-( ((
-
-%0java.lang.StringB
-domain.KotxeH
+__unknown_file (
+""B$"
+ testOperations.TestBusinessLogicHX

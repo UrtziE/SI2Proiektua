@@ -1,15 +1,62 @@
 
--testOperations.GetMezuakDBWhiteTest#<init>()V
-__unknown_file ("startingBlock*à
-startingBlockv
-nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBWhiteTest.java (Ó
-Î
-v
-nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBWhiteTest.java (
-%0"6testOperations.GetMezuakDBWhiteTest#%field_initializer*3
- ('%
-#testOperations.GetMezuakDBWhiteTest"ç
-v
-nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBWhiteTest.java (
-implicit returnB'%
+btestOperations.GetMezuakDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;z
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBWhiteTest.java´ ´("4*g
+2
+±
+ ±(Q
+O
+
+± ±(
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""*
+1*g
+3
+Ø Ø(Q
+O
+
+Ø Ø(,
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""*
+1*È
+4
+¨ ¨(Q
+O
+
+≠ ≠(+
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""}
+{
+
+Æ Æ(
+%0boolean"	__compare*
+
+Æ Æ(
+==*'
+
+Æ Æ(
+
+driverdomain.Driver*
+
+Æ Æ(
+""*
+2
+3*8
+1
+¥ ¥("'
+
+µ µ(
+
+driverdomain.Driver:&
+
+´ ´(&
+userjava.lang.String:'
+
+´' ´(3
+emailjava.lang.StringB'%
 #testOperations.GetMezuakDBWhiteTest

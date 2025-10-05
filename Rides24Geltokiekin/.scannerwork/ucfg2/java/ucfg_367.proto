@@ -1,56 +1,20 @@
 
-<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Zl
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaŽ Ž("3*Ç
-2
-‘
- ‘(Ÿœ
+LdataAccess.DataAccess#getIkusiGabeAlerta(Ldomain/Traveller;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaè è(&"1*™
+1
+é é(X
+V
 
-‘
- ‘(%
-%1boolean"-domain.RideRequest#isErreklamatuaTraveller()Z*5
-
-__unknown_file (
-
-rdomain.RideRequest2isErreklamatuaTraveller()"
-
-‘ ‘(&
-""*è
-3
- (|z
-
-- (<	
-%0int"domain.RideRequest#getId()I*;
-
-__unknown_file (
-
-requestdomain.RideRequest2getId()Q
-O
-
- (>
-rdomain.RideRequest"__id*"
+î î(3
+alertaMezuakjava.util.List"__id*"
 
 __unknown_file (
-""*
-2
-1*Á
-1
-“
- “(™–
+""".
 
-“
- “("
-%2boolean"*domain.RideRequest#isErreklamatuaDriver()Z*5
-
-__unknown_file (
-
-rdomain.RideRequest2isErreklamatuaDriver()"
+ð ð( 
+
+alertaMezuakjava.util.List:+
 
-“ “(#
-"":+
-
-Ž Ž(3
-requestdomain.RideRequest: 
-
-__unknown_file (
-""B
-dataAccess.DataAccessHX
+è' è(:
+	travellerdomain.TravellerB
+dataAccess.DataAccessH

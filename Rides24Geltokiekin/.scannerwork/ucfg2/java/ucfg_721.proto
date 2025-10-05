@@ -1,19 +1,19 @@
 
-Fdomain.Ride#requestOnTheList(Ldomain/RideRequest;)Ldomain/RideRequest;b
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaÐ Ð($"5*ù
+$domain.Ride#getTGEskakizunTamaina()Ib
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaô ô(!"5*…
 2
-Ñ Ñ(Q
-O
+ö ö(W
+U
 
-Ñ Ñ(
-rdomain.RideRequest"__id*"
+ö ö(
+requestdomain.RideRequest"__id*"
 
 __unknown_file (
-""Œ
-‰
+""’
+
 
-Ñ Ñ(
-rdomain.RideRequest"
+ö ö(
+requestdomain.RideRequest"
 __arrayGet*2
 
 __unknown_file (
@@ -23,33 +23,41 @@ __arrayGet*2
 __unknown_file (
 ""*
 4
-1*8
-3
-Ó Ó("'
-
-Ó Ó(
-
-rdomain.RideRequest*ø
+1*‡
 4
-Ò Ò(ÞÛ
+÷ ÷(±®
 
-Ò Ò(
-%1boolean".domain.RideRequest#equals(Ljava/lang/Object;)Z*5
-
-__unknown_file (
-
-rdomain.RideRequest*;
+÷ ÷(
+%1domain.EgoeraRideRequest"7domain.RideRequest#getState()Ldomain/EgoeraRideRequest;*;
 
 __unknown_file (
 
-requestdomain.RideRequest2equals(Ljava/lang/Object;)*
-2
-3*{
+requestdomain.RideRequest2
+getState()X
+V
+
+÷  ÷(>
+%2domain.EgoeraRideRequest"__id*"
+
+__unknown_file (
+""âß
+
+÷ ÷(?
+%3boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*<
+
+__unknown_file ( 
+
+%1domain.EgoeraRideRequest*<
+
+__unknown_file ( 
+
+%2domain.EgoeraRideRequest2equals(Ljava/lang/Object;)*
+2*{
 5
-Ñ Ñ(e
+ö ö(e
 c
 
-Ñ Ñ(
+ö ö((
 %0java.util.List"__id*9
 
 __unknown_file (*
@@ -58,11 +66,8 @@ c
 requests*
 2*%
 1
-Ö	 Ö("
+û	 û("
 
-Ö Ö(
-"":+
-
-Ð% Ð(8
-requestdomain.RideRequestB
-domain.RideH
+û û(
+""B
+domain.RideHX

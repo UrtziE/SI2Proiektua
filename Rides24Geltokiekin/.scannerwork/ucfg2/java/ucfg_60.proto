@@ -1,148 +1,92 @@
 
-ØtestOperations.GetMezuakDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;z
-nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBWhiteTest.java∏ ∏("7*è
-5
-Ω Ω(UZ
-X
+OtestOperations.GetMezuakDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Zz
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBWhiteTest.java• •("1*à
 
-Ω Ω(U
-ridedomain.Ride"__id*/
-
-__unknown_file (
-
-%3domain.Rideúô
-
-æ æ(
-%4java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
-
-__unknown_file (
-
-ridedomain.Ride2getRideNumber()*
-1*Ã
-6
-Ω
- Ω(
+1
+¶ ¶(
 }
 
-Ω
- Ω(
-%2dataAccess.DataAccess"__id*L
-
-__unknown_file (0*.%
-#testOperations.GetMezuakDBWhiteTest"
-sut¥±
-
-Ω
- Ω(U
-%3domain.Ride"§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*6
-
-__unknown_file (
-
-fromjava.lang.String*4
-
-__unknown_file (
-
-tojava.lang.String*4
-
-__unknown_file (
-
-datejava.util.Date*"
-
-__unknown_file (
-""*5
-
-__unknown_file (
-
-pricejava.util.List*<
-
-__unknown_file ( 
-
-
-driverUserjava.lang.String*3
-
-__unknown_file (
-
-kotxedomain.Kotxe*8
-
-__unknown_file (
-
-ibilbidejava.util.List2ÅcreateRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)*
-5*‚
-7
-∫ ∫(
-}
-
-∫ ∫(
+¶ ¶(
 %0dataAccess.DataAccess"__id*L
 
 __unknown_file (0*.%
 #testOperations.GetMezuakDBWhiteTest"
 sut|z
 
-∫ ∫(
+¶ ¶(
 
 %1void"dataAccess.DataAccess#open()V*9
 
 __unknown_file (
 
-%0dataAccess.DataAccess2open()M
-K
-
-ª ª(
-ridedomain.Ride"__id*"
-
-__unknown_file (
-""*
-6*µ
-1
-ƒ ƒ(
+%0dataAccess.DataAccess2open()
 }
 
-ƒ ƒ(
-%5dataAccess.DataAccess"__id*L
+ß ß(
+%2dataAccess.DataAccess"__id*L
+
+__unknown_file (0*.%
+#testOperations.GetMezuakDBWhiteTest"
+sut˚¯
+
+ß ß(Q
+%3boolean"hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*$
+
+__unknown_file (
+Seat*%
+
+__unknown_file (	
+ibiza*;
+
+__unknown_file (
+
+	matrikulajava.lang.String*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+driverdomain.Driver2QcreateCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)b
+`
+
+ß ß(R
+
+createdCarjava.lang.Boolean"__id*+
+
+__unknown_file (
+
+%3boolean
+}
+
+® ®(
+%4dataAccess.DataAccess"__id*L
 
 __unknown_file (0*.%
 #testOperations.GetMezuakDBWhiteTest"
 sut~|
 
-ƒ ƒ(
+® ®(
 
-%6void"dataAccess.DataAccess#close()V*9
+%5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%5dataAccess.DataAccess2close()"#
+%4dataAccess.DataAccess2close()"
 
-≈ ≈(
-
-ridedomain.Ride:&
+© ©(
+"":+
 
-∏ ∏("
-fromjava.lang.String:$
-
-∏# ∏(-
-tojava.lang.String:$
-
-∏. ∏(8
-datejava.util.Date: 
+• •()
+	matrikulajava.lang.String: 
 
 __unknown_file (
 "":%
 
-∏X ∏(j
-pricejava.util.List:,
-
-π π(
-
-driverUserjava.lang.String:#
-
-π π("
-kotxedomain.Kotxe:(
-
-π# π(8
-ibilbidejava.util.ListB'%
-#testOperations.GetMezuakDBWhiteTest
+•6 •(C
+driverdomain.DriverB'%
+#testOperations.GetMezuakDBWhiteTestX

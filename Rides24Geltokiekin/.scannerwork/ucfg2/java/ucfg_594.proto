@@ -1,95 +1,226 @@
 
-dbusinessLogic.BLFacadeImplementation#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaƒ ƒ(5"startingBlock*ç
-startingBlock
-ƒ5 ƒ(Jâ
-Ü
-
-√ √(
+ΩbusinessLogic.BLFacadeImplementation#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;y
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java[ [("startingBlock*À
+startingBlock[ [(~É
+Ä
+Z Z(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*;
+	WebMethod*7
 
-__unknown_file (
-
-	travellerdomain.Traveller_
-]
-
-ƒ@ ƒ(I
-	travellerdomain.Traveller"__annotation*"
+__unknown_file (
+
+emailjava.lang.StringY
+W
+[# [((
+emailjava.lang.String"__annotation*"
 
 __unknown_file (
 
-%6*
-1*„
-1
-≈ ≈(á
+%6Å
+
+Z Z(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+namejava.lang.StringX
+V
+[1 [(5
+namejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7Ö
+Ç
+Z Z(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*9
+
+__unknown_file (
+
+surnamejava.lang.String[
+Y
+[> [(E
+surnamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8Å
+
+Z Z(
+%9"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+userjava.lang.StringX
+V
+[N [(R
+userjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%9á
 Ñ
-
-≈ ≈(
+Z Z(
+%10"
+__annotate*)
+
+__unknown_file (
+	WebMethod*:
+
+__unknown_file (
+
+passwordjava.lang.String]
+[
+[[ [(c
+passwordjava.lang.String"__annotation*#
+
+__unknown_file (
+
+%10É
+Ä
+Z Z(
+%11"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+telfjava.lang.StringY
+W
+[l [(p
+telfjava.lang.String"__annotation*#
+
+__unknown_file (
+
+%11É
+Ä
+Z Z(
+%12"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+typejava.lang.StringY
+W
+[y [(}
+typejava.lang.String"__annotation*#
+
+__unknown_file (
+
+%12*
+1*Ã
+1\ \(Ö
+Ç
+\ \(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-≈ ≈(
+	dbManagerzx
+\ \(
 
 %1void"dataAccess.DataAccess#open()V*9
 
 __unknown_file (
 
-%0dataAccess.DataAccess2open()á
-Ñ
-
-∆ ∆(%
+%0dataAccess.DataAccess2open()Ö
+Ç
+] ](
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager•¢
-
-∆ ∆(L
-%3java.util.List"UdataAccess.DataAccess#getRidesRequestsOfTraveller(Ldomain/Traveller;)Ljava/util/List;*9
+	dbManager™ß
+] ](K
+%3domain.Profile"ÆdataAccess.DataAccess#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*;
+%2dataAccess.DataAccess*7
 
-__unknown_file (
-
-	travellerdomain.Traveller2/getRidesRequestsOfTraveller(Ldomain/Traveller;)c
-a
-
-∆ ∆(M
-requestjava.util.List"__id*2
+__unknown_file (
+
+emailjava.lang.String*6
+
+__unknown_file (
+
+namejava.lang.String*9
+
+__unknown_file (
+
+surnamejava.lang.String*6
+
+__unknown_file (
+
+userjava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String*6
+
+__unknown_file (
+
+telfjava.lang.String*6
+
+__unknown_file (
+
+typejava.lang.String2àregister(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)[
+Y
+] ](L
+pdomain.Profile"__id*2
 
 __unknown_file (
 
-%3java.util.Listá
-Ñ
-
-« «(
+%3domain.ProfileÖ
+Ç
+^ ^(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-« «(
+	dbManager|z
+^ ^(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()")
-
-» »(
-
-requestjava.util.List:+
-
-ƒ6 ƒ(I
-	travellerdomain.TravellerB(&
+%4dataAccess.DataAccess2close()"!
+_ _(
+
+pdomain.Profile:%
+[ [()
+emailjava.lang.String:$
+[* [(6
+namejava.lang.String:'
+[7 [(F
+surnamejava.lang.String:$
+[G [(S
+userjava.lang.String:(
+[T [(d
+passwordjava.lang.String:$
+[e [(q
+telfjava.lang.String:$
+[r [(}
+typejava.lang.StringB(&
 $businessLogic.BLFacadeImplementationH

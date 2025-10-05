@@ -1,11 +1,11 @@
 
-KbusinessLogic.BLFacadeImplementation#isErreklamatua(Ldomain/RideRequest;Z)Z{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java† †(!"startingBlock*ç
+ÖbusinessLogic.BLFacadeImplementation#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java» »("startingBlock*¨
 startingBlock
-†! †(Fâ
+» »(Qâ
 Ü
 
-ü ü(
+« «(
 %6"
 __annotate*)
 
@@ -14,28 +14,89 @@ __annotate*)
 
 __unknown_file (
 
-requestdomain.RideRequest_
+	travellerdomain.Traveller_
 ]
 
-†. †(5
-requestdomain.RideRequest"__annotation*"
+»& »(/
+	travellerdomain.Traveller"__annotation*"
 
 __unknown_file (
 
-%6*
-1*„
+%6Ñ
+Å
+
+« «(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringZ
+X
+
+»7 »(;
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7Å
+
+
+« «(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringX
+V
+
+»C »(E
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8Å
+
+
+« «(
+%9"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+whenjava.util.DateX
+V
+
+»L »(P
+whenjava.util.Date"__annotation*"
+
+__unknown_file (
+
+%9*
+1*ƒ
+
 1
-° °(á
+… …(á
 Ñ
 
-° °(
+… …(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-° °(
+… …(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,15 +105,15 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-¢ ¢(!
+   (
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManagerüú
+	dbManagerãà
 
-¢ ¢(A
-%3boolean"<dataAccess.DataAccess#isErreklamatua(Ldomain/RideRequest;Z)Z*9
+   (>
+%3domain.Alerta"vdataAccess.DataAccess#getAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ldomain/Alerta;*9
 
 __unknown_file (
 
@@ -60,33 +121,57 @@ $businessLogic.BLFacadeImplementation"
 
 __unknown_file (
 
-requestdomain.RideRequest*"
+	travellerdomain.Traveller*6
 
-__unknown_file (
-""2%isErreklamatua(Ldomain/RideRequest;Z)á
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+whenjava.util.Date2QgetAlerta(Ldomain/Traveller;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)`
+^
+
+   (?
+alertadomain.Alerta"__id*1
+
+__unknown_file (
+
+%3domain.Alertaá
 Ñ
 
-£ £(
+À À(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-£ £(
+À À(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"
+%4dataAccess.DataAccess2close()"'
 
-§ §(
-"":+
+Ã Ã(
+
+alertadomain.Alerta:+
 
-†" †(6
-requestdomain.RideRequest: 
-
-__unknown_file (
-""B(&
-$businessLogic.BLFacadeImplementationHX
+» »(0
+	travellerdomain.Traveller:&
+
+»0 »(<
+fromjava.lang.String:$
+
+»< »(F
+tojava.lang.String:$
+
+»G »(P
+whenjava.util.DateB(&
+$businessLogic.BLFacadeImplementationH

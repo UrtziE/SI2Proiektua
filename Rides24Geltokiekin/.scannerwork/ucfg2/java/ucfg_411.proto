@@ -1,65 +1,22 @@
 
-etestOperations.TestDataAccess#createTraveller(Ljava/lang/String;Ljava/lang/String;)Ldomain/Traveller;r
-hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.javaC C(!"7*{
-5H H(+g
-e
-H H(+
-	travellerdomain.Traveller"__id*4
-
-__unknown_file (
-
-%2domain.Traveller*
-1*Ç
-6H  H($64
-H H(
-%2domain.Traveller"domain.Travellerú
-÷
-H H(+
-%3">domain.Traveller#<init>(Ljava/lang/String;Ljava/lang/String;)V*4
-
-__unknown_file (
-
-%2domain.Traveller*6
-
-__unknown_file (
-
-userjava.lang.String*7
-
-__unknown_file (
-
-emailjava.lang.String*
-5*ž
-7D D(Q
-O
-D D(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""ßÜ
-D D(4
-
-%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream*<
-
-__unknown_file ( 
->> TestDataAccess: addDriver2println(Ljava/lang/String;)U
-S
-E E(
-	travellerdomain.Traveller"__id*"
-
-__unknown_file (
-""*
-6*:
-1O
- O("+
-O O(
+0testOperations.TestDataAccess#%field_initializer
+__unknown_file ("1*ï
+1 (ÿ
+ü
+r
+hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.java (%
+%0configuration.ConfigXML">configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;*'
+ ("
+configuration.ConfigXMLÒ
+Ï
+r
+hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.java (&&
+testOperations.TestDataAccess"
+c"__id*+
+ (
 
-	travellerdomain.Traveller:$
-C" C(.
-userjava.lang.String:%
-C/ C(;
-emailjava.lang.StringB!
-testOperations.TestDataAccessH
+%0configuration.ConfigXML"ˆ
+q
+hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.java ã(
+implicit returnB!
+testOperations.TestDataAccess

@@ -2856,7 +2856,10 @@ toString()+java.lang.Enum#toString()Ljava/lang/String;{
 domain.EgoeraRidejava.lang.EnumM
 <init>(Ljava/lang/String;I).domain.EgoeraRide#<init>(Ljava/lang/String;I)V_
 valueOf(Ljava/lang/String;)@domain.EgoeraRide#valueOf(Ljava/lang/String;)Ldomain/EgoeraRide;:
-values().domain.EgoeraRide#values()[Ldomain/EgoeraRide;Ô
+values().domain.EgoeraRide#values()[Ldomain/EgoeraRide;Œ
+!exceptions.DriverNotInDBExceptionjava.lang.Exception7
+<init>()+exceptions.DriverNotInDBException#<init>()V[
+<init>(Ljava/lang/String;)=exceptions.DriverNotInDBException#<init>(Ljava/lang/String;)VÔ
 gui.RegisterGUIjavax.swing.JFrame%
 <init>()gui.RegisterGUI#<init>()V3
 Desagertarazi() gui.RegisterGUI#Desagertarazi()V1
@@ -3453,16 +3456,16 @@ setHgap(I)!java.awt.BorderLayout#setHgap(I)V/
 
 setVgap(I)!java.awt.BorderLayout#setVgap(I)V@
 
-toString()2java.awt.BorderLayout#toString()Ljava/lang/String;Ï
+toString()2java.awt.BorderLayout#toString()Ljava/lang/String;Í
 mockTests.GetRidesMockWhiteTestjava.lang.Object5
-<init>())mockTests.GetRidesMockWhiteTest#<init>()V1
+<init>())mockTests.GetRidesMockWhiteTest#<init>()V;
+fromNotDB(),mockTests.GetRidesMockWhiteTest#fromNotDB()VE
+getRideRidekin()1mockTests.GetRidesMockWhiteTest#getRideRidekin()V1
 init()'mockTests.GetRidesMockWhiteTest#init()V9
 
-tearDown()+mockTests.GetRidesMockWhiteTest#tearDown()VC
-testGetRides1()0mockTests.GetRidesMockWhiteTest#testGetRides1()VC
-testGetRides2()0mockTests.GetRidesMockWhiteTest#testGetRides2()VC
-testGetRides3()0mockTests.GetRidesMockWhiteTest#testGetRides3()VC
-testGetRides4()0mockTests.GetRidesMockWhiteTest#testGetRides4()V(
+tearDown()+mockTests.GetRidesMockWhiteTest#tearDown()VS
+testDBEzDagoBidaiHori()8mockTests.GetRidesMockWhiteTest#testDBEzDagoBidaiHori()V7
+	toNotDB()*mockTests.GetRidesMockWhiteTest#toNotDB()V(
 java.lang.Appendablejava.lang.Object+
 java.lang.AutoCloseablejava.lang.Object>
 java.io.Closeablejava.lang.AutoCloseablejava.lang.Object%
@@ -3546,12 +3549,13 @@ setError()java.io.PrintStream#setError()Vl
 writeln([C) java.io.PrintStream#writeln([C)V≈
 java.text.ParseExceptionjava.lang.ExceptionT
 <init>(Ljava/lang/String;I)5java.text.ParseException#<init>(Ljava/lang/String;I)V>
-getErrorOffset()*java.text.ParseException#getErrorOffset()I‚
+getErrorOffset()*java.text.ParseException#getErrorOffset()I∞
  mockTests.GetMezuakMockBlackTestjava.lang.Object6
 <init>()*mockTests.GetMezuakMockBlackTest#<init>()V2
 init()(mockTests.GetMezuakMockBlackTest#init()V:
 
-tearDown(),mockTests.GetMezuakMockBlackTest#tearDown()VH
+tearDown(),mockTests.GetMezuakMockBlackTest#tearDown()VL
+testMezuEzMotaBat()5mockTests.GetMezuakMockBlackTest#testMezuEzMotaBat()VH
 testMezuaItzuli()3mockTests.GetMezuakMockBlackTest#testMezuaItzuli()V:
 
 testNull(),mockTests.GetMezuakMockBlackTest#testNull()Vö
@@ -3908,18 +3912,18 @@ $reverseOrder(Ljava/util/Comparator;)Pjava.util.Collections#reverseOrder(Ljava/
 "zeroLengthArray(Ljava/lang/Class;)Kjava.util.Collections#zeroLengthArray(Ljava/lang/Class;)[Ljava/lang/Object;ø
 exceptions.AtriNullExceptionjava.lang.Exception2
 <init>()&exceptions.AtriNullException#<init>()VV
-<init>(Ljava/lang/String;)8exceptions.AtriNullException#<init>(Ljava/lang/String;)V’
+<init>(Ljava/lang/String;)8exceptions.AtriNullException#<init>(Ljava/lang/String;)V”
 "testOperations.GetRidesDBWhiteTestjava.lang.Object8
 <init>(),testOperations.GetRidesDBWhiteTest#<init>()V|
 *addCar(Ljava/lang/String;ILdomain/Driver;)NtestOperations.GetRidesDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Zî
 /addDriver(Ljava/lang/String;Ljava/lang/String;)atestOperations.GetRidesDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;±
 ~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)ÆtestOperations.GetRidesDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;8
-bukatu(),testOperations.GetRidesDBWhiteTest#bukatu()V@
-initialize()0testOperations.GetRidesDBWhiteTest#initialize()VF
-testGetRides1()3testOperations.GetRidesDBWhiteTest#testGetRides1()VF
-testGetRides2()3testOperations.GetRidesDBWhiteTest#testGetRides2()VF
-testGetRides3()3testOperations.GetRidesDBWhiteTest#testGetRides3()VF
-testGetRides4()3testOperations.GetRidesDBWhiteTest#testGetRides4()Vl
+bukatu(),testOperations.GetRidesDBWhiteTest#bukatu()V>
+fromNotDB()/testOperations.GetRidesDBWhiteTest#fromNotDB()VH
+getRideRidekin()4testOperations.GetRidesDBWhiteTest#getRideRidekin()V@
+initialize()0testOperations.GetRidesDBWhiteTest#initialize()VV
+testDBEzDagoBidaiHori();testOperations.GetRidesDBWhiteTest#testDBEzDagoBidaiHori()V:
+	toNotDB()-testOperations.GetRidesDBWhiteTest#toNotDB()Vl
 gui.AlertaGUIjavax.swing.JFrameG
 <init>(Ldomain/Traveller;))gui.AlertaGUI#<init>(Ldomain/Traveller;)V⁄
 gui.AlertaGUI$1java.awt.event.ActionListenerjava.lang.Object%
@@ -4169,12 +4173,13 @@ toString()0java.awt.GridLayout#toString()Ljava/lang/String;†
 -actionPerformed(Ljava/awt/event/ActionEvent;)>gui.MezuakGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)V†
 gui.MezuakGUI$3java.awt.event.ActionListenerjava.lang.Objectk
 +<init>(Lgui/MezuakGUI;Ljavax/swing/JLabel;)<gui.MezuakGUI$3#<init>(Lgui/MezuakGUI;Ljavax/swing/JLabel;)Vo
--actionPerformed(Ljava/awt/event/ActionEvent;)>gui.MezuakGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)V±
+-actionPerformed(Ljava/awt/event/ActionEvent;)>gui.MezuakGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)VÇ
 #testOperations.GetMezuakDBBlackTestjava.lang.Object9
 <init>()-testOperations.GetMezuakDBBlackTest#<init>()V≤
 ~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)ØtestOperations.GetMezuakDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;9
 bukatu()-testOperations.GetMezuakDBBlackTest#bukatu()VA
-initialize()1testOperations.GetMezuakDBBlackTest#initialize()VK
+initialize()1testOperations.GetMezuakDBBlackTest#initialize()VO
+testMezuEzMotaBat()8testOperations.GetMezuakDBBlackTest#testMezuEzMotaBat()VK
 testMezuaItzuli()6testOperations.GetMezuakDBBlackTest#testMezuaItzuli()V=
 
 testNull()/testOperations.GetMezuakDBBlackTest#testNull()V™
@@ -4371,10 +4376,11 @@ TwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOpt
 <init>()java.io.IOException#<init>()VM
 <init>(Ljava/lang/String;)/java.io.IOException#<init>(Ljava/lang/String;)Vw
 /<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.io.IOException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VS
-<init>(Ljava/lang/Throwable;)2java.io.IOException#<init>(Ljava/lang/Throwable;)V®
+<init>(Ljava/lang/Throwable;)2java.io.IOException#<init>(Ljava/lang/Throwable;)V¯
 domain.RideContainerjava.lang.Object*
 <init>()domain.RideContainer#<init>()VD
-<init>(Ldomain/Ride;)+domain.RideContainer#<init>(Ldomain/Ride;)V>
+<init>(Ldomain/Ride;)+domain.RideContainer#<init>(Ldomain/Ride;)VN
+equals(Ljava/lang/Object;)0domain.RideContainer#equals(Ljava/lang/Object;)Z>
 getDriver()/domain.RideContainer#getDriver()Ldomain/Driver;8
 	getRide()+domain.RideContainer#getRide()Ldomain/Ride;Q
 getRideRequestList()9domain.RideContainer#getRideRequestList()Ljava/util/List;?
@@ -4530,35 +4536,37 @@ I<init>(Lgui/AdminErreklamazioakGUI;Ldomain/Admin;Ljavax/swing/JComboBox;)ggui.
 -actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$3#actionPerformed(Ljava/awt/event/ActionEvent;)VË
 gui.AdminErreklamazioakGUI$4java.awt.event.ActionListenerjava.lang.Objectò
 ;<init>(Lgui/AdminErreklamazioakGUI;Ljavax/swing/JComboBox;)Ygui.AdminErreklamazioakGUI$4#<init>(Lgui/AdminErreklamazioakGUI;Ljavax/swing/JComboBox;)V|
--actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$4#actionPerformed(Ljava/awt/event/ActionEvent;)Vä
+-actionPerformed(Ljava/awt/event/ActionEvent;)Kgui.AdminErreklamazioakGUI$4#actionPerformed(Ljava/awt/event/ActionEvent;)VÚ
 +mockTests.GetEginRidesOfDriverMockBlackTestjava.lang.ObjectA
 <init>()5mockTests.GetEginRidesOfDriverMockBlackTest#<init>()V=
 init()3mockTests.GetEginRidesOfDriverMockBlackTest#init()VE
 
-tearDown()7mockTests.GetEginRidesOfDriverMockBlackTest#tearDown()V?
-test1()4mockTests.GetEginRidesOfDriverMockBlackTest#test1()V?
-test2()4mockTests.GetEginRidesOfDriverMockBlackTest#test2()Ví
+tearDown()7mockTests.GetEginRidesOfDriverMockBlackTest#tearDown()V[
+testDriverEzDagoDBn()BmockTests.GetEginRidesOfDriverMockBlackTest#testDriverEzDagoDBn()VQ
+testDriverNull()=mockTests.GetEginRidesOfDriverMockBlackTest#testDriverNull()Ve
+testEzDaudeRideAktiborik()GmockTests.GetEginRidesOfDriverMockBlackTest#testEzDaudeRideAktiborik()VQ
+testRideAktibo()=mockTests.GetEginRidesOfDriverMockBlackTest#testRideAktibo()V‰
 .testOperations.GetEginRidesOfDriverDBWhiteTestjava.lang.ObjectD
 <init>()8testOperations.GetEginRidesOfDriverDBWhiteTest#<init>()Và
 *addCar(Ljava/lang/String;ILdomain/Driver;)ZtestOperations.GetEginRidesOfDriverDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Z†
 /addDriver(Ljava/lang/String;Ljava/lang/String;)mtestOperations.GetEginRidesOfDriverDBWhiteTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;˘
 \addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILdomain/Kotxe;Ljava/util/List;)òtestOperations.GetEginRidesOfDriverDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILdomain/Kotxe;Ljava/util/List;)Ldomain/Ride;D
 bukatu()8testOperations.GetEginRidesOfDriverDBWhiteTest#bukatu()VL
-initialize()<testOperations.GetEginRidesOfDriverDBWhiteTest#initialize()VB
-test1()7testOperations.GetEginRidesOfDriverDBWhiteTest#test1()VB
-test2()7testOperations.GetEginRidesOfDriverDBWhiteTest#test2()VB
-test3()7testOperations.GetEginRidesOfDriverDBWhiteTest#test3()V‘
+initialize()<testOperations.GetEginRidesOfDriverDBWhiteTest#initialize()V\
+testBidaiBatAktibo()DtestOperations.GetEginRidesOfDriverDBWhiteTest#testBidaiBatAktibo()VT
+testBidairikEz()@testOperations.GetEginRidesOfDriverDBWhiteTest#testBidairikEz()Vh
+testEzDagoBidaiAktiborik()JtestOperations.GetEginRidesOfDriverDBWhiteTest#testEzDagoBidaiAktiborik()V‘
 #exceptions.WrongDateFormatExceptionjava.lang.Exception9
 <init>()-exceptions.WrongDateFormatException#<init>()V]
-<init>(Ljava/lang/String;)?exceptions.WrongDateFormatException#<init>(Ljava/lang/String;)VÀ
+<init>(Ljava/lang/String;)?exceptions.WrongDateFormatException#<init>(Ljava/lang/String;)Vù
 +mockTests.GetEginRidesOfDriverMockWhiteTestjava.lang.ObjectA
 <init>()5mockTests.GetEginRidesOfDriverMockWhiteTest#<init>()V=
 init()3mockTests.GetEginRidesOfDriverMockWhiteTest#init()VE
 
-tearDown()7mockTests.GetEginRidesOfDriverMockWhiteTest#tearDown()V?
-test1()4mockTests.GetEginRidesOfDriverMockWhiteTest#test1()V?
-test2()4mockTests.GetEginRidesOfDriverMockWhiteTest#test2()V?
-test3()4mockTests.GetEginRidesOfDriverMockWhiteTest#test3()VÛ
+tearDown()7mockTests.GetEginRidesOfDriverMockWhiteTest#tearDown()VY
+testBidaiBatAktibo()AmockTests.GetEginRidesOfDriverMockWhiteTest#testBidaiBatAktibo()VQ
+testBidairikEz()=mockTests.GetEginRidesOfDriverMockWhiteTest#testBidairikEz()Ve
+testEzDagoBidaiAktiborik()GmockTests.GetEginRidesOfDriverMockWhiteTest#testEzDagoBidaiAktiborik()VÛ
 gui.LoginGUI$1java.awt.event.ActionListenerjava.lang.Object@
 <init>(Lgui/LoginGUI;)&gui.LoginGUI$1#<init>(Lgui/LoginGUI;)Vn
 -actionPerformed(Ljava/awt/event/ActionEvent;)=gui.LoginGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)VÛ
@@ -4571,14 +4579,19 @@ tearDown()7mockTests.GetEginRidesOfDriverMockWhiteTest#tearDown()V?
 gui.AdminGUIjavax.swing.JFrame>
 <init>(Ldomain/Admin;)$gui.AdminGUI#<init>(Ldomain/Admin;)VM
 getBusinessLogic()7gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;h
-+setBussinessLogic(LbusinessLogic/BLFacade;)9gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V«
++setBussinessLogic(LbusinessLogic/BLFacade;)9gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)VÄ
+
 .testOperations.GetEginRidesOfDriverDBBlackTestjava.lang.ObjectD
-<init>()8testOperations.GetEginRidesOfDriverDBBlackTest#<init>()V†
-/addDriver(Ljava/lang/String;Ljava/lang/String;)mtestOperations.GetEginRidesOfDriverDBBlackTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;D
+<init>()8testOperations.GetEginRidesOfDriverDBBlackTest#<init>()Và
+*addCar(Ljava/lang/String;ILdomain/Driver;)ZtestOperations.GetEginRidesOfDriverDBBlackTest#addCar(Ljava/lang/String;ILdomain/Driver;)Z†
+/addDriver(Ljava/lang/String;Ljava/lang/String;)mtestOperations.GetEginRidesOfDriverDBBlackTest#addDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;Ω
+~addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)∫testOperations.GetEginRidesOfDriverDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;D
 bukatu()8testOperations.GetEginRidesOfDriverDBBlackTest#bukatu()VL
-initialize()<testOperations.GetEginRidesOfDriverDBBlackTest#initialize()VB
-test1()7testOperations.GetEginRidesOfDriverDBBlackTest#test1()VB
-test2()7testOperations.GetEginRidesOfDriverDBBlackTest#test2()V¥
+initialize()<testOperations.GetEginRidesOfDriverDBBlackTest#initialize()V^
+testDriverEzDagoDBn()EtestOperations.GetEginRidesOfDriverDBBlackTest#testDriverEzDagoDBn()VT
+testDriverNull()@testOperations.GetEginRidesOfDriverDBBlackTest#testDriverNull()Vh
+testEzDaudeRideAktiborik()JtestOperations.GetEginRidesOfDriverDBBlackTest#testEzDaudeRideAktiborik()VT
+testRideAktibo()@testOperations.GetEginRidesOfDriverDBBlackTest#testRideAktibo()V¥
 gui.DiruaAteraGUI$1java.awt.event.ActionListenerjava.lang.Objectw
 /<init>(Lgui/DiruaAteraGUI;Ljavax/swing/JLabel;)Dgui.DiruaAteraGUI$1#<init>(Lgui/DiruaAteraGUI;Ljavax/swing/JLabel;)Vs
 -actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.DiruaAteraGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vå

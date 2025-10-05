@@ -1,41 +1,121 @@
 
-ZbusinessLogic.BLFacadeImplementation#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaù ù(0"startingBlock*õ
+šbusinessLogic.BLFacadeImplementation#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;{
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javaŒ Œ(!"startingBlock*†	
 startingBlock
-ù0 ù(:}
-{
+Œ! Œ(m
+
 
-ø ø(
+‹ ‹(
 %6"
 __annotate*)
 
 __unknown_file (
-	WebMethod*0
+	WebMethod*4
 
-__unknown_file (
-
-ddomain.DriverT
-R
+__unknown_file (
+
+timejava.util.DateX
+V
 
-ù8 ù(9
-ddomain.Driver"__annotation*"
+Œ' Œ(+
+timejava.util.Date"__annotation*"
 
 __unknown_file (
 
-%6*
-1*Æ
+%6~
+|
+
+‹ ‹(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*1
+
+__unknown_file (
+
+ridedomain.RideU
+S
+
+Œ2 Œ(6
+ridedomain.Ride"__annotation*"
+
+__unknown_file (
+
+%7‰
+†
+
+‹ ‹(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*;
+
+__unknown_file (
+
+	travellerdomain.Traveller_
+]
+
+ŒB Œ(K
+	travellerdomain.Traveller"__annotation*"
+
+__unknown_file (
+
+%8„
+
+
+‹ ‹(
+%9"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringZ
+X
+
+Œ] Œ(a
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%9ƒ
+€
+
+‹ ‹(
+%10"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringY
+W
+
+Œj Œ(l
+tojava.lang.String"__annotation*#
+
+__unknown_file (
+
+%10*
+1*×
 1
-ú ú(‡
+ (‡
 „
 
-ú ú(
+ (
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager|z
 
-ú ú(
+ (
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -44,52 +124,86 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-û û((
+ ( 
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
-	dbManager†ƒ
+	dbManagerŠ
 
-û û(@
-%3java.util.List"KdataAccess.DataAccess#getEginRidesOfDriver(Ldomain/Driver;)Ljava/util/List;*9
+ (O
+%3domain.RideRequest"‹dataAccess.DataAccess#erreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)Ldomain/RideRequest;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*0
+%2dataAccess.DataAccess*4
 
-__unknown_file (
-
-ddomain.Driver2%getEginRidesOfDriver(Ldomain/Driver;)d
-b
+__unknown_file (
+
+timejava.util.Date*1
+
+__unknown_file (
+
+ridedomain.Ride*;
+
+__unknown_file (
+
+	travellerdomain.Traveller*"
+
+__unknown_file (
+""*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String2aerreserbatu(Ljava/util/Date;Ldomain/Ride;Ldomain/Traveller;ILjava/lang/String;Ljava/lang/String;)k
+i
 
-û û(A
-rideListjava.util.List"__id*2
+ (P
+requestdomain.RideRequest"__id*6
 
-__unknown_file (
-
-%3java.util.List‡
+__unknown_file (
+
+%3domain.RideRequest‡
 „
 
-ü ü(
+‘ ‘(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
 $businessLogic.BLFacadeImplementation"
 	dbManager~|
 
-ü ü(
+‘ ‘(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"*
+%4dataAccess.DataAccess2close()"-
 
-ı ı(
-
-rideListjava.util.List: 
+’ ’(
+
+requestdomain.RideRequest:$
 
-ù1 ù(9
-ddomain.DriverB(&
+Œ" Œ(,
+timejava.util.Date:!
+
+Œ- Œ(7
+ridedomain.Ride:+
+
+Œ8 Œ(L
+	travellerdomain.Traveller: 
+
+__unknown_file (
+"":&
+
+ŒV Œ(b
+fromjava.lang.String:$
+
+Œc Œ(l
+tojava.lang.StringB(&
 $businessLogic.BLFacadeImplementationH

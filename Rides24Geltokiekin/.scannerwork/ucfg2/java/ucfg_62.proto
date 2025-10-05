@@ -1,45 +1,148 @@
 
-"gui.BaloratuGUI#%field_initializer
-__unknown_file ("1*ë
+ØtestOperations.GetMezuakDBWhiteTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;z
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBWhiteTest.java∏ ∏("7*è
+5
+Ω Ω(UZ
+X
 
-1 (≥∞
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java 9  (M&
-%0 javax.swing.DefaultComboBoxModel" javax.swing.DefaultComboBoxModel—
-Œ
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java 5  (O
-%1"*javax.swing.DefaultComboBoxModel#<init>()V*4
- ((
-&
-%0 javax.swing.DefaultComboBoxModel“
-œ
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java   (P+
-gui.BaloratuGUI"
-balorazioLaguntzaile"__id*4
- ((
-&
-%0 javax.swing.DefaultComboBoxModel°û
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java!- !(8
-%2javax.swing.ButtonGroup"javax.swing.ButtonGroupø
-º
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java!) !(:
-%3"!javax.swing.ButtonGroup#<init>()V*+
- (
-
-%2javax.swing.ButtonGroup¿
-Ω
-d
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java! !(;"
-gui.BaloratuGUI"
-buttonGroup"__id*+
- (
-
-%2javax.swing.ButtonGroup"z
-c
-ZC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/BaloratuGUI.java ä(
-implicit returnB
-gui.BaloratuGUI
+Ω Ω(U
+ridedomain.Ride"__id*/
+
+__unknown_file (
+
+%3domain.Rideúô
+
+æ æ(
+%4java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()*
+1*Ã
+6
+Ω
+ Ω(
+}
+
+Ω
+ Ω(
+%2dataAccess.DataAccess"__id*L
+
+__unknown_file (0*.%
+#testOperations.GetMezuakDBWhiteTest"
+sut¥±
+
+Ω
+ Ω(U
+%3domain.Ride"§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+pricejava.util.List*<
+
+__unknown_file ( 
+
+
+driverUserjava.lang.String*3
+
+__unknown_file (
+
+kotxedomain.Kotxe*8
+
+__unknown_file (
+
+ibilbidejava.util.List2ÅcreateRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)*
+5*‚
+7
+∫ ∫(
+}
+
+∫ ∫(
+%0dataAccess.DataAccess"__id*L
+
+__unknown_file (0*.%
+#testOperations.GetMezuakDBWhiteTest"
+sut|z
+
+∫ ∫(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()M
+K
+
+ª ª(
+ridedomain.Ride"__id*"
+
+__unknown_file (
+""*
+6*µ
+1
+ƒ ƒ(
+}
+
+ƒ ƒ(
+%5dataAccess.DataAccess"__id*L
+
+__unknown_file (0*.%
+#testOperations.GetMezuakDBWhiteTest"
+sut~|
+
+ƒ ƒ(
+
+%6void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%5dataAccess.DataAccess2close()"#
+
+≈ ≈(
+
+ridedomain.Ride:&
+
+∏ ∏("
+fromjava.lang.String:$
+
+∏# ∏(-
+tojava.lang.String:$
+
+∏. ∏(8
+datejava.util.Date: 
+
+__unknown_file (
+"":%
+
+∏X ∏(j
+pricejava.util.List:,
+
+π π(
+
+driverUserjava.lang.String:#
+
+π π("
+kotxedomain.Kotxe:(
+
+π# π(8
+ibilbidejava.util.ListB'%
+#testOperations.GetMezuakDBWhiteTest

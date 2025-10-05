@@ -1,15 +1,91 @@
 
-,testOperations.GetRidesDBWhiteTest#<init>()V
-__unknown_file ("startingBlock*ƒ
-startingBlocku
-mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBWhiteTest.java (ë
-è
-u
-mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBWhiteTest.java (
-%0"5testOperations.GetRidesDBWhiteTest#%field_initializer*2
- (&$
-"testOperations.GetRidesDBWhiteTest"Œ
-u
-mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBWhiteTest.java (
-implicit returnB&$
-"testOperations.GetRidesDBWhiteTest
+NtestOperations.GetRidesDBWhiteTest#addCar(Ljava/lang/String;ILdomain/Driver;)Zy
+mC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetRidesDBWhiteTest.java« «("1*Œ
+
+1
+¬ ¬(~
+|
+
+¬ ¬(
+%0dataAccess.DataAccess"__id*K
+
+__unknown_file (/*-$
+"testOperations.GetRidesDBWhiteTest"
+sut|z
+
+¬ ¬(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()~
+|
+
+­ ­(
+%2dataAccess.DataAccess"__id*K
+
+__unknown_file (/*-$
+"testOperations.GetRidesDBWhiteTest"
+sutûø
+
+­ ­(I
+%3boolean"hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*$
+
+__unknown_file (
+Seat*%
+
+__unknown_file (	
+ibiza*;
+
+__unknown_file (
+
+	matrikulajava.lang.String*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+driverdomain.Driver2QcreateCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)~
+|
+
+® ®(
+%4dataAccess.DataAccess"__id*K
+
+__unknown_file (/*-$
+"testOperations.GetRidesDBWhiteTest"
+sut~|
+
+® ®(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()i
+g
+
+° °("/$
+"testOperations.GetRidesDBWhiteTest"
+kotxe"__id*"
+
+__unknown_file (
+"""
+
+² ²(
+"":+
+
+« «()
+	matrikulajava.lang.String: 
+
+__unknown_file (
+"":%
+
+«6 «(C
+driverdomain.DriverB&$
+"testOperations.GetRidesDBWhiteTestX

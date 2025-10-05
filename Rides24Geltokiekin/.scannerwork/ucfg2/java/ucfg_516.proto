@@ -1,27 +1,148 @@
 
-$gui.DiruaAteraGUI#%field_initializer
-__unknown_file ("1*†
-1 (ôñ
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (%
-%0javax.swing.JLabel"javax.swing.JLabel∑
-¥
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (~
-%1"javax.swing.JLabel#<init>()V*&
- (
-
-%0javax.swing.JLabelº
-π
-f
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java (!
-gui.DiruaAteraGUI"
+∫testOperations.GetEginRidesOfDriverDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;Ö
+yC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetEginRidesOfDriverDBBlackTest.java… …("7*è
+5
+Œ Œ(UZ
+X
 
-errorlbl"__id*&
- (
+Œ Œ(U
+ridedomain.Ride"__id*/
 
-%0javax.swing.JLabel"|
-e
-\C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/gui/DiruaAteraGUI.java ä(
-implicit returnB
-gui.DiruaAteraGUI
+__unknown_file (
+
+%3domain.Rideúô
+
+œ œ(
+%4java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()*
+1*Ÿ
+6
+Œ
+ Œ(ã
+à
+
+Œ
+ Œ(
+%2dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+sut¥±
+
+Œ
+ Œ(U
+%3domain.Ride"§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+pricejava.util.List*<
+
+__unknown_file ( 
+
+
+driverUserjava.lang.String*3
+
+__unknown_file (
+
+kotxedomain.Kotxe*8
+
+__unknown_file (
+
+ibilbidejava.util.List2ÅcreateRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)*
+5*Ô
+7
+À À(ã
+à
+
+À À(
+%0dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+sut|z
+
+À À(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()M
+K
+
+Ã Ã(
+ridedomain.Ride"__id*"
+
+__unknown_file (
+""*
+6*¬
+1
+’ ’(ã
+à
+
+’ ’(
+%5dataAccess.DataAccess"__id*W
+
+__unknown_file (;*90
+.testOperations.GetEginRidesOfDriverDBBlackTest"
+sut~|
+
+’ ’(
+
+%6void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%5dataAccess.DataAccess2close()"#
+
+÷ ÷(
+
+ridedomain.Ride:&
+
+… …("
+fromjava.lang.String:$
+
+…# …(-
+tojava.lang.String:$
+
+…. …(8
+datejava.util.Date: 
+
+__unknown_file (
+"":%
+
+…X …(j
+pricejava.util.List:,
+
+   (
+
+driverUserjava.lang.String:#
+
+   ("
+kotxedomain.Kotxe:(
+
+ #  (8
+ibilbidejava.util.ListB20
+.testOperations.GetEginRidesOfDriverDBBlackTest

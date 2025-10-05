@@ -1,83 +1,34 @@
 
-hdataAccess.DataAccess#createCar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILdomain/Driver;)Zl
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÏ Ï("3*Ù
-2
-Ò Ò(•’
-
-Ó$ Ó(4
-%1java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*5
-
-__unknown_file (
-
-driverdomain.Driver2	getUser()L
-J
-
-Ó Ó(6
-ddomain.Driver"__id*"
-
-__unknown_file (
-""ËÈ
-
-Ô Ô(0
-%2domain.Kotxe"]domain.Driver#addKotxe(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ldomain/Kotxe;*0
-
-__unknown_file (
-
-ddomain.Driver*7
-
-__unknown_file (
-
-markajava.lang.String*8
-
-__unknown_file (
-
-modelojava.lang.String*"
-
-__unknown_file (
-""*;
-
-__unknown_file (
-
-	matrikulajava.lang.String2AaddKotxe(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)"
-
-Ö Ö(
-""*z
-3
-Ñ Ñ(a
-_
-
-Ñ Ñ(-
-%0"	__compare*
-
-Ñ& Ñ((
-==*
-
-Ñ Ñ(%
-""*
-
-Ñ) Ñ(-
-""*
-2
-1*%
+OdataAccess.DataAccess#getTravellersOfRideNotDone(Ldomain/Ride;)Ljava/util/List;l
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java¶ ¶(2"1*¾
 1
-Ù
- Ù("
+¸ ¸(œ™
 
-Ù Ù(
-"":'
-
-Ï Ï('
-markajava.lang.String:(
-
-Ï( Ï(6
-modelojava.lang.String:+
-
-Ï7 Ï(H
-	matrikulajava.lang.String: 
+¸$ ¸(8
+%0java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
 
-__unknown_file (
-"":%
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()J
+H
 
-ÏV Ï(c
-driverdomain.DriverB
-dataAccess.DataAccessHX
+¸ ¸(:
+rdomain.Ride"__id*"
+
+__unknown_file (
+""›˜
+
+º	 º(
+%1java.util.List"/domain.Ride#travellersNotDone()Ljava/util/List;*.
+
+__unknown_file (
+
+rdomain.Ride2travellersNotDone()"$
+
+º º(
+
+%1java.util.List:!
+
+¶3 ¶(<
+ridedomain.RideB
+dataAccess.DataAccessH

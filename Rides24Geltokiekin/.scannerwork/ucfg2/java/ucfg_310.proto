@@ -1,7 +1,157 @@
 
-*configuration.ConfigXML#getDatabasePort()Il
-bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java5 5("1*!
-16	 6("
-6 6(
-""B
-configuration.ConfigXMLHX
+ØtestOperations.GetMezuakDBBlackTest#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;z
+nC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/GetMezuakDBBlackTest.java° °("7*è
+5
+¶ ¶(XZ
+X
+
+¶ ¶(X
+ridedomain.Ride"__id*/
+
+__unknown_file (
+
+%4domain.Rideúô
+
+ß ß(
+%5java.lang.Integer".domain.Ride#getRideNumber()Ljava/lang/Integer;*1
+
+__unknown_file (
+
+ridedomain.Ride2getRideNumber()*
+1*»
+6
+¶
+ ¶(
+}
+
+¶
+ ¶(
+%2dataAccess.DataAccess"__id*L
+
+__unknown_file (0*.%
+#testOperations.GetMezuakDBBlackTest"
+sut}
+{
+
+¶2 ¶(:
+%3java.util.List"__id*Q
+
+__unknown_file (5*3%
+#testOperations.GetMezuakDBBlackTest"
+
+prezioak±Æ
+
+¶
+ ¶(X
+%4domain.Ride"§dataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date*"
+
+__unknown_file (
+""*2
+
+__unknown_file (
+
+%3java.util.List*<
+
+__unknown_file ( 
+
+
+driverUserjava.lang.String*3
+
+__unknown_file (
+
+kotxedomain.Kotxe*8
+
+__unknown_file (
+
+ibilbidejava.util.List2ÅcreateRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ljava/lang/String;Ldomain/Kotxe;Ljava/util/List;)*
+5*‚
+7
+£ £(
+}
+
+£ £(
+%0dataAccess.DataAccess"__id*L
+
+__unknown_file (0*.%
+#testOperations.GetMezuakDBBlackTest"
+sut|z
+
+£ £(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()M
+K
+
+§ §(
+ridedomain.Ride"__id*"
+
+__unknown_file (
+""*
+6*µ
+1
+≠ ≠(
+}
+
+≠ ≠(
+%6dataAccess.DataAccess"__id*L
+
+__unknown_file (0*.%
+#testOperations.GetMezuakDBBlackTest"
+sut~|
+
+≠ ≠(
+
+%7void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%6dataAccess.DataAccess2close()"#
+
+Æ Æ(
+
+ridedomain.Ride:&
+
+° °("
+fromjava.lang.String:$
+
+°# °(-
+tojava.lang.String:$
+
+°. °(8
+datejava.util.Date: 
+
+__unknown_file (
+"":%
+
+°X °(j
+pricejava.util.List:,
+
+¢ ¢(
+
+driverUserjava.lang.String:#
+
+¢ ¢("
+kotxedomain.Kotxe:(
+
+¢# ¢(8
+ibilbidejava.util.ListB'%
+#testOperations.GetMezuakDBBlackTest

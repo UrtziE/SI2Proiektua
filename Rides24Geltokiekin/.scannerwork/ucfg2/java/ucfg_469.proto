@@ -1,9 +1,18 @@
 
-*domain.RideRequest#isBaloratuaTraveller()Zi
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaŸ Ÿ($"1*%
+3domain.RideRequest#getTraveller()Ldomain/Traveller;i
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java‡ ‡("1*¨
 1
- 	  ("
+ˆ	 ˆ(o
+m
 
-   (
-""B
-domain.RideRequestHX
+ˆ	 ˆ(
+%0domain.Traveller"__id*A
+
+__unknown_file (%*#
+domain.RideRequest"
+	traveller"&
+
+ˆ ˆ(
+
+%0domain.TravellerB
+domain.RideRequestH

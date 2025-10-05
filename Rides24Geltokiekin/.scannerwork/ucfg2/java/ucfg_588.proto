@@ -1,95 +1,24 @@
 
-ZbusinessLogic.BLFacadeImplementation#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;{
-oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.javañ ñ(!"startingBlock*ë
-startingBlock
-ñ! ñ(8ã
-à
-
-ï ï(
-%6"
-__annotate*)
-
-__unknown_file (
-	WebMethod*=
-
-__unknown_file (!
-
-	erreserbadomain.RideRequesta
-_
-
-ñ. ñ(7
-	erreserbadomain.RideRequest"__annotation*"
-
-__unknown_file (
-
-%6*
-1*¬
-1
-ó ó(á
-Ñ
-
-ó ó(
-%0dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-ó ó(
-
-%1void"dataAccess.DataAccess#open()V*9
-
-__unknown_file (
-
-%0dataAccess.DataAccess2open()á
-Ñ
-
-ò ò(
-%2dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerìê
-
-ò ò(5
-%3domain.Ride"KdataAccess.DataAccess#getRideFromRequest(Ldomain/RideRequest;)Ldomain/Ride;*9
-
-__unknown_file (
-
-%2dataAccess.DataAccess*=
-
-__unknown_file (!
-
-	erreserbadomain.RideRequest2(getRideFromRequest(Ldomain/RideRequest;)Z
-X
-
-ò ò(7
-ridedomain.Ride"__id*/
-
-__unknown_file (
-
-%3domain.Rideá
-Ñ
-
-ô ô(
-%4dataAccess.DataAccess"__id*S
-
-__unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-ô ô(
-
-%5void"dataAccess.DataAccess#close()V*9
-
-__unknown_file (
-
-%4dataAccess.DataAccess2close()"#
-
-ö ö(
-
-ridedomain.Ride:-
-
-ñ" ñ(7
-	erreserbadomain.RideRequestB(&
-$businessLogic.BLFacadeImplementationH
+7businessLogic.BLFacadeImplementation#%field_initializer
+__unknown_file ("1*π
+1 (Æ
+´
+y
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java$ $(7
+%0java.util.logging.Logger"Pjava.util.logging.Logger#getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;*(
+ ("
+java.util.logging.Logger*
+ (
+""Ê
+„
+y
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java$ $(82&
+$businessLogic.BLFacadeImplementation"
+logger"__id*,
+ ( 
+
+%0java.util.logging.Logger"è
+x
+oC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/businessLogic/BLFacadeImplementation.java! π(
+implicit returnB(&
+$businessLogic.BLFacadeImplementation

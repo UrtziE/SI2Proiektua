@@ -1,18 +1,15 @@
 
-+domain.Erreklamazioa#getRide()Ldomain/Ride;k
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javaƒ ƒ("1*›
-1
-„	 „(g
-e
-
-„	 „(
-%0domain.Ride"__id*>
+<domain.Erreklamazioa#getEgoera()Ldomain/EgoeraErreklamazioa;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javas s(%"1*µ
+1t	 t(v
+t
+t	 t( 
+%0domain.EgoeraErreklamazioa"__id*@
 
-__unknown_file ("* 
-domain.Erreklamazioa"
-ride"!
-
-„ „(
-
-%0domain.RideB
+__unknown_file ($*"
+domain.Erreklamazioa"
+egoera".
+t t("
+ 
+%0domain.EgoeraErreklamazioaB
 domain.ErreklamazioaH

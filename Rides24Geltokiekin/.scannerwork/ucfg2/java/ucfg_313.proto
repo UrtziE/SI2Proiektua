@@ -1,7 +1,15 @@
 
-*configuration.ConfigXML#isDatabaseLocal()Zl
-bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.javaA A("1*!
-1B	 B("
-B B(
-""B
-configuration.ConfigXMLHX
+5configuration.ConfigXML#getLocale()Ljava/lang/String;l
+bC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/configuration/ConfigXML.java1 1("1*¤
+12	 2(o
+m
+2	 2(
+%0java.lang.String"__id*C
+
+__unknown_file ('*%
+configuration.ConfigXML"
+locale"$
+2 2(
+
+%0java.lang.StringB
+configuration.ConfigXMLH

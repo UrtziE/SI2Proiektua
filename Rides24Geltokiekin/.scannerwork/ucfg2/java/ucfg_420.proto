@@ -1,169 +1,154 @@
 
-PtestOperations.TestDataAccess#ezabatuRideSeats(Ljava/lang/String;I)Ldomain/Ride;t
-hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.java≥ ≥("7*Ù
+«testOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Driver;r
+hC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestDataAccess.java (!"11*8
 3
-º º(Ä~
+â â("'
 
-º º(/	
-%6int"domain.Geltoki#getEserleku()I*7
-
-__unknown_file (
-
-geltokidomain.Geltoki2getEserleku()Ø¨
+â â(
+
+driverdomain.Driver*÷
+6
+á á(øº
 
-º º(0
-
-%7void"domain.Geltoki#kenduSeatKop(I)V*7
-
-__unknown_file (
-
-geltokidomain.Geltoki*'
-
-__unknown_file (
-	
-%6int2kenduSeatKop(I)S
-Q
-
-Ω Ω(
-%8java.io.PrintStream"__id*"
-
-__unknown_file (
-""Ä~
-
-Ω. Ω(C	
-%9int"domain.Geltoki#getEserleku()I*7
-
-__unknown_file (
-
-geltokidomain.Geltoki2getEserleku()s
-q
-
-Ω Ω(C
-%10java.lang.String"__concat*%
-
-Ω Ω(-
-Ezabatuta geltokiak*
-
-Ω. Ω(C
-	
-%9int€ÿ
-
-Ω Ω(D
-%11void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%8java.io.PrintStream*5
+á á(W
+%5domain.Ride"ádomain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Ride;*5
 
 __unknown_file (
 
-%10java.lang.String2println(Ljava/lang/String;)*
-6*é
-4
-∫ ∫( í
-è
-
-∫ ∫('
-%3domain.Geltoki"
-__arrayGet*;
+driverdomain.Driver*6
 
-__unknown_file (
-
-geltokiListjava.util.List*"
+__unknown_file (
 
-__unknown_file (
-""c
-a
-
-∫ ∫((
-geltokidomain.Geltoki"__id*2
-
-__unknown_file (
-
-%3domain.Geltokiüú
-
-ª ª(
-%4java.lang.String".domain.Geltoki#getTokiIzen()Ljava/lang/String;*7
-
-__unknown_file (
-
-geltokidomain.Geltoki2getTokiIzen()ÿ’
-
-ª ª(+
-%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+fromjava.lang.String*4
 
 __unknown_file (
 
-%4java.lang.String*8
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+pricejava.util.List*3
+
+__unknown_file (
+
+kotxedomain.Kotxe*8
 
 __unknown_file (
 
-nongoajava.lang.String2equals(Ljava/lang/Object;)*
-3
-6*ˇ
-6
-π	 π(
-vt
-
-π π(	
-%1int"java.util.List#size()I*;
-
-__unknown_file (
-
-geltokiListjava.util.List2size()n
-l
-
-π	 π(
-%2boolean"	__compare*
-
-π
- π(
-<*
-
-π	 π(
-
-""*
-
-π π(
-	
-%1int*
-4
-1*Á
+ibilbidejava.util.List2laddRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)*
+3*v
 7
-¥ ¥(M
-K
+Ü Ü(#`
+^
 
-¥ ¥(*
-ridedomain.Ride"__id*"
-
-__unknown_file (
-""òï
-
-∂ ∂(1
-%0java.util.List",domain.Ride#getGeltokiList()Ljava/util/List;*1
+Ü Ü(#
+driverdomain.Driver"__id*1
 
 __unknown_file (
 
-ridedomain.Ride2getGeltokiList()g
-e
+%3domain.Driver*
+6*¡
+8
+Ü Ü(20
 
-∂ ∂(2
-geltokiListjava.util.List"__id*2
+Ü Ü(
+%3domain.Driver"domain.Driverˆ
+Û
+
+Ü Ü(#
+%4";domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V*1
 
-__unknown_file (
-
-%0java.util.List*
-6*4
-1
-¬ ¬("#
-
-√ √(
+__unknown_file (
 
-ridedomain.Ride:(
+%3domain.Driver*6
+
+__unknown_file (
+
+userjava.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.String*
+7*È
+9
+Ñ Ñ(*Q
+O
 
-≥ ≥(-
-nongoajava.lang.String: 
+Ñ Ñ(*
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""}
+{
+
+Ö	 Ö(
+%2boolean"	__compare*
+
+Ö Ö(
+==*'
+
+Ö	 Ö(
+
+driverdomain.Driver*
+
+Ö Ö(
+""*
+6
+8*©
+11
+Ä Ä(	S
+Q
+
+Ä Ä(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÈÊ
+
+Ä Ä(=
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*D
+
+__unknown_file ((&
+$>> TestDataAccess: addDriverWithRide2println(Ljava/lang/String;)Q
+O
+
+Å Å(
+driverdomain.Driver"__id*"
+
+__unknown_file (
+""*
+9:$
+" (.
+userjava.lang.String:%
+/ (<
+emailjava.lang.String:$
+< (H
+fromjava.lang.String:"
+I (S
+tojava.lang.String:"
+T (^
+datejava.util.Date: 
 
 __unknown_file (
-""B!
+"":$
+	| (ç
+pricejava.util.List:#
+
+ç (ô
+kotxedomain.Kotxe:(
+
+ô (≠
+ibilbidejava.util.ListB!
 testOperations.TestDataAccessH

@@ -1,9 +1,126 @@
 
-domain.Ride#getnPlaces()Ib
-VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.java¨ ¨("1*%
-1
-≠	 ≠("
+Cdomain.Ride#badaBideSeatekin(Ljava/lang/String;Ljava/lang/String;)Zb
+VC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Ride.javaô ô( "5*%
+2
+¢ ¢("
 
-≠ ≠(
-""B
+¢ ¢(
+""*%
+3
+† †("
+
+† †(
+""*ö
+4
+ú ú(ÿ’
+
+ú ú(-	
+%2int"+java.util.List#indexOf(Ljava/lang/Object;)I*8
+
+__unknown_file (
+
+ibilbidejava.util.List*8
+
+__unknown_file (
+
+nondikjava.lang.String2indexOf(Ljava/lang/Object;)è
+å
+
+ù ù(0	
+%3int""domain.Ride#seat0DuenLehenIndi(I)I*+
+
+__unknown_file (
+domain.Ride*"
+
+__unknown_file (
+""e
+c
+
+û8 û(A	
+%4int"__calculate*
+
+û? û(@
++*
+
+û8 û(?
+""*
+
+û@ û(A2Â‚
+
+û û(B
+%5java.util.List"*java.util.List#subList(II)Ljava/util/List;*8
+
+__unknown_file (
+
+ibilbidejava.util.List*"
+
+__unknown_file (
+""*'
+
+__unknown_file (
+	
+%4int2subList(II)e
+c
+
+û û(C
+	posibleakjava.util.List"__id*2
+
+__unknown_file (
+
+%5java.util.List›⁄
+
+ü ü(
+%6boolean",java.util.List#contains(Ljava/lang/Object;)Z*9
+
+__unknown_file (
+
+	posibleakjava.util.List*6
+
+__unknown_file (
+
+norajava.lang.String2contains(Ljava/lang/Object;)*
+2
+3*Ê
+5
+ö ö(Ö
+Ç
+
+ö ö(2
+%0java.util.List"1domain.Ride#geltokiListToString()Ljava/util/List;*+
+
+__unknown_file (
+domain.Rided
+b
+
+ö ö(3
+ibilbidejava.util.List"__id*2
+
+__unknown_file (
+
+%0java.util.Listﬁ€
+
+õ õ(
+%1boolean",java.util.List#contains(Ljava/lang/Object;)Z*8
+
+__unknown_file (
+
+ibilbidejava.util.List*8
+
+__unknown_file (
+
+nondikjava.lang.String2contains(Ljava/lang/Object;)*
+4
+1*%
+1
+•
+ •("
+
+• •(
+"":(
+
+ô! ô(/
+nondikjava.lang.String:&
+
+ô0 ô(;
+norajava.lang.StringB
 domain.RideHX

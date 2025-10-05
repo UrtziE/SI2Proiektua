@@ -1,35 +1,9 @@
 
-ÊtestOperations.TestBusinessLogic#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;ILjava/util/List;Ldomain/Kotxe;Ljava/util/List;)Ldomain/Driver;u
-kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestBusinessLogic.java0 0(!"1*…
-11 1(O
-M
-2 2(~
-driverdomain.Driver"__id*"
-
-__unknown_file (
-"""%
-4 4(
-
-driverdomain.Driver:$
-0" 0(.
-userjava.lang.String:%
-0/ 0(<
-emailjava.lang.String:$
-0< 0(H
-fromjava.lang.String:"
-0I 0(S
-tojava.lang.String:"
-0T 0(^
-datejava.util.Date: 
-
-__unknown_file (
-"":$
-	0| 0(
-pricejava.util.List:#
-
-0 0(™
-kotxedomain.Kotxe:(
-
-0™ 0(­
-ibilbidejava.util.ListB$"
- testOperations.TestBusinessLogicH
+BtestOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Zu
+kC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/test/java/testOperations/TestBusinessLogic.java ("1*!
+1 ("
+ (
+"":+
+ (0
+driverEmailjava.lang.StringB$"
+ testOperations.TestBusinessLogicHX

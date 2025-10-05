@@ -1,194 +1,33 @@
 
-ÆdataAccess.DataAccess#register(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ldomain/Profile;l
-`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.javaÄ Ä("6*÷
-2
-ç ç(20
+1dataAccess.DataAccess#getMoney(Ldomain/Profile;)Fl
+`C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/dataAccess/DataAccess.java≈ ≈("1*à
+1
+∆ ∆(óî
 
-ç ç(
-%4domain.Driver"domain.Driver™
-ß
-
-ç ç(E
-%5"Édomain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*1
-
-__unknown_file (
-
-%4domain.Driver*7
+∆% ∆(6
+%0java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*7
 
 __unknown_file (
 
-emailjava.lang.String*6
-
-__unknown_file (
-
-namejava.lang.String*9
-
-__unknown_file (
-
-surnamejava.lang.String*:
-
-__unknown_file (
-
-usernamejava.lang.String*:
-
-__unknown_file (
-
-passwordjava.lang.String*6
-
-__unknown_file (
-
-telfjava.lang.String_
-]
-
-ç ç(E
-userdomain.Profile"__id*1
-
-__unknown_file (
-
-%4domain.Driver*
-1*Â
-3
-ä ä(86
-
-ä ä(
-%2domain.Traveller"domain.Traveller∞
-≠
-
-ä ä(H
-%3"Üdomain.Traveller#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*4
-
-__unknown_file (
-
-%2domain.Traveller*7
-
-__unknown_file (
-
-emailjava.lang.String*6
-
-__unknown_file (
-
-namejava.lang.String*9
-
-__unknown_file (
-
-surnamejava.lang.String*:
-
-__unknown_file (
-
-usernamejava.lang.String*:
-
-__unknown_file (
-
-passwordjava.lang.String*6
-
-__unknown_file (
-
-telfjava.lang.Stringb
-`
-
-ä ä(H
-userdomain.Profile"__id*4
-
-__unknown_file (
-
-%2domain.Traveller*
-1*Â
-4
-â â(À»
-
-â â(
-%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*6
-
-__unknown_file (
-
-typejava.lang.String*)
-
-__unknown_file (
-	Traveller2equals(Ljava/lang/Object;)*
-2
-3*%
-5
-Ü
- Ü("
-
-Ü Ü(
-""*≥
-6
-É É(M
+profiledomain.Profile2	getUser()M
 K
 
-É É(/
-udomain.Profile"__id*"
+∆ ∆(8
+pdomain.Profile"__id*"
 
 __unknown_file (
-""P
-N
+""xv
 
-Ñ Ñ(
-userdomain.Profile"__id*"
+«	 «(
+%1float"domain.Profile#getWallet()F*1
 
-__unknown_file (
-""y
-w
-
-Ö Ö(
-%0boolean"	__compare*
-
-Ö Ö(
-
-!=*#
-
-Ö Ö(
+__unknown_file (
 
-udomain.Profile*
+pdomain.Profile2getWallet()"
 
-Ö Ö(
-""*
-4
-5*·
-1
-è è(S
-Q
+« «(
+"":'
 
-í í(
-%6java.io.PrintStream"__id*"
-
-__unknown_file (
-""“œ
-
-í í(&
-
-%7void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%6java.io.PrintStream*-
-
-__unknown_file (
-Ondo gorde da2println(Ljava/lang/String;)"&
-
-ì ì(
-
-userdomain.Profile:'
-
-Ä Ä(&
-emailjava.lang.String:&
-
-Ä' Ä(3
-namejava.lang.String:)
-
-Ä4 Ä(C
-surnamejava.lang.String:*
-
-ÄD Ä(T
-usernamejava.lang.String:*
-
-ÄU Ä(e
-passwordjava.lang.String:&
-
-Äf Ä(r
-telfjava.lang.String:&
-
-Å Å(
-typejava.lang.StringB
-dataAccess.DataAccessH
+≈ ≈(&
+profiledomain.ProfileB
+dataAccess.DataAccessHX

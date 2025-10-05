@@ -1,15 +1,15 @@
 
-.domain.Erreklamazioa#getNori()Ldomain/Profile;i
-_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.java[ [("1*›
-1\	 \(h
-f
-\	 \(
-%0domain.Profile"__id*>
+/domain.Erreklamazioa#getId()Ljava/lang/Integer;i
+_C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Erreklamazioa.javaK K("1*Ÿ
+1L	 L(i
+g
+L	 L(
+%0java.lang.Integer"__id*<
 
-__unknown_file ("* 
-domain.Erreklamazioa"
-nori""
-\ \(
-
-%0domain.ProfileB
+__unknown_file ( *
+domain.Erreklamazioa"
+id"%
+L L(
+
+%0java.lang.IntegerB
 domain.ErreklamazioaH

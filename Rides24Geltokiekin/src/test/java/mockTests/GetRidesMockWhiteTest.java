@@ -60,6 +60,7 @@ public class GetRidesMockWhiteTest {
 	private boolean createdDriver;
 	List<Float> prezioak = new ArrayList<Float>();
 	List<String> ibilbide = new ArrayList<String>();
+	
 	@Before
 	 public void init() {
 	MockitoAnnotations.openMocks(this);

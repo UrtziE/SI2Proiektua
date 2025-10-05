@@ -1,112 +1,16 @@
 
-,domain.Traveller#equals(Ljava/lang/Object;)Ze
-[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Traveller.java; ;("9*!
-2D
- D("
-D D(
-""*ù
-3B  B(#d
-b
-B B($
-otherdomain.Traveller"__id*5
+.domain.Traveller#getRequests()Ljava/util/List;e
+[C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Traveller.java( ((%"1*›
+1)	 )(h
+f
+)	 )(
+%0java.util.List"__id*>
 
-__unknown_file (
-
-objjava.lang.ObjectŽ‹
-C C(
-%5java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*0
-
-__unknown_file (
-domain.Traveller2	getUser()•’
-C C(,
-%6java.lang.String"*domain.Profile#getUser()Ljava/lang/String;*7
-
-__unknown_file (
-
-otherdomain.Traveller2	getUser()ÒÏ
-C C(-
-%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
-
-__unknown_file (
-
-%5java.lang.String*4
-
-__unknown_file (
-
-%6java.lang.String2equals(Ljava/lang/Object;)*
-2
-1*!
-4A
- A("
-A A(
-""*È
-5@ @(
-@ @(
-%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*0
-
-__unknown_file (
-domain.Traveller2
-getClass()•’
-@ @("
-%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
-
-__unknown_file (
-
-objjava.lang.Object2
-getClass()…
-‚
-@ @("
-%4boolean"	__compare*
-@ @(
-!=*#
-@ @(
-
-%2java.lang.Class*#
-@ @("
-
-%3java.lang.Class*
-3
-4*!
-6?
- ?("
-? ?(
-""*Œ
-7> >(	u
-s
-> >(
-%1boolean"	__compare*
->
- >(
-==*%
-> >(	
-
-objjava.lang.Object*
-> >(
-""*
-5
-6*!
-8=
- =("
-= =(
-""*œ
-9< <(
-„
-
-< <(
-%0boolean"	__compare*
-< <(
-==* 
-< <(
-
-domain.Traveller*%
-< <(
-
-objjava.lang.Object*
-7
-8*!
-1E	 E("
-E E(
-"":#
-; ;(!
-objjava.lang.ObjectB
-domain.TravellerHX
+__unknown_file ("* 
+domain.Traveller"
+
+requests""
+) )(
+
+%0java.util.ListB
+domain.TravellerH

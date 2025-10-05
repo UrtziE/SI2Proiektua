@@ -1,9 +1,14 @@
 
-*domain.RideRequest#isErreklamatuaDriver()Zi
-]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.java™ ™($"1*%
-1
-š	 š("
-
-š š(
+domain.RideRequest#getId()Ig
+]C:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/RideRequest.javaz z("1*‘
+1{	 {(n
+l
+{	 {(
+%0java.lang.Integer"__id*A
+
+__unknown_file (%*#
+domain.RideRequest"
+	requestId"
+{ {(
 ""B
 domain.RideRequestHX

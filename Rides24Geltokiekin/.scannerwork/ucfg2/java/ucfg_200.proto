@@ -1,15 +1,15 @@
 
-*domain.Profile#getUser()Ljava/lang/String;c
-YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaS S("1*™
-1T	 T(d
-b
-T	 T(
-%0java.lang.String"__id*8
++domain.Profile#getEmail()Ljava/lang/String;c
+YC:/Users/Usuario-Pc/git/SI2Proiektua/Rides24Geltokiekin/src/main/java/domain/Profile.javaG G("1*š
+1H	 H(e
+c
+H	 H(
+%0java.lang.String"__id*9
 
-__unknown_file (*
-domain.Profile"
-user"$
-T T(
+__unknown_file (*
+domain.Profile"
+email"$
+H H(
 
 %0java.lang.StringB
 domain.ProfileH
