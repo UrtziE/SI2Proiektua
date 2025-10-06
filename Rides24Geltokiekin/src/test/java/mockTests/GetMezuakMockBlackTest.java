@@ -95,13 +95,10 @@ public class GetMezuakMockBlackTest {
 		Mockito.when(queryKonprobatuEgunak.getResultList()).thenReturn(expected);
 	 }
 	
-	
-	
-	
 	/**
 	 * Test nagusia konprobatzen duena getMezuak zerrenda ez huts bat
 	 * itzultzen duela erreserba bat egin ondoren.
-	 * Profile, Traveller eta Ride mockeatu dira.
+	 * Datu basea Mockeatzen da
 	 * @author Beñat Ercibengoa Calvo
 	 */
     @Test
@@ -127,6 +124,7 @@ public class GetMezuakMockBlackTest {
     /**
 	 * getMezuak '1' motako mezuak ez diren mezuak
 	 * itzultzen ez dituela konprobatzen dituen testa
+	 * Datu basea Mockeatzen da
 	 * @author Beñat Ercibengoa Calvo
 	 */
     @Test
@@ -174,8 +172,6 @@ public class GetMezuakMockBlackTest {
             sut.close();
     		});	
     }
-	
-	
 	
 	@After
 	public void tearDown() {

@@ -122,6 +122,7 @@ public class Driver extends Profile implements Serializable  {
 	public List<Kotxe> getKotxeGuztiak(){
 		return kotxeList;
 	}
+	
 	public List<Ride>getEgitenRidesOfDriver(){
 		List<Ride>emaitza=new ArrayList<Ride>();
 		for(Ride ride:rides) {

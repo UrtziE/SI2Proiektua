@@ -78,7 +78,24 @@ public class GetMezuakDBBlackTest {
 		testdb.close();
 		
 	}
-    
+    @After
+	public void bukatu() {
+		try {
+			testdb.open();
+			if(rideNum>0) {
+			sut.open();
+			sut.kantzelatu(r);
+			sut.close();
+			testdb.removeRide(rideNum);
+			}
+			testdb.removeCar(matrikula);
+			testdb.removeDriver(userD);
+			testdb.removeTraveller(userT);
+			testdb.close();
+		} catch (Exception e) {
+			fail("Imposible");
+		}
+	}
 	/**
 	 * Test nagusia konprobatzen duena getMezuak zerrenda ez huts bat
 	 * itzultzen duela erreserba bat egin ondoren.
@@ -140,24 +157,7 @@ public class GetMezuakDBBlackTest {
     }
    
 
-	@After
-	public void bukatu() {
-		try {
-			testdb.open();
-			if(rideNum>0) {
-			sut.open();
-			sut.kantzelatu(r);
-			sut.close();
-			testdb.removeRide(rideNum);
-			}
-			testdb.removeCar(matrikula);
-			testdb.removeDriver(userD);
-			testdb.removeTraveller(userT);
-			testdb.close();
-		} catch (Exception e) {
-			fail("Imposible");
-		}
-	}
+	
 	private Ride addRide(String from, String to, Date date, int nPlaces, /* float price */ List<Float> price,
 			String driverUser, Kotxe kotxe, List<String> ibilbide) {
 		sut.open();

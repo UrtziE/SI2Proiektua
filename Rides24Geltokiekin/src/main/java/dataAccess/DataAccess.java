@@ -273,7 +273,14 @@ public class DataAccess {
 		}
 		return res;
 	}
-
+	
+	/**
+	 * Metodo honek gidari batek martxan dituen bidaiak itzultzen ditu nahiz eta
+	 * tokirik gabe izatea. RideContainer itzultzen dugu web zerbitzuagatik
+	 * 
+	 * @param d gidaria
+	 * @return gidariak martxan dituen bidaien lista
+	 */
 	public List<RideContainer> getEginRidesOfDriver(Driver d) {
 		Driver driver = db.find(Driver.class, d.getUser());
 		List<Ride> rideList = driver.getEgitenRidesOfDriver();
@@ -640,11 +647,10 @@ public class DataAccess {
 
 	
 	/**
-	 * This method retrieves from the database the messages from the profile p
-	 * It only retrieves the messages of rejected rides or rejected complaiments
-	 * @param p the profile whom messages will be retrieved
-	 * @return collection of messages
-	 * @author Beñat Ercibengoa Calvo
+	 * Metodo honek erabiltzaile batek dituen mezuen lista itzultzen du
+	 * 
+	 * @param p erabiltzaile horren profila
+	 * @return mezuen lista
 	 */
 	public List<Mezua> getMezuak(Profile p) {
 		db.getTransaction().begin();

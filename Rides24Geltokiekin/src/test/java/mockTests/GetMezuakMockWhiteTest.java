@@ -96,7 +96,7 @@ public class GetMezuakMockWhiteTest {
 	/**
 	 * Erreserbarik ez dituen bidaiari baten mezuak lortzen ditu.
 	 * Berifikatzen du bidaiari horrek ez dituela mezurik.
-	 * Bidaiaria datu basean mockeatzen du.
+	 * Datu basea Mockeatzen da
 	 * @author Beñat Ercibengoa Calvo
 	 */
 	@Test
@@ -112,7 +112,7 @@ public class GetMezuakMockWhiteTest {
 	 * Test honek Ride bat sortu, erreserba bat egin eta ondoren erreklamazio bat
 	 * sortzen du. Azkenik, bidaiariaren mezuak lortzen ditu.
 	 * Berifikatzen du itzulitako mezuak soilik 1 motako mezuak direla.
-	 * Profila, bidaiaria, bidaia eta bidai eskaera mockeatzen ditu
+	 * Datu basea Mockeatzen da
 	 * @author Beñat Ercibengoa Calvo
 	 */
 	 @Test
@@ -151,7 +151,7 @@ public class GetMezuakMockWhiteTest {
 	  * Test honek bidaiari batentzat erreserba bat sortzen du eta ondoren
 	  * bidaiariaren mezuak lortzen ditu.
 	  * Berifikatzen du bidaiariaren mezu lista ez dagoela hutsa.
-	  * Profila, bidaiaria eta bidaia datu basean mockeatzen ditu
+	  * Datu basea Mockeatzen da
 	  * @author Beñat Ercibengoa Calvo
 	  */
     @Test

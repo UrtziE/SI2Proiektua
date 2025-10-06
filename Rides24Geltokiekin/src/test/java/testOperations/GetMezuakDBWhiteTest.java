@@ -80,7 +80,24 @@ public class GetMezuakDBWhiteTest {
 		
 	}
 
-
+	@After
+	public void bukatu() {
+		try {
+			testdb.open();
+			if(rideNum>0) {
+			sut.open();
+			sut.kantzelatu(r);
+			sut.close();
+			testdb.removeRide(rideNum);
+			}
+			testdb.removeCar(matrikula);
+			testdb.removeDriver(userD);
+			testdb.removeTraveller(userT);
+			testdb.close();
+		} catch (Exception e) {
+			fail("Imposible");
+		}
+	}
 	/**
 	 * Erreserbarik ez dituen bidaiari baten mezuak lortzen ditu.
 	 * Berifikatzen du bidaiari horrek ez dituela mezurik.
@@ -143,24 +160,7 @@ public class GetMezuakDBWhiteTest {
 	}
 	
 	
-	@After
-	public void bukatu() {
-		try {
-			testdb.open();
-			if(rideNum>0) {
-			sut.open();
-			sut.kantzelatu(r);
-			sut.close();
-			testdb.removeRide(rideNum);
-			}
-			testdb.removeCar(matrikula);
-			testdb.removeDriver(userD);
-			testdb.removeTraveller(userT);
-			testdb.close();
-		} catch (Exception e) {
-			fail("Imposible");
-		}
-	}
+
 	
 	private boolean addCar(String matrikula, int tokiKop,Driver driver) {
 		sut.open();
