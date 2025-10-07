@@ -1,5 +1,0 @@
-sonar-scanner.bat `
-  -D"sonar.organization=urtzie" `
-  -D"sonar.projectKey=UrtziE_SI2Proiektua"
-  SONAR_TOKEN
-  60b47a8c6cbb4ce3dc7b67e8a7a234d5ebd4c87f

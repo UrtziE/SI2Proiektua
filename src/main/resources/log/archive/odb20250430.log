@@ -1,0 +1,465 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 20:10:33 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 3416@DESKTOP-EH9B0CP
+
+[2025-04-30 20:10:49 #2 type.registry] 
+New type domain.Profile
+
+[2025-04-30 20:10:49 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 20:10:49 #4 type.registry] 
+New type domain.Mezua
+
+[2025-04-30 20:10:49 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 20:10:49 #6 type.registry] 
+New type domain.Ride
+
+[2025-04-30 20:10:49 #7 type.registry] 
+New type domain.RideRequest
+
+[2025-04-30 20:10:49 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 20:10:49 #9 type.registry] 
+New type domain.Driver
+
+[2025-04-30 20:10:49 #10 type.registry] 
+New type domain.Kotxe
+
+[2025-04-30 20:10:49 #11 type.registry] 
+New type java.util.LinkedList<java.lang.Float>
+
+[2025-04-30 20:10:49 #12 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+[2025-04-30 20:10:49 #13 type.registry] 
+New type domain.Geltoki
+
+[2025-04-30 20:10:49 #14 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 20:10:49 #15 type.registry] 
+New type domain.Traveller
+
+[2025-04-30 20:10:49 #16 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 20:10:49 #17 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 20:10:49 #18 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 20:10:49 #19 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 20:10:49 #20 type.registry] 
+New type domain.Alerta
+
+[2025-04-30 20:10:49 #21 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-04-30 20:10:49 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-04-30 20:10:49 #23 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-04-30 20:10:49 #24 type.registry] 
+New type java.util.ArrayList<java.lang.Integer>
+
+[2025-04-30 20:10:49 #25 type.registry] 
+New type java.util.ArrayList<domain.Mezua>
+
+[2025-04-30 20:10:49 #26 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-04-30 20:10:49 #27 type.registry] 
+New type java.util.Vector<domain.Kotxe>
+
+[2025-04-30 20:11:25 #28 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2025-04-30 20:11:25 #29 type.registry] 
+New type java.util.LinkedList<domain.Geltoki>
+
+[2025-04-30 20:11:25 #30 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 20:17:35 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 1424@DESKTOP-EH9B0CP
+
+[2025-04-30 20:17:50 #2 type.registry] 
+New type domain.Profile
+
+[2025-04-30 20:17:50 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 20:17:50 #4 type.registry] 
+New type domain.Mezua
+
+[2025-04-30 20:17:50 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 20:17:50 #6 type.registry] 
+New type domain.Ride
+
+[2025-04-30 20:17:50 #7 type.registry] 
+New type domain.RideRequest
+
+[2025-04-30 20:17:50 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 20:17:50 #9 type.registry] 
+New type domain.Driver
+
+[2025-04-30 20:17:50 #10 type.registry] 
+New type domain.Kotxe
+
+[2025-04-30 20:17:50 #11 type.registry] 
+New type java.util.LinkedList<java.lang.Float>
+
+[2025-04-30 20:17:50 #12 type.registry] 
+New type java.util.LinkedList<java.lang.String>
+
+[2025-04-30 20:17:50 #13 type.registry] 
+New type domain.Geltoki
+
+[2025-04-30 20:17:50 #14 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 20:17:50 #15 type.registry] 
+New type domain.Traveller
+
+[2025-04-30 20:17:50 #16 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 20:17:50 #17 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 20:17:50 #18 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 20:17:50 #19 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 20:17:50 #20 type.registry] 
+New type domain.Alerta
+
+[2025-04-30 20:17:50 #21 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-04-30 20:17:50 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-04-30 20:17:50 #23 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-04-30 20:17:50 #24 type.registry] 
+New type java.util.ArrayList<java.lang.Integer>
+
+[2025-04-30 20:17:50 #25 type.registry] 
+New type java.util.ArrayList<domain.Mezua>
+
+[2025-04-30 20:17:50 #26 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-04-30 20:17:50 #27 type.registry] 
+New type java.util.Vector<domain.Kotxe>
+
+[2025-04-30 20:18:11 #28 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2025-04-30 20:18:11 #29 type.registry] 
+New type java.util.LinkedList<domain.Geltoki>
+
+[2025-04-30 20:18:11 #30 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 20:50:36 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 15300@DESKTOP-EH9B0CP
+
+[2025-04-30 20:50:37 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 20:50:37 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 20:50:37 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 20:50:37 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 20:50:37 #6 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 20:50:37 #7 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 20:50:37 #8 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 20:50:37 #9 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 20:50:37 #10 type] 
+Type domain.Alerta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 20:54:30 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 14340@DESKTOP-EH9B0CP
+
+[2025-04-30 20:54:30 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 20:54:30 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 20:54:30 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 20:54:30 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 20:54:30 #6 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 20:54:30 #7 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 20:54:30 #8 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 20:54:30 #9 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 20:54:30 #10 type] 
+Type domain.Alerta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 20:56:38 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 19180@DESKTOP-EH9B0CP
+
+[2025-04-30 20:56:38 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 20:56:38 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 20:56:38 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 20:56:38 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 20:56:38 #6 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 20:56:38 #7 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 20:56:38 #8 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 20:56:38 #9 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 20:56:38 #10 type] 
+Type domain.Alerta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 21:01:47 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 22212@DESKTOP-EH9B0CP
+
+[2025-04-30 21:01:47 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 21:01:47 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 21:01:47 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 21:01:47 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 21:01:47 #6 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 21:01:47 #7 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 21:01:47 #8 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 21:01:47 #9 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 21:01:47 #10 type] 
+Type domain.Alerta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 21:05:37 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 7692@DESKTOP-EH9B0CP
+
+[2025-04-30 21:05:37 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 21:05:37 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 21:05:37 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 21:05:37 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 21:05:37 #6 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 21:05:37 #7 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 21:05:37 #8 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 21:05:37 #9 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 21:05:37 #10 type] 
+Type domain.Alerta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 21:07:38 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 14784@DESKTOP-EH9B0CP
+
+[2025-04-30 21:07:39 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 21:07:39 #3 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 21:07:39 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 21:07:39 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 21:07:39 #6 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 21:07:39 #7 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 21:07:39 #8 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 21:07:39 #9 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 21:07:39 #10 type] 
+Type domain.Alerta is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-04-30 23:58:05 #1 store] 
+Database 'C:\Users\Usuario-Pc\OneDrive\Escritorio\Urtzi Universidad\workspace\SI\Rides24\src\main\resources\rides.temp' is opened by 16516@DESKTOP-EH9B0CP
+
+[2025-04-30 23:58:21 #2 type.registry] 
+New type domain.Profile
+
+[2025-04-30 23:58:21 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-04-30 23:58:21 #4 type.registry] 
+New type domain.Mezua
+
+[2025-04-30 23:58:21 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-04-30 23:58:21 #6 type.registry] 
+New type domain.Ride
+
+[2025-04-30 23:58:21 #7 type.registry] 
+New type domain.RideRequest
+
+[2025-04-30 23:58:21 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2025-04-30 23:58:21 #9 type.registry] 
+New type domain.Driver
+
+[2025-04-30 23:58:21 #10 type.registry] 
+New type domain.Kotxe
+
+[2025-04-30 23:58:21 #11 type.registry] 
+New type domain.Geltoki
+
+[2025-04-30 23:58:21 #12 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-04-30 23:58:21 #13 type.registry] 
+New type domain.Traveller
+
+[2025-04-30 23:58:21 #14 type] 
+Type domain.Driver is not enhanced.
+
+[2025-04-30 23:58:21 #15 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-04-30 23:58:21 #16 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-04-30 23:58:21 #17 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-04-30 23:58:21 #18 type.registry] 
+New type domain.Alerta
+
+[2025-04-30 23:58:21 #19 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-04-30 23:58:21 #20 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-04-30 23:58:21 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-04-30 23:58:21 #22 type.registry] 
+New type java.util.ArrayList<java.lang.Integer>
+
+[2025-04-30 23:58:21 #23 type.registry] 
+New type java.util.ArrayList<domain.Mezua>
+
+[2025-04-30 23:58:21 #24 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-04-30 23:58:21 #25 type.registry] 
+New type java.util.Vector<domain.Kotxe>
+
+[2025-04-30 23:59:04 #26 type.registry] 
+New type java.util.LinkedList<java.lang.Object>
+
+[2025-04-30 23:59:04 #27 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+[2025-04-30 23:59:04 #28 type.registry] 
+New type java.util.LinkedList<domain.Alerta>
+
+[2025-05-01 00:00:22 #29 type.registry] 
+New type java.util.LinkedList<domain.Geltoki>
+

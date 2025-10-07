@@ -1,0 +1,1677 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 16:36:23 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 6164@DESKTOP-EH9B0CP
+
+[2025-02-19 16:36:23 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 16:36:23 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 16:36:23 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 16:36:23 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 16:36:23 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 16:38:03 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20736@DESKTOP-EH9B0CP
+
+[2025-02-19 16:38:03 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 16:38:03 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 16:38:03 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 16:38:03 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 16:38:03 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 16:44:59 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 7852@DESKTOP-EH9B0CP
+
+[2025-02-19 16:44:59 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 16:44:59 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 16:44:59 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 16:44:59 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 16:44:59 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:26:16 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 11324@DESKTOP-EH9B0CP
+
+[2025-02-19 17:26:16 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:26:17 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:26:17 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:26:17 #5 type.registry] 
+New type java.time.LocalDateTime
+
+[2025-02-19 17:26:17 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:26:17 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:27:54 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 26-26)
+
+[2025-02-19 17:27:55 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 22364@DESKTOP-EH9B0CP
+
+[2025-02-19 17:27:55 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:27:55 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:27:55 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:27:55 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:27:55 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:30:49 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 18124@DESKTOP-EH9B0CP
+
+[2025-02-19 17:30:49 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:30:49 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:30:49 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:30:49 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:30:49 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:32:08 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 8916@DESKTOP-EH9B0CP
+
+[2025-02-19 17:32:08 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:32:08 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:32:08 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:32:08 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:32:08 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:33:24 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 5280@DESKTOP-EH9B0CP
+
+[2025-02-19 17:33:24 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:33:24 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:33:24 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:33:24 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:33:24 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:34:09 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 17592@DESKTOP-EH9B0CP
+
+[2025-02-19 17:34:09 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:34:09 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:34:09 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:34:09 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:34:09 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:44:24 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 13504@DESKTOP-EH9B0CP
+
+[2025-02-19 17:44:24 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:44:24 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:44:24 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:44:24 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:44:24 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:45:31 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 27-27)
+
+[2025-02-19 17:45:31 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 5808@DESKTOP-EH9B0CP
+
+[2025-02-19 17:45:31 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:45:31 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:45:31 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:45:31 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:45:31 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:47:09 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 9696@DESKTOP-EH9B0CP
+
+[2025-02-19 17:47:09 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:47:09 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:47:09 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:47:09 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:47:09 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:48:56 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 9556@DESKTOP-EH9B0CP
+
+[2025-02-19 17:48:56 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:48:56 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:48:56 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:48:56 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:48:56 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:51:53 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20516@DESKTOP-EH9B0CP
+
+[2025-02-19 17:51:54 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:51:54 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:51:54 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:51:54 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:51:54 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:52:33 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 28-29)
+
+[2025-02-19 17:52:33 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 8732@DESKTOP-EH9B0CP
+
+[2025-02-19 17:52:34 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:52:34 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:52:34 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:52:34 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:52:34 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 17:54:20 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 30-30)
+
+[2025-02-19 17:54:21 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20120@DESKTOP-EH9B0CP
+
+[2025-02-19 17:54:21 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 17:54:21 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 17:54:21 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 17:54:21 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 17:54:21 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:00:40 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 2356@DESKTOP-EH9B0CP
+
+[2025-02-19 18:00:40 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:00:40 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:00:40 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:00:40 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:00:40 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:02:28 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 12840@DESKTOP-EH9B0CP
+
+[2025-02-19 18:02:49 #2 type.registry] 
+New type domain.Profile
+
+[2025-02-19 18:02:49 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:02:49 #4 type.registry] 
+New type domain.Traveller
+
+[2025-02-19 18:02:49 #5 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:02:50 #6 type.registry] 
+New type domain.RideRequest
+
+[2025-02-19 18:02:50 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:02:50 #8 type.registry] 
+New type domain.Ride
+
+[2025-02-19 18:02:50 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:02:50 #10 type.registry] 
+New type domain.Driver
+
+[2025-02-19 18:02:50 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 18:02:50 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-02-19 18:02:50 #13 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:03:23 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 1-8)
+
+[2025-02-19 18:03:23 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20692@DESKTOP-EH9B0CP
+
+[2025-02-19 18:03:24 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:03:24 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:03:24 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:03:24 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:03:24 #7 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 18:03:56 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-02-19 18:03:56 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:05:45 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 9-19)
+
+[2025-02-19 18:05:45 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 9696@DESKTOP-EH9B0CP
+
+[2025-02-19 18:05:46 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:05:46 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:05:46 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:05:46 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:05:46 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:07:35 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 20-20)
+
+[2025-02-19 18:07:35 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 21324@DESKTOP-EH9B0CP
+
+[2025-02-19 18:07:35 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:07:35 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:07:35 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:07:35 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:07:35 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:16:36 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20112@DESKTOP-EH9B0CP
+
+[2025-02-19 18:16:36 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:16:36 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:16:36 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:16:36 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:16:36 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:17:05 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 21-22)
+
+[2025-02-19 18:17:05 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 2080@DESKTOP-EH9B0CP
+
+[2025-02-19 18:17:05 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:17:05 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:17:05 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:17:05 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:17:05 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:38:25 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 5096@DESKTOP-EH9B0CP
+
+[2025-02-19 18:38:25 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:38:25 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:38:25 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:38:25 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:38:25 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:38:48 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 23-23)
+
+[2025-02-19 18:38:48 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 19092@DESKTOP-EH9B0CP
+
+[2025-02-19 18:38:48 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:38:48 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:38:48 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:38:48 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:38:48 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:41:02 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 1696@DESKTOP-EH9B0CP
+
+[2025-02-19 18:41:02 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:41:02 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:41:02 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:41:02 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:41:02 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:42:50 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 24-24)
+
+[2025-02-19 18:42:50 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 12144@DESKTOP-EH9B0CP
+
+[2025-02-19 18:42:51 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:42:51 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:42:51 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:42:51 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:42:51 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 18:44:10 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 25-33)
+
+[2025-02-19 18:44:10 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 10428@DESKTOP-EH9B0CP
+
+[2025-02-19 18:44:11 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 18:44:11 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 18:44:11 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 18:44:11 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 18:44:11 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 20:24:02 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 34-34)
+
+[2025-02-19 20:24:02 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 22244@DESKTOP-EH9B0CP
+
+[2025-02-19 20:24:02 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 20:24:02 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 20:24:02 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 20:24:02 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 20:24:02 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 20:24:55 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 4088@DESKTOP-EH9B0CP
+
+[2025-02-19 20:24:56 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 20:24:56 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 20:24:56 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 20:24:56 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 20:24:56 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 20:26:53 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 16900@DESKTOP-EH9B0CP
+
+[2025-02-19 20:26:53 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 20:26:53 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 20:26:53 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 20:26:54 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 20:26:54 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 20:28:33 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 21564@DESKTOP-EH9B0CP
+
+[2025-02-19 20:28:34 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 20:28:34 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 20:28:34 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 20:28:34 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 20:28:34 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 20:41:39 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 17924@DESKTOP-EH9B0CP
+
+[2025-02-19 20:41:40 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 20:41:40 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 20:41:40 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 20:41:40 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 20:41:40 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 20:44:19 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 2348@DESKTOP-EH9B0CP
+
+[2025-02-19 20:44:19 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 20:44:19 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 20:44:19 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 20:44:19 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 20:44:19 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:01:41 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 9252@DESKTOP-EH9B0CP
+
+[2025-02-19 22:01:41 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:01:41 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:01:41 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:01:41 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:01:41 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:07:54 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 35-35)
+
+[2025-02-19 22:07:54 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 8152@DESKTOP-EH9B0CP
+
+[2025-02-19 22:07:54 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:07:54 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:07:54 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:07:54 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:07:55 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:12:43 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 2000@DESKTOP-EH9B0CP
+
+[2025-02-19 22:12:43 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:12:43 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:12:43 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:12:43 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:12:43 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:13:57 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 2956@DESKTOP-EH9B0CP
+
+[2025-02-19 22:13:58 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:13:58 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:13:58 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:13:58 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:13:58 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:14:50 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 9120@DESKTOP-EH9B0CP
+
+[2025-02-19 22:14:50 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:14:50 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:14:50 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:14:50 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:14:50 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:19:14 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 7908@DESKTOP-EH9B0CP
+
+[2025-02-19 22:19:34 #2 type.registry] 
+New type domain.Profile
+
+[2025-02-19 22:19:34 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:19:34 #4 type.registry] 
+New type domain.Traveller
+
+[2025-02-19 22:19:34 #5 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:19:34 #6 type.registry] 
+New type domain.RideRequest
+
+[2025-02-19 22:19:34 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:19:34 #8 type.registry] 
+New type domain.Ride
+
+[2025-02-19 22:19:34 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:19:34 #10 type.registry] 
+New type domain.Driver
+
+[2025-02-19 22:19:34 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 22:19:34 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-02-19 22:19:34 #13 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+[2025-02-19 22:19:56 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-02-19 22:19:56 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:21:19 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 1-15)
+
+[2025-02-19 22:21:19 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 7380@DESKTOP-EH9B0CP
+
+[2025-02-19 22:21:19 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:21:19 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:21:19 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:21:19 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:21:19 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:24:09 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 3364@DESKTOP-EH9B0CP
+
+[2025-02-19 22:24:09 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:24:09 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:24:09 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:24:09 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:24:09 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:25:16 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 22328@DESKTOP-EH9B0CP
+
+[2025-02-19 22:25:16 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:25:16 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:25:16 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:25:16 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:25:16 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:36:44 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 15248@DESKTOP-EH9B0CP
+
+[2025-02-19 22:36:44 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:36:44 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:36:44 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:36:44 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:36:44 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:37:25 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 16-16)
+
+[2025-02-19 22:37:26 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 1592@DESKTOP-EH9B0CP
+
+[2025-02-19 22:37:26 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:37:26 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:37:26 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:37:26 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:37:26 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:38:15 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 18928@DESKTOP-EH9B0CP
+
+[2025-02-19 22:38:30 #2 type.registry] 
+New type domain.Profile
+
+[2025-02-19 22:38:30 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:38:30 #4 type.registry] 
+New type domain.Driver
+
+[2025-02-19 22:38:30 #5 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 22:38:30 #6 type.registry] 
+New type domain.Ride
+
+[2025-02-19 22:38:30 #7 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:38:30 #8 type.registry] 
+New type domain.RideRequest
+
+[2025-02-19 22:38:30 #9 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:38:30 #10 type.registry] 
+New type domain.Traveller
+
+[2025-02-19 22:38:30 #11 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 22:38:30 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-02-19 22:38:30 #13 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-02-19 22:38:42 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-02-19 22:38:42 #15 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:40:56 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 1-18)
+
+[2025-02-19 22:40:56 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 19864@DESKTOP-EH9B0CP
+
+[2025-02-19 22:40:57 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:40:57 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 22:40:57 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:40:57 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:40:57 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:41:55 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 15860@DESKTOP-EH9B0CP
+
+[2025-02-19 22:41:55 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:41:55 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 22:41:55 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:41:55 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:41:55 #6 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 22:44:23 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 19-25)
+
+[2025-02-19 22:44:23 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20088@DESKTOP-EH9B0CP
+
+[2025-02-19 22:44:23 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 22:44:23 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 22:44:23 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 22:44:23 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 22:44:23 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:00:12 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 17776@DESKTOP-EH9B0CP
+
+[2025-02-19 23:00:30 #2 type.registry] 
+New type domain.Profile
+
+[2025-02-19 23:00:30 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:00:30 #4 type.registry] 
+New type domain.Driver
+
+[2025-02-19 23:00:30 #5 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:00:30 #6 type.registry] 
+New type domain.Ride
+
+[2025-02-19 23:00:30 #7 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:00:30 #8 type.registry] 
+New type domain.RideRequest
+
+[2025-02-19 23:00:30 #9 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:00:30 #10 type.registry] 
+New type domain.Traveller
+
+[2025-02-19 23:00:30 #11 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:00:30 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-02-19 23:00:30 #13 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-02-19 23:00:37 #14 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-02-19 23:00:37 #15 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:03:22 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 1-21)
+
+[2025-02-19 23:03:22 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 11876@DESKTOP-EH9B0CP
+
+[2025-02-19 23:03:22 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:03:22 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:03:22 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:03:22 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:03:22 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:07:18 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 13608@DESKTOP-EH9B0CP
+
+[2025-02-19 23:07:18 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:07:18 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:07:18 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:07:18 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:07:18 #6 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:07:42 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 3924@DESKTOP-EH9B0CP
+
+[2025-02-19 23:07:42 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:07:42 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:07:42 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:07:42 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:07:42 #6 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:09:27 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 22-23)
+
+[2025-02-19 23:09:27 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20112@DESKTOP-EH9B0CP
+
+[2025-02-19 23:09:27 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:09:27 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:09:27 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:09:27 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:09:27 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:11:06 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 24-37)
+
+[2025-02-19 23:11:06 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 13208@DESKTOP-EH9B0CP
+
+[2025-02-19 23:11:06 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:11:06 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:11:06 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:11:06 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:11:06 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:12:29 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 38-38)
+
+[2025-02-19 23:12:29 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 11344@DESKTOP-EH9B0CP
+
+[2025-02-19 23:12:29 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:12:29 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:12:29 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:12:29 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:12:29 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:14:05 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 39-46)
+
+[2025-02-19 23:14:05 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 18204@DESKTOP-EH9B0CP
+
+[2025-02-19 23:14:05 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:14:05 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:14:05 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:14:05 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:14:05 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:21:09 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 18392@DESKTOP-EH9B0CP
+
+[2025-02-19 23:21:09 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:21:09 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:21:09 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:21:09 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:21:09 #6 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:23:36 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 47-54)
+
+[2025-02-19 23:23:36 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 5244@DESKTOP-EH9B0CP
+
+[2025-02-19 23:23:36 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:23:36 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:23:36 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:23:36 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:23:36 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:26:59 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 55-58)
+
+[2025-02-19 23:26:59 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 7368@DESKTOP-EH9B0CP
+
+[2025-02-19 23:26:59 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:26:59 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:26:59 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:26:59 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:26:59 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:29:07 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 59-60)
+
+[2025-02-19 23:29:07 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 19168@DESKTOP-EH9B0CP
+
+[2025-02-19 23:29:07 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:29:07 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:29:07 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:29:07 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:29:07 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:35:42 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 61-64)
+
+[2025-02-19 23:35:42 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 19148@DESKTOP-EH9B0CP
+
+[2025-02-19 23:35:42 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:35:42 #4 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:35:42 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:35:42 #6 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:35:42 #7 type] 
+Type domain.Traveller is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:36:39 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 19920@DESKTOP-EH9B0CP
+
+[2025-02-19 23:37:15 #2 type.registry] 
+New type domain.Profile
+
+[2025-02-19 23:37:15 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:37:15 #4 type.registry] 
+New type domain.Traveller
+
+[2025-02-19 23:37:15 #5 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:37:15 #6 type.registry] 
+New type domain.RideRequest
+
+[2025-02-19 23:37:15 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:37:15 #8 type.registry] 
+New type domain.Ride
+
+[2025-02-19 23:37:15 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:37:15 #10 type.registry] 
+New type domain.Driver
+
+[2025-02-19 23:37:15 #11 type] 
+Type domain.Driver is not enhanced.
+
+[2025-02-19 23:37:15 #12 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-02-19 23:37:15 #13 type.registry] 
+New type java.util.ArrayList<domain.RideRequest>
+
+[2025-02-19 23:37:36 #14 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-02-19 23:37:36 #15 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:39:15 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 1-18)
+
+[2025-02-19 23:39:15 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 21048@DESKTOP-EH9B0CP
+
+[2025-02-19 23:39:15 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:39:15 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:39:15 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:39:15 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:39:15 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:40:40 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 19-22)
+
+[2025-02-19 23:40:40 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 9308@DESKTOP-EH9B0CP
+
+[2025-02-19 23:40:40 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:40:40 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:40:40 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:40:40 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:40:40 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:43:06 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 23-24)
+
+[2025-02-19 23:43:06 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 20968@DESKTOP-EH9B0CP
+
+[2025-02-19 23:43:06 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:43:06 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:43:06 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:43:06 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:43:06 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:44:47 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 25-26)
+
+[2025-02-19 23:44:48 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 2532@DESKTOP-EH9B0CP
+
+[2025-02-19 23:44:48 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:44:48 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:44:48 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:44:48 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:44:48 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:46:17 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 27-29)
+
+[2025-02-19 23:46:17 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 14144@DESKTOP-EH9B0CP
+
+[2025-02-19 23:46:17 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:46:17 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:46:17 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:46:18 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:46:18 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:52:12 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 30-31)
+
+[2025-02-19 23:52:12 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 9032@DESKTOP-EH9B0CP
+
+[2025-02-19 23:52:12 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:52:13 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:52:13 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:52:13 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:52:13 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:53:03 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' has been recovered (tr. 32-33)
+
+[2025-02-19 23:53:03 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 12680@DESKTOP-EH9B0CP
+
+[2025-02-19 23:53:03 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:53:03 #4 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:53:03 #5 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:53:03 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:53:03 #7 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:58:04 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 13984@DESKTOP-EH9B0CP
+
+[2025-02-19 23:58:05 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:58:05 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:58:05 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:58:05 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:58:05 #6 type] 
+Type domain.Driver is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-02-19 23:59:35 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\Rides24\src\main\resources\rides.temp' is opened by 19752@DESKTOP-EH9B0CP
+
+[2025-02-19 23:59:35 #2 type] 
+Type domain.Profile is not enhanced.
+
+[2025-02-19 23:59:35 #3 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-02-19 23:59:35 #4 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-02-19 23:59:35 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-02-19 23:59:35 #6 type] 
+Type domain.Driver is not enhanced.
+
