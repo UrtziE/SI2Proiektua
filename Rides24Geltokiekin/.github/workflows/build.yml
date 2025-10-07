@@ -2,7 +2,7 @@ name: SonarCloud
 on:
   push:
     branches:
-      - main
+      - SI2Proiektua main
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
