@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>1.0</groupId>
-	<artifactId>Rides24Geltokiekin</artifactId>
+	<artifactId>SI2RidesProiektua</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<build>
@@ -49,8 +49,8 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
  		<sonar.organization>urtzie</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>SI_ProiektuaIntegrazioa</sonar.projectKey>
-		<sonar.login>24c7f536d6fe882ab8015af38792d892e74c1149</sonar.login>
+		<sonar.projectKey>UrtziE_SI2Proiektua</sonar.projectKey>
+		<sonar.login>d60c581060ebf404d8802ef557c4b7cdd19cc53b</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
