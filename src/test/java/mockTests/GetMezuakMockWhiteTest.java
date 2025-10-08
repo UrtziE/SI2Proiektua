@@ -45,7 +45,6 @@ public class GetMezuakMockWhiteTest {
 	protected EntityTransaction et;
 	TestDataAccess testdb;
 			
-	
 	private String from= "Donostia";
 	private String to= "Bilbo";
 	
@@ -172,7 +171,6 @@ public class GetMezuakMockWhiteTest {
         sut.close();
         assertFalse(mezuak.isEmpty());
 	}
-	
 	
 	@After
 	public void tearDown() {
