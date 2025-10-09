@@ -368,9 +368,9 @@ public class BLFacadeImplementation  implements BLFacade {
     	dbManager.close();
 		return r;
 	}
-    @WebMethod public void erreklamazioaOnartuEdoDeuseztatu(Erreklamazioa erreklamazioa,float kantitatea, boolean onartuta) {
+    @WebMethod public void erreklamazioaProzesatu(Erreklamazioa erreklamazioa,float kantitatea, boolean onartuta) {
     	dbManager.open();
-    	dbManager.erreklamazioaOnartuEdoDeuseztatu(erreklamazioa, kantitatea, onartuta);
+    	dbManager.erreklamazioaProzesatu(erreklamazioa, kantitatea, onartuta);
     	dbManager.close();
     }
     @WebMethod

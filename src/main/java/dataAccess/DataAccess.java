@@ -520,40 +520,24 @@ public class DataAccess {
 		db.getTransaction().commit();
 	}
 
-	public void erreklamazioaOnartuEdoDeuseztatu(Erreklamazioa erreklamazioa, float kantitatea, boolean onartuta) {
-
+	public void erreklamazioaProzesatu(Erreklamazioa erreklamazioa, float kantitatea, boolean onartuta) {
 		db.getTransaction().begin();
-
 		Erreklamazioa e = db.find(Erreklamazioa.class, erreklamazioa.getId());
 		e.setEgoera(EgoeraErreklamazioa.BUKATUA);
-
 		Profile nork = db.find(Profile.class, e.getNork().getUser());
 		Profile nori = db.find(Profile.class, e.getNori().getUser());
 		Profile admin = e.getAdmin();
 		RideRequest request = e.getErreserba();
-		
 		Ride r = request.getRide();
-		
 		if (onartuta) {
-
-			nork.gehituDirua(kantitatea);
-			nori.kenduDirua(kantitatea);
-
-			nork.addErreklamazioMezu(0, r, erreklamazioa);
-			nork.gehituMezuaTransaction(9, kantitatea, request);
-			nori.gehituMezuaTransaction(11, kantitatea, request);
-			admin.addErreklamazioMezu(2, r, erreklamazioa);
-
+			erreklamazioaOnartu(nork, nori, admin, kantitatea, erreklamazioa);
 		} else {
-			
-			nork.addErreklamazioMezu(1, r, erreklamazioa);
-			admin.addErreklamazioMezu(3, r, erreklamazioa);
-			
+			erreklamazioaDeuseztatu(nork, admin, kantitatea, erreklamazioa);
 		}
-
 		e.setWhenDecided(new Date());
 		db.getTransaction().commit();
 	}
+	
 
 	public RideRequest erreserbatu(Date time, Ride ride, Traveller traveller, int seats, String requestFrom,
 			String requestTo) {
@@ -865,6 +849,27 @@ public class DataAccess {
 		db.getTransaction().commit();
 
 	}
+	
+	private void erreklamazioaOnartu(Profile nork, Profile nori, Profile admin, float kantitatea, Erreklamazioa e) {
+		RideRequest request = e.getErreserba();
+		Ride r = request.getRide();
+		
+		nork.gehituDirua(kantitatea);
+		nori.kenduDirua(kantitatea);
+		nork.addErreklamazioMezu(0, r, e);
+		nork.gehituMezuaTransaction(9, kantitatea, request);
+		nori.gehituMezuaTransaction(11, kantitatea, request);
+		admin.addErreklamazioMezu(2, r, e);
+	}
+
+	private void erreklamazioaDeuseztatu(Profile nork, Profile admin, float kantitatea, Erreklamazioa e) {
+		RideRequest request = e.getErreserba();
+		Ride r = request.getRide();
+		
+		nork.addErreklamazioMezu(1, r, e);
+		admin.addErreklamazioMezu(3, r, e);
+	}
+	
 
 	public void open() {
 

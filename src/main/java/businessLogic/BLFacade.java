@@ -429,7 +429,7 @@ public interface BLFacade {
 	 * @param onartuta      onartu edo deuseztatu baden erreklamazioa
 	 */
 	@WebMethod
-	public void erreklamazioaOnartuEdoDeuseztatu(Erreklamazioa erreklamazioa, float kantitatea, boolean onartuta);
+	public void erreklamazioaProzesatu(Erreklamazioa erreklamazioa, float kantitatea, boolean onartuta);
 
 	/**
 	 * Metodo honek egiten duena da, Pasatutako mezua irakurrita= true moduan jarri

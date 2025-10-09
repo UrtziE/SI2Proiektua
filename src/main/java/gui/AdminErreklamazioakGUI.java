@@ -223,7 +223,7 @@ public class AdminErreklamazioakGUI extends JFrame {
 					}
 					
 				}
-				blf.erreklamazioaOnartuEdoDeuseztatu(erreklamazioa, dirua, onartuta);
+				blf.erreklamazioaProzesatu(erreklamazioa, dirua, onartuta);
 				clearEtiketak();
 				erreklamazioak.removeElement(erreklamazioa);
 				
