@@ -21,6 +21,7 @@ import domain.Admin;
 import domain.Alerta;
 import domain.Driver;
 import domain.Erreklamazioa;
+import domain.ErreserbaEskaera;
 import domain.Kotxe;
 import domain.Mezua;
 import domain.Profile;
@@ -139,9 +140,9 @@ public class BLFacadeImplementation  implements BLFacade {
    @WebMethod
    public RideRequest erreserbatu(Date time, Ride ride, Traveller traveller,int seats,String from, String to) {
 	   
-	
+	   		ErreserbaEskaera ee = new ErreserbaEskaera(time, ride, traveller, seats, from, to);
 		   dbManager.open();
-		 RideRequest request=dbManager.erreserbatu(time,ride,traveller,seats,from,to);
+		 RideRequest request=dbManager.erreserbatu(ee);
 		   dbManager.close();
 		   return request;
 	

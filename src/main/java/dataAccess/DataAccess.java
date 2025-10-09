@@ -32,6 +32,7 @@ import domain.EgoeraErreklamazioa;
 import domain.EgoeraRide;
 import domain.EgoeraRideRequest;
 import domain.Erreklamazioa;
+import domain.ErreserbaEskaera;
 import domain.Kotxe;
 import domain.Mezua;
 import domain.Profile;
@@ -539,8 +540,14 @@ public class DataAccess {
 	}
 	
 
-	public RideRequest erreserbatu(Date time, Ride ride, Traveller traveller, int seats, String requestFrom,
-			String requestTo) {
+	public RideRequest erreserbatu(ErreserbaEskaera eskaera) {
+		Ride ride = eskaera.getRide();
+		String requestFrom = eskaera.getRequestFrom();
+		String requestTo = eskaera.getRequestFrom();
+		int seats = eskaera.getSeats();
+		Traveller traveller = eskaera.getTraveller();
+		Date time = eskaera.getTime();
+		
 		RideRequest request=null;
 		db.getTransaction().begin();
 		Ride rd = db.find(Ride.class, ride.getRideNumber());
@@ -720,27 +727,27 @@ public class DataAccess {
 		a.setIrakurritaTrue();
 		db.getTransaction().commit();
 	}
-
-	public List<Mezua> ikusitakoAlerta(Traveller traveller) {
+	
+	public List<Mezua> getAlerta(Traveller traveller, boolean irakurrita) {
 		TypedQuery<Mezua> query = db
 				.createQuery("SELECT m FROM Mezua m WHERE  m.type=?2 AND m.irakurrita=?3 AND m.p=?4", Mezua.class);
 		query.setParameter(2, 2);
-		query.setParameter(3, true);
+		query.setParameter(3, irakurrita);
 		query.setParameter(4, traveller);
 		List<Mezua> alertaMezuak = query.getResultList();
 		return alertaMezuak;
+	}
+
+	public List<Mezua> ikusitakoAlerta(Traveller traveller) {
+		return getAlerta(traveller, true);
 	}
 
 	public List<Mezua> getIkusiGabeAlerta(Traveller traveller) {
-		TypedQuery<Mezua> query = db
-				.createQuery("SELECT m FROM Mezua m WHERE  m.type=?2 AND m.irakurrita=?3 AND m.p=?4", Mezua.class);
-		query.setParameter(2, 2);
-		query.setParameter(3, false);
-		query.setParameter(4, traveller);
-		List<Mezua> alertaMezuak = query.getResultList();
-		
-		return alertaMezuak;
+		return getAlerta(traveller, false);
 	}
+	
+
+	
 
 	public List<Alerta> kargatuTravellerAlertak(Traveller traveller) {
 		TypedQuery<Alerta> query = db.createQuery("SELECT a FROM Alerta a WHERE  a.traveller=?2 AND a.ezabatuta=?3",
@@ -823,31 +830,41 @@ public class DataAccess {
 		db.getTransaction().begin();
 		Date gaur = new Date();
 		for (Ride ride : rideP) {
-			if ((ride.getEgoera().equals(EgoeraRide.MARTXAN) || ride.getEgoera().equals(EgoeraRide.TOKIRIK_GABE))
-					& ride.getDate().before(new Date())) {
-				Ride ri = db.find(Ride.class, ride.getRideNumber());
-				ri.setEgoera(EgoeraRide.PASATUA);
-			} else if ((gaur.getTime() - ride.getDate().getTime()) / (1000 * 60 * 60 * 24) > 3) {
-				if (ride.getEgoera().equals(EgoeraRide.PASATUA)) {
-					for (RideRequest r : ride.getEskakizunak()) {
-						if(r.getState().equals(EgoeraRideRequest.ACCEPTED)) {
-							r.setState(EgoeraRideRequest.DONE);
-
-						}
-						r.setBaloratuaDriver(true);
-						r.setBaloratuaTraveller(true);
-						r.setErreklamatuaDriver(true);
-						r.setErreklamatuaTraveller(true);
-					}
-				} else if (ride.getEgoera().equals(EgoeraRide.DONE) || ride.getEgoera().equals(EgoeraRide.NOT_DONE)) {
-					
-				}
-
-			}
-
+			konprobatuBidaia(gaur, ride);
 		}
 		db.getTransaction().commit();
-
+	}
+	
+	private void konprobatuBidaia(Date gaur, Ride ride) {
+		if ((ride.getEgoera().equals(EgoeraRide.MARTXAN) || ride.getEgoera().equals(EgoeraRide.TOKIRIK_GABE))
+			&& ride.getDate().before(new Date())) {
+			bidaiaItxi(ride);
+		} else if ((gaur.getTime() - ride.getDate().getTime()) / (1000 * 60 * 60 * 24) > 3) {
+			bidaiEskaerakProzesatu(ride);
+		}
+	}
+	
+	private void bidaiaItxi(Ride ride) {
+		Ride ri = db.find(Ride.class, ride.getRideNumber());
+		ri.setEgoera(EgoeraRide.PASATUA);
+	}
+	
+	private void bidaiEskaerakProzesatu(Ride ride) {
+		if (ride.getEgoera().equals(EgoeraRide.PASATUA)) {
+			for (RideRequest rr : ride.getEskakizunak()) {
+				pasatutakoBidaiEskaerakProzesatu(rr);
+			}
+		}
+	}
+	
+	private void pasatutakoBidaiEskaerakProzesatu(RideRequest rr) {
+		if(rr.getState().equals(EgoeraRideRequest.ACCEPTED)) {
+			rr.setState(EgoeraRideRequest.DONE);
+		}
+		rr.setBaloratuaDriver(true);
+		rr.setBaloratuaTraveller(true);
+		rr.setErreklamatuaDriver(true);
+		rr.setErreklamatuaTraveller(true);
 	}
 	
 	private void erreklamazioaOnartu(Profile nork, Profile nori, Profile admin, float kantitatea, Erreklamazioa e) {
