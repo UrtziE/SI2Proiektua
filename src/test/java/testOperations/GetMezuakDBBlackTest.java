@@ -14,6 +14,7 @@ import org.junit.Test;
 
 import dataAccess.DataAccess;
 import domain.Driver;
+import domain.Erreklamazioa;
 import domain.ErreserbaEskaera;
 import domain.Kotxe;
 import domain.Mezua;
@@ -130,7 +131,8 @@ public class GetMezuakDBBlackTest {
     	sut.close();
     	
     	sut.open();
-    	sut.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
+    	Erreklamazioa erreklamazioa= new Erreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
+    	sut.gehituErreklamazioa(erreklamazioa);
     	sut.close();
     	
     	sut.open();

@@ -25,6 +25,7 @@ import org.mockito.MockitoAnnotations;
 import dataAccess.DataAccess;
 import domain.Alerta;
 import domain.Driver;
+import domain.Erreklamazioa;
 import domain.ErreserbaEskaera;
 import domain.Kotxe;
 import domain.Mezua;
@@ -144,9 +145,9 @@ public class GetMezuakMockBlackTest {
     	sut.close();
     	
     	Mockito.when(db.find(RideRequest.class, 1)).thenReturn(rr);
-
+    	Erreklamazioa erreklamazioa= new Erreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
     	sut.open();
-    	sut.gehituErreklamazioa(t, d, "DeskripzioTest", 4.0f, rr);
+    	sut.gehituErreklamazioa(erreklamazioa);
     	sut.close();
     	
     	sut.open();
