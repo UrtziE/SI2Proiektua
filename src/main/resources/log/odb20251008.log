@@ -80,3 +80,85 @@ Type domain.Traveller is not enhanced.
 [2025-10-08 11:07:31 #13 type] 
 Type domain.Admin is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-08 11:52:00 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\SI2Proiektua\src\main\resources\rides.temp' has been recovered (tr. 2425-2589)
+
+[2025-10-08 11:52:00 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\SI2Proiektua\src\main\resources\rides.temp' is opened by 11164@DESKTOP-EH9B0CP
+
+[2025-10-08 11:52:01 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-08 11:52:01 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-08 11:52:01 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-08 11:52:01 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-08 11:52:01 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-08 11:52:01 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-08 11:52:01 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-08 11:52:01 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-08 11:52:01 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-08 11:52:01 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-08 11:52:01 #13 type] 
+Type domain.Admin is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-08 11:54:23 #1 store] 
+Database 'C:\Users\Usuario-Pc\git\SI2Proiektua\src\main\resources\rides.temp' has been recovered (tr. 2590-2754)
+
+[2025-10-08 11:54:23 #2 store] 
+Database 'C:\Users\Usuario-Pc\git\SI2Proiektua\src\main\resources\rides.temp' is opened by 23216@DESKTOP-EH9B0CP
+
+[2025-10-08 11:54:23 #3 type] 
+Type domain.Profile is not enhanced.
+
+[2025-10-08 11:54:23 #4 type] 
+Type domain.Erreklamazioa is not enhanced.
+
+[2025-10-08 11:54:23 #5 type] 
+Type domain.Mezua is not enhanced.
+
+[2025-10-08 11:54:23 #6 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-08 11:54:23 #7 type] 
+Type domain.RideRequest is not enhanced.
+
+[2025-10-08 11:54:23 #8 type] 
+Type domain.Alerta is not enhanced.
+
+[2025-10-08 11:54:23 #9 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-08 11:54:23 #10 type] 
+Type domain.Kotxe is not enhanced.
+
+[2025-10-08 11:54:23 #11 type] 
+Type domain.Geltoki is not enhanced.
+
+[2025-10-08 11:54:23 #12 type] 
+Type domain.Traveller is not enhanced.
+
+[2025-10-08 11:54:23 #13 type] 
+Type domain.Admin is not enhanced.
+

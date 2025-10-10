@@ -426,24 +426,29 @@ public class Ride implements Serializable, Comparable<Ride> {
 	   }
 	   return (izenak.contains(from)&&izenak.contains(to));
    }
+   
    public void kenduSeatGeltokiei(int seats, String from, String to) {
-	   boolean hasi=false;
+	   boolean fromToBarruan=false;
 	   boolean daude= geltokiListContains(from,to);
 	   if(daude) {
 	   for(int i=0;i<geltokiList.size();i++) {
-		   if(geltokiList.get(i).getTokiIzen().equals(from)) {
-			   hasi=true;
-		   }
-		   if(geltokiList.get(i).getTokiIzen().equals(to)) {
-			   hasi=false;
-		   }
-		   if(hasi) {
+		   fromToBarruan=frometikToraDagoIGeltokia(from,to,i,fromToBarruan);
+		   if(fromToBarruan) {
 			   geltokiList.get(i).kenduSeatKop(seats);
 		   }
 		   
 	   }
 	   }
 	   
+   }
+   private boolean frometikToraDagoIGeltokia(String from, String to, int i,boolean fromToBarruan) {
+	   if(geltokiList.get(i).getTokiIzen().equals(from)) {
+		   return true;
+	   }
+	   if(geltokiList.get(i).getTokiIzen().equals(to)) {
+		   return false;
+	   }
+	   return fromToBarruan;
    }
    public boolean badaBiderenBat(List<String>ibil) {
 	   boolean emaitza=false;

@@ -158,7 +158,7 @@ public class BLFacadeImplementation  implements BLFacade {
    @WebMethod
    public void onartuEdoDeuseztatu(RideRequest request, boolean onartuta) {
 	   dbManager.open();
-	   dbManager.onartuEdoDeuseztatu(request, onartuta);
+	   dbManager.onartuEdoDeuseztatuErreserba(request, onartuta);
 	   dbManager.close();
    }
    /**
@@ -344,7 +344,8 @@ public class BLFacadeImplementation  implements BLFacade {
     @WebMethod
 	public void gehituErreklamazioa(Profile p, Profile nori, String deskripzioa,float prezioa, RideRequest r) {
     	dbManager.open();
-    	dbManager.gehituErreklamazioa(p,nori,deskripzioa,prezioa,r);
+    	Erreklamazioa erreklam= new Erreklamazioa(p,nori,deskripzioa,prezioa,r);
+    	dbManager.gehituErreklamazioa(erreklam);
     	dbManager.close();
 
 	}

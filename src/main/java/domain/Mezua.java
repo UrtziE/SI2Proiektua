@@ -56,6 +56,7 @@ public class Mezua implements Serializable, Comparable<Mezua> {
 	private Erreklamazioa erreklamazioa;
 	
 	private static final String DATADONE = "Mezuak.DataDone";  
+	private static final boolean EZDAERRESERBA = false;  
 
 	
 	public int getType() {
@@ -185,77 +186,43 @@ public class Mezua implements Serializable, Comparable<Mezua> {
 		switch (i) {
 		// Traveller
 		case 0:
-
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Requested") + ":  "
-					+ erreserba.mezua() + "__" + ride;
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataRequest") + " " + when;
-			diruMezu = "-" + kantitatea + "€";
+			sortuMezua("Mezuak.Requested","Mezuak.DataRequest","-",true);
+			
 
 			break;
 		case 1:
-
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Rejected") + ":  "
-					+ erreserba.mezua() + "__" + ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataRejected") + " " + when;
-			diruMezu = "+" + kantitatea + "€";
-
+			sortuMezua("Mezuak.Rejected","Mezuak.DataRejected","+",true);
 			break;
 		case 2:
-
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Canceled") + ":  " + ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataCanceled") + " " + when;
-			diruMezu = "+" + kantitatea + "€";
-
+			sortuMezua("Mezuak.Canceled","Mezuak.DataCanceled","+",EZDAERRESERBA);
 			break;
 		case 3:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Deposite") + ": ";
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataDeposite") + " " + when;
-			diruMezu = "+" + kantitatea + "€";
+			sortuMezua("Mezuak.Deposite","Mezuak.DataDeposite","+",EZDAERRESERBA);
 			break;
 		// Driver
 		case 4:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.NotDone") + ":    " + ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataNotDone") + " " + when;
-			diruMezu = "+" + kantitatea + "€";
-
+			sortuMezua("Mezuak.NotDone","Mezuak.DataNotDone","+",EZDAERRESERBA);
 			break;
 		case 5:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Canceled") + ":   " + ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataCanceled") + " " + when;
-			diruMezu = "+" + kantitatea + "€";
+			sortuMezua("Mezuak.Canceled","Mezuak.DataCanceled","+",EZDAERRESERBA);
 			break;
 		case 6:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Withdraw") + ":";
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.DataWithdraw") + " " + when;
-			diruMezu = "-" + kantitatea + "€";
+			sortuMezua("Mezuak.Withdraw","Mezuak.DataWithdraw","-",EZDAERRESERBA);
 			break;
 		case 7:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Done") + ":   " + ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
-			diruMezu = "+" + kantitatea + "€";
+			sortuMezua("Mezuak.Done",DATADONE,"+",EZDAERRESERBA);
 			break;
 		case 8:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.NewErreklamazioa") + ":   "
-					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
-			diruMezu = "+" + kantitatea + "€";
+			sortuMezua("Mezuak.NewErreklamazioa",DATADONE,"+",EZDAERRESERBA);
 			break;
 		case 9:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaAccepted") + ":   "
-					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
-			diruMezu = "+" + kantitatea + "€";
+			sortuMezua("Mezuak.ErreklamazioaAccepted",DATADONE,"+",EZDAERRESERBA);
 			break;
 		case 10:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaRejected") + ":   "
-					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
+			sortuMezua("Mezuak.ErreklamazioaRejected",DATADONE,"",EZDAERRESERBA);
 			break;
 		case 11:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.Erreklamatuta") + ":   "
-					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
-			diruMezu = "-" + kantitatea + "€";
+			sortuMezua("Mezuak.Erreklamatuta",DATADONE,"-",EZDAERRESERBA);
 			break;
 		}
 
@@ -264,84 +231,41 @@ public class Mezua implements Serializable, Comparable<Mezua> {
 	public void zeinErreklamazio(int i) {
 		switch (i) {
 		case 0:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaAccepted") + ":   "
-					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
-			diruMezu = "+" + kantitatea + "€";
+			sortuMezua("Mezuak.ErreklamazioaAccepted",DATADONE,"+",EZDAERRESERBA);
 			break;
 		case 1:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioaRejected") + ":   "
-					+ ride.mezua();
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
+			sortuMezua("Mezuak.ErreklamazioaRejected",DATADONE,"",EZDAERRESERBA);
 			break;
 		case 2:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioBukatuta") + ":   "
-					+ ride.mezua()+"  Accepted";
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
+			sortuMezua("Mezuak.ErreklamazioBukatuta",DATADONE,"",EZDAERRESERBA);
+			typerenMezua = typerenMezua+"  Accepted";
 			break;
 		case 3:
-			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.ErreklamazioBukatuta") + ":   "
-					+ ride.mezua() +"  Rejected";
-			datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
+			sortuMezua("Mezuak.ErreklamazioBukatuta",DATADONE,"",EZDAERRESERBA);
+			typerenMezua =typerenMezua +"  Rejected";
+		
 			break;
 		}
 	}
 
 	public void zeinAlerta() {
-		typerenMezua = ResourceBundle.getBundle("Etiquetas").getString("Mezuak.EskatutakoAlerta") + ":   " + alerta.toString();
-		datamezua = ResourceBundle.getBundle("Etiquetas").getString(DATADONE) + " " + when;
+		sortuMezua("Mezuak.EskatutakoAlerta",DATADONE,"",EZDAERRESERBA);
+		typerenMezua = typerenMezua + alerta.toString();
 	}
 
-	/*
-	 * public void zeinTransaction(int i) { switch(i) { //Traveller case 0:
-	 * 
-	 * zerena= "Ride requested: ride id: "+ erreserba.getRide().getRideNumber();
-	 * mezua= "-" + kantitatea + "€"; p=erreserba.getTraveller(); break; case 1:
-	 * 
-	 * zerena= "Ride request rejected: ride id: "+
-	 * erreserba.getRide().getRideNumber(); mezua= "+" + kantitatea + "€";
-	 * p=erreserba.getTraveller(); break; case 2:
-	 * 
-	 * zerena= "Canceled ride: ride id: " +erreserba.getRide().getRideNumber();
-	 * mezua= "+" + kantitatea + "€"; p=erreserba.getTraveller(); break; case 3:
-	 * zerena= "Deposited money"; mezua= "+" + kantitatea + "€"; break; //Driver
-	 * case 4: zerena= "Ride finished: ride id: "
-	 * +erreserba.getRide().getRideNumber(); mezua= "+" + kantitatea + "€";
-	 * p=erreserba.getRide().getDriver(); break; case 5: zerena=
-	 * "Cancelled Ride: ride id: " +erreserba.getRide().getRideNumber(); mezua= "-"
-	 * + kantitatea + "€"; break; case 6: zerena= "Withdraw money"; mezua= "-" +
-	 * kantitatea + "€"; break; }
-	 * 
-	 * }
-	 * 
-	 * public void zeinRide(int i) { switch(i) { //Transactions
-	 * 
-	 * //Traveller case 0:
-	 * 
-	 * zerena= "Ride requested: "; mezua= erreserba.requestInfo();
-	 * p=erreserba.getTraveller(); break; case 1:
-	 * 
-	 * zerena= "Ride request rejected: "; mezua= erreserba.requestInfo();
-	 * p=erreserba.getTraveller(); break; case 2:
-	 * 
-	 * zerena= "Canceled ride: "; mezua= erreserba.requestInfo();
-	 * p=erreserba.getTraveller(); break; case 3:
-	 * 
-	 * zerena= "Accepted request: "; mezua= erreserba.requestInfo();
-	 * p=erreserba.getTraveller(); break;
-	 * 
-	 * case 4:
-	 * 
-	 * zerena= "Ride done: "; mezua= erreserba.requestInfo();
-	 * p=erreserba.getTraveller(); break; //Driver case 5:
-	 * 
-	 * zerena= "New Ride request: " + erreserba.getId(); mezua=
-	 * erreserba.toString(); p=erreserba.getRide().getDriver(); break; case 6:
-	 * 
-	 * zerena= "Ride not done: " + erreserba.getId();
-	 * p=erreserba.getRide().getDriver();
-	 * 
-	 * } }
-	 */
+	private void sortuMezua(String mezua, String data, String gehituEdoKendu, boolean erreserbaDa) {
+		if (erreserbaDa) {
+			typerenMezua = ResourceBundle.getBundle("Etiquetas").getString(mezua) + ":  "+ erreserba.mezua() + "__" + ride.mezua();
+		} else {
+			if (ride != null) {
+				typerenMezua = ResourceBundle.getBundle("Etiquetas").getString(mezua) + ":   " + ride.mezua();
+			} else {
+				typerenMezua = ResourceBundle.getBundle("Etiquetas").getString(mezua) + ": ";
+			}
+			datamezua = ResourceBundle.getBundle("Etiquetas").getString(data) + " " + when;
+			diruMezu = gehituEdoKendu + kantitatea + "€";
+		}
+	}
+	
 
 }

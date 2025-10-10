@@ -493,7 +493,7 @@ public class DataAccess {
 		db.getTransaction().commit();
 	}
 
-	public void onartuEdoDeuseztatu(RideRequest request, boolean onartuta) {
+	public void onartuEdoDeuseztatuErreserba(RideRequest request, boolean onartuta) {
 
 		db.getTransaction().begin();
 
@@ -501,25 +501,15 @@ public class DataAccess {
 		Ride ride = r.getRide();
 
 		if (onartuta) {
-			// Aldatu
-			ride.kenduSeatGeltokiei(r.getSeats(), r.getFromRequested(), r.getToRequested());
-			// ride.setBetMinimum((ride.getnPlaces() - r.getSeats()));
-			r.setState(EgoeraRideRequest.ACCEPTED);
-			ride.deuseztatuSeatKopuruBainaHandiagoa(r);
-			if (ride.getnPlaces() == 0) {
-				ride.setEgoera(EgoeraRide.TOKIRIK_GABE);
-			}
-
+			onartuErreserba(ride,r);
 		} else {
-			Traveller t = r.getTraveller();
-			t.gehituDirua(r.getPrezioa());
-			r.setState(EgoeraRideRequest.REJECTED);
-			t.gehituMezuaTransaction(1, r.getPrezioa(), r); // Dirua itzuli
+			deuseztatuErreserba(r);
 		}
-
 		r.setWhenDecided(new Date());
 		db.getTransaction().commit();
 	}
+	
+
 
 	public void erreklamazioaProzesatu(Erreklamazioa erreklamazioa, float kantitatea, boolean onartuta) {
 		db.getTransaction().begin();
@@ -594,17 +584,20 @@ public class DataAccess {
 		else
 			return new ArrayList<Erreklamazioa>();
 	}
-
-	public void gehituErreklamazioa(Profile p, Profile nori, String deskripzioa, float prezioa, RideRequest r) {
+	//Profile p, Profile nori, String deskripzioa, float prezioa, RideRequest r
+   
+	public void gehituErreklamazioa( Erreklamazioa erreklam) {
+		Profile nork= erreklam.getNork();
+		RideRequest r= erreklam.getErreserba();
 		db.getTransaction().begin();
-		Profile profile = db.find(Profile.class, p.getUser());
+		Profile profile = db.find(Profile.class, nork.getUser());
 		RideRequest request = db.find(RideRequest.class, r.getId());
 		if (profile instanceof Traveller) {
 			request.setErreklamatuaDriver(true);
 		} else {
 			request.setErreklamatuaTraveller(true);
 		}
-		profile.gehituErreklamazioa(nori, deskripzioa, prezioa, r);
+		profile.gehituErreklamazioa(erreklam.getNori(), erreklam.getDeskripzioa(), erreklam.getPrezioa(), request);
 		db.getTransaction().commit();
 	}
 
@@ -887,6 +880,20 @@ public class DataAccess {
 		admin.addErreklamazioMezu(3, r, e);
 	}
 	
+	private void onartuErreserba(Ride ride, RideRequest r) {
+		ride.kenduSeatGeltokiei(r.getSeats(), r.getFromRequested(), r.getToRequested());
+		r.setState(EgoeraRideRequest.ACCEPTED);
+		ride.deuseztatuSeatKopuruBainaHandiagoa(r);
+		if (ride.getnPlaces() == 0) {
+			ride.setEgoera(EgoeraRide.TOKIRIK_GABE);
+		}
+	}
+	private void deuseztatuErreserba(RideRequest r) {
+		Traveller t = r.getTraveller();
+		t.gehituDirua(r.getPrezioa());
+		r.setState(EgoeraRideRequest.REJECTED);
+		t.gehituMezuaTransaction(1, r.getPrezioa(), r); // Dirua itzuli
+	}
 
 	public void open() {
 
