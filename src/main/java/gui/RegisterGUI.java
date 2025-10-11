@@ -144,8 +144,9 @@ public class RegisterGUI extends JFrame {
 						type = "Driver";
 					}
 					BLFacade facade = MainGUI.getBusinessLogic();
-					Profile user = facade.register(emailText.getText(), nameText.getText(), surnameText.getText(),
-							userText.getText(), pwd, tlfText.getText(), type);
+					
+					Profile user = facade.register(new Traveller(emailText.getText(), nameText.getText(), surnameText.getText(),
+							userText.getText(), pwd, tlfText.getText()), type);
 					if (user!=null) {
 						if(user instanceof Traveller) {
 				
@@ -170,6 +171,8 @@ public class RegisterGUI extends JFrame {
 
 			}
 		});
+		
+		
 		btnRegister.setBounds(231, 308, 103, 43);
 		contentPane.add(btnRegister);
 		btnRegister.setText(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.Register"));
@@ -311,6 +314,7 @@ public class RegisterGUI extends JFrame {
 			return false;
 		}
 	}
+	
 
 	public void Desagertarazi() {
 		this.setVisible(false);

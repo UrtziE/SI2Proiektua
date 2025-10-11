@@ -25,7 +25,7 @@ import org.mockito.MockitoAnnotations;
 import dataAccess.DataAccess;
 import domain.Driver;
 import domain.Erreklamazioa;
-import domain.ErreserbaEskaera;
+
 import domain.Kotxe;
 import domain.Mezua;
 import domain.Profile;
@@ -126,8 +126,8 @@ public class GetMezuakMockWhiteTest {
 
 		//Mezua sortu
     	sut.open();
-   		ErreserbaEskaera ee = new ErreserbaEskaera(date, r, t, 1, from, to);
-    	rr = sut.erreserbatu(ee);
+   		
+   		rr = sut.erreserbatu(new RideRequest(date, r, t, 1, from, to));
     	rr.setId(1);
     	sut.close();
     	
@@ -166,8 +166,7 @@ public class GetMezuakMockWhiteTest {
 		Mockito.when(db.find(Ride.class, 1)).thenReturn(r);
     	
     	sut.open();
-   		ErreserbaEskaera ee = new ErreserbaEskaera(date, r, t, 1, from, to);
-    	rr = sut.erreserbatu(ee);
+    	rr = sut.erreserbatu(new RideRequest(date, r, t, 1, from, to));
     	rr.setId(1);
     	sut.close();
     	

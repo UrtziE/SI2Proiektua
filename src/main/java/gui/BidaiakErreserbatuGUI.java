@@ -285,7 +285,7 @@ public class BidaiakErreserbatuGUI extends JFrame {
 		 		}else {
 		 			Date orain=  new Date();
 			 		BLFacade blf= MainGUI.getBusinessLogic();
-			 		RideRequest request=blf.erreserbatu(orain,ride,traveller,seats,from,to);
+			 		RideRequest request=blf.erreserbatu(new RideRequest(orain,ride,traveller,seats,from,to));
 			 		if(request==null) {
 			 			errorlbl.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorSeats"));
 			 		}

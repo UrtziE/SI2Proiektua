@@ -431,25 +431,18 @@ public class Ride implements Serializable, Comparable<Ride> {
 	   boolean fromToBarruan=false;
 	   boolean daude= geltokiListContains(from,to);
 	   if(daude) {
-	   for(int i=0;i<geltokiList.size();i++) {
-		   fromToBarruan=frometikToraDagoIGeltokia(from,to,i,fromToBarruan);
+	   for(Geltoki g: geltokiList) {
+		   fromToBarruan=frometikToraDagoIGeltokia(g,from,to,fromToBarruan);
 		   if(fromToBarruan) {
-			   geltokiList.get(i).kenduSeatKop(seats);
+			   g.kenduSeatKop(seats);
 		   }
 		   
 	   }
 	   }
 	   
    }
-   private boolean frometikToraDagoIGeltokia(String from, String to, int i,boolean fromToBarruan) {
-	   if(geltokiList.get(i).getTokiIzen().equals(from)) {
-		   return true;
-	   }
-	   if(geltokiList.get(i).getTokiIzen().equals(to)) {
-		   return false;
-	   }
-	   return fromToBarruan;
-   }
+  
+   
    public boolean badaBiderenBat(List<String>ibil) {
 	   boolean emaitza=false;
 	   for(int i=0;i<ibil.size();i++) {
@@ -499,26 +492,38 @@ public class Ride implements Serializable, Comparable<Ride> {
 		   
 	   }
    }
+  
    public int lortuEserlekuKopMin(String from, String to) {
 	   boolean hasi=false;
-	   int min=1000;
-	   for(int i=0;i<geltokiList.size();i++) {
-		   if(geltokiList.get(i).getTokiIzen().equals(from)) {
-			   hasi=true;
-			   min=geltokiList.get(i).getEserleku();
-		   }
-		   if(geltokiList.get(i).getTokiIzen().equals(to)) {
-			   hasi=false;
-			   //PENTSATU EA JARRI HEMEN RETURN
-		   }
+	   int min = Integer.MAX_VALUE;
+	   for(Geltoki g: geltokiList) {
+		   hasi=frometikToraDagoIGeltokia(g,from,to,hasi);
 		   if(hasi) {
-			   if(min>geltokiList.get(i).getEserleku()) {
-				   min=geltokiList.get(i).getEserleku();
-			   }
+			   min=eserlekuKopMinKonprobatu(g,min); 
 		   }
 	   }
 	   return min;
    }
+   private int eserlekuKopMinKonprobatu(Geltoki geltoki,int min) {
+	   if(min>geltoki.getEserleku()) {
+		   min=geltoki.getEserleku();
+	   }
+	   return min;
+   }
+   
+   private boolean frometikToraDagoIGeltokia(Geltoki g,String from,String to,boolean fromToBarruan) {
+	   if(g.getTokiIzen().equals(from)) {
+		   return true;
+	   }
+	   if(g.getTokiIzen().equals(to)) {
+		   return false;
+	   }
+	   return fromToBarruan;
+   }
+   
+   
+   
+   
    public boolean eserlekuakAmaituta() {
 	   for(int i=0; i<geltokiList.size()-1;i++) {
 		   if(geltokiList.get(i).getEserleku()>0) {

@@ -106,9 +106,7 @@ public interface BLFacade {
 	 * @return profil berria
 	 */
 	@WebMethod
-	public Profile register(String text, String text2, String text3, String text4, String pwd, String text5,
-			String type);
-
+	public Profile register(Profile p, String type);
 	/**
 	 * Metodo honek erabiltzaile bat eta pasahitza bat sartuz, erabiltzaile eta
 	 * pasahitza horiek dituen profila itzuliko du
@@ -168,18 +166,12 @@ public interface BLFacade {
 	/**
 	 * Metodo honek bidai baten erreserba eskakizuna sortuko du
 	 * 
-	 * @param time      erreserba eskaeraren data (momentuan egidako data)
-	 * @param ride      erreserbatu nahi den bidaia
-	 * @param traveller bidaia erreserbatu nahi duen bidaiaria
-	 * @param seats     erreserbatu nahi dituen eserleku kopurua
-	 * @param from bidaian dagoen geltoki bat 
-
-	 * @param to bidaian from eta gero dagoen geltoki bat 
+	 * @param r eskatu den erreserbaren eskaera
 	 * 
 	 * @return erreserba eskakizuna
 	 */
 	@WebMethod
-	public RideRequest erreserbatu(Date time, Ride ride, Traveller traveller, int seats, String from, String to);
+	public RideRequest erreserbatu(RideRequest r);
 
 	/**
 	 * Metodo honek erreserba eskakizun bat onartzen edo deuseztatzen du, behar den   pertsonari dirua itzuliz(beharrezkoa bada)
