@@ -15,7 +15,7 @@ import org.junit.Test;
 import dataAccess.DataAccess;
 import domain.Driver;
 import domain.Erreklamazioa;
-import domain.ErreserbaEskaera;
+
 import domain.Kotxe;
 import domain.Mezua;
 import domain.Ride;
@@ -108,8 +108,8 @@ public class GetMezuakDBBlackTest {
 	public void testMezuaItzuli() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
     	sut.open();
-   		ErreserbaEskaera ee = new ErreserbaEskaera(date, r, t, 1, from, to);
-    	rr = sut.erreserbatu(ee);
+   		
+    	rr = sut.erreserbatu(new RideRequest(date, r, t, 1, from, to));
     	sut.close();
     	sut.open();
         List<Mezua> mezuak = sut.getMezuak(t);
@@ -126,8 +126,8 @@ public class GetMezuakDBBlackTest {
 	public void testMezuEzMotaBat() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
     	sut.open();
-   		ErreserbaEskaera ee = new ErreserbaEskaera(date, r, t, 1, from, to);
-    	rr = sut.erreserbatu(ee);
+   		
+   		rr = sut.erreserbatu(new RideRequest(date, r, t, 1, from, to));
     	sut.close();
     	
     	sut.open();

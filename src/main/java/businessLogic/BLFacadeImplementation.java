@@ -21,7 +21,7 @@ import domain.Admin;
 import domain.Alerta;
 import domain.Driver;
 import domain.Erreklamazioa;
-import domain.ErreserbaEskaera;
+
 import domain.Kotxe;
 import domain.Mezua;
 import domain.Profile;
@@ -89,9 +89,9 @@ public class BLFacadeImplementation  implements BLFacade {
 		return ride;
    };
    @WebMethod
-   public Profile register (String email, String name, String surname, String user, String password, String telf, String type) {
+   public Profile register (Profile profile, String type) {
 	   dbManager.open();
-	  Profile p=dbManager.register(email,name,surname,user,password,telf,type);
+	  Profile p=dbManager.register(profile,type);
 	   dbManager.close();
 	   return p;
    }
@@ -137,7 +137,7 @@ public class BLFacadeImplementation  implements BLFacade {
 	    dbManager.kenduDirua( dirua, p);
 	   dbManager.close();
 	}
-   @WebMethod
+  /* @WebMethod
    public RideRequest erreserbatu(Date time, Ride ride, Traveller traveller,int seats,String from, String to) {
 	   
 	   		ErreserbaEskaera ee = new ErreserbaEskaera(time, ride, traveller, seats, from, to);
@@ -145,6 +145,16 @@ public class BLFacadeImplementation  implements BLFacade {
 		 RideRequest request=dbManager.erreserbatu(ee);
 		   dbManager.close();
 		   return request;
+	
+   }*/
+   
+   @WebMethod
+   public RideRequest erreserbatu(RideRequest r) {
+	   
+	   dbManager.open();
+	   RideRequest request=dbManager.erreserbatu(r);
+	   dbManager.close();
+	   return request;
 	
    }
    @WebMethod

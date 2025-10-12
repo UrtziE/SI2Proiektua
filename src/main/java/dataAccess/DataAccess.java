@@ -32,7 +32,7 @@ import domain.EgoeraErreklamazioa;
 import domain.EgoeraRide;
 import domain.EgoeraRideRequest;
 import domain.Erreklamazioa;
-import domain.ErreserbaEskaera;
+
 import domain.Kotxe;
 import domain.Mezua;
 import domain.Profile;
@@ -389,21 +389,18 @@ public class DataAccess {
 		return res;
 	}
 
-	public Profile register(String email, String name, String surname, String username, String password, String telf,
-			String type) {
+	
+	
+	public Profile register(Profile p,String type) {
 
-		Profile u = db.find(Profile.class, username);
+		Profile u = db.find(Profile.class, p.getUser());
 		Profile user;
 		if (u != null) {
 			return null;
 		} else {
-
-			if (type.equals("Traveller")) {
-				user = new Traveller(email, name, surname, username, password, telf);
-
-			} else {
-				user = new Driver(email, name, surname, username, password, telf);
-			}
+			
+			user=createTravellerOrDriver(p,type);
+			
 			db.getTransaction().begin();
 			db.persist(user);
 			db.getTransaction().commit();
@@ -411,6 +408,22 @@ public class DataAccess {
 			return user;
 		}
 
+	}
+	private Profile createTravellerOrDriver(Profile p,String type) {
+		String email=p.getEmail();
+		String name=p.getName();
+		String surname= p.getSurname();
+		String username=p.getUser();
+		String password=p.getPassword();
+		String telf=p.getTelf();
+		
+		if (type.equals("Traveller")) {
+			return new Traveller(email, name, surname, username, password, telf);
+
+		} else {
+			return new Driver(email, name, surname, username, password, telf);
+		}
+		
 	}
 
 	public Profile login(String user, String password) {
@@ -529,42 +542,55 @@ public class DataAccess {
 		db.getTransaction().commit();
 	}
 	
-
-	public RideRequest erreserbatu(ErreserbaEskaera eskaera) {
-		Ride ride = eskaera.getRide();
-		String requestFrom = eskaera.getRequestFrom();
-		String requestTo = eskaera.getRequestFrom();
-		int seats = eskaera.getSeats();
-		Traveller traveller = eskaera.getTraveller();
-		Date time = eskaera.getTime();
-		
-		RideRequest request=null;
+	
+	
+	public RideRequest erreserbatu(RideRequest request) {
+		Ride ride = request.getRide();
 		db.getTransaction().begin();
 		Ride rd = db.find(Ride.class, ride.getRideNumber());
-		if(rd.lortuEserlekuKopMin(requestFrom, requestTo)>=seats) {
-		Traveller t = db.find(Traveller.class, traveller.getUser());
 		
-		t.kenduDirua(rd.lortuBidaiarenPrezioa(requestFrom, requestTo) * seats);
-		request = t.addRequest(time, rd, seats, requestFrom, requestTo);
-		rd.addRequest(request);
-		// HOBETZEKOA RIDEK IZATEA GEHITU MEZUA RIDE METODOA
-
-		// hobetzekoa, travellerek izatea gehitu mezua metodoa,
-		t.gehituMezuaTransaction(0, rd.lortuBidaiarenPrezioa(requestFrom, requestTo) * seats, request);// Traveller ride
-																										// requested
-
-		//System.out.println("Eta" + t + " has been updated");
-		db.getTransaction().commit();
-		}else {
-			System.out.println();
+		if(!eserlekuKopEgokia(rd,request)) {
 			db.getTransaction().commit();
 			return null;
 		}
 		
-		return request;
+		RideRequest rq=createRideRequest(rd,request);
+		rd.addRequest(request);
+		
+		db.persist(rq);
+		db.persist(rd);
+		
+		db.getTransaction().commit();
+			
+		return rq;
 
 	}
-
+	private boolean eserlekuKopEgokia(Ride rd,RideRequest request) {
+		String requestFrom = request.getFromRequested();
+		String requestTo = request.getToRequested();
+		int seats = request.getSeats();
+		
+		return (rd.lortuEserlekuKopMin(requestFrom, requestTo)>=seats); 
+	}
+	private RideRequest createRideRequest(Ride ride,RideRequest request) {
+		Traveller traveller = request.getTraveller();
+		String requestFrom = request.getFromRequested();
+		String requestTo = request.getToRequested();
+		int seats = request.getSeats();
+		Date time = request.getWhenRequested();
+		
+		Traveller t = db.find(Traveller.class, traveller.getUser());
+		
+		t.kenduDirua(ride.lortuBidaiarenPrezioa(requestFrom, requestTo) * seats);
+		request = t.addRequest(time, ride, seats, requestFrom, requestTo);
+		
+		t.gehituMezuaTransaction(0, ride.lortuBidaiarenPrezioa(requestFrom, requestTo) * seats, request);
+		
+		db.persist(t);
+	
+		return request;
+	}
+	
 
 
 	public Ride getRideFromRequest(RideRequest erreserba) {
@@ -637,27 +663,20 @@ public class DataAccess {
 	 * @return mezuen lista
 	 */
 	public List<Mezua> getMezuak(Profile p) {
-		db.getTransaction().begin();
-		Profile profile = db.find(Profile.class, p.getUser());
-		List<Mezua> mList1 = profile.getMezuList();
-		db.getTransaction().commit();
-		List<Mezua> mList = new LinkedList<Mezua>();
-		for (Mezua mezu : mList1) {
-			if (mezu.getType() == 1) {
-				mList.add(mezu);
-			}
-		}
-		return mList;
+		return lortuMezuak(p,1);
 	}
 
 	public List<Mezua> getErreklamazioMezuak(Profile p) {
+		return lortuMezuak(p,3);
+	}
+	private List<Mezua> lortuMezuak(Profile p,int type){
 		db.getTransaction().begin();
 		Profile profile = db.find(Profile.class, p.getUser());
 		List<Mezua> mList1 = profile.getMezuList();
 		db.getTransaction().commit();
 		List<Mezua> mList = new LinkedList<Mezua>();
 		for (Mezua mezu : mList1) {
-			if (mezu.getType() == 3) {
+			if (mezu.getType() == type) {
 				mList.add(mezu);
 			}
 		}
