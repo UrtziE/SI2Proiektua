@@ -215,7 +215,7 @@ public class DataAccess {
 			Ride ride = driver.addRide(from, to, date, nPlaces, price, kotxe, ibilbide);
 
 			// next instruction can be obviated
-			db.persist(driver);
+			//db.persist(driver);
 			konprobatuAlertak(ride);
 			db.getTransaction().commit();
 
@@ -546,8 +546,9 @@ public class DataAccess {
 	
 	public RideRequest erreserbatu(RideRequest request) {
 		Ride ride = request.getRide();
-		db.getTransaction().begin();
 		Ride rd = db.find(Ride.class, ride.getRideNumber());
+		db.getTransaction().begin();
+		
 		
 		if(!eserlekuKopEgokia(rd,request)) {
 			db.getTransaction().commit();
@@ -555,16 +556,13 @@ public class DataAccess {
 		}
 		
 		RideRequest rq=createRideRequest(rd,request);
-		rd.addRequest(request);
-		
-		db.persist(rq);
-		db.persist(rd);
-		
+		rd.addRequest(request);	
 		db.getTransaction().commit();
 			
 		return rq;
 
 	}
+	
 	private boolean eserlekuKopEgokia(Ride rd,RideRequest request) {
 		String requestFrom = request.getFromRequested();
 		String requestTo = request.getToRequested();
@@ -578,15 +576,11 @@ public class DataAccess {
 		String requestTo = request.getToRequested();
 		int seats = request.getSeats();
 		Date time = request.getWhenRequested();
-		
 		Traveller t = db.find(Traveller.class, traveller.getUser());
-		
 		t.kenduDirua(ride.lortuBidaiarenPrezioa(requestFrom, requestTo) * seats);
 		request = t.addRequest(time, ride, seats, requestFrom, requestTo);
 		
 		t.gehituMezuaTransaction(0, ride.lortuBidaiarenPrezioa(requestFrom, requestTo) * seats, request);
-		
-		db.persist(t);
 	
 		return request;
 	}

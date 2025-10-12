@@ -107,9 +107,11 @@ public class GetMezuakDBBlackTest {
     @Test
 	public void testMezuaItzuli() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
+    	RideRequest rq= new RideRequest(date, r, t, 1, from, to);
+    	
     	sut.open();
    		
-    	rr = sut.erreserbatu(new RideRequest(date, r, t, 1, from, to));
+    	rr = sut.erreserbatu(rq);
     	sut.close();
     	sut.open();
         List<Mezua> mezuak = sut.getMezuak(t);
@@ -125,8 +127,7 @@ public class GetMezuakDBBlackTest {
     @Test
 	public void testMezuEzMotaBat() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
-    	sut.open();
-   		
+		sut.open();
    		rr = sut.erreserbatu(new RideRequest(date, r, t, 1, from, to));
     	sut.close();
     	

@@ -67,8 +67,9 @@ public class TestDataAccess {
 	public Traveller createTraveller(String user, String email) {
 		System.out.println(">> TestDataAccess: addDriver");
 		Traveller traveller=null;
-			db.getTransaction().begin();
+			
 			try {
+				db.getTransaction().begin();
 			    traveller= new Traveller(user,email);
 				db.persist(traveller);
 				db.getTransaction().commit();

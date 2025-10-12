@@ -122,9 +122,9 @@ public class GetMezuakDBWhiteTest {
     @Test
 	public void testGetMezuak2() {
     	r = addRide(from, to, date, places, prezioak, d.getUser(), k, ibilbide);
-    	
+    	RideRequest rq=new RideRequest(date, r, t, 1, from, to);
     	sut.open();
-    	rr = sut.erreserbatu(new RideRequest(date, r, t, 1, from, to));
+    	rr = sut.erreserbatu(rq);
     	sut.close();
     	
     	sut.open();

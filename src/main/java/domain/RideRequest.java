@@ -38,10 +38,10 @@ public class RideRequest implements Serializable,Comparable<RideRequest>{
 	private boolean erreklamatuaTraveller;
 	private boolean bidaiaEsandaZer=false;
 
-	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+	@OneToOne(fetch = FetchType.EAGER)
 	private Traveller traveller;
 
-	@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+	@OneToOne(fetch = FetchType.EAGER)
 	private Ride ride;
 
 	public RideRequest(Date whenRequested, Ride ride, Traveller traveller, int seats,String from, String to) {
