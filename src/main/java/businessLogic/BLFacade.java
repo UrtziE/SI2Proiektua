@@ -6,6 +6,7 @@ import domain.Profile;
 import domain.Ride;
 import domain.*;
 import exceptions.RideMustBeLaterThanTodayException;
+import iterator.ExtendedIterator;
 import exceptions.RideAlreadyExistException;
 
 import java.util.Date;
@@ -37,6 +38,8 @@ public interface BLFacade {
 	 * @param from the depart location of a ride
 	 * @return all the arrival destinations
 	 */
+	@WebMethod
+	  public	ExtendedIterator<String>	getDepartingCitiesIterator();
 	@WebMethod
 	public List<String> getDestinationCities(String from);
 

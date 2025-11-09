@@ -26,6 +26,8 @@ import domain.Kotxe;
 import domain.Mezua;
 import domain.Profile;
 import exceptions.RideMustBeLaterThanTodayException;
+import iterator.DepartingCitiesExtendedIterator;
+import iterator.ExtendedIterator;
 import exceptions.RideAlreadyExistException;
 
 /**
@@ -62,6 +64,17 @@ public class BLFacadeImplementation  implements BLFacade {
 		dbManager.close();
 		
 		return departLocations;
+    	
+    }
+    @WebMethod
+    public	ExtendedIterator<String>	getDepartingCitiesIterator(){
+    	dbManager.open();	
+		
+		 List<String> departLocations=dbManager.getDepartCities();		
+
+		dbManager.close();
+		ExtendedIterator<String> iterator= new DepartingCitiesExtendedIterator(departLocations);
+		return iterator;
     	
     }
     /**
