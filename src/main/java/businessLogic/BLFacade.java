@@ -525,4 +525,20 @@ public interface BLFacade {
 	 */
 	@WebMethod
 	public List<Erreklamazioa> lortuErreklamazioakProzesuan(Profile a);
+	
+	
+	/**
+	 * Metodo honek driver bat bere izenaren arabera bilatzen du
+	 * 
+	 * @param izena Izena
+	 * @return Driver
+	 */
+	@WebMethod
+	public Driver getDriver(String izena);
+	
+	
+	
+	
+	
+	
 }

@@ -40,7 +40,7 @@ public class ApplicationLauncher {
 			UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 			
 			BLFactory factory = new BLFactory();
-			BLFacade appFacadeInterface = factory.getBussinessLogic(c);
+			BLFacade appFacadeInterface = factory.getBusinessLogicFactory(c);
 			
 			MainGUI.setBussinessLogic(appFacadeInterface);
 
@@ -56,3 +56,5 @@ public class ApplicationLauncher {
 	}
 
 }
+
+

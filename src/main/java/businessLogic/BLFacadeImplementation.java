@@ -494,4 +494,14 @@ public class BLFacadeImplementation implements BLFacade {
 		dbManager.close();
 		return erreklam;
 	}
+	
+	
+	@WebMethod
+	public Driver getDriver(String izena) {
+		dbManager.open();
+		Driver d = dbManager.getDriver(izena);
+		dbManager.close();
+		return d;
+	}
+	
 }

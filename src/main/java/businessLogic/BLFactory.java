@@ -10,10 +10,8 @@ import configuration.ConfigXML;
 import dataAccess.DataAccess;
 
 public class BLFactory {
-
 	
-	
-	public BLFacade getBussinessLogic(ConfigXML c) throws Exception{
+	public BLFacade getBusinessLogicFactory(ConfigXML c) throws Exception{
 		BLFacade appFacadeInterface;
 		UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 
@@ -39,3 +37,5 @@ public class BLFactory {
 	}
 	
 }
+
+

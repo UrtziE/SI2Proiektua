@@ -932,5 +932,10 @@ public class DataAccess {
 		db.close();
 		System.out.println("DataAcess closed");
 	}
+	
+	public Driver getDriver(String izena) {
+		return db.find(Driver.class, izena);
+	}
+	
 
 }

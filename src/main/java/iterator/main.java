@@ -12,7 +12,7 @@ public class main {
 		
 		BLFacade blFacade;
 		try {
-			blFacade = new BLFactory().getBussinessLogic(config);
+			blFacade = new BLFactory().getBusinessLogicFactory(config);
 			ExtendedIterator<String> i = blFacade.getDepartingCitiesIterator();
 			String c;
 			System.out.println("_____________________");
