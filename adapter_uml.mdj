@@ -63,7 +63,7 @@
 											"top": 679,
 											"width": 321.22314453125,
 											"height": 13,
-											"text": "DriverTable"
+											"text": "DriverAdapter"
 										},
 										{
 											"_type": "LabelView",
@@ -6383,7 +6383,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF1iNhTDJwweyU="
 					},
-					"name": "DriverTable",
+					"name": "DriverAdapter",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -7075,53 +7075,6 @@
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
-							"_id": "AAAAAAGajdQTxHZXC+4=",
-							"_parent": {
-								"$ref": "AAAAAAGajdQTxHZWuSk="
-							},
-							"name": "creates",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdQTxHZYa3Q=",
-								"_parent": {
-									"$ref": "AAAAAAGajdQTxHZXC+4="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdQTxHZZVOM=",
-								"_parent": {
-									"$ref": "AAAAAAGajdQTxHZXC+4="
-								}
-							}
-						},
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAGajdQTxHZaK+E=",
-							"_parent": {
-								"$ref": "AAAAAAGajdQTxHZWuSk="
-							},
-							"name": "uses",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdQTxHZbGY4=",
-								"_parent": {
-									"$ref": "AAAAAAGajdQTxHZaK+E="
-								},
-								"reference": {
-									"$ref": "AAAAAAGajdQTxHZWuSk="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdQTxHZcZKE=",
-								"_parent": {
-									"$ref": "AAAAAAGajdQTxHZaK+E="
-								}
-							}
-						},
-						{
-							"_type": "UMLAssociation",
 							"_id": "AAAAAAGajdeWuq/lrjQ=",
 							"_parent": {
 								"$ref": "AAAAAAGajdQTxHZWuSk="
@@ -7167,56 +7120,6 @@
 					},
 					"name": "BLFactory",
 					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAGajdRGA3abo8M=",
-							"_parent": {
-								"$ref": "AAAAAAGajdRGA3aaFDo="
-							},
-							"name": "creates",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdRGA3acrqs=",
-								"_parent": {
-									"$ref": "AAAAAAGajdRGA3abo8M="
-								},
-								"reference": {
-									"$ref": "AAAAAAGajdRGA3aaFDo="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdRGA3adzpI=",
-								"_parent": {
-									"$ref": "AAAAAAGajdRGA3abo8M="
-								}
-							}
-						},
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAGajdRGA3aeEGQ=",
-							"_parent": {
-								"$ref": "AAAAAAGajdRGA3aaFDo="
-							},
-							"name": "creates",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdRGA3afVYo=",
-								"_parent": {
-									"$ref": "AAAAAAGajdRGA3aeEGQ="
-								},
-								"reference": {
-									"$ref": "AAAAAAGajdRGA3aaFDo="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAGajdRGA3agJww=",
-								"_parent": {
-									"$ref": "AAAAAAGajdRGA3aeEGQ="
-								}
-							}
-						},
 						{
 							"_type": "UMLAssociation",
 							"_id": "AAAAAAGajdaui5oK/vc=",
@@ -7285,17 +7188,6 @@
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
-							"_id": "AAAAAAGajdRmdnbVTOY=",
-							"_parent": {
-								"$ref": "AAAAAAGajdRmdnbURJ4="
-							},
-							"name": "implements",
-							"source": {
-								"$ref": "AAAAAAGajdRmdnbURJ4="
-							}
-						},
-						{
-							"_type": "UMLDependency",
 							"_id": "AAAAAAGajdcoP55K0jY=",
 							"_parent": {
 								"$ref": "AAAAAAGajdRmdnbURJ4="
@@ -7356,17 +7248,6 @@
 					},
 					"name": "WebZerbitzua",
 					"ownedElements": [
-						{
-							"_type": "UMLDependency",
-							"_id": "AAAAAAGajdSCh3cCY5s=",
-							"_parent": {
-								"$ref": "AAAAAAGajdSCh3cBluo="
-							},
-							"name": "implements",
-							"source": {
-								"$ref": "AAAAAAGajdSCh3cBluo="
-							}
-						},
 						{
 							"_type": "UMLDependency",
 							"_id": "AAAAAAGajdcGwJ0pQbY=",
